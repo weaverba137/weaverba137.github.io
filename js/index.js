@@ -13,6 +13,6 @@ $(function() {
     $('#userAgent').html(navigator.userAgent);
     return true;
   };
-  $.getJSON("http://ipinfo.io", {}, onDataReceived).error(displayIP).complete(displayIP);
+  $.getJSON("https://ipinfo.io", {}, onDataReceived).error(displayIP).complete(displayIP);
   return true;
 });
