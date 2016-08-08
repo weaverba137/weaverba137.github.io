@@ -8,11 +8,12 @@ $(function() {
     return IPinfo = data;
   };
   displayIP = function() {
-    $('#IPAddress').html(IPinfo.ip);
-    $('#HostName').html(IPinfo.hostname);
+    // $('#IPAddress').html(IPinfo.ip);
+    // $('#HostName').html(IPinfo.hostname);
     $('#userAgent').html(navigator.userAgent);
     return true;
   };
-  $.getJSON("https://ipinfo.io", {}, onDataReceived).error(displayIP).complete(displayIP);
+  // $.getJSON("https://ipinfo.io", {}, onDataReceived).error(displayIP).complete(displayIP);
+  displayIP();
   return true;
 });
