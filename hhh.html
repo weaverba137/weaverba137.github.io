@@ -4,12 +4,15 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Job Description &mdash; B. A. Weaver</title>
+    <title>HHH &mdash; B. A. Weaver</title>
     <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="css/public_html.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="css/pubs.css" />
     <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery.flot-0.8.3.js"></script>
+    <script type="text/javascript" src="js/jquery.flot.time-0.8.3.js"></script>
+    <script type="text/javascript" src="js/jquery.flot.selection-0.8.3.js"></script>
+    <script type="text/javascript" src="js/hhh.js"></script>
 </head>
 <body>
 <nav class="navbar navbar-default navbar-static-top">
@@ -27,7 +30,7 @@
             <ul class="nav navbar-nav">
                 <li><a href="index.html"><span class="glyphicon glyphicon-home"></span> Home</a></li>
                 <li><a href="pubs.html"><span class="glyphicon glyphicon-book"></span> Publications</a></li>
-                <li class="active"><a href="job.html"><span class="glyphicon glyphicon-barcode"></span> Work</a></li>
+                <li><a href="job.html"><span class="glyphicon glyphicon-barcode"></span> Work</a></li>
                 <li><a href="nz.html"><span class="glyphicon glyphicon-plane"></span> Travel</a></li>
 <li class="dropdown">
 <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="dedx/"><span class="glyphicon glyphicon-fire"></span> dE/dx<span class="caret"></span></a>
@@ -37,7 +40,7 @@
 <li><a href="dedx/recalc.php">Calculator</a></li>
 </ul>
 </li>
-<li class="dropdown">
+<li class="dropdown active">
 <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="fun/"><span class="glyphicon glyphicon-glass"></span> Amusements<span class="caret"></span></a>
 <ul class="dropdown-menu">
 <li><a href="uqm.html">UQM</a></li>
@@ -52,15 +55,21 @@
 <div class="container">
     <div class="row">
         <div class="col-md-12">
-            <h1>Job Description &mdash; B. A. Weaver</h1>
+            <h1>HHH &mdash; B. A. Weaver</h1>
         </div><!-- end class="col-md-12" -->
-    </div><!-- end class="row" -->
-    <div class="row">
-        <div class="col-md-12">
-            <h2>Under Construction</h2>
-            <p>This page needs some work.</p>
-        </div>
+    </div><!-- end class="row" --><div class="row">
+    <div class="col-md-6">
+        <div id="plot1_area" style="width:500px;height:500px;padding:0;margin:10px auto;"></div>
     </div>
+    <div class="col-md-6">
+        <div id="plot2_area" style="width:500px;height:500px;padding:0;margin:10px auto;"></div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <p><a href="lib/hashes.png">PNG Version</a></p>
+    </div>
+</div>
 
 <footer class="footer hidden-sm hidden-xs">
 <p class="text-muted">
