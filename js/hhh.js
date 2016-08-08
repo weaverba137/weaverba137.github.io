@@ -25,6 +25,10 @@ $(function() {
         time: (new Date(2010, 10, 13)).getTime(),
         label: 'Met Kim',
         offset: 900
+      }, {
+        time: (new Date(2016, 7, 1)).getTime(),
+        label: 'To Tucson',
+        offset: 1200
       }
     ];
     markings = [];
