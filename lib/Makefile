@@ -6,23 +6,19 @@
 #
 ###############################################################################
 #
-# JavaScript files to compile.
-#
-JS_FILES = bitmask.js hhh.js hide_list.js index.js uqm.js
-#
-# How to compile to JavaScript.
-#
-%.js : %.coffee
-	coffee -b -c $<
-#
 # This should compile all code prior to it being installed
 #
-all : $(JS_FILES)
+all : hashes.json
 #
 # This line helps prevent make from getting confused in the case where you
 # have a file named 'all'.
 #
 .PHONY : all
+#
+#
+#
+hashes.json : hashes.csv
+	python2.7 hashes.py $<
 #
 # GNU make pre-defines $(RM).  The - in front of $(RM) causes make to
 # ignore any errors produced by $(RM).
