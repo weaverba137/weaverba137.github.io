@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tests &mdash; B. A. Weaver</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/public_html.css" />
+    <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/bignumber-4.js"></script>
+    <script type="text/javascript" src="js/bitmask.js"></script>
+    <script type="text/javascript" src="js/hide_list.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-default navbar-static-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="http://noao.edu/">NOAO</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="index.html"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+                <li><a href="pubs.html"><span class="glyphicon glyphicon-book"></span> Publications</a></li>
+                <li><a href="job.html"><span class="glyphicon glyphicon-barcode"></span> Work</a></li>
+                <li><a href="nz.html"><span class="glyphicon glyphicon-plane"></span> Travel</a></li>
+<li class="dropdown">
+<a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="dedx/"><span class="glyphicon glyphicon-fire"></span> dE/dx<span class="caret"></span></a>
+<ul class="dropdown-menu">
+<li><a href="dedx/index.php">Introduction</a></li>
+<li><a href="dedx/absorb.php">Absorber Library</a></li>
+<li><a href="dedx/recalc.php">Calculator</a></li>
+</ul>
+</li>
+<li class="dropdown">
+<a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="fun/"><span class="glyphicon glyphicon-glass"></span> Amusements<span class="caret"></span></a>
+<ul class="dropdown-menu">
+<li><a href="uqm.php">UQM</a></li>
+<li><a href="hhh.php">HHH</a></li>
+</ul>
+</li>
+                <li class="active"><a href="tests.html"><span class="glyphicon glyphicon-warning-sign"></span> Tests</a></li>
+            </ul>
+        </div><!-- end class="navbar-collapse" -->
+    </div><!-- end class="container" -->
+</nav><!-- end class="navbar" -->
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h1>Tests &mdash; B. A. Weaver</h1>
+        </div><!-- end class="col-md-12" -->
+    </div><!-- end class="row" --><div class="row">
+<div class="col-md-12">
+<h2>Bitmask Test</h2>
+<form method="post" name="advSearch" id="advSearch" onsubmit="return false;">
+<fieldset><legend>Target Flags</legend>
+<dl class="dl-horizontal">
+<dt>JavaScript Bitmask</dt><dd id="the_mask">0 (0x0)</dd>
+<dt>BigNumber Bitmask</dt><dd id="the_bmask">0 (0x0)</dd>
+</dl>
+<p>
+<button type="button" class="btn btn-success" onclick="checkAll('the',true);">Check All</button>
+<button type="button" class="btn btn-danger" onclick="checkAll('the',false);">Clear All</button>
+</p>
+<p>
+<label class="checkbox-inline"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="0" id="the_0" value="0" />00</label>
+<label class="checkbox-inline"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="1" id="the_1" value="1" />01</label>
+<label class="checkbox-inline"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="2" id="the_2" value="2" />02</label>
+<label class="checkbox-inline"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="3" id="the_3" value="3" />03</label>
+<label class="checkbox-inline"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="4" id="the_4" value="4" />04</label>
+<label class="checkbox-inline"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="5" id="the_5" value="5" />05</label>
+<label class="checkbox-inline"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="6" id="the_6" value="6" />06</label>
+<label class="checkbox-inline"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="7" id="the_7" value="7" />07</label>
+<label class="checkbox-inline"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="8" id="the_8" value="8" />08</label>
+<label class="checkbox-inline"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="9" id="the_9" value="9" />09</label>
+<label class="checkbox-inline"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="10" id="the_10" value="10" />10</label>
+<label class="checkbox-inline"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="11" id="the_11" value="11" />11</label>
+<label class="checkbox-inline"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="12" id="the_12" value="12" />12</label>
+<label class="checkbox-inline"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="13" id="the_13" value="13" />13</label>
+<label class="checkbox-inline"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="14" id="the_14" value="14" />14</label>
+<label class="checkbox-inline"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="15" id="the_15" value="15" />15</label>
+</p>
+<p>
+<label class="checkbox-inline"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="16" id="the_16" value="16" />16</label>
+<label class="checkbox-inline"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="17" id="the_17" value="17" />17</label>
+<label class="checkbox-inline"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="18" id="the_18" value="18" />18</label>
+<label class="checkbox-inline"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="19" id="the_19" value="19" />19</label>
+<label class="checkbox-inline"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="20" id="the_20" value="20" />20</label>
+<label class="checkbox-inline"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="21" id="the_21" value="21" />21</label>
+<label class="checkbox-inline"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="22" id="the_22" value="22" />22</label>
+<label class="checkbox-inline"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="23" id="the_23" value="23" />23</label>
+<label class="checkbox-inline"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="24" id="the_24" value="24" />24</label>
+<label class="checkbox-inline"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="25" id="the_25" value="25" />25</label>
+<label class="checkbox-inline"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="26" id="the_26" value="26" />26</label>
+<label class="checkbox-inline"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="27" id="the_27" value="27" />27</label>
+<label class="checkbox-inline"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="28" id="the_28" value="28" />28</label>
+<label class="checkbox-inline"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="29" id="the_29" value="29" />29</label>
+<label class="checkbox-inline"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="30" id="the_30" value="30" />30</label>
+<label class="checkbox-inline"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="31" id="the_31" value="31" />31</label>
+</p>
+<p>
+<label class="checkbox-inline"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="32" id="the_32" value="32" />32</label>
+<label class="checkbox-inline"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="33" id="the_33" value="33" />33</label>
+<label class="checkbox-inline"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="34" id="the_34" value="34" />34</label>
+<label class="checkbox-inline"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="35" id="the_35" value="35" />35</label>
+<label class="checkbox-inline"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="36" id="the_36" value="36" />36</label>
+<label class="checkbox-inline"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="37" id="the_37" value="37" />37</label>
+<label class="checkbox-inline"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="38" id="the_38" value="38" />38</label>
+<label class="checkbox-inline"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="39" id="the_39" value="39" />39</label>
+<label class="checkbox-inline"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="40" id="the_40" value="40" />40</label>
+<label class="checkbox-inline"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="41" id="the_41" value="41" />41</label>
+<label class="checkbox-inline"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="42" id="the_42" value="42" />42</label>
+<label class="checkbox-inline"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="43" id="the_43" value="43" />43</label>
+<label class="checkbox-inline"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="44" id="the_44" value="44" />44</label>
+<label class="checkbox-inline"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="45" id="the_45" value="45" />45</label>
+<label class="checkbox-inline"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="46" id="the_46" value="46" />46</label>
+<label class="checkbox-inline"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="47" id="the_47" value="47" />47</label>
+</p>
+<p>
+<label class="checkbox-inline"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="48" id="the_48" value="48" />48</label>
+<label class="checkbox-inline"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="49" id="the_49" value="49" />49</label>
+<label class="checkbox-inline"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="50" id="the_50" value="50" />50</label>
+<label class="checkbox-inline"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="51" id="the_51" value="51" />51</label>
+<label class="checkbox-inline"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="52" id="the_52" value="52" />52</label>
+<label class="checkbox-inline"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="53" id="the_53" value="53" />53</label>
+<label class="checkbox-inline"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="54" id="the_54" value="54" />54</label>
+<label class="checkbox-inline"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="55" id="the_55" value="55" />55</label>
+<label class="checkbox-inline"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="56" id="the_56" value="56" />56</label>
+<label class="checkbox-inline"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="57" id="the_57" value="57" />57</label>
+<label class="checkbox-inline"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="58" id="the_58" value="58" />58</label>
+<label class="checkbox-inline"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="59" id="the_59" value="59" />59</label>
+<label class="checkbox-inline"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="60" id="the_60" value="60" />60</label>
+<label class="checkbox-inline"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="61" id="the_61" value="61" />61</label>
+<label class="checkbox-inline"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="62" id="the_62" value="62" />62</label>
+<label class="checkbox-inline"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="63" id="the_63" value="63" />63</label>
+</p>
+</fieldset>
+</form>
+</div>
+</div>
+<div class="row">
+<div class="col-md-12">
+<h2>Hide List</h2>
+<ul style="list-style:none;display:block;">
+    <li><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><button type="button" class="btn btn-link" onclick="toggle(this);">bosswork</button>&nbsp;150&nbsp;GB
+        <ul style="list-style:none;display:none;">
+            <li><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><button type="button" class="btn btn-link" onclick="toggle(this);">apogee</button>&nbsp;50&nbsp;GB
+                <ul style="list-style:none;display:none;">
+                    <li><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><button type="button" class="btn btn-link" onclick="toggle(this);">spectro</button>&nbsp;25&nbsp;GB
+                        <ul style="list-style:none;display:none;">
+                            <li><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>data&nbsp;20&nbsp;GB</li>
+                            <li><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>redux&nbsp;5&nbsp;GB</li>
+                        </ul>
+                    <li><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>target&nbsp;25&nbsp;GB</li>
+                </ul>
+            </li>
+            <li><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><button type="button" class="btn btn-link" onclick="toggle(this);">boss</button>&nbsp;100&nbsp;GB
+                <ul style="list-style:none;display:none;">
+                    <li><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>calib&nbsp;25&nbsp;GB</li>
+                    <li><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>photo&nbsp;25&nbsp;GB</li>
+                    <li><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>spectro&nbsp;25&nbsp;GB</li>
+                    <li><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>target&nbsp;25&nbsp;GB</li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><button type="button" class="btn btn-link" onclick="toggle(this);">dr10</button>&nbsp;75&nbsp;GB
+        <ul style="list-style:none;display:none;">
+            <li><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>apogee&nbsp;25&nbsp;GB</li>
+            <li><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>boss&nbsp;25&nbsp;GB</li>
+            <li><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>sdss&nbsp;25&nbsp;GB</li>
+        </ul>
+    </li>
+    <li><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>dr8</li>
+    <li><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>dr9</li>
+</ul>
+</div>
+</div>
+<!--
+<div class="row">
+<div class="col-md-1"></div>
+<div class="col-md-10">
+<h2>Frame -&gt; Object</h2>
+<object type="text/html" data="http://tinyurl.com/42jxy" width="100%" height="600">
+<param name="src" value="http://tinyurl.com/42jxy" />
+If you cannot see this list, <a href="http://tinyurl.com/42jxy">visit this link</a>.
+</object>
+</div>
+<div class="col-md-1"></div>
+</div>
+-->
+
+<footer class="footer hidden-sm hidden-xs">
+<p class="text-muted">
+<img src="lib/colorsep.gif" alt="Separator" style="width:100%;height:2px;" /><br />
+B. A. Weaver: <span class="back">ude.uyn@revaew.nimajneb</span><br />
+Created: 2013-07-28 17:11:28 -0400 (Sun, 28 Jul 2013)<br />
+Last modified: 2016-08-08 14:28:55 -0700 (Mon, 08 Aug 2016)</p>
+<!--
+<p class="text-muted">
+-----BEGIN GEEK CODE BLOCK-----<br />
+Version: 3.12<br />
+<a href="http://www.ebb.org/cgi-bin/ungeek.cgi?geekCode=GS+d-%28%2B%29+s%3A+a+C%2B+UBLS%2B%2B%2B+P%2B+L%2B%2B+E+W%2B%2B+N%2B+o%3F+K%3F+w--+O%3F+M+V-+PS%2B%28%2B%2B%29+PE-%28--%29+Y%2B+PGP%2B+t--+5%2B%2B+X+R+tv+b%2B%2B%28%2B%2B%2B%29+%21DI+D%2B+G%2B+e%2B%2B%2B%2B+h+r+y%3F">GS d-(+) s: a C+ UBLS+++ P+ L++ E W++ N+ o? K? w-- O? M V- PS+(++) PE-(--) Y+ PGP+ t-- 5++ X R tv b++(+++) !DI D+ G+ e++++ h r y?</a><br />
+------END GEEK CODE BLOCK------
+</p>
+-->
+</footer>
+</div><!-- end class="container" -->
+</body>
+</html>
