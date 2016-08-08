@@ -1,0 +1,7 @@
+/*
+ * $Id: public_html.css 984 2016-01-02 15:51:30Z bw55 $
+ */
+.back {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+}
