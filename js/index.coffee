@@ -16,8 +16,8 @@ $( () ->
         success: onDataReceived
         error: displayIP
         complete: displayIP
-    $.ajax(AJAXdata)
+    # $.ajax(AJAXdata)
     # $.getJSON("http://cosmo.nyu.edu/~bw55/ip.php", {}, onDataReceived).error(displayIP).complete(displayIP)
-    # displayIP()
+    displayIP()
     true
 )

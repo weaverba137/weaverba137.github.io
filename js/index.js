@@ -21,6 +21,6 @@ $(function() {
     error: displayIP,
     complete: displayIP
   };
-  $.ajax(AJAXdata);
+  displayIP();
   return true;
 });
