@@ -6,6 +6,10 @@
 #
 ###############################################################################
 #
+# Install files into this directory for testing
+#
+INSTALL_DIR = $(HOME)/Sites
+#
 # Use this shell to interpret shell commands, & pass its value to sub-make
 #
 export SHELL = /bin/sh
@@ -36,6 +40,48 @@ all :
 #
 pubs.html : ../tex/pubs.tex
 	python2.7 ../python/vita2pubs.py $<
+#
+# Install things in their proper places in $(INSTALL_DIR)
+#
+install : all
+	@ if [ -z "$(INSTALL_DIR)" ]; then \
+		echo You have not specified a destination directory >&2; \
+		exit 1; \
+	fi
+	@ echo "You will be installing in \$$INSTALL_DIR=$(INSTALL_DIR)"
+	@ echo "I'll give you 5 seconds to think about it"
+	@ echo ""
+	@ sleep 5
+	- mkdir -p $(INSTALL_DIR)
+	rsync --verbose --recursive --copy-links --times --omit-dir-times \
+		--exclude-from=excludes.txt \
+		./ $(INSTALL_DIR)/
+#
+# This line helps prevent make from getting confused in the case where you
+# have a file named 'install'.
+#
+.PHONY : install
+#
+# Test the install command but do not actually copy files.
+#
+testinstall : all
+	@ if [ -z "$(INSTALL_DIR)" ]; then \
+		echo You have not specified a destination directory >&2; \
+		exit 1; \
+	fi
+	@ echo "You will be installing in \$$INSTALL_DIR=$(INSTALL_DIR)"
+	@ echo "This test install will also show what should be deleted."
+	@ echo ""
+	- mkdir -p $(INSTALL_DIR)
+	rsync --verbose --recursive --copy-links --times --omit-dir-times \
+		--dry-run --delete \
+		--exclude-from=excludes.txt \
+		./ $(INSTALL_DIR)/
+#
+# This line helps prevent make from getting confused in the case where you
+# have a file named 'testinstall'.
+#
+.PHONY : testinstall
 #
 # GNU make pre-defines $(RM).  The - in front of $(RM) causes make to
 # ignore any errors produced by $(RM).
