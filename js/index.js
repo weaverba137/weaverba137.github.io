@@ -1,5 +1,5 @@
 $(function() {
-  var IPinfo, displayIP, onDataReceived;
+  var AJAXdata, IPinfo, displayIP, onDataReceived;
   IPinfo = {
     ip: '::1',
     dns: 'localhost.localdomain'
@@ -13,6 +13,14 @@ $(function() {
     $('#userAgent').html(navigator.userAgent);
     return true;
   };
-  $.getJSON("http://cosmo.nyu.edu/~bw55/ip.php", {}, onDataReceived).error(displayIP).complete(displayIP);
+  AJAXdata = {
+    type: 'GET',
+    url: 'http://cosmo.nyu.edu/~bw55/ip.php',
+    contentType: 'application/json',
+    success: onDataReceived,
+    error: displayIP,
+    complete: displayIP
+  };
+  $.ajax(AJAXdata);
   return true;
 });
