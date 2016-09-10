@@ -4,15 +4,18 @@
 """
 Analyze hashes.csv.
 """
-#
-# This will help with 2to3 support.
-#
-from __future__ import absolute_import, division, print_function, unicode_literals
+from __future__ import (absolute_import, division, print_function,
+                        unicode_literals)
 __version__ = '0.0.1.dev1'
 
 
 def main():
     """Entry-point for script.
+
+    Returns
+    -------
+    :class:`int`
+        An integer suitable for passing to :func:`sys.exit`.
     """
     from sys import argv
     from csv import reader
@@ -22,15 +25,19 @@ def main():
     import json
     import calendar
     import numpy as np
-    import matplotlib
-    matplotlib.use('Agg')
-    matplotlib.rcParams['figure.figsize'] = (16.0, 12.0)
-    import matplotlib.pyplot as plt
-    from matplotlib.font_manager import fontManager, FontProperties
-    import matplotlib.dates as mdates
-    legendfont= FontProperties(size='medium');
-    titlefont = FontProperties(size='large')
-    years = mdates.YearLocator()
+    try:
+        import matplotlib
+        matplotlib.use('Agg')
+        matplotlib.rcParams['figure.figsize'] = (16.0, 12.0)
+        import matplotlib.pyplot as plt
+        from matplotlib.font_manager import fontManager, FontProperties
+        import matplotlib.dates as mdates
+        legendfont= FontProperties(size='medium');
+        titlefont = FontProperties(size='large')
+        years = mdates.YearLocator()
+        has_matplotlib = True
+    except ImportError:
+        has_matplotlib = False
     #
     #
     #
@@ -77,30 +84,34 @@ def main():
             ndates.append(dates[k])
         if k > 0:
             if dates[k] < dates[k-1]:
-                print(dates[k],dates[k-1])
+                print(dates[k], dates[k-1])
     #
-    #
+    # Integrity check.
     #
     assert nn == len(ndates)
-    fig = plt.figure(dpi=100)
-    ax = fig.add_subplot(111)
-    p0 = ax.plot_date(ndates,real_numbers,'k-')
-    foo = ax.xaxis.set_major_locator(years)
-    foo = ax.set_xlim(date(2002,1,1),date(date.today().year+1,1,1))
-    end = ((real_numbers[-1]//100)+1)*100
-    foo = ax.set_ylim(0,end)
-    foo = ax.yaxis.set_ticks(np.arange(0, end+100, 100))
-    foo = ax.grid(True)
-    foo = ax.set_xlabel('Date')
-    foo = ax.set_ylabel('Number')
-    fig.savefig('hashes.png')
-    plt.close(fig)
+    #
+    # Plot
+    #
+    if has_matplotlib:
+        fig = plt.figure(dpi=100)
+        ax = fig.add_subplot(111)
+        p0 = ax.plot_date(ndates,real_numbers,'k-')
+        foo = ax.xaxis.set_major_locator(years)
+        foo = ax.set_xlim(date(2002,1,1),date(date.today().year+1,1,1))
+        end = ((real_numbers[-1]//100)+1)*100
+        foo = ax.set_ylim(0,end)
+        foo = ax.yaxis.set_ticks(np.arange(0, end+100, 100))
+        foo = ax.grid(True)
+        foo = ax.set_xlabel('Date')
+        foo = ax.set_ylabel('Number')
+        fig.savefig('hashes.png')
+        plt.close(fig)
     #
     # Write JSON data.
     #
     # print(actual_n[-1])
-    with open('hashes.json','w') as j:
-        json.dump(json_dict,j,separators=(',',':'))
+    with open('hashes.json', 'w') as j:
+        json.dump(json_dict, j, separators=(',', ':'))
     return 0
 
 
