@@ -62,14 +62,12 @@ def main():
             d = date(*d)
             dates.append(d)
             numbers.append(n)
-            json_dict.append({
-                "number": n,
-                "date": calendar.timegm(d.timetuple())*1000,
-                "hare": row[2],
-                "start": row[3],
-                "notes": row[4],
-                "kennel": row[5],
-                })
+            json_dict.append({"number": n,
+                              "date": calendar.timegm(d.timetuple())*1000,
+                              "hare": row[2],
+                              "start": row[3],
+                              "notes": row[4],
+                              "kennel": row[5]})
     n0 = numbers[0]
     numbers = np.array(numbers)
     real_numbers = numbers[numbers > 0]

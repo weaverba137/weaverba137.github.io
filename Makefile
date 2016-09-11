@@ -45,7 +45,7 @@ pubs.html : ../tex/pubs.tex
 #
 install : all
 	@ echo "You will be installing in \$$INSTALL_DIR=$(INSTALL_DIR)."
-	@ echo "I'll give you 5 seconds to think about it"
+	@ echo "I'll give you 5 seconds to think about it."
 	@ echo ""
 	@ sleep 5
 	- mkdir -p $(INSTALL_DIR)
