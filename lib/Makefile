@@ -18,7 +18,7 @@ all : hashes.json
 #
 #
 hashes.json : hashes.csv
-	python2.7 hashes.py $<
+	python hashes.py $<
 #
 # GNU make pre-defines $(RM).  The - in front of $(RM) causes make to
 # ignore any errors produced by $(RM).

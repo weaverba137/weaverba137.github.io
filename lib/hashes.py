@@ -1,11 +1,9 @@
-#!/usr/bin/env python2.7
+#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 #
 """
 Analyze hashes.csv.
 """
-from __future__ import (absolute_import, division, print_function,
-                        unicode_literals)
 __version__ = '0.0.1.dev1'
 
 
@@ -32,7 +30,7 @@ def main():
         import matplotlib.pyplot as plt
         from matplotlib.font_manager import fontManager, FontProperties
         import matplotlib.dates as mdates
-        legendfont= FontProperties(size='medium');
+        legendfont = FontProperties(size='medium')
         titlefont = FontProperties(size='large')
         years = mdates.YearLocator()
         has_matplotlib = True
@@ -60,17 +58,17 @@ def main():
             if len(row) != 6:
                 print(row)
             n = int(row[0])
-            d = map(int,row[1].split('-'))
+            d = map(int, row[1].split('-'))
             d = date(*d)
             dates.append(d)
             numbers.append(n)
             json_dict.append({
-                "number":n,
-                "date":calendar.timegm(d.timetuple())*1000,
-                "hare":row[2],
-                "start":row[3],
-                "notes":row[4],
-                "kennel":row[5],
+                "number": n,
+                "date": calendar.timegm(d.timetuple())*1000,
+                "hare": row[2],
+                "start": row[3],
+                "notes": row[4],
+                "kennel": row[5],
                 })
     n0 = numbers[0]
     numbers = np.array(numbers)
@@ -95,11 +93,11 @@ def main():
     if has_matplotlib:
         fig = plt.figure(dpi=100)
         ax = fig.add_subplot(111)
-        p0 = ax.plot_date(ndates,real_numbers,'k-')
+        p0 = ax.plot_date(ndates, real_numbers, 'k-')
         foo = ax.xaxis.set_major_locator(years)
-        foo = ax.set_xlim(date(2002,1,1),date(date.today().year+1,1,1))
+        foo = ax.set_xlim(date(2002, 1, 1), date(date.today().year+1, 1, 1))
         end = ((real_numbers[-1]//100)+1)*100
-        foo = ax.set_ylim(0,end)
+        foo = ax.set_ylim(0, end)
         foo = ax.yaxis.set_ticks(np.arange(0, end+100, 100))
         foo = ax.grid(True)
         foo = ax.set_xlabel('Date')
