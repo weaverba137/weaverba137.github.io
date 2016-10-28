@@ -43,6 +43,9 @@ all :
 #
 # pubs.html : ../tex/pubs.tex
 # 	python2.7 ../python/vita2pubs.py $<
+#
+# Update modification times in HTML files.
+#
 last_modified.txt : $(HTML)
 	@ for f in $?; do \
 		sed -r "s|^Last modified: .*</p>|Last modified: $(LAST_MODIFIED)</p>|" $$f > $$f.new; \
