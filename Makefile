@@ -48,7 +48,9 @@ all :
 #
 last_modified.txt : $(HTML)
 	@ for f in $?; do \
+		echo sed -r "s|^Last modified: .*</p>|Last modified: $(LAST_MODIFIED)</p>|" $$f; \
 		sed -r "s|^Last modified: .*</p>|Last modified: $(LAST_MODIFIED)</p>|" $$f > $$f.new; \
+		echo /bin/mv -f $$f.new $$f; \
 		/bin/mv -f $$f.new $$f; \
 		done
 	$(RM) $@
