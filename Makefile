@@ -30,6 +30,14 @@ SUBDIRS = js lib
 HTML := $(wildcard *.html)
 LAST_MODIFIED := $(shell date +"%Y-%m-%d %H:%M:%S %z (%a, %d %b %Y)")
 #
+# Be careful with sed
+#
+ifeq ($(OSTYPE), darwin)
+export SED = sed -E
+else
+export SED = sed -r
+endif
+#
 # This should compile all code prior to it being installed
 #
 # all : pubs.html
@@ -48,8 +56,8 @@ all :
 #
 last_modified.txt : $(HTML)
 	@ for f in $?; do \
-		echo sed -r "s|^Last modified: .*</p>|Last modified: $(LAST_MODIFIED)</p>|" $$f; \
-		sed -r "s|^Last modified: .*</p>|Last modified: $(LAST_MODIFIED)</p>|" $$f > $$f.new; \
+		echo $(SED) "s|^Last modified: .*</p>|Last modified: $(LAST_MODIFIED)</p>|" $$f; \
+		$(SED) "s|^Last modified: .*</p>|Last modified: $(LAST_MODIFIED)</p>|" $$f > $$f.new; \
 		echo /bin/mv -f $$f.new $$f; \
 		/bin/mv -f $$f.new $$f; \
 		done
