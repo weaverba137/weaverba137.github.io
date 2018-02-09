@@ -1,9 +1,10 @@
 (function() {
   $(function() {
-    var hhh, onDataReceived, replot;
+    var hhh, onDataReceived, previousPoint, replot;
     hhh = [];
+    previousPoint = null;
     replot = function() {
-      var arrowhead, ctx, d, i, j, label_css, len, len1, markings, next_year, o, plot1, plot1_area, plot1_options, plot2, plot2_area, plot2_options, special_dates, start_year;
+      var arrowhead, ctx, d, handle_plot_hover, i, j, label_css, len, len1, markings, next_year, o, plot1, plot1_area, plot1_options, plot2, plot2_area, plot2_options, showTooltip, special_dates, start_year;
       plot1_area = $("#plot1_area");
       plot2_area = $("#plot2_area");
       start_year = (new Date(2002, 0, 1)).getTime();
@@ -46,6 +47,9 @@
       plot1_options = {
         legend: {
           show: false
+        },
+        grid: {
+          hoverable: true
         },
         series: {
           lines: {
@@ -121,6 +125,36 @@
         $('<div/>').html(d.label).css(label_css).appendTo(plot2_area);
         arrowhead(ctx, o);
       }
+      showTooltip = function(item, tooltipid) {
+        var contents, point, tooltip_css;
+        point = hhh[item.seriesIndex].data[item.dataIndex];
+        contents = point[1] + ", " + point[0];
+        tooltip_css = {
+          position: 'absolute',
+          display: 'none',
+          top: item.pageY + 5,
+          left: item.pageX + 5,
+          border: '1px solid gray',
+          padding: '2px',
+          "background-color": 'silver',
+          opacity: 0.8
+        };
+        return $("<div id=\"" + tooltipid + "\"/>").html(contents).css(tooltip_css).appendTo('body').fadeIn(200);
+      };
+      handle_plot_hover = function(id) {
+        return function(event, pos, item) {
+          if (item) {
+            if (previousPoint !== item.dataIndex) {
+              $('#' + id).remove();
+              showTooltip(item, id);
+              return previousPoint = item.dataIndex;
+            }
+          } else {
+            $('#' + id).remove();
+            return previousPoint = null;
+          }
+        };
+      };
       plot1_area.bind("plotselected", function(event, ranges) {
         if (ranges.xaxis.to - ranges.xaxis.from < 86400 * 1000) {
           ranges.xaxis.to = ranges.xaxis.from + 86400 * 1000;
@@ -140,6 +174,7 @@
         }));
         return plot2.setSelection(ranges, true);
       });
+      plot1_area.bind("plothover", handle_plot_hover('tooltip'));
       return plot2_area.bind("plotselected", function(event, ranges) {
         return plot1.setSelection(ranges);
       });

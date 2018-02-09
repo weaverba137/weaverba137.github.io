@@ -1,5 +1,7 @@
 $( () ->
     hhh = []
+    # Used to control hovering.
+    previousPoint = null
     replot = () ->
         plot1_area = $("#plot1_area")
         plot2_area = $("#plot2_area")
@@ -19,6 +21,8 @@ $( () ->
         plot1_options =
             legend:
                 show: false
+            grid:
+                hoverable: true
             series:
                 lines:
                     show: true
@@ -75,6 +79,35 @@ $( () ->
                 "font-size": 'smaller'
             $('<div/>').html(d.label).css(label_css).appendTo(plot2_area)
             arrowhead ctx, o
+        #
+        # Contents of tool tip.
+        #
+        showTooltip = (item, tooltipid) ->
+            point = hhh[item.seriesIndex].data[item.dataIndex]
+            contents = "#{point[1]}, #{point[0]}"
+            tooltip_css =
+                position: 'absolute'
+                display: 'none'
+                top: item.pageY + 5
+                left: item.pageX + 5
+                border: '1px solid gray'
+                padding: '2px'
+                "background-color": 'silver'
+                opacity: 0.8
+            $("<div id=\"#{tooltipid}\"/>").html(contents).css(tooltip_css).appendTo('body').fadeIn(200)
+        #
+        # Action to perform when hovering over a point.
+        #
+        handle_plot_hover = (id) ->
+            (event, pos, item) ->
+                if item
+                    if previousPoint != item.dataIndex
+                        $('#'+id).remove()
+                        showTooltip item, id
+                        previousPoint = item.dataIndex
+                else
+                    $('#'+id).remove()
+                    previousPoint = null
         plot1_area.bind "plotselected", (event, ranges) ->
             #
             # clamp the zooming to prevent eternal zoom
@@ -96,6 +129,7 @@ $( () ->
             # don't fire event on the overview to prevent eternal loop
             #
             plot2.setSelection(ranges, true)
+        plot1_area.bind "plothover", handle_plot_hover('tooltip')
         plot2_area.bind "plotselected", (event, ranges) -> plot1.setSelection(ranges)
     #
     #
