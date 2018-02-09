@@ -8,7 +8,8 @@
 #
 # This should compile all code prior to it being installed
 #
-all : hashes.json
+# all : hashes.json
+all :
 #
 # This line helps prevent make from getting confused in the case where you
 # have a file named 'all'.
@@ -17,8 +18,8 @@ all : hashes.json
 #
 #
 #
-hashes.json : hashes.csv
-	python hashes.py $<
+# hashes.json : hashes.csv
+# 	python hashes.py $<
 #
 # GNU make pre-defines $(RM).  The - in front of $(RM) causes make to
 # ignore any errors produced by $(RM).

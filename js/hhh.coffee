@@ -104,13 +104,21 @@ $( () ->
         hhh = [
             {data: [], color: 'black', label: 'Hashes'}
         ]
-        for d in data
-            if d.number > 0
-                hhh[0].data.push [d.date,d.number]
+        # for d in data
+        #     if d.number > 0
+        #         hhh[0].data.push [d.date,d.number]
+        for line in data.split "\n"
+            row = line.split ","
+            if row[0] != "Number"
+                number = parseInt(row[0])
+                date = new Date(row[1])
+                if number > 0
+                    hhh[0].data.push [date, number]
         hhh
     #
     #
     #
     if hhh.length == 0
-        $.getJSON('lib/hashes.json',{},onDataReceived).error( () -> alert("JSON error!") ).complete(replot)
+        # $.getJSON('lib/hashes.json',{},onDataReceived).error( () -> alert("JSON error!") ).complete(replot)
+        $.get('lib/hashes.csv', {}, onDataReceived, "text").error( () -> alert("Data retrieval error!") ).complete(replot)
 )

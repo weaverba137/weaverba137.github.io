@@ -11,5 +11,4 @@ excludes.txt
 last_modified.txt
 Makefile
 *.coffee
-*.csv
 *.py
