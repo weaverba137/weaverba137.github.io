@@ -23,7 +23,8 @@ MAKEFLAGS = w
 # in these subdirectories should also understand 'make all' & 'make clean'.
 # This list can be empty, but should still be defined.
 #
-SUBDIRS = js lib
+# SUBDIRS = js lib
+SUBDIRS =
 #
 # Find all *.html files.
 #
