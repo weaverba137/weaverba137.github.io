@@ -84,7 +84,10 @@ $( () ->
         #
         showTooltip = (item, tooltipid) ->
             point = hhh[item.seriesIndex].data[item.dataIndex]
-            contents = "#{point[1]}, #{point[0]}"
+            extra = hhh[item.seriesIndex].meta[item.dataIndex]
+            contents = "#{point[1]}<br/>#{point[0].toISOString().split('T')[0]}<br/>#{extra[0]}<br/>#{extra[1]}<br/>#{extra[3]}"
+            if extra[2]
+                contents += "<br/>#{extra[2]}"
             tooltip_css =
                 position: 'absolute'
                 display: 'none'
@@ -136,7 +139,7 @@ $( () ->
     #
     onDataReceived = (data) ->
         hhh = [
-            {data: [], color: 'black', label: 'Hashes'}
+            {data: [], meta:[], color: 'black', label: 'Hashes'}
         ]
         # for d in data
         #     if d.number > 0
@@ -148,6 +151,7 @@ $( () ->
                 date = new Date(row[1])
                 if number > 0
                     hhh[0].data.push [date, number]
+                    hhh[0].meta.push [row[2], row[3], row[4], row[5]]
         hhh
     #
     #
