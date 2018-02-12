@@ -82,7 +82,7 @@ $( () ->
         #
         # Contents of tool tip.
         #
-        showTooltip = (item, tooltipid) ->
+        showTooltip = (item) ->
             point = hhh[item.seriesIndex].data[item.dataIndex]
             extra = hhh[item.seriesIndex].meta[item.dataIndex]
             contents = "#{point[1]}<br/>#{point[0].toISOString().split('T')[0]}<br/>#{extra[0]}<br/>#{extra[1]}<br/>#{extra[3]}"
@@ -97,20 +97,19 @@ $( () ->
                 padding: '2px'
                 "background-color": 'silver'
                 opacity: 0.8
-            $("<div id=\"#{tooltipid}\"/>").html(contents).css(tooltip_css).appendTo('body').fadeIn(200)
+            $("<div id=\"tooltip\"/>").html(contents).css(tooltip_css).appendTo('body').fadeIn(200)
         #
         # Action to perform when hovering over a point.
         #
-        handle_plot_hover = (id) ->
-            (event, pos, item) ->
-                if item
-                    if previousPoint != item.dataIndex
-                        $('#'+id).remove()
-                        showTooltip item, id
-                        previousPoint = item.dataIndex
-                else
-                    $('#'+id).remove()
-                    previousPoint = null
+        handle_plot_hover = (event, pos, item) ->
+            if item
+                if previousPoint != item.dataIndex
+                    $('#tooltip').remove()
+                    showTooltip item
+                    previousPoint = item.dataIndex
+            else
+                $('#tooltip').remove()
+                previousPoint = null
         plot1_area.bind "plotselected", (event, ranges) ->
             #
             # clamp the zooming to prevent eternal zoom
@@ -132,7 +131,7 @@ $( () ->
             # don't fire event on the overview to prevent eternal loop
             #
             plot2.setSelection(ranges, true)
-        plot1_area.bind "plothover", handle_plot_hover('tooltip')
+        plot1_area.bind "plothover", handle_plot_hover
         plot2_area.bind "plotselected", (event, ranges) -> plot1.setSelection(ranges)
     #
     #
@@ -141,9 +140,6 @@ $( () ->
         hhh = [
             {data: [], meta:[], color: 'black', label: 'Hashes'}
         ]
-        # for d in data
-        #     if d.number > 0
-        #         hhh[0].data.push [d.date,d.number]
         for line in data.split "\n"
             row = line.split ","
             if row[0] != "Number"
@@ -157,6 +153,5 @@ $( () ->
     #
     #
     if hhh.length == 0
-        # $.getJSON('lib/hashes.json',{},onDataReceived).error( () -> alert("JSON error!") ).complete(replot)
         $.get('lib/hashes.csv', {}, onDataReceived, "text").error( () -> alert("Data retrieval error!") ).complete(replot)
 )

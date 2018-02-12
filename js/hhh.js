@@ -124,7 +124,7 @@ $(function() {
       $('<div/>').html(d.label).css(label_css).appendTo(plot2_area);
       arrowhead(ctx, o);
     }
-    showTooltip = function(item, tooltipid) {
+    showTooltip = function(item) {
       var contents, extra, point, tooltip_css;
       point = hhh[item.seriesIndex].data[item.dataIndex];
       extra = hhh[item.seriesIndex].meta[item.dataIndex];
@@ -142,21 +142,19 @@ $(function() {
         "background-color": 'silver',
         opacity: 0.8
       };
-      return $("<div id=\"" + tooltipid + "\"/>").html(contents).css(tooltip_css).appendTo('body').fadeIn(200);
+      return $("<div id=\"tooltip\"/>").html(contents).css(tooltip_css).appendTo('body').fadeIn(200);
     };
-    handle_plot_hover = function(id) {
-      return function(event, pos, item) {
-        if (item) {
-          if (previousPoint !== item.dataIndex) {
-            $('#' + id).remove();
-            showTooltip(item, id);
-            return previousPoint = item.dataIndex;
-          }
-        } else {
-          $('#' + id).remove();
-          return previousPoint = null;
+    handle_plot_hover = function(event, pos, item) {
+      if (item) {
+        if (previousPoint !== item.dataIndex) {
+          $('#tooltip').remove();
+          showTooltip(item);
+          return previousPoint = item.dataIndex;
         }
-      };
+      } else {
+        $('#tooltip').remove();
+        return previousPoint = null;
+      }
     };
     plot1_area.bind("plotselected", function(event, ranges) {
       if (ranges.xaxis.to - ranges.xaxis.from < 86400 * 1000) {
@@ -177,7 +175,7 @@ $(function() {
       }));
       return plot2.setSelection(ranges, true);
     });
-    plot1_area.bind("plothover", handle_plot_hover('tooltip'));
+    plot1_area.bind("plothover", handle_plot_hover);
     return plot2_area.bind("plotselected", function(event, ranges) {
       return plot1.setSelection(ranges);
     });
