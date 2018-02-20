@@ -14,29 +14,29 @@ BigNumber = (function() {
     //
     // Constructor
     //
-    function BigNumber(number, precision, roundType) {
+    function BigNumber(n, p, r) {
         var o = this, i;
-        if (number instanceof BigNumber) {
-            for (i in {precision: 0, roundType: 0, _s: 0, _f: 0}) o[i] = number[i];
-            o._d = number._d.slice();
+        if(n instanceof BigNumber){
+            for(i in {precision: 0, roundType: 0, _s: 0, _f: 0}) o[i] = n[i];
+            o._d = n._d.slice();
             return;
         }
-        o.precision = isNaN(precision = Math.abs(precision)) ? BigNumber.defaultPrecision : precision;
-        o.roundType = isNaN(roundType = Math.abs(roundType)) ? BigNumber.defaultRoundType : roundType;
+        o.precision = isNaN(p = Math.abs(p)) ? BigNumber.defaultPrecision : p;
+        o.roundType = isNaN(r = Math.abs(r)) ? BigNumber.defaultRoundType : r;
         //
         // Determine the sign of the number.
         // Side-effect: convert number to String.
         //
-        o._s = (number += "").charAt(0) == "-";
+        o._s = (n += "").charAt(0) == "-";
         //
         // Determine the number of digits in the integer part.
         // Side-effect: convert number to Array of 2 String, integer part and fractional part.
         //
-        o._f = ((number = number.replace(/[^\d.]/g, "").split(".", 2))[0] = number[0].replace(/^0+/, "") || "0").length;
+        o._f = ((n = n.replace(/[^\d.]/g, "").split(".", 2))[0] = n[0].replace(/^0+/, "") || "0").length;
         //
         // Convert the digits of number into an array.
         //
-        for (i = (number = o._d = (number.join("") || "0").split("")).length; i; number[--i] = +number[i]);
+        for(i = (n = o._d = (n.join("") || "0").split("")).length; i; n[--i] = +n[i]);
         o.round();
     }
     var $ = BigNumber, o = BigNumber.prototype;
@@ -104,26 +104,42 @@ BigNumber = (function() {
         while((i < a.length || n != "0") && (r._d.length - r._f) <= r.precision);
         return r.round();
     };
-    o.mod = function(n){return this.subtract(this.divide(n).intPart().multiply(n));};
+    o.mod = function(n){
+        return this.subtract(this.divide(n).intPart().multiply(n));
+    };
     o.pow = function(n){
         var o = new BigNumber(this), i;
         if((n = (new BigNumber(n)).intPart()) == 0) return o.set(1);
         for(i = Math.abs(n); --i; o.set(o.multiply(this)));
         return n < 0 ? o.set((new BigNumber(1)).divide(o)) : o;
     };
-    o.set = function(n){return this.constructor(n), this;};
+    o.set = function(n){
+        return this.constructor(n), this;
+    };
     o.compare = function(n){
         var a = this, la = this._f, b = new BigNumber(n), lb = b._f, r = [-1, 1], i, l;
-        if(a._s != b._s) return a._s ? -1 : 1;
-        if(la != lb) return r[(la > lb) ^ a._s];
+        if(a._s != b._s)
+            return a._s ? -1 : 1;
+        if(la != lb)
+            return r[(la > lb) ^ a._s];
         for(la = (a = a._d).length, lb = (b = b._d).length, i = -1, l = Math.min(la, lb); ++i < l;)
-            if(a[i] != b[i]) return r[(a[i] > b[i]) ^ a._s];
+            if(a[i] != b[i])
+                return r[(a[i] > b[i]) ^ a._s];
         return la != lb ? r[(la > lb) ^ a._s] : 0;
     };
-    o.negate = function(){var n = new BigNumber(this); return n._s ^= 1, n;};
-    o.abs = function(){var n = new BigNumber(this); return n._s = 0, n;};
-    o.intPart = function(){return new BigNumber((this._s ? "-" : "") + (this._d.slice(0, this._f).join("") || "0"));};
-    o.valueOf = o.toString = function(){return (this._s ? "-" : "") + (this._d.slice(0, this._f).join("") || "0") + (this._f != this._d.length ? "." + this._d.slice(this._f).join("") : "");};
+    o.negate = function(){
+        var n = new BigNumber(this); return n._s ^= 1, n;
+    };
+    o.abs = function(){
+        var n = new BigNumber(this); return n._s = 0, n;
+    };
+    o.intPart = function(){
+        return new BigNumber((this._s ? "-" : "") + (this._d.slice(0, this._f).join("") || "0"));
+    };
+    o.valueOf = o.toString = function(){
+        var o = this;
+        return (o._s ? "-" : "") + (o._d.slice(0, o._f).join("") || "0") + (o._f != o._d.length ? "." + o._d.slice(o._f).join("") : "");
+    };
     o.toBase = function(base){
         //
         // Only converts up to hex.
