@@ -1,3 +1,14 @@
+// biggernumber.js
+//+ B. A. Weaver <baweaver@lbl.gov>
+//@ https://github.com/weaverba137/weaverba137.github.io/blob/master/js/bignumber-4.js
+// adapted from:
+//  Jonas Raoni Soares Silva
+//  http://jsfromhell.com/classes/bignumber [rev. #4]
+//
+// Principal changes:
+// - Allows limited conversion to other number bases.
+// - More modern construction, such as avoiding with block.
+//
 BigNumber = (function() {
     //
     // Constructor
