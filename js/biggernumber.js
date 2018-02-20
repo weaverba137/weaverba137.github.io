@@ -1,6 +1,6 @@
 // biggernumber.js
 //+ B. A. Weaver <baweaver@lbl.gov>
-//@ https://github.com/weaverba137/weaverba137.github.io/blob/master/js/bignumber-4.js
+//@ https://github.com/weaverba137/weaverba137.github.io/blob/master/js/biggernumber.js
 // adapted from:
 //  Jonas Raoni Soares Silva
 //  http://jsfromhell.com/classes/bignumber [rev. #4]
