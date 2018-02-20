@@ -15,6 +15,7 @@
     <script type="text/javascript" src="js/biggernumber.js"></script>
     <script type="text/javascript" src="js/bitmask.js"></script>
     <script type="text/javascript" src="js/hide_list.js"></script>
+    <script type="text/javascript" src="js/factorial.js"></script>
 </head>
 <body>
 <nav class="navbar navbar-default navbar-static-top">
@@ -150,6 +151,23 @@
 </div>
 </div>
 <div class="row">
+    <div class="col-md-12">
+        <h2>Factorial Test</h2>
+        <form method="post" name="Factorial" id="Factorial" onsubmit="return false;">
+            <fieldset><legend>Enter Integer</legend>
+                <div class="form-group">
+                    <label for="integer">Integer</label>
+                    <input type="text" name="integer" class="form-control" id="integer" value="0" size="10" onchange="updateFactorial();"/>
+                </div>
+                <div class="form-group">
+                    <label class="control-label">Factorial</label>
+                    <p class="form-control-static" id="factorialOutput">1</p>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</div>
+<div class="row">
 <div class="col-md-12">
 <h2>Hide List</h2>
 <ul style="list-style:none;display:block;">
@@ -206,7 +224,7 @@ If you cannot see this list, <a href="http://tinyurl.com/42jxy">visit this link<
 <img src="lib/colorsep.gif" alt="Separator" style="width:100%;height:2px;" /><br />
 B. A. Weaver: <span class="back">ude.oaon@revaew</span><br />
 Created: 2001-02-07 11:51:46 -0800 (Wed, 07 Feb 2001)<br />
-Last modified: 2016-12-06 12:53:32 -0700 (Tue, 06 Dec 2016)</p>
+Last modified: 2018-02-20 11:24:27 -0700 (Tue, 20 Feb 2018)</p>
 <!--
 <p class="text-muted">
 -----BEGIN GEEK CODE BLOCK-----<br />

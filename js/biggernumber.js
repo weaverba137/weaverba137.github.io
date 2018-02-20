@@ -7,6 +7,7 @@
 //
 // Principal changes:
 // - Allows limited conversion to other number bases.
+// - Factorial method.
 // - More modern construction, such as avoiding with block.
 // - Document some of the more obscure bits of code.
 //
@@ -112,6 +113,12 @@ BigNumber = (function() {
         if((n = (new BigNumber(n)).intPart()) == 0) return o.set(1);
         for(i = Math.abs(n); --i; o.set(o.multiply(this)));
         return n < 0 ? o.set((new BigNumber(1)).divide(o)) : o;
+    };
+    o.factorial = function(){
+        if(this._s) throw new Error("Factorial of negative number");
+        if(this._f !== this._d.length) throw new Error("Factorial of floating-point number");
+        if(!this.compare(0)) return new BigNumber(1);
+        return this.multiply(this.subtract(1).factorial());
     };
     o.set = function(n){
         return this.constructor(n), this;
