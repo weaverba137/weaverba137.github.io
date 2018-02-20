@@ -8,24 +8,36 @@
 // Principal changes:
 // - Allows limited conversion to other number bases.
 // - More modern construction, such as avoiding with block.
+// - Document some of the more obscure bits of code.
 //
 BigNumber = (function() {
     //
     // Constructor
     //
     function BigNumber(number, precision, roundType) {
-        var i;
+        var o = this, i;
         if (number instanceof BigNumber) {
-            for (i in {precision: 0, roundType: 0, _s: 0, _f: 0}) this[i] = number[i];
-            this._d = number._d.slice();
+            for (i in {precision: 0, roundType: 0, _s: 0, _f: 0}) o[i] = number[i];
+            o._d = number._d.slice();
             return;
         }
-        this.precision = isNaN(precision = Math.abs(precision)) ? BigNumber.defaultPrecision : precision;
-        this.roundType = isNaN(roundType = Math.abs(roundType)) ? BigNumber.defaultRoundType : roundType;
-        this._s = (number += "").charAt(0) == "-";
-        this._f = ((number = number.replace(/[^\d.]/g, "").split(".", 2))[0] = number[0].replace(/^0+/, "") || "0").length;
-        for (i = (number = this._d = (number.join("") || "0").split("")).length; i; number[--i] = +number[i]);
-        this.round();
+        o.precision = isNaN(precision = Math.abs(precision)) ? BigNumber.defaultPrecision : precision;
+        o.roundType = isNaN(roundType = Math.abs(roundType)) ? BigNumber.defaultRoundType : roundType;
+        //
+        // Determine the sign of the number.
+        // Side-effect: convert number to String.
+        //
+        o._s = (number += "").charAt(0) == "-";
+        //
+        // Determine the number of digits in the integer part.
+        // Side-effect: convert number to Array of 2 String, integer part and fractional part.
+        //
+        o._f = ((number = number.replace(/[^\d.]/g, "").split(".", 2))[0] = number[0].replace(/^0+/, "") || "0").length;
+        //
+        // Convert the digits of number into an array.
+        //
+        for (i = (number = o._d = (number.join("") || "0").split("")).length; i; number[--i] = +number[i]);
+        o.round();
     }
     var $ = BigNumber, o = BigNumber.prototype;
     $.ROUND_HALF_EVEN = ($.ROUND_HALF_DOWN = ($.ROUND_HALF_UP = ($.ROUND_FLOOR = ($.ROUND_CEIL = ($.ROUND_DOWN = ($.ROUND_UP = 0) + 1) + 1) + 1) + 1) + 1) + 1;
