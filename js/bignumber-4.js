@@ -1,7 +1,6 @@
 //+ Jonas Raoni Soares Silva
 //@ http://jsfromhell.com/classes/bignumber [rev. #4]
-// Modified by B. A. Weaver to include conversion to other number bases.
-//
+
 BigNumber = function(n, p, r){
 	var o = this, i;
 	if(n instanceof BigNumber){
@@ -116,26 +115,6 @@ with({$: BigNumber, o: BigNumber.prototype}){
 	o.valueOf = o.toString = function(){
 		var o = this;
 		return (o._s ? "-" : "") + (o._d.slice(0, o._f).join("") || "0") + (o._f != o._d.length ? "." + o._d.slice(o._f).join("") : "");
-	};
-	o.toBase = function(base){
-		var o = this;
-		if (o._f === o._d.length) {
-			var remainders;
-			if (this.compare(0) === 0) {
-				remainders = ['0'];
-			} else {
-				var n = new BigNumber(o);
-				remainders = [];
-				var hex_table = '0123456789abcdef';
-				while (n.compare(0)) {
-					remainders.unshift(hex_table.charAt(parseInt(n.mod(base).toString())));
-					n = n.divide(base).intPart();
-				}
-			}
-			return remainders.join('');
-		} else {
-			return o.toString();
-		}
 	};
 	o._zeroes = function(n, l, t){
 		var s = ["push", "unshift"][t || 0];
