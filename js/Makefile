@@ -8,7 +8,7 @@
 #
 # JavaScript files to compile.
 #
-JS_FILES = bitmask.js hhh.js hide_list.js index.js uqm.js
+JS_FILES = bitmask.js factorial.js hhh.js hide_list.js index.js uqm.js
 #
 # How to compile to JavaScript.
 #
