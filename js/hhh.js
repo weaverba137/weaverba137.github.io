@@ -3,7 +3,7 @@ $(function() {
   hhh = [];
   previousPoint = null;
   replot = function() {
-    var arrowhead, ctx, d, handle_plot_hover, label_css, markings, next_year, o, plot1, plot1_area, plot1_options, plot2, plot2_area, plot2_options, showTooltip, special_dates, start_year, _i, _j, _len, _len1;
+    var arrowhead, ctx, d, handle_plot_hover, i, j, label_css, len, len1, markings, next_year, o, plot1, plot1_area, plot1_options, plot2, plot2_area, plot2_options, showTooltip, special_dates, start_year;
     plot1_area = $("#plot1_area");
     plot2_area = $("#plot2_area");
     start_year = (new Date(2002, 0, 1)).getTime();
@@ -32,8 +32,8 @@ $(function() {
       }
     ];
     markings = [];
-    for (_i = 0, _len = special_dates.length; _i < _len; _i++) {
-      d = special_dates[_i];
+    for (i = 0, len = special_dates.length; i < len; i++) {
+      d = special_dates[i];
       markings.push({
         color: 'black',
         lineWidth: 1,
@@ -108,16 +108,16 @@ $(function() {
       ctx.fillStyle = "#000";
       return ctx.fill();
     };
-    for (_j = 0, _len1 = special_dates.length; _j < _len1; _j++) {
-      d = special_dates[_j];
+    for (j = 0, len1 = special_dates.length; j < len1; j++) {
+      d = special_dates[j];
       o = plot2.pointOffset({
         x: d.time,
         y: d.offset
       });
       label_css = {
         position: 'absolute',
-        left: "" + (o.left + 4) + "px",
-        top: "" + o.top + "px",
+        left: (o.left + 4) + "px",
+        top: o.top + "px",
         color: '#666',
         "font-size": 'smaller'
       };
@@ -128,7 +128,7 @@ $(function() {
       var contents, extra, point, tooltip_css;
       point = hhh[item.seriesIndex].data[item.dataIndex];
       extra = hhh[item.seriesIndex].meta[item.dataIndex];
-      contents = "" + point[1] + "<br/>" + (point[0].toISOString().split('T')[0]) + "<br/>" + extra[0] + "<br/>" + extra[1] + "<br/>" + extra[3];
+      contents = point[1] + "<br/>" + (point[0].toISOString().split('T')[0]) + "<br/>" + extra[0] + "<br/>" + extra[1] + "<br/>" + extra[3];
       if (extra[2]) {
         contents += "<br/>" + extra[2];
       }
@@ -181,7 +181,7 @@ $(function() {
     });
   };
   onDataReceived = function(data) {
-    var date, line, number, row, _i, _len, _ref;
+    var date, i, len, row;
     hhh = [
       {
         data: [],
@@ -190,23 +190,18 @@ $(function() {
         label: 'Hashes'
       }
     ];
-    _ref = data.split("\n");
-    for (_i = 0, _len = _ref.length; _i < _len; _i++) {
-      line = _ref[_i];
-      row = line.split(",");
-      if (row[0] !== "Number") {
-        number = parseInt(row[0]);
-        date = new Date(row[1]);
-        if (number > 0) {
-          hhh[0].data.push([date, number]);
-          hhh[0].meta.push([row[2], row[3], row[4], row[5]]);
-        }
+    for (i = 0, len = data.length; i < len; i++) {
+      row = data[i];
+      date = new Date(row[1]);
+      if (row[0] > 0) {
+        hhh[0].data.push([date, row[0]]);
+        hhh[0].meta.push([row[2], row[3], row[4], row[5]]);
       }
     }
     return hhh;
   };
   if (hhh.length === 0) {
-    return $.get('lib/hashes.csv', {}, onDataReceived, "text").error(function() {
+    return $.getJSON('lib/hashes.json', {}, onDataReceived).error(function() {
       return alert("Data retrieval error!");
     }).complete(replot);
   }

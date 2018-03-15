@@ -140,18 +140,16 @@ $( () ->
         hhh = [
             {data: [], meta:[], color: 'black', label: 'Hashes'}
         ]
-        for line in data.split "\n"
-            row = line.split ","
-            if row[0] != "Number"
-                number = parseInt(row[0])
-                date = new Date(row[1])
-                if number > 0
-                    hhh[0].data.push [date, number]
-                    hhh[0].meta.push [row[2], row[3], row[4], row[5]]
+        for row in data
+            date = new Date(row[1])
+            if row[0] > 0
+                hhh[0].data.push [date, row[0]]
+                hhh[0].meta.push [row[2], row[3], row[4], row[5]]
         hhh
     #
     #
     #
     if hhh.length == 0
-        $.get('lib/hashes.csv', {}, onDataReceived, "text").error( () -> alert("Data retrieval error!") ).complete(replot)
+        $.getJSON('lib/hashes.json', {}, onDataReceived).error( () -> alert("Data retrieval error!") ).complete(replot)
+        # $.get('lib/hashes.csv', {}, onDataReceived, "text").error( () -> alert("Data retrieval error!") ).complete(replot)
 )
