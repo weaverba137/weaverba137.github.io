@@ -1,23 +1,18 @@
 $( () ->
     IPinfo =
         ip: '::1'
-        dns: 'localhost.localdomain'
+        hostname: 'localhost.localdomain'
+        city: 'Tucson'
+        region: 'Arizona'
+        country: 'US'
     onDataReceived = (data) ->
         IPinfo = data
     displayIP = () ->
         $('#IPAddress').html(IPinfo.ip)
-        $('#HostName').html(IPinfo.dns)
+        $('#HostName').html(IPinfo.hostname)
         $('#userAgent').html(navigator.userAgent)
+        $('#Location').html(IPinfo.city + ", " + IPinfo.region + ", " + IPinfo.country)
         true
-    AJAXdata =
-        type: 'GET'
-        url: 'http://cosmo.nyu.edu/~bw55/ip.php'
-        contentType: 'application/json'
-        success: onDataReceived
-        error: displayIP
-        complete: displayIP
-    # $.ajax(AJAXdata)
-    # $.getJSON("http://cosmo.nyu.edu/~bw55/ip.php", {}, onDataReceived).error(displayIP).complete(displayIP)
-    displayIP()
+    $.get("https://ipinfo.io", onDataReceived, "jsonp").always(displayIP)
     true
 )
