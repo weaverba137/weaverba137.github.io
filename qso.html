@@ -12,10 +12,13 @@
     <link rel="stylesheet" type="text/css" media="screen" href="css/dygraph-2.1.0.css" />
     <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/dygraph-2.1.0.min.js"></script>
-    <!--
+    <!-- <script type="text/javascript" src="js/dygraph-2.1.0.min.js"></script> -->
+    <script type="text/javascript" src="js/jquery.flot-0.8.3.js"></script>
+    <script type="text/javascript" src="js/jquery.flot.fillbetween-0.8.3.js"></script>
+    <script type="text/javascript" src="js/jquery.flot.selection-0.8.3.js"></script>
+    <script type="text/javascript" src="js/jquery.flot.navigate-0.8.3.js"></script>
+    <script type="text/javascript" src="js/jquery.flot.axislabels-2.0.js"></script>
     <script type="text/javascript" src="js/qso.js"></script>
-    -->
 </head>
 <body>
 <nav class="navbar navbar-default navbar-static-top">
@@ -67,11 +70,17 @@
         <h3>Object</h3>
         <dl class="dl-horizontal">
             <dt>Target ID</dt><dd id="targetid"></dd>
+            <dt>RA</dt><dd id="ra"></dd>
+            <dt>Dec</dt><dd id="dec"></dd>
+            <dt>Redshift</dt><dd id="redshift"></dd>
+            <dt>ZWARNING</dt><dd id="zwarn"></dd>
+            <dt>Type</dt><dd id="type"></dd>
+            <dt>Subtype</dt><dd id="subtype"></dd>
         </dl>
     </div>
     <div class="col-md-8">
         <h3>Spectrum</h3>
-        <div id="spectrum" style="width:500px;height:500px;padding:0;margin:10px auto;"></div>
+        <div id="spectrum" style="width:600px;height:300px;padding:0;margin:10px auto;"></div>
     </div>
 </div>
 <footer class="footer hidden-sm hidden-xs">
@@ -79,7 +88,7 @@
 <img src="lib/colorsep.gif" alt="Separator" style="width:100%;height:2px;" /><br />
 B. A. Weaver: <span class="back">ude.oaon@revaew</span><br />
 Created: 2018-05-16 19:02:14 -0700 (Wed, 16 May 2018)<br />
-Last modified: 2018-05-16 19:20:59 -0700 (Wed, 16 May 2018)</p>
+Last modified: 2018-05-16 22:53:08 -0700 (Wed, 16 May 2018)</p>
 <!--
 <p class="text-muted">
 -----BEGIN GEEK CODE BLOCK-----<br />
