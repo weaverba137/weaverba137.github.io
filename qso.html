@@ -4,15 +4,18 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Ur-Quan Masters Star Data &mdash; B. A. Weaver</title>
+    <title>QSO &mdash; B. A. Weaver</title>
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
     <link rel="icon" type="image/x-icon" href="favicon.ico" />
     <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="css/public_html.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/dygraph-2.1.0.css" />
     <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/jquery.flot-0.8.3.js"></script>
-    <script type="text/javascript" src="js/uqm.js"></script>
+    <script type="text/javascript" src="js/dygraph-2.1.0.min.js"></script>
+    <!--
+    <script type="text/javascript" src="js/qso.js"></script>
+    -->
 </head>
 <body>
 <nav class="navbar navbar-default navbar-static-top">
@@ -57,63 +60,26 @@
 <div class="container">
     <div class="row">
         <div class="col-md-12">
-            <h1>Ur-Quan Masters Star Data &mdash; B. A. Weaver</h1>
+            <h1>QSO &mdash; B. A. Weaver</h1>
         </div><!-- end class="col-md-12" -->
     </div><!-- end class="row" --><div class="row">
-<div class="col-md-3">
-<form action="index.php" class="well">
-<!-- This form is handled by JavaScript, so the action is just a dummy. -->
-<fieldset><legend>Spoiler Mode</legend>
-<div class="radio">
-<label class="radio-inline"><input type="radio" class="spoiler" name="spoiler" id="spOff" value="OFF" checked="checked" />Off</label>
-<label class="radio-inline"><input type="radio" class="spoiler" name="spoiler" id="spOn" value="ON" />On</label>
+    <div class="col-md-4">
+        <h3>Object</h3>
+        <dl class="dl-horizontal">
+            <dt>Target ID</dt><dd id="targetid"></dd>
+        </dl>
+    </div>
+    <div class="col-md-8">
+        <h3>Spectrum</h3>
+        <div id="spectrum" style="width:500px;height:500px;padding:0;margin:10px auto;"></div>
+    </div>
 </div>
-</fieldset>
-</form>
-<h3>Zoom Map</h3><div id="zoomholder" style="width:300px;height:300px;padding:0;margin:10px auto;"></div></div>
-<div class="col-md-9"><h3>Overview Map</h3><div id="placeholder" style="width:800px;height:800px;padding:0;margin:10px auto;"></div></div>
-</div>
-<div class="row">
-<div class="col-md-12">
-<h3 id="h3info"></h3>
-<dl class="dl-horizontal" id="dlinfo">
-    <dt></dt><dd></dd>
-</dl>
-<!-- An empty table is invalid.  This dummy row will be removed by JavaScript. -->
-<table id="tableofplanets" class="table table-striped table-bordered table-condensed">
-<tr><td></td></tr>
-</table>
-</div>
-</div>
-<div class="row">
-<div class="col-md-6">
-<h3>Documentation</h3>
-<ul>
-<li>Hover over a star to see its name.</li>
-<li>Click on a star to see information about it.</li>
-<li>The current star is highlighted in <span style="color:red;">red</span>.</li>
-<li>The current star's constellation is highlighted in <span style="color:blue;">blue</span>.</li>
-<li>&ldquo;Spoiler Mode&rdquo; turns on additional information.</li>
-<li>If you want to play with the raw data, <a href="lib/uqm.sqlite">download the database</a>.
-    The database is a <a href="http://www.sqlite.org">SQLite</a> file.</li>
-</ul>
-</div>
-<div class="col-md-6">
-<h3>Links</h3>
-<ul>
-<li><a href="http://sc2.sourceforge.net">Ur-Quan Masters main site</a></li>
-<li><a href="http://jquery.com">jQuery</a></li>
-<li><a href="http://www.flotcharts.org/">flot</a></li>
-</ul>
-</div>
-</div>
-
 <footer class="footer hidden-sm hidden-xs">
 <p class="text-muted">
 <img src="lib/colorsep.gif" alt="Separator" style="width:100%;height:2px;" /><br />
 B. A. Weaver: <span class="back">ude.oaon@revaew</span><br />
-Created: 2001-02-07 11:51:46 -0800 (Wed, 07 Feb 2001)<br />
-Last modified: 2016-12-06 12:53:32 -0700 (Tue, 06 Dec 2016)</p>
+Created: 2018-05-16 19:02:14 -0700 (Wed, 16 May 2018)<br />
+Last modified: 2018-02-09 15:50:49 -0700 (Fri, 09 Feb 2018)</p>
 <!--
 <p class="text-muted">
 -----BEGIN GEEK CODE BLOCK-----<br />
