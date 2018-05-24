@@ -178,7 +178,7 @@ $(function() {
     return true;
   };
   if (qso.length === 0) {
-    return $.getJSON('http://localhost:5000/5263/1088', {}, onDataReceived).error(function() {
+    return $.getJSON('lib/qso.json', {}, onDataReceived).error(function() {
       return alert("Data retrieval error!");
     }).complete(replot);
   }
