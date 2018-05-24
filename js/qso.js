@@ -1,7 +1,7 @@
 var hasProp = {}.hasOwnProperty;
 
 $(function() {
-  var dms, hms, meta, onDataReceived, qso, replot;
+  var dms, hms, meta, onDataReceived, pad, qso, replot;
   qso = [];
   meta = {
     id: "",
@@ -20,12 +20,25 @@ $(function() {
     expid: "",
     tileid: ""
   };
+  pad = function(n, width, z) {
+    var f, i;
+    z = z || '0';
+    n = n + '';
+    f = n.split(".");
+    n = f.length === 2 ? f[0] : n;
+    i = n.length >= width ? n : new Array(width - n.length + 1).join(z) + n;
+    if (f.length === 2) {
+      return n + "." + f[1];
+    } else {
+      return i;
+    }
+  };
   hms = function(ra) {
     var h, m, s;
     h = Math.floor(ra / 15.0);
     m = Math.floor(((ra / 15.0) % 1) * 60.0);
     s = (((((ra / 15.0) % 1) * 60.0) % 1) * 60.0).toFixed(2);
-    return h + ":" + m + ":" + s;
+    return (pad(h, 2)) + ":" + (pad(m, 2)) + ":" + (pad(s, 2));
   };
   dms = function(dec) {
     var d, m, s, si;
@@ -33,7 +46,7 @@ $(function() {
     d = Math.floor(Math.abs(dec));
     m = Math.floor((Math.abs(dec) % 1) * 60.0);
     s = ((((Math.abs(dec) % 1) * 60.0) % 1) * 60).toFixed(1);
-    return "" + si + d + ":" + m + ":" + s;
+    return "" + si + (pad(d, 2)) + ":" + (pad(m, 2)) + ":" + (pad(s, 2));
   };
   replot = function() {
     var options, p;

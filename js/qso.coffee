@@ -16,17 +16,24 @@ $( () ->
         night: ""
         expid: ""
         tileid: ""
+    pad = (n, width, z) ->
+        z = z || '0'
+        n = n + ''
+        f = n.split "."
+        n = if f.length == 2 then f[0] else n
+        i = if n.length >= width then n else new Array(width - n.length + 1).join(z) + n
+        if f.length == 2 then "#{n}.#{f[1]}" else i
     hms = (ra) ->
         h = Math.floor ra/15.0
         m = Math.floor ((ra/15.0) % 1) * 60.0
         s = (((((ra/15.0) % 1) * 60.0) % 1) * 60.0).toFixed(2)
-        "#{h}:#{m}:#{s}"
+        "#{pad h, 2}:#{pad m, 2}:#{pad s, 2}"
     dms = (dec) ->
         si = if dec > 0 then '+' else '-'
         d = Math.floor Math.abs(dec)
         m = Math.floor (Math.abs(dec) % 1) * 60.0
         s = ((((Math.abs(dec) % 1) * 60.0) % 1) * 60).toFixed(1)
-        "#{si}#{d}:#{m}:#{s}"
+        "#{si}#{pad d, 2}:#{pad m, 2}:#{pad s, 2}"
     replot = () ->
         $("#targetid").html(meta.targetid)
         $("#ra").html(hms(meta.ra))
