@@ -10,15 +10,38 @@ $( () ->
         zwarn: ""
         type: ""
         subtype: ""
-
+        desi_target: ""
+        mws_target: ""
+        bgs_target: ""
+        night: ""
+        expid: ""
+        tileid: ""
+    hms = (ra) ->
+        h = Math.floor ra/15.0
+        m = Math.floor ((ra/15.0) % 1) * 60.0
+        s = (((((ra/15.0) % 1) * 60.0) % 1) * 60.0).toFixed(2)
+        "#{h}:#{m}:#{s}"
+    dms = (dec) ->
+        si = if dec > 0 then '+' else '-'
+        d = Math.floor Math.abs(dec)
+        m = Math.floor (Math.abs(dec) % 1) * 60.0
+        s = ((((Math.abs(dec) % 1) * 60.0) % 1) * 60).toFixed(1)
+        "#{si}#{d}:#{m}:#{s}"
     replot = () ->
         $("#targetid").html(meta.targetid)
-        $("#ra").html(meta.ra)
-        $("#dec").html(meta.dec)
-        $("#redshift").html(meta.redshift + " &pm; " + meta.zerr)
+        $("#ra").html(hms(meta.ra))
+        $("#dec").html(dms(meta.dec))
+        $("#redshift").html("#{meta.redshift.toFixed(5)} &pm; #{meta.zerr.toFixed(5)}")
         $("#zwarn").html(meta.zwarn)
         $("#type").html(meta.type)
         $("#subtype").html(meta.subtype)
+        $("#desi_target").html(meta.desi_target)
+        $("#mws_target").html(meta.mws_target)
+        $("#bgs_target").html(meta.bgs_target)
+        $("#night").html(meta.night)
+        $("#expid").html(meta.expid)
+        $("#tileid").html(meta.tileid)
+
         # options =
         #     labels: ["Wavelength", "b"]
         #     xlabel: "Wavelength [Å]"
@@ -52,13 +75,13 @@ $( () ->
         qso = [
             {data: [], color: 'blue', label: 'b', lines: {lineWidth: 1, fill: false}, opacity: 0.5},
             {data: [], color: 'red', label: 'r', lines: {lineWidth: 1, fill: false}, opacity: 0.5},
-            {data: [], color: 'black', label: 'z', lines: {lineWidth: 1, fill: false}, opacity: 0.5},
+            {data: [], color: 'magenta', label: 'z', lines: {lineWidth: 1, fill: false}, opacity: 0.5},
             {data: [], color: 'blue', id: 'upper_b', lines: {lineWidth: 0, fill: 0.3}, fillBetween: 'lower_b'},
             {data: [], color: 'red', id: 'upper_r', lines: {lineWidth: 0, fill: 0.3}, fillBetween: 'lower_r'},
-            {data: [], color: 'black', id: 'upper_z', lines: {lineWidth: 0, fill: 0.3}, fillBetween: 'lower_z'},
+            {data: [], color: 'magenta', id: 'upper_z', lines: {lineWidth: 0, fill: 0.3}, fillBetween: 'lower_z'},
             {data: [], color: 'blue', id: 'lower_b', lines: {lineWidth: 0, fill: false}},
             {data: [], color: 'red', id: 'lower_r', lines: {lineWidth: 0, fill: false}},
-            {data: [], color: 'black', id: 'lower_z', lines: {lineWidth: 0, fill: false}}
+            {data: [], color: 'magenta', id: 'lower_z', lines: {lineWidth: 0, fill: false}}
         ]
         for s, i in ['b', 'r', 'z']
             for w, j in data[s].wavelength
@@ -72,5 +95,5 @@ $( () ->
                 #     qso.push [w, null]
         true
     if qso.length == 0
-        $.getJSON('lib/qso.json', {}, onDataReceived).error( () -> alert("Data retrieval error!") ).complete(replot)
+        $.getJSON('http://localhost:5000/5263/1088', {}, onDataReceived).error( () -> alert("Data retrieval error!") ).complete(replot)
 )

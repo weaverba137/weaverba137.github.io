@@ -1,7 +1,7 @@
 var hasProp = {}.hasOwnProperty;
 
 $(function() {
-  var meta, onDataReceived, qso, replot;
+  var dms, hms, meta, onDataReceived, qso, replot;
   qso = [];
   meta = {
     id: "",
@@ -12,17 +12,44 @@ $(function() {
     zerr: "",
     zwarn: "",
     type: "",
-    subtype: ""
+    subtype: "",
+    desi_target: "",
+    mws_target: "",
+    bgs_target: "",
+    night: "",
+    expid: "",
+    tileid: ""
+  };
+  hms = function(ra) {
+    var h, m, s;
+    h = Math.floor(ra / 15.0);
+    m = Math.floor(((ra / 15.0) % 1) * 60.0);
+    s = (((((ra / 15.0) % 1) * 60.0) % 1) * 60.0).toFixed(2);
+    return h + ":" + m + ":" + s;
+  };
+  dms = function(dec) {
+    var d, m, s, si;
+    si = dec > 0 ? '+' : '-';
+    d = Math.floor(Math.abs(dec));
+    m = Math.floor((Math.abs(dec) % 1) * 60.0);
+    s = ((((Math.abs(dec) % 1) * 60.0) % 1) * 60).toFixed(1);
+    return "" + si + d + ":" + m + ":" + s;
   };
   replot = function() {
     var options, p;
     $("#targetid").html(meta.targetid);
-    $("#ra").html(meta.ra);
-    $("#dec").html(meta.dec);
-    $("#redshift").html(meta.redshift + " &pm; " + meta.zerr);
+    $("#ra").html(hms(meta.ra));
+    $("#dec").html(dms(meta.dec));
+    $("#redshift").html((meta.redshift.toFixed(5)) + " &pm; " + (meta.zerr.toFixed(5)));
     $("#zwarn").html(meta.zwarn);
     $("#type").html(meta.type);
     $("#subtype").html(meta.subtype);
+    $("#desi_target").html(meta.desi_target);
+    $("#mws_target").html(meta.mws_target);
+    $("#bgs_target").html(meta.bgs_target);
+    $("#night").html(meta.night);
+    $("#expid").html(meta.expid);
+    $("#tileid").html(meta.tileid);
     options = {
       axisLabels: {
         show: true
@@ -74,7 +101,7 @@ $(function() {
         opacity: 0.5
       }, {
         data: [],
-        color: 'black',
+        color: 'magenta',
         label: 'z',
         lines: {
           lineWidth: 1,
@@ -101,7 +128,7 @@ $(function() {
         fillBetween: 'lower_r'
       }, {
         data: [],
-        color: 'black',
+        color: 'magenta',
         id: 'upper_z',
         lines: {
           lineWidth: 0,
@@ -126,7 +153,7 @@ $(function() {
         }
       }, {
         data: [],
-        color: 'black',
+        color: 'magenta',
         id: 'lower_z',
         lines: {
           lineWidth: 0,
@@ -151,7 +178,7 @@ $(function() {
     return true;
   };
   if (qso.length === 0) {
-    return $.getJSON('lib/qso.json', {}, onDataReceived).error(function() {
+    return $.getJSON('http://localhost:5000/5263/1088', {}, onDataReceived).error(function() {
       return alert("Data retrieval error!");
     }).complete(replot);
   }
