@@ -20,9 +20,8 @@ $( () ->
         z = z || '0'
         n = n + ''
         f = n.split "."
-        n = if f.length == 2 then f[0] else n
-        i = if n.length >= width then n else new Array(width - n.length + 1).join(z) + n
-        if f.length == 2 then "#{n}.#{f[1]}" else i
+        i = if f[0].length >= width then f[0] else new Array(width - f[0].length + 1).join(z) + f[0]
+        if f.length == 2 then "#{i}.#{f[1]}" else i
     hms = (ra) ->
         h = Math.floor ra/15.0
         m = Math.floor ((ra/15.0) % 1) * 60.0

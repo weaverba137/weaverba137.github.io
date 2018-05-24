@@ -25,10 +25,9 @@ $(function() {
     z = z || '0';
     n = n + '';
     f = n.split(".");
-    n = f.length === 2 ? f[0] : n;
-    i = n.length >= width ? n : new Array(width - n.length + 1).join(z) + n;
+    i = f[0].length >= width ? f[0] : new Array(width - f[0].length + 1).join(z) + f[0];
     if (f.length === 2) {
-      return n + "." + f[1];
+      return i + "." + f[1];
     } else {
       return i;
     }
