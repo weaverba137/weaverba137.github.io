@@ -1,6 +1,8 @@
 $( () ->
     hhh = []
+    #
     # Used to control hovering.
+    #
     previousPoint = null
     replot = () ->
         plot1_area = $("#plot1_area")
