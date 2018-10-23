@@ -1,5 +1,18 @@
 /*
- * Used by pubs.php
+ * Reverse writing.
+ */
+.back {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+}
+/*
+ * Always show a scroll bar.
+ */
+html {
+    overflow-y: scroll;
+}
+/*
+ * Used by pubs.html.
  */
 p.pub {
     color: black;

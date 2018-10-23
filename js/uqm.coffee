@@ -247,7 +247,7 @@ $( () ->
     # Fill in the data arrays and plot.
     #
     if UQM.stars.length == 0
-        $.getJSON("lib/uqm.json",{},(data) -> UQM.stars = data).error(
+        $.getJSON("uqm.json",{},(data) -> UQM.stars = data).fail(
             () -> alert("JSON error!")
-            ).complete(rePlot)
+            ).done(rePlot)
 )

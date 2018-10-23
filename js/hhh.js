@@ -201,8 +201,8 @@ $(function() {
     return hhh;
   };
   if (hhh.length === 0) {
-    return $.getJSON('lib/hashes.json', {}, onDataReceived).error(function() {
+    return $.getJSON('hhh.json', {}, onDataReceived).fail(function() {
       return alert("Data retrieval error!");
-    }).complete(replot);
+    }).done(replot);
   }
 });

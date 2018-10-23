@@ -190,8 +190,8 @@ $(function() {
     return true;
   };
   if (qso.length === 0) {
-    return $.getJSON('lib/qso.json', {}, onDataReceived).error(function() {
+    return $.getJSON('qso.json', {}, onDataReceived).fail(function() {
       return alert("Data retrieval error!");
-    }).complete(replot);
+    }).done(replot);
   }
 });

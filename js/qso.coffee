@@ -101,6 +101,6 @@ $( () ->
                 #     qso.push [w, null]
         true
     if qso.length == 0
-        # $.getJSON('http://localhost:5000/5263/1088', {}, onDataReceived).error( () -> alert("Data retrieval error!") ).complete(replot)
-        $.getJSON('lib/qso.json', {}, onDataReceived).error( () -> alert("Data retrieval error!") ).complete(replot)
+        # $.getJSON('http://localhost:5000/5263/1088', {}, onDataReceived).fail( () -> alert("Data retrieval error!") ).done(replot)
+        $.getJSON('qso.json', {}, onDataReceived).fail( () -> alert("Data retrieval error!") ).done(replot)
 )

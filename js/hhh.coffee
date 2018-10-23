@@ -1,6 +1,8 @@
 $( () ->
     hhh = []
+    #
     # Used to control hovering.
+    #
     previousPoint = null
     replot = () ->
         plot1_area = $("#plot1_area")
@@ -150,6 +152,5 @@ $( () ->
     #
     #
     if hhh.length == 0
-        $.getJSON('lib/hashes.json', {}, onDataReceived).error( () -> alert("Data retrieval error!") ).complete(replot)
-        # $.get('lib/hashes.csv', {}, onDataReceived, "text").error( () -> alert("Data retrieval error!") ).complete(replot)
+        $.getJSON('hhh.json', {}, onDataReceived).fail( () -> alert("Data retrieval error!") ).done(replot)
 )
