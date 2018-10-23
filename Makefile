@@ -23,7 +23,7 @@ MAKEFLAGS = w
 # in these subdirectories should also understand 'make all' & 'make clean'.
 # This list can be empty, but should still be defined.
 #
-# SUBDIRS = js lib
+# SUBDIRS = js
 SUBDIRS =
 #
 # Find all *.html files.
@@ -41,7 +41,6 @@ endif
 #
 # This should compile all code prior to it being installed
 #
-# all : pubs.html
 all :
 	@ for f in $(SUBDIRS); do $(MAKE) -C $$f all ; done
 #
@@ -49,9 +48,6 @@ all :
 # have a file named 'all'.
 #
 .PHONY : all
-#
-# pubs.html : ../tex/pubs.tex
-# 	python2.7 ../python/vita2pubs.py $<
 #
 # Update modification times in HTML files.
 #
@@ -107,6 +103,6 @@ clean :
 	@ for f in $(SUBDIRS); do $(MAKE) -C $$f clean ; done
 #
 # This line helps prevent make from getting confused in the case where you
-# have a file named 'all'.
+# have a file named 'clean'.
 #
 .PHONY : clean
