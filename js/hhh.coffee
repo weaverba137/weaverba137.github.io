@@ -150,6 +150,5 @@ $( () ->
     #
     #
     if hhh.length == 0
-        $.getJSON('lib/hashes.json', {}, onDataReceived).error( () -> alert("Data retrieval error!") ).complete(replot)
-        # $.get('lib/hashes.csv', {}, onDataReceived, "text").error( () -> alert("Data retrieval error!") ).complete(replot)
+        $.getJSON('hhh.json', {}, onDataReceived).error( () -> alert("Data retrieval error!") ).complete(replot)
 )
