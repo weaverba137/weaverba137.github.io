@@ -150,5 +150,5 @@ $( () ->
     #
     #
     if hhh.length == 0
-        $.getJSON('hhh.json', {}, onDataReceived).error( () -> alert("Data retrieval error!") ).complete(replot)
+        $.getJSON('hhh.json', {}, onDataReceived).fail( () -> alert("Data retrieval error!") ).done(replot)
 )
