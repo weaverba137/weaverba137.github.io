@@ -10,5 +10,5 @@ crange
 excludes.txt
 last_modified.txt
 Makefile
+README.md
 *.coffee
-*.py
