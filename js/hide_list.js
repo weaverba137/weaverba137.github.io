@@ -9,10 +9,10 @@ toggle = function(link) {
   }
   if (ul.css('display') === 'none' || ul.css('display') === null) {
     ul.css('display', 'block');
-    i.html("&blacktriangledown;&nbsp;");
+    i.html('&blacktriangledown;&nbsp;');
   } else {
     ul.css('display', 'none');
-    i.html("&blacktriangleright;&nbsp;");
+    i.html('&blacktriangleright;&nbsp;');
   }
   return true;
 };
