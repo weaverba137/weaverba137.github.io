@@ -1,5 +1,5 @@
 /*
- * $Id: public_html.css 984 2016-01-02 15:51:30Z bw55 $
+ * Reverse writing.
  */
 .back {
     unicode-bidi: bidi-override;
@@ -11,3 +11,16 @@
 html {
     overflow-y: scroll;
 }
+/*
+ * Used by pubs.html.
+ */
+p.pub {
+    color: black;
+    text-indent: -4em;
+    padding-left: 4em;
+}
+p.pub a         {color: black;}
+p.pub a:link    {color: black;}
+p.pub a:visited {color: black;}
+p.pub a:hover   {color: black;}
+p.pub a:active  {color: black;}
