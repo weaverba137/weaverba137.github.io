@@ -11,20 +11,24 @@ $(function() {
     special_dates = [
       {
         time: (new Date(2003, 10, 20)).getTime(),
-        label: 'Met Shelley',
+        label: 'Met S.M.',
         offset: 150
       }, {
         time: (new Date(2006, 1, 11)).getTime(),
-        label: 'Met Tracey',
+        label: 'Met T.H.',
         offset: 350
       }, {
         time: (new Date(2008, 6, 1)).getTime(),
-        label: 'To NYC',
+        label: 'To N.Y.C.',
         offset: 600
       }, {
         time: (new Date(2010, 10, 13)).getTime(),
-        label: 'Met Kim',
+        label: 'Met K.G.',
         offset: 900
+      }, {
+        time: (new Date(2012, 6, 31)).getTime(),
+        label: 'To W.H.',
+        offset: 1050
       }, {
         time: (new Date(2016, 7, 1)).getTime(),
         label: 'To Tucson',
