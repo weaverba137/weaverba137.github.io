@@ -86,7 +86,7 @@ $(function() {
     return true;
   };
   onDataReceived = function(data) {
-    var i, j, k, key, l, len, len1, ref, ref1, s, std, value, w;
+    var f, i, j, k, key, l, len, len1, ref, ref1, s, std, value, w;
     for (key in meta) {
       if (!hasProp.call(meta, key)) continue;
       value = meta[key];
@@ -176,10 +176,11 @@ $(function() {
     ref = ['b', 'r', 'z'];
     for (i = k = 0, len = ref.length; k < len; i = ++k) {
       s = ref[i];
-      ref1 = data[s].wavelength;
+      ref1 = data[s].flux;
       for (j = l = 0, len1 = ref1.length; l < len1; j = ++l) {
-        w = ref1[j];
+        f = ref1[j];
         if (data[s].ivar[i] > 0) {
+          w = data[s].w0 + j * data[s].dw;
           std = 1.0 / Math.sqrt(data[s].ivar[j]);
           qso[i].data.push([w, data[s].flux[j]]);
           qso[i + 3].data.push([w, data[s].flux[j] + std]);
@@ -190,7 +191,7 @@ $(function() {
     return true;
   };
   if (qso.length === 0) {
-    return $.getJSON('qso.json', {}, onDataReceived).fail(function() {
+    return $.getJSON('http://localhost:5000/5305/137', {}, onDataReceived).fail(function() {
       return alert("Data retrieval error!");
     }).done(replot);
   }

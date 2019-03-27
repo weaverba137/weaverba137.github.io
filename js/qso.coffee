@@ -90,8 +90,9 @@ $( () ->
             {data: [], color: 'magenta', id: 'lower_z', lines: {lineWidth: 0, fill: false}}
         ]
         for s, i in ['b', 'r', 'z']
-            for w, j in data[s].wavelength
+            for f, j in data[s].flux
                 if data[s].ivar[i] > 0
+                    w = data[s].w0 + j*data[s].dw
                     std = 1.0 / Math.sqrt(data[s].ivar[j])
                     # qso.push [w, [data[s].flux[j], std]]
                     qso[i].data.push [w, data[s].flux[j]]
@@ -101,6 +102,6 @@ $( () ->
                 #     qso.push [w, null]
         true
     if qso.length == 0
-        # $.getJSON('http://localhost:5000/5263/1088', {}, onDataReceived).fail( () -> alert("Data retrieval error!") ).done(replot)
-        $.getJSON('qso.json', {}, onDataReceived).fail( () -> alert("Data retrieval error!") ).done(replot)
+        $.getJSON('http://localhost:5000/5305/137', {}, onDataReceived).fail( () -> alert("Data retrieval error!") ).done(replot)
+        # $.getJSON('qso.json', {}, onDataReceived).fail( () -> alert("Data retrieval error!") ).done(replot)
 )
