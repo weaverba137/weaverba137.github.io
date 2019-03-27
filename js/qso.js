@@ -191,7 +191,7 @@ $(function() {
     return true;
   };
   if (qso.length === 0) {
-    return $.getJSON('http://localhost:5000/5305/137', {}, onDataReceived).fail(function() {
+    return $.getJSON('http://localhost:56789/5305/137', {}, onDataReceived).fail(function() {
       return alert("Data retrieval error!");
     }).done(replot);
   }
