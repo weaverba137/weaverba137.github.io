@@ -6,6 +6,13 @@
     direction: rtl;
 }
 /*
+ * Separator
+ */
+img.separator {
+    width: 100%;
+    height: 2px;
+}
+/*
  * Always show a scroll bar.
  */
 html {
