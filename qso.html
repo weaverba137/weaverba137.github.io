@@ -1,98 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>QSO &mdash; B. A. Weaver</title>
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
-    <link rel="icon" type="image/x-icon" href="favicon.ico" />
-    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
-    <link rel="stylesheet" type="text/css" media="screen" href="public_html.css" />
-    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="flot/jquery.flot-0.8.3.js"></script>
-    <script type="text/javascript" src="flot/jquery.flot.fillbetween-0.8.3.js"></script>
-    <script type="text/javascript" src="flot/jquery.flot.selection-0.8.3.js"></script>
-    <script type="text/javascript" src="flot/jquery.flot.navigate-0.8.3.js"></script>
-    <script type="text/javascript" src="flot/jquery.flot.axislabels-2.0.js"></script>
-    <script type="text/javascript" src="js/qso.js"></script>
-</head>
-<body>
-<nav class="navbar navbar-default navbar-static-top">
-    <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="https://github.com/weaverba137/">GitHub</a>
-        </div>
-        <div id="navbar" class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
-                <li><a href="index.html">&#127968; Home</a></li>
-                <li><a href="pubs.html">&#128214; Publications</a></li>
-                <!-- <li><a href="job.html">&#128301; Work</a></li> -->
-                <!-- <li><a href="nz.html">&#128747; Travel</a></li> -->
-                <li><a href="links.html">&#128279; Links</a></li>
-                <li><a href="tests.html">&#9889; Tests</a></li>
-                <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="crange/">&#128293; dE/dx<span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="crange/index.html">Introduction</a></li>
-                        <li><a href="crange/absorb.html">Absorber Library</a></li>
-                        <li><a href="crange/recalc.html">Calculator</a></li>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>QSO &mdash; B. A. Weaver</title>
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+        <link rel="icon" type="image/x-icon" href="favicon.ico" />
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
+        <link rel="stylesheet" type="text/css" media="screen" href="public_html.css" />
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="flot/jquery.flot-0.8.3.js"></script>
+        <script type="text/javascript" src="flot/jquery.flot.fillbetween-0.8.3.js"></script>
+        <script type="text/javascript" src="flot/jquery.flot.selection-0.8.3.js"></script>
+        <script type="text/javascript" src="flot/jquery.flot.navigate-0.8.3.js"></script>
+        <script type="text/javascript" src="flot/jquery.flot.axislabels-2.0.js"></script>
+        <script type="text/javascript" src="js/qso.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-default navbar-static-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="https://github.com/weaverba137/">GitHub</a>
+                </div><!-- end class="navbar-header" -->
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html">&#127968; Home</a></li>
+                        <li><a href="pubs.html">&#128214; Publications</a></li>
+                        <!-- <li><a href="job.html">&#128301; Work</a></li> -->
+                        <!-- <li><a href="nz.html">&#128747; Travel</a></li> -->
+                        <li><a href="links.html">&#128279; Links</a></li>
+                        <li><a href="tests.html">&#9889; Tests</a></li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="crange/">&#128293; dE/dx<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="crange/index.html">Introduction</a></li>
+                                <li><a href="crange/absorb.html">Absorber Library</a></li>
+                                <li><a href="crange/recalc.html">Calculator</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown active">
+                            <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="fun/">&#127864; Amusements<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="hhh.html">HHH</a></li>
+                                <li><a href="qso.html">QSO</a></li>
+                                <li><a href="uqm.html">UQM</a></li>
+                            </ul>
+                        </li>
                     </ul>
-                </li>
-                <li class="dropdown active">
-                    <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="fun/">&#127864; Amusements<span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="hhh.html">HHH</a></li>
-                        <li><a href="qso.html">QSO</a></li>
-                        <li><a href="uqm.html">UQM</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </div><!-- end class="navbar-collapse" -->
-    </div><!-- end class="container" -->
-</nav><!-- end class="navbar" -->
-<div class="container">
-    <div class="row">
-        <div class="col-md-12">
-            <h1>QSO &mdash; B. A. Weaver</h1>
-        </div><!-- end class="col-md-12" -->
-    </div><!-- end class="row" --><div class="row">
-    <div class="col-md-4">
-        <h3>Object</h3>
-        <dl class="dl-horizontal">
-            <dt>Target ID</dt><dd id="targetid"></dd>
-            <dt>RA</dt><dd id="ra"></dd>
-            <dt>Dec</dt><dd id="dec"></dd>
-            <dt>Redshift</dt><dd id="redshift"></dd>
-            <dt>ZWARNING</dt><dd id="zwarn"></dd>
-            <dt>Type</dt><dd id="type"></dd>
-            <dt>Subtype</dt><dd id="subtype"></dd>
-            <dt>DESI_TARGET</dt><dd id="desi_target"></dd>
-            <dt>BGS_TARGET</dt><dd id="bgs_target"></dd>
-            <dt>MWS_TARGET</dt><dd id="mws_target"></dd>
-            <dt>Night</dt><dd id="night"></dd>
-            <dt>Exposure ID</dt><dd id="expid"></dd>
-            <dt>Tile ID</dt><dd id="tileid"></dd>
-        </dl>
-    </div>
-    <div class="col-md-8">
-        <h3>Spectrum</h3>
-        <div id="spectrum" style="width:600px;height:300px;padding:0;margin:10px auto;"></div>
-    </div>
-</div>
-<footer class="footer hidden-sm hidden-xs">
-<p class="text-muted">
-<img src="colorsep.gif" alt="Separator" class="separator" /><br />
-Created: 2018-05-16 19:02:14 -0700 (Wed, 16 May 2018)<br />
-Last modified: 2019-11-05 10:08:57 -0700 (Tue, 05 Nov 2019)</p>
-</footer>
-</div><!-- end class="container" -->
-</body>
+                </div><!-- end class="navbar-collapse" -->
+            </div><!-- end class="container" -->
+        </nav><!-- end class="navbar" -->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>QSO &mdash; B. A. Weaver</h1>
+                </div><!-- end class="col-md-12" -->
+            </div><!-- end class="row" -->
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>Object</h3>
+                    <dl class="dl-horizontal">
+                        <dt>Target ID</dt><dd id="targetid"></dd>
+                        <dt>RA</dt><dd id="ra"></dd>
+                        <dt>Dec</dt><dd id="dec"></dd>
+                        <dt>Redshift</dt><dd id="redshift"></dd>
+                        <dt>ZWARNING</dt><dd id="zwarn"></dd>
+                        <dt>Type</dt><dd id="type"></dd>
+                        <dt>Subtype</dt><dd id="subtype"></dd>
+                        <dt>DESI_TARGET</dt><dd id="desi_target"></dd>
+                        <dt>BGS_TARGET</dt><dd id="bgs_target"></dd>
+                        <dt>MWS_TARGET</dt><dd id="mws_target"></dd>
+                        <dt>Night</dt><dd id="night"></dd>
+                        <dt>Exposure ID</dt><dd id="expid"></dd>
+                        <dt>Tile ID</dt><dd id="tileid"></dd>
+                    </dl>
+                </div><!-- end class="col-md-4" -->
+                <div class="col-md-8">
+                    <h3>Spectrum</h3>
+                    <div id="spectrum" style="width:600px;height:300px;padding:0;margin:10px auto;"></div>
+                </div><!-- end class="col-md-8" -->
+            </div><!-- end class="row" -->
+            <footer class="footer hidden-sm hidden-xs">
+                <p><img src="colorsep.gif" alt="Separator" class="separator" /></p>
+                <ul class="list-unstyled">
+                    <li class="text-muted">Created: 2018-05-16 19:02:14 -0700 (Wed, 16 May 2018)</li>
+                    <li class="text-muted">Last modified: 2019-11-06 10:03:56 -0700 (Wed, 06 Nov 2019)</li>
+                </ul>
+            </footer>
+        </div><!-- end class="container" -->
+    </body>
 </html>
