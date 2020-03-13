@@ -23,6 +23,773 @@
                     "pages": "119",
                     "year": 1991,
                     "id": "1991ApJS...77..119M"
+                },
+                {
+                    "author": ["Ralf Bender", "David Burstein", "S. M. Faber"],
+                    "title": "Dynamically Hot Galaxies. I. Structural Properties",
+                    "journal": "Astrophys. J.",
+                    "volume": 399,
+                    "pages": "462",
+                    "year": 1992,
+                    "id": "1992ApJ...399..462B"
+                },
+                {
+                    "author": ["A. J. S. Hamilton"],
+                    "title": "Toward Better Ways to Measure the Galaxy Correlation Function",
+                    "journal": "Astrophys. J.",
+                    "volume": 417,
+                    "pages": "19",
+                    "year": 1993,
+                    "id": "1993ApJ...417...19H"
+                },
+                {
+                    "author": ["Chris Impey", "Greg Bothun"],
+                    "title": "Low Surface Brightness Galaxies",
+                    "journal": "Ann. Rev. Astron. Astrophys.",
+                    "volume": 35,
+                    "pages": "267",
+                    "year": 1997,
+                    "id": "1997ARA%26A..35..267I"
+                },
+                {
+                    "author": ["Michael A. Strauss", "et al."],
+                    "title": "Spectroscopic Target Selection in the Sloan Digital Sky Survey: The Main Galaxy Sample",
+                    "journal": "Astron. J.",
+                    "volume": 124,
+                    "pages": "1810",
+                    "year": 2002,
+                    "id": "2002AJ....124.1810S"
+                },
+                {
+                    "author": ["Mark SubbaRao", "et al."],
+                    "title": "The Sloan Digital Sky Survey 1-Dimensional Spectroscopic Pipeline",
+                    "conference": "Astronomical Data Analysis II",
+                    "journal": "SPIE Conference Series",
+                    "volume": 4847,
+                    "pages": "452",
+                    "year": 2002,
+                    "id": "2002SPIE.4847..452S"
+                },
+                {
+                    "author": ["Mariangela Bernardi", "et al."],
+                    "title": "Early-Type Galaxies in the Sloan Digital Sky Survey. I. The Sample",
+                    "journal": "Astron. J.",
+                    "volume": 125,
+                    "pages": "1817",
+                    "year": 2003,
+                    "id": "2003AJ....125.1817B"
+                },
+                {
+                    "author": ["Mariangela Bernardi", "et al."],
+                    "title": "Early-type Galaxies in the Sloan Digital Sky Survey. II. Correlations between Observables",
+                    "journal": "Astron. J.",
+                    "volume": 125,
+                    "pages": "1849",
+                    "year": 2003,
+                    "id": "2003AJ....125.1849B"
+                },
+                {
+                    "author": ["Mariangela Bernardi", "et al."],
+                    "title": "Early-Type Galaxies in the Sloan Digital Sky Survey. III. The Fundamental Plane",
+                    "journal": "Astron. J.",
+                    "volume": 125,
+                    "pages": "1866",
+                    "year": 2003,
+                    "id": "2003AJ....125.1866B"
+                },
+                {
+                    "author": ["Mariangela Bernardi", "et al."],
+                    "title": "Early-Type Galaxies in the Sloan Digital Sky Survey. IV. Colors and Chemical Evolution",
+                    "journal": "Astron. J.",
+                    "volume": 125,
+                    "pages": "1882",
+                    "year": 2003,
+                    "id": "2003AJ....125.1882B"
+                },
+                {
+                    "author": ["Christopher Hirata", "Uroš Seljak"],
+                    "title": "Shear calibration biases in weak-lensing surveys",
+                    "journal": "Mon. Not. Roy. Ast. Soc.",
+                    "volume": 343,
+                    "pages": "459",
+                    "year": 2003,
+                    "id": "2003MNRAS.343..459H"
+                },
+                {
+                    "author": ["A. J. S. Hamilton", "Max Tegmark"],
+                    "title": "A scheme to deal accurately and efficiently with complex angular masks in galaxy surveys",
+                    "journal": "Mon. Not. Roy. Ast. Soc.",
+                    "volume": 349,
+                    "pages": "115",
+                    "year": 2004,
+                    "id": "2004MNRAS.349..115H"
+                },
+                {
+                    "author": ["Robert Lupton", "et al."],
+                    "title": "Preparing Red-Green-Blue Images from CCD Data",
+                    "journal": "Pub. Ast. Soc. Pacific",
+                    "volume": 116,
+                    "pages": "133",
+                    "year": 2004,
+                    "id": "2004PASP..116..133L"
+                },
+                {
+                    "author": ["Michael R. Blanton", "et al."],
+                    "title": "New York University Value-Added Galaxy Catalog: A Galaxy Catalog Based on New Public Surveys",
+                    "journal": "Astron. J.",
+                    "volume": 129,
+                    "pages": "2562",
+                    "year": 2005,
+                    "id": "2005AJ....129.2562B"
+                },
+                {
+                    "author": ["Michael R. Blanton", "et al."],
+                    "title": "Relationship between Environment and the Broadband Optical Properties of Galaxies in the Sloan Digital Sky Survey",
+                    "journal": "Astrophys. J.",
+                    "volume": 629,
+                    "pages": "143",
+                    "year": 2005,
+                    "id": "2005ApJ...629..143B"
+                },
+                {
+                    "author": ["Michele Cappellari", "et al."],
+                    "title": "The SAURON project - IV. The mass-to-light ratio, the virial mass estimator and the Fundamental Plane of elliptical and lenticular galaxies",
+                    "journal": "Mon. Not. Roy. Ast. Soc.",
+                    "volume": 366,
+                    "pages": "1126",
+                    "year": 2006,
+                    "id": "2006MNRAS.366.1126C"
+                },
+                {
+                    "author": ["Michael R. Blanton", "Sam Roweis"],
+                    "title": "K-Corrections and Filter Transformations in the Ultraviolet, Optical, and Near-Infrared",
+                    "journal": "Astron. J.",
+                    "volume": 133,
+                    "pages": "734",
+                    "year": 2007,
+                    "id": "2007AJ....133..734B"
+                },
+                {
+                    "author": ["Brandon C. Kelly"],
+                    "title": "Some Aspects of Measurement Error in Linear Regression of Astronomical Data",
+                    "journal": "Astrophys. J.",
+                    "volume": 665,
+                    "pages": "1489",
+                    "year": 2007,
+                    "id": "2007ApJ...665.1489K"
+                },
+                {
+                    "author": ["Adam S. Bolton", "et al."],
+                    "title": "A More Fundamental Plane",
+                    "journal": "Astrophys. J.",
+                    "volume": 665,
+                    "pages": "L105",
+                    "year": 2007,
+                    "id": "2007ApJ...665L.105B"
+                },
+                {
+                    "author": ["Michele Cappellari", "et al."],
+                    "title": "The SAURON project - X. The orbital anisotropy of elliptical and lenticular galaxies: revisiting the (V/σ, ∊) diagram with integral-field stellar kinematics",
+                    "journal": "Mon. Not. Roy. Ast. Soc.",
+                    "volume": 379,
+                    "pages": "418",
+                    "year": 2007,
+                    "id": "2007MNRAS.379..418C"
+                },
+                {
+                    "author": ["Paul Hickson", "et al."],
+                    "title": "The Large Zenith Telescope: A 6 m Liquid-Mirror Telescope",
+                    "journal": "Pub. Ast. Soc. Pacific",
+                    "volume": 119,
+                    "pages": "444",
+                    "year": 2007,
+                    "id": "2007PASP..119..444H"
+                },
+                {
+                    "author": ["Nikhil Padmanabhan", "et al."],
+                    "title": "An Improved Photometric Calibration of the Sloan Digital Sky Survey Imaging Data",
+                    "journal": "Astrophys. J.",
+                    "volume": 674,
+                    "pages": "1217",
+                    "year": 2008,
+                    "id": "2008ApJ...674.1217P"
+                },
+                {
+                    "author": ["Adam S. Bolton", "et al."],
+                    "title": "The Sloan Lens ACS Survey. VII. Elliptical Galaxy Scaling Laws from Direct Observational Mass Measurements",
+                    "journal": "Astrophys. J.",
+                    "volume": 684,
+                    "pages": "248",
+                    "year": 2008,
+                    "id": "2008ApJ...684..248B"
+                },
+                {
+                    "author": ["Eric H. Neilsen, Jr."],
+                    "title": "The Sloan Digital Sky Survey Data Archive Server",
+                    "journal": "Comp. Sci. Eng.",
+                    "volume": 10,
+                    "pages": "13",
+                    "year": 2008,
+                    "id": "2008CSE....10...13N"
+                },
+                {
+                    "author": ["M. E. C. Swanson", "et al."],
+                    "title": "Methods for rapidly processing angular masks of next-generation galaxy surveys",
+                    "journal": "Mon. Not. Roy. Ast. Soc.",
+                    "volume": 387,
+                    "pages": "1391",
+                    "year": 2008,
+                    "id": "2008MNRAS.387.1391S"
+                },
+                {
+                    "author": ["Tamás Budavári", "et al."],
+                    "title": "GALEX-SDSS Catalogs for Statistical Studies",
+                    "journal": "Astrophys. J.",
+                    "volume": 694,
+                    "pages": "1281",
+                    "year": 2009,
+                    "id": "2009ApJ...694.1281B"
+                },
+                {
+                    "author": ["Kayhan Gültekin", "et al."],
+                    "title": "The Fundamental Plane of Accretion onto Black Holes with Dynamical Masses",
+                    "journal": "Astrophys. J.",
+                    "volume": 706,
+                    "pages": "404",
+                    "year": 2009,
+                    "id": "2009ApJ...706..404G"
+                },
+                {
+                    "author": ["E. Zackrisson", "G. Micheva", "G. Östlin"],
+                    "title": "How the extinction of extragalactic background light affects surface photometry of galaxies, groups and clusters",
+                    "journal": "Mon. Not. Roy. Ast. Soc.",
+                    "volume": 397,
+                    "pages": "2057",
+                    "year": 2009,
+                    "id": "2009MNRAS.397.2057Z"
+                },
+                {
+                    "author": ["Francisco S. Kitaura", "et al."],
+                    "title": "Cosmic cartography of the large-scale structure with Sloan Digital Sky Survey data release 6",
+                    "journal": "Mon. Not. Roy. Ast. Soc.",
+                    "volume": 400,
+                    "pages": "183",
+                    "year": 2009,
+                    "id": "2009MNRAS.400..183K"
+                },
+                {
+                    "author": ["Mamoru Doi", "et al."],
+                    "title": "Photometric Response Functions of the Sloan Digital Sky Survey Imager",
+                    "journal": "Astron. J.",
+                    "volume": 139,
+                    "pages": "1628",
+                    "year": 2010,
+                    "id": "2010AJ....139.1628D"
+                },
+                {
+                    "author": ["Dustin Lang", "et al."],
+                    "title": "Astrometry.net: Blind Astrometric Calibration of Arbitrary Astronomical Images",
+                    "journal": "Astron. J.",
+                    "volume": 139,
+                    "pages": "1782",
+                    "year": 2010,
+                    "id": "2010AJ....139.1782L"
+                },
+                {
+                    "author": ["M. Fitzpatrick"],
+                    "title": "DTS: The NOAO Data Transport System",
+                    "conference": "Astronomical Data Analysis Software and Systems XIX (Sapporo, 2009)",
+                    "journal": "Astronomical Society of the Pacific",
+                    "volume": 434,
+                    "pages": "260",
+                    "year": 2010,
+                    "id": "2010ASPC..434..260F"
+                },
+                {
+                    "author": ["Sergey E. Koposov", "Hans-Walter Rix", "David W. Hogg"],
+                    "title": "Constraining the Milky Way Potential with a Six-Dimensional Phase-Space Map of the GD-1 Stellar Stream",
+                    "journal": "Astrophys. J.",
+                    "volume": 712,
+                    "pages": "260",
+                    "year": 2010,
+                    "id": "2010ApJ...712..260K"
+                },
+                {
+                    "author": ["Guangtun Zhu", "Michael R. Blanton", "John Moustakas"],
+                    "title": "Stellar Populations of Elliptical Galaxies in the Local Universe",
+                    "journal": "Astrophys. J.",
+                    "volume": 722,
+                    "pages": "491",
+                    "year": 2010,
+                    "id": "2010ApJ...722..491Z"
+                },
+                {
+                    "author": ["Graziano Rossi", "Ravi K. Sheth", "Changbom Park"],
+                    "title": "Reconstructing galaxy fundamental distributions and scaling relations from photometric redshift surveys. Applications to the SDSS early-type sample",
+                    "journal": "Mon. Not. Roy. Ast. Soc.",
+                    "volume": 401,
+                    "pages": "666",
+                    "year": 2010,
+                    "id": "2010MNRAS.401..666R"
+                },
+                {
+                    "author": ["Adrian M. Price-Whelan", "David W. Hogg"],
+                    "title": "What Bandwidth Do I Need for My Image?",
+                    "journal": "Pub. Ast. Soc. Pacific",
+                    "volume": 122,
+                    "pages": "207",
+                    "year": 2010,
+                    "id": "2010PASP..122..207P"
+                },
+                {
+                    "author": ["Adam S. Bolton", "David J. Schlegel"],
+                    "title": "Spectro-Perfectionism: An Algorithmic Framework for Photon Noise-Limited Extraction of Optical Fiber Spectroscopy",
+                    "journal": "Pub. Ast. Soc. Pacific",
+                    "volume": 122,
+                    "pages": "248",
+                    "year": 2010,
+                    "id": "2010PASP..122..248B"
+                },
+                {
+                    "author": ["Allan H. Sørensen"],
+                    "title": "Bremsstrahlung from relativistic heavy ions in matter",
+                    "journal": "Phys. Rev. A",
+                    "volume": 81,
+                    "pages": "022901",
+                    "year": 2010,
+                    "id": "2010PhRvA..81b2901S"
+                },
+                {
+                    "author": ["Michael J. Fitzpatrick"],
+                    "title": "DTS: the NOAO Data Transport System",
+                    "journal": "Proc. SPIE",
+                    "volume": 7737,
+                    "pages": "77371T",
+                    "year": 2010,
+                    "id": "2010SPIE.7737E..1TF"
+                },
+                {
+                    "author": ["Jo Bovy", "David W. Hogg", "Sam T. Roweis"],
+                    "title": "Extreme deconvolution: Inferring complete distribution functions from noisy, heterogeneous and incomplete observations",
+                    "journal": "Ann. App. Stat.",
+                    "volume": 5,
+                    "pages": "1657",
+                    "year": 2011,
+                    "id": "2011AnApS...5.1657B"
+                },
+                {
+                    "author": ["Dennis Zaritsky", "Ann I. Zabludoff", "Anthony H. Gonzalez"],
+                    "title": "Star Clusters, Galaxies, and the Fundamental Manifold",
+                    "journal": "Astrophys. J.",
+                    "volume": 727,
+                    "pages": "116",
+                    "year": 2011,
+                    "id": "2011ApJ...727..116Z"
+                },
+                {
+                    "author": ["P. Tsalmantza", "R. Decarli", "M. Dotti", "David W. Hogg"],
+                    "title": "A Systematic Search for Massive Black Hole Binaries in the Sloan Digital Sky Survey Spectroscopic Sample",
+                    "journal": "Astrophys. J.",
+                    "volume": 738,
+                    "pages": "20",
+                    "year": 2011,
+                    "id": "2011ApJ...738...20T"
+                },
+                {
+                    "author": ["Hiroaki Aihara", "et al."],
+                    "title": "Erratum: 'The Eighth Data Release of the Sloan Digital Sky Survey: First Data from SDSS-III'",
+                    "journal": "Astrophys. J. Supp.",
+                    "volume": 195,
+                    "pages": "26",
+                    "year": 2011,
+                    "id": "2011ApJS..195...26A"
+                },
+                {
+                    "author": ["Ewan Cameron"],
+                    "title": "On the Estimation of Confidence Intervals for Binomial Population Proportions in Astronomy: The Simplicity and Superiority of the Bayesian Approach",
+                    "journal": "Pub. Ast. Soc. Aust.",
+                    "volume": 28,
+                    "pages": "128",
+                    "year": 2011,
+                    "id": "2011PASA...28..128C"
+                },
+                {
+                    "author": ["D. Homrighausen", "et al."],
+                    "title": "Image Co-Addition with Temporally Varying Kernels",
+                    "journal": "Pub. Ast. Soc. Pacific",
+                    "volume": 123,
+                    "pages": "1117",
+                    "year": 2011,
+                    "id": "2011PASP..123.1117H"
+                },
+                {
+                    "author": ["P. Tsalmantza", "David W. Hogg"],
+                    "title": "A Data-driven Model for Spectra: Finding Double Redshifts in the Sloan Digital Sky Survey",
+                    "journal": "Astrophys. J.",
+                    "volume": 753,
+                    "pages": "122",
+                    "year": 2012,
+                    "id": "2012ApJ...753..122T"
+                },
+                {
+                    "author": ["Ross Fadely", "David W. Hogg", "Beth Willman"],
+                    "title": "Star-Galaxy Classification in Multi-band Optical Imaging",
+                    "journal": "Astrophys. J.",
+                    "volume": 760,
+                    "pages": "15",
+                    "year": 2012,
+                    "id": "2012ApJ...760...15F"
+                },
+                {
+                    "author": ["N. Kamennoff", "S. Foucaud", "S. Reybier"],
+                    "title": "Development of an Astrophysical Specific Language for Big Data Computation",
+                    "conference": "Astronomical Data Analysis Software and Systems XXII (Champaign, 2012)",
+                    "journal": "Astronomical Society of the Pacific",
+                    "volume": 475,
+                    "pages": "87",
+                    "year": 2013,
+                    "id": "2013ASPC..475...87K"
+                },
+                {
+                    "author": ["A. Allen", "et al."],
+                    "title": "Bring out your codes! Bring out your codes! (Increasing Software Visibility and Re-use)",
+                    "conference": "Astronomical Data Analysis Software and Systems XXII (Champaign, 2012)",
+                    "journal": "Astronomical Society of the Pacific",
+                    "volume": 475,
+                    "pages": "383",
+                    "year": 2013,
+                    "id": "2013ASPC..475..383A"
+                },
+                {
+                    "author": ["D. Burger", "et al."],
+                    "title": "Filtergraph: A Flexible Web Application for Instant Data Visualization of Astronomy Datasets",
+                    "conference": "Astronomical Data Analysis Software and Systems XXII (Champaign, 2012)",
+                    "journal": "Astronomical Society of the Pacific",
+                    "volume": 475,
+                    "pages": "399",
+                    "year": 2013,
+                    "id": "2013ASPC..475..399B"
+                },
+                {
+                    "author": ["D. M. Bramich", "W. Freudling"],
+                    "title": "Systematic trends in Sloan Digital Sky Survey photometric data",
+                    "journal": "Mon. Not. Roy. Ast. Soc.",
+                    "volume": 424,
+                    "pages": "1584",
+                    "year": 2012,
+                    "id": "2012MNRAS.424.1584B"
+                },
+                {
+                    "author": ["Stephen Bailey"],
+                    "title": "Principal Component Analysis with Noisy and/or Missing Data",
+                    "journal": "Pub. Ast. Soc. Pacific",
+                    "volume": 124,
+                    "pages": "1015",
+                    "year": 2012,
+                    "id": "2012PASP..124.1015B"
+                },
+                {
+                    "author": ["R. Deshpande", "et al."],
+                    "title": "The SDSS-III APOGEE Radial Velocity Survey of M Dwarfs. I. Description of the Survey and Science Goals",
+                    "journal": "Astron. J.",
+                    "volume": 146,
+                    "pages": "156",
+                    "year": 2013,
+                    "id": "2013AJ....146..156D"
+                },
+                {
+                    "author": ["P. Paykari", "A. H. Jaffe"],
+                    "title": "Sparsely sampling the sky: a Bayesian experimental design approach",
+                    "journal": "Mon. Not. Roy. Ast. Soc.",
+                    "volume": 433,
+                    "pages": "3523",
+                    "year": 2013,
+                    "id": "2013MNRAS.433.3523P"
+                },
+                {
+                    "author": ["T. Pfrommer", "P. Hickson"],
+                    "title": "High resolution mesospheric sodium properties for adaptive optics applications",
+                    "journal": "Astron. &amp; Astrophys.",
+                    "volume": 565,
+                    "pages": "A102",
+                    "year": 2014,
+                    "id": "2014A%26A...565A.102P"
+                },
+                {
+                    "author": ["L. Michel", "C. Motch", "H. N. Nguyen", "F. X. Pineau"],
+                    "title": "Building an archive with Saada",
+                    "journal": "Astron. &amp; Comput.",
+                    "volume": 7,
+                    "pages": "45",
+                    "year": 2014,
+                    "id": "2014A%26C.....7...45M"
+                },
+                {
+                    "author": ["Dustin Lang"],
+                    "title": "unWISE: Unblurred Coadds of the WISE Imaging",
+                    "journal": "Astron. J.",
+                    "volume": 147,
+                    "pages": "108",
+                    "year": 2014,
+                    "id": "2014AJ....147..108L"
+                },
+                {
+                    "author": ["M. Fitzpatrick", "T. Semple"],
+                    "title": "DTS: The NOAO Data Transport System",
+                    "conference": "Astronomical Data Analysis Software and Systems XXIII (Honolulu, 2014)",
+                    "journal": "Astronomical Society of the Pacific",
+                    "volume": 485,
+                    "pages": "109",
+                    "year": 2014,
+                    "id": "2014ASPC..485..109F"
+                },
+                {
+                    "author": ["Frédéric P. A. Vogt", "et al."],
+                    "title": "Galaxy Emission Line Classification Using Three-dimensional Line Ratio Diagrams",
+                    "journal": "Astrophys. J.",
+                    "volume": 793,
+                    "pages": "127",
+                    "year": 2014,
+                    "id": "2014ApJ...793..127V"
+                },
+                {
+                    "author": ["Daniel Foreman-Mackey", "David W. Hogg", "Timothy D. Morton"],
+                    "title": "Exoplanet Population Inference and the Abundance of Earth Analogs from Noisy, Incomplete Catalogs",
+                    "journal": "Astrophys. J.",
+                    "volume": 795,
+                    "pages": "64",
+                    "year": 2014,
+                    "id": "2014ApJ...795...64F"
+                },
+                {
+                    "author": ["Richard Beare", "Michael J. I. Brown", "Kevin Pimbblet"],
+                    "title": "An Accurate New Method of Calculating Absolute Magnitudes and K-corrections Applied to the Sloan Filter Set",
+                    "journal": "Astrophys. J.",
+                    "volume": 797,
+                    "pages": "104",
+                    "year": 2014,
+                    "id": "2014ApJ...797..104B"
+                },
+                {
+                    "author": ["P. Antilogus", "et al."],
+                    "title": "The brighter-fatter effect and pixel correlations in CCD sensors",
+                    "journal": "J. Inst.",
+                    "volume": 9,
+                    "pages": "C03048",
+                    "year": 2014,
+                    "id": "2014JInst...9C3048A"
+                },
+                {
+                    "author": ["Alice Allen", "Judy Schmidt"],
+                    "title": "Looking before Leaping: Creating a Software Registry",
+                    "journal": "J. Open Source Soft.",
+                    "volume": 3,
+                    "pages": "15",
+                    "year": 2015,
+                    "id": "2015JORS....3E..15A"
+                },
+                {
+                    "author": ["M. Fitzpatrick", "et al."],
+                    "title": "The NOAO Data Laboratory: a conceptual overview",
+                    "journal": "Proc. SPIE",
+                    "volume": 9149,
+                    "pages": "91491T",
+                    "year": 2014,
+                    "id": "2014SPIE.9149E..1TF"
+                },
+                {
+                    "author": ["J. Akeret", "L. Gamper", "A. Amara", "A. Refregier"],
+                    "title": "HOPE: A Python just-in-time compiler for astrophysical computations",
+                    "journal": "Astron. &amp; Comput.",
+                    "volume": 10,
+                    "pages": "1",
+                    "year": 2015,
+                    "id": "2015A%26C....10....1A"
+                },
+                {
+                    "author": ["E. Bertin", "R. Pillay", "C. Marmo"],
+                    "title": "Web-based visualization of very large scientific astronomy imagery",
+                    "journal": "Astron. &amp; Comput.",
+                    "volume": 10,
+                    "pages": "43",
+                    "year": 2015,
+                    "id": "2015A%26C....10...43B"
+                },
+                {
+                    "author": ["R. J. Hanisch", "et al."],
+                    "title": "The Virtual Astronomical Observatory: Re-engineering access to astronomical data",
+                    "journal": "Astron. &amp; Comput.",
+                    "volume": 11,
+                    "pages": "190",
+                    "year": 2015,
+                    "id": "2015A%26C....11..190H"
+                },
+                {
+                    "author": ["B. Thomas", "et al."],
+                    "title": "Learning from FITS: Limitations in use in modern astronomical research",
+                    "journal": "Astron. &amp; Comput.",
+                    "volume": 12,
+                    "pages": "133",
+                    "year": 2015,
+                    "id": "2015A%26C....12..133T"
+                },
+                {
+                    "author": ["Sarah J. Schmidt", "et al."],
+                    "title": "BOSS Ultracool Dwarfs. I. Colors and Magnetic Activity of M and L Dwarfs",
+                    "journal": "Astron. J.",
+                    "volume": 149,
+                    "pages": "158",
+                    "year": 2015,
+                    "id": "2015AJ....149..158S"
+                },
+                {
+                    "author": ["E. F. Borra"],
+                    "title": "Validation of Observations Obtained with a Liquid Mirror Telescope by Comparison with Sloan Digital Sky Survey Observations",
+                    "journal": "Astron. J.",
+                    "volume": 149,
+                    "pages": "185",
+                    "year": 2015,
+                    "id": "2015AJ....149..185B"
+                },
+                {
+                    "author": ["M. Fitzpatrick", "et al."],
+                    "title": "The NOAO Data Lab",
+                    "conference": "Astronomical Data Analysis Software and Systems XXIV (Calgary, 2015)",
+                    "journal": "Astronomical Society of the Pacific",
+                    "volume": 495,
+                    "pages": "215",
+                    "year": 2015,
+                    "id": "2015ASPC..495..215F"
+                },
+                {
+                    "author": ["R. Seaman"],
+                    "title": "Data Engineering for Archive Evolution",
+                    "conference": "Astronomical Data Analysis Software and Systems XXIV (Calgary, 2015)",
+                    "journal": "Astronomical Society of the Pacific",
+                    "volume": 495,
+                    "pages": "567",
+                    "year": 2015,
+                    "id": "2015ASPC..495..567S"
+                },
+                {
+                    "author": ["Dan Taranu", "John Dubinski", "H. K. C. Yee"],
+                    "title": "Mergers in Galaxy Groups. II. The Fundamental Plane of Elliptical Galaxies",
+                    "journal": "Astrophys. J.",
+                    "volume": 803,
+                    "pages": "78",
+                    "year": 2015,
+                    "id": "2015ApJ...803...78T"
+                },
+                {
+                    "author": ["Jacob T. VanderPlas", "Željko Ivezić"],
+                    "title": "Periodograms for Multiband Astronomical Time Series",
+                    "journal": "Astrophys. J.",
+                    "volume": 812,
+                    "pages": "18",
+                    "year": 2015,
+                    "id": "2015ApJ...812...18V"
+                },
+                {
+                    "author": ["S. Desai", "et al."],
+                    "title": "Detection and removal of artifacts in astronomical images",
+                    "journal": "Astron. &amp; Comput.",
+                    "volume": 16,
+                    "pages": "67",
+                    "year": 2016,
+                    "id": "2016A%26C....16...67D"
+                },
+                {
+                    "author": ["Mike A. Specian", "Alex S. Szalay"],
+                    "title": "Photometric and Spectroscopic Footprint Corrections in the Sloan Digital Sky Survey's 6th Data Release",
+                    "journal": "Astrophys. J.",
+                    "volume": 820,
+                    "pages": "115",
+                    "year": 2016,
+                    "id": "2016ApJ...820..115S"
+                },
+                {
+                    "author": ["Jonathan Blazek", "Uroš Seljak", "Rachel Mandelbaum"],
+                    "title": "Frequentism and Bayesianism: A Python-driven Primer",
+                    "conference": "The Zeldovich Universe: Genesis and Growth of the Cosmic Web",
+                    "journal": "IAU Symposium",
+                    "volume": 308,
+                    "pages": "452",
+                    "year": 2016,
+                    "id": "2016IAUS..308..452B"
+                },
+                {
+                    "author": ["Beth Reid", "et al."],
+                    "title": "SDSS-III Baryon Oscillation Spectroscopic Survey Data Release 12: galaxy target selection and large-scale structure catalogues",
+                    "journal": "Mon. Not. Roy. Ast. Soc.",
+                    "volume": 455,
+                    "pages": "1553",
+                    "year": 2016,
+                    "id": "2016MNRAS.455.1553R"
+                },
+                {
+                    "author": ["Nikhil Padmanabhan", "Martin White", "Harrison H. Zhou", "Ross O'Connell"],
+                    "title": "Estimating sparse precision matrices",
+                    "journal": "Mon. Not. Roy. Ast. Soc.",
+                    "volume": 460,
+                    "pages": "1567",
+                    "year": 2016,
+                    "id": "2016MNRAS.460.1567P"
+                },
+                {
+                    "author": ["Changde Du", "et al."],
+                    "title": "An Efficient Method for Rare Spectra Retrieval in Astronomical Databases",
+                    "journal": "Pub. Ast. Soc. Pacific",
+                    "volume": 128,
+                    "pages": "034502",
+                    "year": 2016,
+                    "id": "2016PASP..128c4502D"
+                },
+                {
+                    "author": ["T. Butler-Yeoman", "et al."],
+                    "title": "Detecting Diffuse Sources in Astronomical Images",
+                    "conference": "Astronomical Data Analysis Software and Systems XXV (Sydney, 2015)",
+                    "journal": "Astronomical Society of the Pacific",
+                    "volume": 512,
+                    "pages": "217",
+                    "year": 2017,
+                    "id": "2017ASPC..512..217B"
+                },
+                {
+                    "author": ["P. Mohan", "C. Hawkins", "R. Klapaukh", "M. Johnston-Hollitt"],
+                    "title": "Three Tools to Aid Visualisation of FITS Files for Astronomy",
+                    "conference": "Astronomical Data Analysis Software and Systems XXV (Sydney, 2015)",
+                    "journal": "Astronomical Society of the Pacific",
+                    "volume": 512,
+                    "pages": "465",
+                    "year": 2017,
+                    "id": "2017ASPC..512..465M"
+                },
+                {
+                    "author": ["Kevin Schawinski", "et al."],
+                    "title": "Generative adversarial networks recover features in astrophysical images of galaxies beyond the deconvolution limit",
+                    "journal": "Mon. Not. Roy. Ast. Soc.",
+                    "volume": 467,
+                    "pages": "L110",
+                    "year": 2017,
+                    "id": "2017MNRAS.467L.110S"
+                },
+                {
+                    "author": ["Manasvi Lingam", "Abraham Loeb"],
+                    "title": "Implications of Captured Interstellar Objects for Panspermia and Extraterrestrial Life",
+                    "journal": "Astron. J.",
+                    "volume": 156,
+                    "pages": "193",
+                    "year": 2018,
+                    "id": "2018AJ....156..193L"
+                },
+                {
+                    "author": ["Stephen M. Kent"],
+                    "title": "Non-axisymmetric Aberration Patterns from Wide-field Telescopes Using Spin-weighted Zernike Polynomials",
+                    "journal": "Pub. Ast. Soc. Pacific",
+                    "volume": 130,
+                    "pages": "044501",
+                    "year": 2018,
+                    "id": "2018PASP..130d4501K"
                 }
             ]
         },

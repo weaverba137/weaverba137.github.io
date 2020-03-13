@@ -59,6 +59,9 @@ $(function() {
         } else {
           u = "https://ui.adsabs.harvard.edu/abs/" + r.id + "/abstract";
           j = r.journal.replace(/ +/g, "&nbsp;");
+          if (r.conference != null) {
+            h.push("&ldquo;" + r.conference + "&rdquo;");
+          }
           h.push("<em>" + j + "</em> <strong>" + r.volume + "</strong> (" + r.year + ") " + r.pages);
         }
         p = $("<p/>").addClass("pub");
