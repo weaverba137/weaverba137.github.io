@@ -1,12 +1,60 @@
 $( () ->
     #
-    #
+    # Empty object to hold JSON data.
     #
     P = {}
-        #
-        #
-        #
+    #
+    # Render article data.
+    #
+    renderArticle = (article) ->
+        if article.author[article.author.length-1] == "et al."
+            article.author[article.author.length-1] = "<em>et al.</em>"
+        authors = (au.replace(/ +/g, "&nbsp;") for au in article.author).join(", ")
+        title = "&ldquo;#{article.title}&rdquo;"
+        h = [authors, title]
+        number = if article.number? then "(#{article.number})" else ""
+        if article.journal?
+            if article.url?
+                u = article.url
+            else
+                if article.id?
+                    u = "https://ui.adsabs.harvard.edu/abs/#{article.id}/abstract"
+                else
+                    u = null
+            j = article.journal.replace(/ +/g, "&nbsp;")
+            if article.conference?
+                h.push "&ldquo;#{article.conference}&rdquo;"
+            h.push "<em>#{j}</em> <strong>#{article.volume}</strong>#{number} (#{article.year}) #{article.pages}"
+        else
+            #
+            # Assume arXiv
+            #
+            u = "https://arxiv.org/abs/#{article.id}"
+            h.push "arXiv:#{article.id}"
+        p = $("<p/>").addClass("pub")
+        if u?
+            a = $("<a/>").attr("href", u).html(h.join(", ") + ".")
+            a.appendTo p
+        else
+            p = p.html(h.join(", ") + ".")
+        p
+    #
+    # Render a set of articles.
+    #
+    renderArticles = (articles) ->
+        for own k, v of articles
+            div = $("##{k}")
+            div.empty()
+            h3 = $("<h3/>").html(v.title).appendTo div
+            for r in v.data
+                p = renderArticle r
+                p.appendTo div
+        div
+    #
+    # Main function.
+    #
     display = () ->
+        renderArticles P.articles
         for own k, v of P.notices
             div = $("##{k}")
             div.empty()
@@ -22,32 +70,10 @@ $( () ->
                     u = v.url.replace(/%d/, d)
                 a.push "<a href=\"#{u}\">#{d}</a>"
             p = $("<p/>").html(a.join ", ").appendTo div
-        for own k, v of P.other
-            div = $("##{k}")
-            div.empty()
-            h3 = $("<h3/>").html(v.title).appendTo div
-            for r in v.data
-                if r.author[r.author.length-1] == "et al."
-                    r.author[r.author.length-1] = "<em>et al.</em>"
-                authors = (au.replace(/ +/g, "&nbsp;") for au in r.author).join(", ")
-                title = "&ldquo;#{r.title}&rdquo;"
-                h = [authors, title]
-                if k == "arXiv"
-                    u = "https://arxiv.org/abs/#{r.id}"
-                    h.push "#{k}:#{r.id}"
-                else
-                    u = "https://ui.adsabs.harvard.edu/abs/#{r.id}/abstract"
-                    j = r.journal.replace(/ +/g, "&nbsp;")
-                    if r.conference?
-                        h.push "&ldquo;#{r.conference}&rdquo;"
-                    h.push "<em>#{j}</em> <strong>#{r.volume}</strong> (#{r.year}) #{r.pages}"
-                p = $("<p/>").addClass("pub")
-                a = $("<a/>").attr("href", u).html(h.join(", ") + ".")
-                a.appendTo p
-                p.appendTo div
+        renderArticles P.other
         true
     #
-    #
+    # Load JSON.
     #
     if $.isEmptyObject P
         $.getJSON('pubs.json', {}, (data) -> P = data).fail( () -> alert("Data retrieval error!") ).done(display)

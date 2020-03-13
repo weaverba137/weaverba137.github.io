@@ -1,4 +1,91 @@
 {
+    "articles": {
+        "decals": {
+            "title": "The DESI Legacy Imaging Surveys",
+            "data": [
+                {
+                    "author": ["Arjun Dey", "et al."],
+                    "title": "Overview of the DESI Legacy Imaging Surveys",
+                    "journal": "Astron. J.",
+                    "volume": 157,
+                    "pages": "168",
+                    "year": 2019,
+                    "id": "2019AJ....157..168D"
+                },
+                {
+                    "author": ["X. Huang", "et al."],
+                    "title": "Finding Strong Gravitational Lenses in the DESI DECam Legacy Survey",
+                    "id": "1906.00970"
+                },
+                {
+                    "author": ["E. Kitanidis", "et al."],
+                    "title": "Imaging Systematics and Clustering of DESI Main Targets",
+                    "id": "1911.05714"
+                },
+                {
+                    "author": ["Kaylan J. Burleigh", "et al."],
+                    "title": "Observing Strategy for the Legacy Surveys",
+                    "id": "2002.05828"
+                }
+            ]
+        },
+        "other": {
+            "title": "Other Publications",
+            "data": [
+                {
+                    "author": ["R. Dörner", "et al."],
+                    "title": "Ratio of Cross Sections for Double to Single Ionization of He by 85&ndash;400 eV Photons",
+                    "journal": "Phys. Rev. Lett.",
+                    "volume": 76,
+                    "pages": "2654&ndash;2657",
+                    "year": 1996,
+                    "id": "1996PhRvL..76.2654D"
+                },
+                {
+                    "author": ["A. Guglielmetti", "et al."],
+                    "title": "Nonobservation of <sup>12</sup>C cluster decay of <sup>114</sup>Ba",
+                    "journal": "Phys. Rev. C",
+                    "volume": 56,
+                    "pages": "R2912&ndash;R2916",
+                    "year": 1997,
+                    "id": "1997PhRvC..56.2912G"
+                },
+                {
+                    "author": ["B. Weaver"],
+                    "title": "Organizing in the Lab",
+                    "journal": "Academe",
+                    "volume": 94,
+                    "number": 6,
+                    "pages": "22",
+                    "year": 2008,
+                    "url": "http://www.aaup.org/AAUP/pubsres/academe/2008/ND/Feat/weav.htm"
+                },
+                {
+                    "author": ["Thomas P. Robitaille", "et al."],
+                    "title": "Astropy: A Community Python Package for Astronomy",
+                    "journal": "Astron. &amp; Astrophys.",
+                    "volume": 558,
+                    "pages": "A33",
+                    "year": 2013,
+                    "id": "2013A%26A...558A..33A"
+                },
+                {
+                    "author": ["The Astropy Collaboration", "A. M. Price-Whelan", "et al."],
+                    "title": "The Astropy Project: Building an Inclusive, Open-science Project and Status of the v2.0 Core Package",
+                    "journal": "Astron. J.",
+                    "volume": 156,
+                    "pages": "123",
+                    "year": 2018,
+                    "id": "2018AJ....156..123T"
+                },
+                {
+                    "author": ["Knut Olsen", "et al."],
+                    "title": "The Data Lab: A Science Platform for the analysis of ground-based astronomical survey data",
+                    "id": "1908.00664"
+                }
+            ]
+        }
+    },
     "notices": {
         "astronomerstelegram": {
             "title": "The Astronomer's Telegram",

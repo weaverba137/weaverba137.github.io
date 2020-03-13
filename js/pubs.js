@@ -1,10 +1,74 @@
 var hasProp = {}.hasOwnProperty;
 
 $(function() {
-  var P, display;
+  var P, display, renderArticle, renderArticles;
   P = {};
+  renderArticle = function(article) {
+    var a, au, authors, h, j, number, p, title, u;
+    if (article.author[article.author.length - 1] === "et al.") {
+      article.author[article.author.length - 1] = "<em>et al.</em>";
+    }
+    authors = ((function() {
+      var i, len, ref, results;
+      ref = article.author;
+      results = [];
+      for (i = 0, len = ref.length; i < len; i++) {
+        au = ref[i];
+        results.push(au.replace(/ +/g, "&nbsp;"));
+      }
+      return results;
+    })()).join(", ");
+    title = "&ldquo;" + article.title + "&rdquo;";
+    h = [authors, title];
+    number = article.number != null ? "(" + article.number + ")" : "";
+    if (article.journal != null) {
+      if (article.url != null) {
+        u = article.url;
+      } else {
+        if (article.id != null) {
+          u = "https://ui.adsabs.harvard.edu/abs/" + article.id + "/abstract";
+        } else {
+          u = null;
+        }
+      }
+      j = article.journal.replace(/ +/g, "&nbsp;");
+      if (article.conference != null) {
+        h.push("&ldquo;" + article.conference + "&rdquo;");
+      }
+      h.push("<em>" + j + "</em> <strong>" + article.volume + "</strong>" + number + " (" + article.year + ") " + article.pages);
+    } else {
+      u = "https://arxiv.org/abs/" + article.id;
+      h.push("arXiv:" + article.id);
+    }
+    p = $("<p/>").addClass("pub");
+    if (u != null) {
+      a = $("<a/>").attr("href", u).html(h.join(", ") + ".");
+      a.appendTo(p);
+    } else {
+      p = p.html(h.join(", ") + ".");
+    }
+    return p;
+  };
+  renderArticles = function(articles) {
+    var div, h3, i, k, len, p, r, ref, v;
+    for (k in articles) {
+      if (!hasProp.call(articles, k)) continue;
+      v = articles[k];
+      div = $("#" + k);
+      div.empty();
+      h3 = $("<h3/>").html(v.title).appendTo(div);
+      ref = v.data;
+      for (i = 0, len = ref.length; i < len; i++) {
+        r = ref[i];
+        p = renderArticle(r);
+        p.appendTo(div);
+      }
+    }
+    return div;
+  };
   display = function() {
-    var a, au, authors, d, d1, d6, div, h, h3, i, j, k, l, len, len1, p, r, ref, ref1, ref2, ref3, title, u, v, z;
+    var a, d, d1, d6, div, h3, i, k, len, p, ref, ref1, u, v, z;
+    renderArticles(P.articles);
     ref = P.notices;
     for (k in ref) {
       if (!hasProp.call(ref, k)) continue;
@@ -28,48 +92,7 @@ $(function() {
       }
       p = $("<p/>").html(a.join(", ")).appendTo(div);
     }
-    ref2 = P.other;
-    for (k in ref2) {
-      if (!hasProp.call(ref2, k)) continue;
-      v = ref2[k];
-      div = $("#" + k);
-      div.empty();
-      h3 = $("<h3/>").html(v.title).appendTo(div);
-      ref3 = v.data;
-      for (l = 0, len1 = ref3.length; l < len1; l++) {
-        r = ref3[l];
-        if (r.author[r.author.length - 1] === "et al.") {
-          r.author[r.author.length - 1] = "<em>et al.</em>";
-        }
-        authors = ((function() {
-          var len2, m, ref4, results;
-          ref4 = r.author;
-          results = [];
-          for (m = 0, len2 = ref4.length; m < len2; m++) {
-            au = ref4[m];
-            results.push(au.replace(/ +/g, "&nbsp;"));
-          }
-          return results;
-        })()).join(", ");
-        title = "&ldquo;" + r.title + "&rdquo;";
-        h = [authors, title];
-        if (k === "arXiv") {
-          u = "https://arxiv.org/abs/" + r.id;
-          h.push(k + ":" + r.id);
-        } else {
-          u = "https://ui.adsabs.harvard.edu/abs/" + r.id + "/abstract";
-          j = r.journal.replace(/ +/g, "&nbsp;");
-          if (r.conference != null) {
-            h.push("&ldquo;" + r.conference + "&rdquo;");
-          }
-          h.push("<em>" + j + "</em> <strong>" + r.volume + "</strong> (" + r.year + ") " + r.pages);
-        }
-        p = $("<p/>").addClass("pub");
-        a = $("<a/>").attr("href", u).html(h.join(", ") + ".");
-        a.appendTo(p);
-        p.appendTo(div);
-      }
-    }
+    renderArticles(P.other);
     return true;
   };
   if ($.isEmptyObject(P)) {
