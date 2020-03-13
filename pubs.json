@@ -1,5 +1,208 @@
 {
     "articles": {
+        "trek": {
+            "title": "Cosmic Rays",
+            "data": [
+                {
+                    "author": ["B. A. Weaver", "A. J. Westphal", "P. B. Price", "V. G. Afanasyev", "V. V. Akimov"],
+                    "title": "Results from the Trek Ultraheavy Collector",
+                    "conference": "25th International Cosmic Ray Conference (Durban, South Africa, 1997)",
+                    "journal": "Proceedings 25th ICRC",
+                    "volume": 3,
+                    "pages": "353&ndash;355",
+                    "year": 1997,
+                    "id": "1997ICRC....3..353W"
+                },
+                {
+                    "author": ["A. J. Westphal", "P. B. Price", "B. A. Weaver", "V. G. Afanasyev"],
+                    "title": "Evidence Against Stellar Chromospheric Origin of Galactic Cosmic Rays",
+                    "journal": "Nature",
+                    "volume": 396,
+                    "pages": "50&ndash;52",
+                    "year": 1998,
+                    "id": "1998Natur.396...50W"
+                },
+                {
+                    "author": ["B. A. Weaver", "A. J. Westphal", "P. B. Price", "V. G. Afanasyev", "V. V. Akimov"],
+                    "title": "Performance of the Ultraheavy Collector of the Trek Experiment",
+                    "journal": "Nucl. Inst. Meth. B",
+                    "volume": 145,
+                    "pages": "409&ndash;428",
+                    "year": 1998,
+                    "id": "1998NIMPB.145..409W"
+                },
+                {
+                    "author": ["B. A. Weaver", "A. J. Westphal"],
+                    "title": "A Search for Bound-state Beta Decay of <sup>193</sup>Ir in the Galactic Cosmic Rays",
+                    "conference": "26th International Cosmic Ray Conference (Salt Lake City, 1999)",
+                    "journal": "Proceedings 26th ICRC",
+                    "volume": 3,
+                    "pages": "25&ndash;27",
+                    "year": 1999,
+                    "id": "1999ICRC....3...25W"
+                },
+                {
+                    "author": ["A. J. Westphal", "B. A. Weaver", "M. Solarz", "C.-L. Lin", "L. Zuñiga"],
+                    "title": "ECCO: The Extremely Heavy Cosmic Ray Composition Observer",
+                    "conference": "26th International Cosmic Ray Conference (Salt Lake City, 1999)",
+                    "journal": "Proceedings 26th ICRC",
+                    "volume": 4,
+                    "pages": "160&ndash;163",
+                    "year": 1999,
+                    "id": "1999ICRC....4..160W"
+                },
+                {
+                    "author": ["B. A. Weaver", "A. J. Westphal"],
+                    "title": "Stopping Power Calculations for Heavy Relativistic Ions",
+                    "conference": "26th International Cosmic Ray Conference (Salt Lake City, 1999)",
+                    "journal": "Proceedings 26th ICRC",
+                    "volume": 5,
+                    "pages": "461&ndash;464",
+                    "year": 1999,
+                    "id": "1999ICRC....5..461W"
+                },
+                {
+                    "author": ["A. J. Westphal", "et al."],
+                    "title": "ECCO: The Extremely Heavy Cosmic Ray Composition Observer",
+                    "conference": "Space Technology and Applications International Forum (Albuquerque, 2000)",
+                    "journal": "AIP Conference Proceedings",
+                    "volume": 504,
+                    "pages": "193&ndash;198",
+                    "year": 2000,
+                    "id": "2000AIPC..504..193W"
+                },
+                {
+                    "author": ["B. A. Weaver", "A. J. Westphal"],
+                    "title": "Preliminary Results from the Extended-Trek Detector",
+                    "journal": "Adv. Space Res.",
+                    "volume": 27,
+                    "pages": "791&ndash;796",
+                    "year": 2001,
+                    "id": "2001AdSpR..27..791W"
+                },
+                {
+                    "author": ["A. J. Westphal", "B. A. Weaver", "G. Tarlé"],
+                    "title": "Th/U/Pu/Cm Dating of Galactic Cosmic Rays with the Extremely Heavy Cosmic Ray Composition Observer",
+                    "journal": "Adv. Space Res.",
+                    "volume": 27,
+                    "pages": "797&ndash;802",
+                    "year": 2001,
+                    "id": "2001AdSpR..27..797W"
+                },
+                {
+                    "author": ["A. J. Westphal", "B. A. Weaver"],
+                    "title": "Commutivity of track formation and surface preparation in BP-1 track-etch detectors",
+                    "journal": "Nucl. Inst. Meth. B",
+                    "volume": 179,
+                    "pages": "186&ndash;192",
+                    "year": 2001,
+                    "id": "2001NIMPB.179..186W"
+                },
+                {
+                    "author": ["B. A. Weaver", "A. J. Westphal"],
+                    "title": "The Extended Analysis of the Trek Detector",
+                    "conference": "27th International Cosmic Ray Conference (Hamburg, 2001)",
+                    "journal": "Proceedings 27th ICRC",
+                    "volume": 5,
+                    "pages": "1720&ndash;1723",
+                    "year": 2001,
+                    "id": "2001ICRC....5.1720W"
+                },
+                {
+                    "author": ["B. A. Weaver", "A. J. Westphal", "P. B. Price", "G. Domínguez"],
+                    "title": "The Development of Super-Sensitive Glass Track-Etch Detectors",
+                    "conference": "27th International Cosmic Ray Conference (Hamburg, 2001)",
+                    "journal": "Proceedings 27th ICRC",
+                    "volume": 6,
+                    "pages": "2155&ndash;2158",
+                    "year": 2001,
+                    "id": "2001ICRC....6.2155W"
+                },
+                {
+                    "author": ["A. J. Westphal", "et al."],
+                    "title": "ECCO: Th/U/Pu/Cm Dating of Galactic Cosmic Ray Nuclei",
+                    "conference": "27th International Cosmic Ray Conference (Hamburg, 2001)",
+                    "journal": "Proceedings 27th ICRC",
+                    "volume": 6,
+                    "pages": "2235&ndash;2238",
+                    "year": 2001,
+                    "id": "2001ICRC....6.2235W"
+                },
+                {
+                    "author": ["B. A. Weaver", "A. J. Westphal"],
+                    "title": "Extended Analysis of the Trek Ultraheavy Collector",
+                    "journal": "Astrophys. J.",
+                    "volume": 569,
+                    "pages": "493&ndash;500",
+                    "year": 2002,
+                    "id": "2002ApJ...569..493W"
+                },
+                {
+                    "author": ["B. A. Weaver", "A. J. Westphal"],
+                    "title": "Energy Loss of Relativistic Heavy Ions in Matter",
+                    "journal": "Nucl. Inst. Meth. B",
+                    "volume": 187,
+                    "pages": "285&ndash;301",
+                    "year": 2002,
+                    "id": "2002NIMPB.187..285W"
+                },
+                {
+                    "author": ["B. A. Weaver", "A. J. Westphal"],
+                    "title": "Nuclear Track-formation Models and the Response of BP-1 Detectors",
+                    "journal": "Nucl. Inst. Meth. B",
+                    "volume": 207,
+                    "pages": "314&ndash;322",
+                    "year": 2003,
+                    "id": "2003NIMPB.207..314W"
+                },
+                {
+                    "author": ["B. A. Weaver", "A. J. Westphal"],
+                    "title": "RIO: The R-process Isotope Observer",
+                    "journal": "Space Rad.",
+                    "volume": 4,
+                    "pages": "1&ndash;13",
+                    "year": 2003
+                },
+                {
+                    "author": ["B. A. Weaver", "A. J. Westphal"],
+                    "title": "Confidence Levels for Distinguishing Galactic Cosmic-Ray Source Models",
+                    "conference": "28th International Cosmic Ray Conference (Tsukuba, 2003)",
+                    "journal": "Proceedings 27th ICRC",
+                    "volume": 4,
+                    "pages": "1903&ndash;1906",
+                    "year": 2003,
+                    "id": "2003ICRC....4.1903W"
+                },
+                {
+                    "author": ["B. A. Weaver", "A. J. Westphal"],
+                    "title": "RIO: The R-process Isotope Observer",
+                    "conference": "28th International Cosmic Ray Conference (Tsukuba, 2003)",
+                    "journal": "Proceedings 27th ICRC",
+                    "volume": 4,
+                    "pages": "2249&ndash;2252",
+                    "year": 2003,
+                    "id": "2003ICRC....4.2249W"
+                },
+                {
+                    "author": ["B. A. Weaver", "A. J. Westphal"],
+                    "title": "RIO: The R-process Isotope Observer",
+                    "journal": "Adv. Space Res.",
+                    "volume": 35,
+                    "pages": "167&ndash;172",
+                    "year": 2005,
+                    "id": "2005AdSpR..35..167W"
+                },
+                {
+                    "author": ["B. A. Weaver", "A. J. Westphal", "N. Yasuda", "S. Kodaira"],
+                    "title": "Progress in Laboratory Performance Verification of the R-process Isotope Observer",
+                    "journal": "Adv. Space Res.",
+                    "volume": 37,
+                    "pages": "1960&ndash;1965",
+                    "year": 2006,
+                    "id": "2006AdSpR..37.1960W"
+                }
+            ]
+        },
         "snfactory": {
             "title": "Nearby Supernova Factory",
             "data": [
