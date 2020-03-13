@@ -49,13 +49,12 @@ $( () ->
             for r in v.data
                 p = renderArticle r
                 p.appendTo div
-        div
+        true
     #
-    # Main function.
+    # Render a set of notices.
     #
-    display = () ->
-        renderArticles P.articles
-        for own k, v of P.notices
+    renderNotices = (notices) ->
+        for own k, v of notices
             div = $("##{k}")
             div.empty()
             h3 = $("<h3/>").html(v.title).appendTo div
@@ -70,7 +69,14 @@ $( () ->
                     u = v.url.replace(/%d/, d)
                 a.push "<a href=\"#{u}\">#{d}</a>"
             p = $("<p/>").html(a.join ", ").appendTo div
-        renderArticles P.other
+        true
+    #
+    # Main function.
+    #
+    display = () ->
+        renderArticles P.articles
+        renderNotices P.notices
+        renderArticles P.links
         true
     #
     # Load JSON.

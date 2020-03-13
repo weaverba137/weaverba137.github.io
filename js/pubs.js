@@ -1,7 +1,7 @@
 var hasProp = {}.hasOwnProperty;
 
 $(function() {
-  var P, display, renderArticle, renderArticles;
+  var P, display, renderArticle, renderArticles, renderNotices;
   P = {};
   renderArticle = function(article) {
     var a, au, authors, h, j, number, p, title, u;
@@ -64,22 +64,20 @@ $(function() {
         p.appendTo(div);
       }
     }
-    return div;
+    return true;
   };
-  display = function() {
-    var a, d, d1, d6, div, h3, i, k, len, p, ref, ref1, u, v, z;
-    renderArticles(P.articles);
-    ref = P.notices;
-    for (k in ref) {
-      if (!hasProp.call(ref, k)) continue;
-      v = ref[k];
+  renderNotices = function(notices) {
+    var a, d, d1, d6, div, h3, i, k, len, p, ref, u, v, z;
+    for (k in notices) {
+      if (!hasProp.call(notices, k)) continue;
+      v = notices[k];
       div = $("#" + k);
       div.empty();
       h3 = $("<h3/>").html(v.title).appendTo(div);
       a = [];
-      ref1 = v.data;
-      for (i = 0, len = ref1.length; i < len; i++) {
-        d = ref1[i];
+      ref = v.data;
+      for (i = 0, len = ref.length; i < len; i++) {
+        d = ref[i];
         if (k === "cbet") {
           d6 = d < 1000 ? "000" + d : "00" + d;
           d1 = d < 1000 ? Math.floor(d / 100) * 100 : Math.floor(d / 1000) * 1000;
@@ -92,7 +90,12 @@ $(function() {
       }
       p = $("<p/>").html(a.join(", ")).appendTo(div);
     }
-    renderArticles(P.other);
+    return true;
+  };
+  display = function() {
+    renderArticles(P.articles);
+    renderNotices(P.notices);
+    renderArticles(P.links);
     return true;
   };
   if ($.isEmptyObject(P)) {

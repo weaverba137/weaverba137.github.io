@@ -1,5 +1,321 @@
 {
     "articles": {
+        "snfactory": {
+            "title": "Nearby Supernova Factory",
+            "data": [
+                {
+                    "author": ["G. Aldering", "et al."],
+                    "title": "Nearby Supernova Factory Observations of SN 2005gj: Another Type Ia Supernova in a Massive Circumstellar Envelope",
+                    "journal": "Astrophys. J.",
+                    "volume": 650,
+                    "pages": "510&ndash;527",
+                    "year": 2006,
+                    "id": "2006ApJ...650..510A"
+                },
+                {
+                    "author": ["Y. Copin", "et al."],
+                    "title": "The Nearby Supernova Factory",
+                    "journal": "New Astron. Rev.",
+                    "volume": 50,
+                    "pages": "436&ndash;438",
+                    "year": 2006,
+                    "id": "2006NewAR..50..436C"
+                },
+                {
+                    "author": ["S. Bailey", "C. Aragon", "R. Romano", "R. C. Thomas", "B. A. Weaver", "D. Wong"],
+                    "title": "How to Find More Supernovae with Less Work: Object Classification Techniques for Difference Imaging",
+                    "journal": "Astrophys. J.",
+                    "volume": 665,
+                    "pages": "1246&ndash;1253",
+                    "year": 2007,
+                    "id": "2007ApJ...665.1246B"
+                },
+                {
+                    "author": ["R. C. Thomas", "et al."],
+                    "title": "Nearby Supernova Factory Observations of SN 2006D: On Sporadic Carbon Signatures in Early Type Ia Supernova Spectra",
+                    "journal": "Astrophys. J. Lett.",
+                    "volume": 654,
+                    "pages": "L53&ndash;L56",
+                    "year": 2007,
+                    "id": "2007ApJ...654L..53T"
+                },
+                {
+                    "author": ["S. Bailey", "C. Aragon", "R. Romano", "R. C. Thomas", "B. A. Weaver", "D. Wong"],
+                    "title": "Object classification at the Nearby Supernova Factory",
+                    "journal": "Astronomische Nachrichten",
+                    "volume": 329,
+                    "pages": "292&ndash;294",
+                    "year": 2008,
+                    "id": "2008AN....329..292B"
+                },
+                {
+                    "author": ["R. A. Scalzo", "et al."],
+                    "title": "Nearby Supernova Factory Observations of SN 2007if: First Total Mass Measurement of a Super-Chandrasekhar-Mass Progenitor",
+                    "journal": "Astrophys. J.",
+                    "volume": 713,
+                    "pages": "1073&ndash;1094",
+                    "year": 2010,
+                    "id": "2010ApJ...713.1073S"
+                },
+                {
+                    "author": ["N. Chotard", "et al."],
+                    "title": "The reddening law of type Ia supernovae: separating intrinsic variability from dust using equivalent widths",
+                    "journal": "Astron. &amp; Astrophys.",
+                    "volume": 529,
+                    "pages": "L4",
+                    "year": 2011,
+                    "id": "2011A%26A...529L...4C"
+                },
+                {
+                    "author": ["M. Childress", "et al."],
+                    "title": "Keck Observations of the Young Metal-Poor Host Galaxy of the Super-Chandrasekhar-Mass Type Ia Supernova SN 2007if",
+                    "journal": "Astrophys. J.",
+                    "volume": 733,
+                    "pages": "3",
+                    "year": 2011,
+                    "id": "2011ApJ...733....3C"
+                },
+                {
+                    "author": ["R. C. Thomas", "et al."],
+                    "title": "Type Ia Supernova Carbon Footprints",
+                    "journal": "Astrophys. J.",
+                    "volume": 743,
+                    "pages": "27",
+                    "year": 2011,
+                    "id": "2011ApJ...743...27T"
+                },
+                {
+                    "author": ["R. Scalzo", "et al."],
+                    "title": "A Search for New Candidate Super-Chandrasekhar-Mass Type Ia Supernovae in the Nearby Supernova Factory Dataset",
+                    "journal": "Astrophys. J.",
+                    "volume": 757,
+                    "pages": "12",
+                    "year": 2012,
+                    "id": "2012ApJ...757...12S"
+                },
+                {
+                    "author": ["C. Buton", "et al."],
+                    "title": "Atmospheric extinction properties above Mauna Kea from the Nearby SuperNova Factory spectro-photometric data set",
+                    "journal": "Astron. &amp; Astrophys.",
+                    "volume": 549,
+                    "pages": "A8",
+                    "year": 2013,
+                    "id": "2013A%26A...549A...8B"
+                },
+                {
+                    "author": ["M. Rigault", "et al."],
+                    "title": "Evidence of environmental dependencies of Type Ia supernovae from the Nearby Supernova Factory indicated by local Hα",
+                    "journal": "Astron. &amp; Astrophys.",
+                    "volume": 560,
+                    "pages": "A66",
+                    "year": 2013,
+                    "id": "2013A%26A...560A..66R"
+                },
+                {
+                    "author": ["U. Feindt", "et al."],
+                    "title": "Measuring cosmic bulk flows with Type Ia Supernovae from the Nearby Supernova Factory",
+                    "journal": "Astron. &amp; Astrophys.",
+                    "volume": 560,
+                    "pages": "A90",
+                    "year": 2013,
+                    "id": "2013A%26A...560A..90F"
+                },
+                {
+                    "author": ["A. G. Kim", "et al."],
+                    "title": "Standardizing Type Ia Supernova Absolute Magnitudes Using Gaussian Process Data Regression",
+                    "journal": "Astrophys. J.",
+                    "volume": 766,
+                    "pages": "84",
+                    "year": 2013,
+                    "id": "2013ApJ...766...84K"
+                },
+                {
+                    "author": ["M. Childress", "et al."],
+                    "title": "Host Galaxies of Type Ia Supernovae from the Nearby Supernova Factory",
+                    "journal": "Astrophys. J.",
+                    "volume": 770,
+                    "pages": "107",
+                    "year": 2013,
+                    "id": "2013ApJ...770..107C"
+                },
+                {
+                    "author": ["M. Childress", "et al."],
+                    "title": "Host Galaxy Properties and Hubble Residuals of Type Ia Supernovae from the Nearby Supernova Factory",
+                    "journal": "Astrophys. J.",
+                    "volume": 770,
+                    "pages": "108",
+                    "year": 2013,
+                    "id": "2013ApJ...770..108C"
+                },
+                {
+                    "author": ["A. G. Kim", "et al."],
+                    "title": "Type Ia Supernova Hubble Residuals and Host-Galaxy Properties",
+                    "journal": "Astrophys. J.",
+                    "volume": 784,
+                    "pages": "51",
+                    "year": 2014,
+                    "id": "2014ApJ...784...51K"
+                },
+                {
+                    "author": ["R. Scalzo", "et al."],
+                    "title": "Type Ia supernova bolometric light curves and ejected mass estimates from the Nearby Supernova Factory",
+                    "journal": "Mon. Not. Roy. Ast. Soc.",
+                    "volume": 440,
+                    "pages": "1498&ndash;1518",
+                    "year": 2014,
+                    "id": "2014MNRAS.440.1498S"
+                },
+                {
+                    "author": ["U. Feindt", "et al."],
+                    "title": "Measuring cosmic bulk flows with Type Ia Supernovae from the Nearby Supernova Factory (Corrigendum)",
+                    "journal": "Astron. &amp; Astrophys.",
+                    "volume": 578,
+                    "pages": "C1",
+                    "year": 2015,
+                    "id": "2015A%26A...578C...1F"
+                },
+                {
+                    "author": ["C. Saunders", "et al."],
+                    "title": "Type Ia Supernova Distance Modulus Bias and Dispersion from K-correction Errors: A Direct Measurement Using Light Curve Fits to Observed Spectral Time Series",
+                    "journal": "Astrophys. J.",
+                    "volume": 800,
+                    "pages": "57",
+                    "year": 2015,
+                    "id": "2015ApJ...800...57S"
+                },
+                {
+                    "author": ["M. Rigault", "et al."],
+                    "title": "Confirmation of a Star Formation Bias in Type Ia Supernova Distances and its Effect on Measurement of the Hubble Constant",
+                    "journal": "Astrophys. J.",
+                    "volume": 802,
+                    "pages": "20",
+                    "year": 2015,
+                    "id": "2015ApJ...802...20R"
+                },
+                {
+                    "author": ["H. K. Fakhouri", "et al."],
+                    "title": "Improving Cosmological Distance Measurements Using Twin Type Ia Supernovae",
+                    "journal": "Astrophys. J.",
+                    "volume": 815,
+                    "pages": "58",
+                    "year": 2015,
+                    "id": "2015ApJ...815...58F"
+                },
+                {
+                    "author": ["Michele Sasdelli", "et al."],
+                    "title": "A Metric Space for Type Ia Supernovae Spectra",
+                    "journal": "Mon. Not. Roy. Ast. Soc.",
+                    "volume": 447,
+                    "pages": "1247&ndash;1266",
+                    "year": 2015,
+                    "id": "2015MNRAS.447.1247S"
+                },
+                {
+                    "author": ["M. Rigault", "et al."],
+                    "title": "Evidence of environmental dependencies of Type Ia supernovae from the Nearby Supernova Factory indicated by local Hα (Corrigendum)",
+                    "journal": "Astron. &amp; Astrophys.",
+                    "volume": 612,
+                    "pages": "C1",
+                    "year": 2018,
+                    "id": "2018A%26A...612C...1R"
+                }
+            ]
+        },
+        "sdss4": {
+            "title": "Sloan Digital Sky Survey IV (SDSS-IV)",
+            "data": [
+                {
+                    "meta": "SDSS-IV Paper 17",
+                    "author": ["Kyle S. Dawson", "et al."],
+                    "title": "The SDSS-IV extended Baryon Oscillation Spectroscopic Survey: Overview and Early Data",
+                    "journal": "Astron. J.",
+                    "volume": 151,
+                    "pages": "44",
+                    "year": 2016,
+                    "id": "2016AJ....151...44D"
+                },
+                {
+                    "meta": "SDSS-IV Paper 83",
+                    "author": ["Michael R. Blanton", "et al."],
+                    "title": "Sloan Digital Sky Survey IV: Mapping the Milky Way, Nearby Galaxies and the Distant Universe",
+                    "journal": "Astron. J.",
+                    "volume": 154,
+                    "pages": "28",
+                    "year": 2017,
+                    "id": "2017AJ....154...28B"
+                },
+                {
+                    "meta": "SDSS-IV Paper 50",
+                    "author": ["Franco D. Albareti", "et al."],
+                    "title": "The 13th Data Release of the Sloan Digital Sky Survey: First Spectroscopic Data from the SDSS-IV Survey Mapping Nearby Galaxies at Apache Point Observatory",
+                    "journal": "Astrophys. J. Supp.",
+                    "volume": 233,
+                    "pages": "25",
+                    "year": 2017,
+                    "id": "2017ApJS..233...25A"
+                },
+                {
+                    "meta": "SDSS-IV Paper 164",
+                    "author": ["Isabelle Pâris", "et al."],
+                    "title": "The Sloan Digital Sky Survey Quasar Catalog: Fourteenth Data Release",
+                    "journal": "Astron. &amp; Astrophys.",
+                    "volume": 613,
+                    "pages": "A51",
+                    "year": 2018,
+                    "id": "2018A%26A...613A..51P"
+                },
+                {
+                    "meta": "SDSS-IV Paper 135",
+                    "author": ["Bela Abolfathi", "et al."],
+                    "title": "The Fourteenth Data Release of the Sloan Digital Sky Survey: First Spectroscopic Data from the extended Baryon Oscillation Spectroscopic Survey and from the Second Phase of the Apache Point Observatory Galactic Evolution Experiment",
+                    "journal": "Astrophys. J. Supp.",
+                    "volume": 235,
+                    "pages": "42",
+                    "year": 2018,
+                    "id": "2018ApJS..235...42A"
+                },
+                {
+                    "meta": "SDSS-IV Paper 238",
+                    "author": ["D. S. Aguado", "et al."],
+                    "title": "The Fifteenth Data Release of the Sloan Digital Sky Surveys: First Release of MaNGA-derived Quantities, Data Visualization Tools, and Stellar Library",
+                    "journal": "Astrophys. J. Supp.",
+                    "volume": 240,
+                    "pages": "23",
+                    "year": 2019,
+                    "id": "2019ApJS..240...23A"
+                },
+                {
+                    "meta": "SDSS-IV Paper 365",
+                    "author": ["R. Ahumada", "et al."],
+                    "title": "The Sixteenth Data Release of the Sloan Digital Sky Surveys: First Release from the APOGEE-2 Southern Survey and Full Release of eBOSS Spectra",
+                    "id": "1912.02905"
+                }
+            ]
+        },
+        "desi": {
+            "title": "Dark Energy Spectroscopic Instrument (DESI)",
+            "data": [
+                {
+                    "author": ["DESI Collaboration", "A. Aghamousa", "et al."],
+                    "title": "The DESI Experiment Part I: Science,Targeting, and Survey Design",
+                    "id": "1611.00036"
+                },
+                {
+                    "author": ["DESI Collaboration", "A. Aghamousa", "et al."],
+                    "title": "The DESI Experiment Part II: Instrument Design",
+                    "id": "1611.00037"
+                },
+                {
+                    "author": ["Parker Fagrelius", "et al."],
+                    "title": "ProtoDESI: First On-Sky Technology Demonstration for the Dark Energy Spectroscopic Instrument",
+                    "journal": "Pub. Ast. Soc. Pacific",
+                    "volume": 130,
+                    "pages": "025005",
+                    "year": 2018,
+                    "id": "2018PASP..130b5005F"
+                }
+            ]
+        },
         "decals": {
             "title": "The DESI Legacy Imaging Surveys",
             "data": [
@@ -98,8 +414,8 @@
             "data": [183,204,214,230,244,256,258,259,263,265,296,306,311,366,371,374,397,398,402,423,427,520,522,538,540,543,544,546,556,573,575,580,584,658,689,708,714,741,768,941,990,991,996,1007,1008,1009,1011,1013,1014,1024,1026,1031,1040,1043,1044,1047,1050,1054,1059,1063]
         }
     },
-    "other": {
-        "articles": {
+    "links": {
+        "published": {
             "title": "Articles",
             "data": [
                 {
