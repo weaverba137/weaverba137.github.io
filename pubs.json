@@ -1221,7 +1221,11 @@
                 {
                     "author": ["X. Huang", "et al."],
                     "title": "Finding Strong Gravitational Lenses in the DESI DECam Legacy Survey",
-                    "id": "1906.00970"
+                    "journal": "Astrophys. J.",
+                    "volume": 894,
+                    "pages": "78",
+                    "year": 2020,
+                    "id": "2020ApJ...894...78H"
                 },
                 {
                     "author": ["E. Kitanidis", "et al."],
