@@ -12,3 +12,5 @@ last_modified.txt
 Makefile
 README.md
 *.coffee
+*.ts
+tsconfig.json
