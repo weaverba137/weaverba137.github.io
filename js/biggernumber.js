@@ -175,6 +175,10 @@ BigNumber = (function() {
         for(++l; --l;  n[s](0));
         return n;
     };
+    //
+    // Warning: the rounding flags in this function to not correspond to
+    // the rounding flags defined above.
+    //
     o.round = function(){
         if("_rounding" in this) return this;
         var $ = BigNumber, r = this.roundType, b = this._d, d, p, n, x;

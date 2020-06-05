@@ -1,5 +1,10 @@
 {
     "compilerOptions": {
         "removeComments": true
-    }
+    },
+    "files": [
+        "hide_list.ts",
+        "index.ts",
+        "LongInteger.ts"
+    ]
 }
