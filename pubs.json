@@ -1228,14 +1228,22 @@
                     "id": "2020ApJ...894...78H"
                 },
                 {
-                    "author": ["E. Kitanidis", "et al."],
+                    "author": ["Ellie Kitanidis", "et al."],
                     "title": "Imaging Systematics and Clustering of DESI Main Targets",
-                    "id": "1911.05714"
+                    "journal": "Mon. Not. Roy. Ast. Soc.",
+                    "volume": 496,
+                    "pages": "2262&ndash;2291",
+                    "year": 2020,
+                    "id": "2020MNRAS.496.2262K"
                 },
                 {
                     "author": ["Kaylan J. Burleigh", "et al."],
-                    "title": "Observing Strategy for the Legacy Surveys",
-                    "id": "2002.05828"
+                    "title": "Dynamic Observing and Tiling Strategies for the DESI Legacy Surveys",
+                    "journal": "Astron. J.",
+                    "volume": 160,
+                    "pages": "61",
+                    "year": 2020,
+                    "id": "2002AJ....160...61B"
                 }
             ]
         },
