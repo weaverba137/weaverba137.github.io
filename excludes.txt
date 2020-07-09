@@ -5,6 +5,7 @@
 .git
 .gitignore
 .DS_Store
+CNAME
 apogee-rv
 crange
 excludes.txt
