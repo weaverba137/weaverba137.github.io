@@ -19,6 +19,6 @@ updateFactorial = function() {
     return results;
   })()).reverse();
   cc = (c[0] === "" ? c.slice(1) : c).join(",");
-  $("#factorialOutput").attr('value', cc);
+  $("#factorialOutput").html(cc);
   return true;
 };
