@@ -11,5 +11,5 @@ $(function () {
         $('#userAgent').html(navigator.userAgent);
         $('#Location').html(ip.city + ", " + ip.region + ", " + ip.country);
     };
-    $.get("https://ipinfo.io", onDataReceived, "jsonp").always(displayIP);
+    $.getJSON("https://ipinfo.io/json", {}, onDataReceived).always(displayIP);
 });
