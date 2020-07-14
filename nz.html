@@ -2,470 +2,599 @@
 <html lang="en">
     <head>
         <meta charset="utf-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <title>Aotearoa/New Zealand Visit April 2005 &mdash; B. A. Weaver</title>
         <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
         <link rel="icon" type="image/x-icon" href="favicon.ico" />
-        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
         <link rel="stylesheet" type="text/css" media="screen" href="public_html.css" />
-        <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-        <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     </head>
     <body>
-        <nav class="navbar navbar-default navbar-static-top">
+        <nav class="navbar navbar-light navbar-expand-lg bg-light">
             <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="https://github.com/weaverba137/">GitHub</a>
-                </div><!-- end class="navbar-header" -->
-                <div id="navbar" class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav">
-                        <li><a href="index.html">&#127968; Home</a></li>
-                        <li><a href="pubs.html">&#128214; Publications</a></li>
-                        <!-- <li><a href="job.html">&#128301; Work</a></li> -->
-                        <!-- <li class="active"><a href="nz.html">&#128747; Travel</a></li> -->
-                        <li><a href="links.html">&#128279; Links</a></li>
-                        <li><a href="tests.html">&#9889; Tests</a></li>
-                        <li class="dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="crange/">&#128293; dE/dx<span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="crange/index.html">Introduction</a></li>
-                                <li><a href="crange/absorb.html">Absorber Library</a></li>
-                                <li><a href="crange/recalc.html">Calculator</a></li>
-                            </ul>
+                <a class="navbar-brand" href="https://github.com/weaverba137/">GitHub</a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html">&#127968; Home <span class="sr-only">(current)</span></a></li>
+                        <li class="nav-item"><a class="nav-link" href="pubs.html">&#128214; Publications</a></li>
+                        <li class="nav-item"><a class="nav-link" href="job.html">&#128301; Work</a></li>
+                        <!-- <li class="nav-item active"><a class="nav-link" href="nz.html">&#128747; Travel</a></li> -->
+                        <li class="nav-item"><a class="nav-link" href="links.html">&#128279; Links</a></li>
+                        <li class="nav-item"><a class="nav-link" href="tests.html">&#9889; Tests</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="crange/" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >&#128293; dE/dx</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdown01">
+                                <a class="dropdown-item" href="crange/index.html">Introduction</a>
+                                <a class="dropdown-item" href="crange/absorb.html">Absorber Library</a>
+                                <a class="dropdown-item" href="crange/recalc.html">Calculator</a>
+                            </div>
                         </li>
-                        <li class="dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="fun/">&#127864; Amusements<span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="hhh.html">HHH</a></li>
-                                <li><a href="qso.html">QSO</a></li>
-                                <li><a href="uqm.html">UQM</a></li>
-                            </ul>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="fun/" id="dropdown02" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >&#127864; Amusements</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdown02">
+                                <a class="dropdown-item" href="hhh.html">HHH</a>
+                                <a class="dropdown-item" href="qso.html">QSO</a>
+                                <a class="dropdown-item" href="uqm.html">UQM</a>
+                            </div>
                         </li>
                     </ul>
-                </div><!-- end class="navbar-collapse" -->
+                </div><!-- end class="collapse navbar-collapse" -->
             </div><!-- end class="container" -->
         </nav><!-- end class="navbar" -->
-        <div class="container">
+        <main role="main" class="container">
             <div class="row">
-                <div class="col-md-12">
+                <div class="col">
                     <h1>Aotearoa/New Zealand Visit April 2005 &mdash; B. A. Weaver</h1>
-                </div><!-- end class="col-md-12" -->
+                </div><!-- end class="col" -->
             </div><!-- end class="row" -->
             <div class="row">
-                <div class="col-md-12">
-<h2>Introduction</h2>
-<p>
-This is a write-up of my visit to Aotearoa/New Zealand in April of 2005.
-<em>Aotearoa</em> is the Maori name for New Zealand.
-</p>
-<h2>15 April 2005</h2>
-<p>
-I arrived in Auckland at about 06:00 local time after a 12-hour flight that
-was uneventful, at least until the end.  My large suitcase, one of two I had
-packed, failed to arrive, even though it was a direct flight.  It took a
-while to get out of baggage claim as a result of having to inform the airline
-of the loss.  Shelley was waiting for me at the baggage claim exit.  We
-quickly got her car loaded up &amp; drove to her house in Matamata to finish
-some of the packing for the trip &amp; have breakfast.  The town of Matamata
-is better known these days as 'Hobbiton', since the Hobbiton scenes of
-<em>The Lord of the Rings</em> were filmed there.  Once we were ready we stopped
-briefly in central Matamata for a few errands.  We drove to Wellington on SH1.
-This is mostly a two-lane road, though very well cared-for.  This is one of
-the pleasures of visiting a very small country.  Excepting brief stops for
-petrol, we drove straight through to Wellington.  We got there in plenty of
-time to catch the ferry to the South Island.  The ferry carries cars, trucks,
-railroad cars &amp; lots of people.  Basically we were rushing to get to the
-ferry &amp; the South Island ahead of the school holiday rush, which began the
-next day.  It was already starting to get dark when we boarded the ferry, so
-there wasn't much to see beyond Wellington harbour.  The ferry is quite
-comfortable, although one can feel the rolling from the swells in the Cook
-Strait. This was no bother for me, but Shelley was uncomfortable at times.
-After our arrival in Picton about 2.5 hours later, we drove to the nearby
-town of Koromiko, where we had booked a room in a Best Western motel.
-</p>
-<h2>16 April 2005</h2>
-<p>
-We got up early &amp; on to Blenheim. I called the airline, &amp; they
-reported that my suitcase was in the country &amp; would be delivered to
-Blenheim airport. We had a quick breakfast at a bakery
-&amp; also reserved our camping spot for the night.
-Then it was off to the wineries
-around Renwick.  We started at Celier Le Brun, known for their sparkling wines.
-We visited Grove Mill, Framingham &amp; Seresin Estate, all very close to each
-other.  Although the region is famed for Sauvingon Blanc, they also produce
-some very nice Riesling.  Shelley also got me started on learning to drive a
-manual transmission car (on the left side too!).  We practised on a side road
-near Seresin Estate.  Although I found getting into first gear tricky, once
-moving, shifting was very easy.  After that practise session we drove to
-Havelock, a small town on Charlotte Sound.  We had lunch at a well-known
-restaurant named Mussel Boys.  Indeed, their green-lipped mussels were
-fabulous.  I had a batch steamed in Guinness.  At this point I discovered I had
-lost my camera.  I realised I had most likely left it at Seresin Estate.
-We drove back there &amp; retrieved it.  We went to one more winery.
-Over the course of the day we purchased roughly 18 bottles.  It was
-getting to be late afternoon at that point.  We stopped at the airport &amp;
-retrieved my suitcase.  We went back to the campground to pitch our tent.
-We finished that just as it was getting dark.  We made a light dinner in the
-campground kitchen.
-</p>
-<h2>17 April 2005</h2>
-<p>
-It was a bright, sunny morning.  We took down our tent &amp; had to hang the
-outer shell off the car so it could dry out a bit.  Before we got on the
-road to Christchurch, we stopped at the Blenheim farmers' market.  We picked
-up a number of nice lunch items, including some very nice homemade mustard.
-There is not very much along the road from Blenheim to Christchurch
-except for the town of Kaikoura.  We stopped just north of Kaikoura to take
-pictures of a small pod of seals.  Two of the pups were playing on the rocks.
-We had lunch in a little park on the beach in Kaikoura.  The Southern Alps
-come right down to the ocean at that point, so the views are spectacular.
-We drove on to Christchurch.  We first stopped at our hotel, the Stonehurst.
-Then we drove up into the hills south of the city.  We saw nice views of
-Christchurch, as well as of Lyttleton harbour.  Even here there were
-numerous sheep.  We went down into Lyttleton &amp; stopped at a pub called the
-Rat &amp; Roach.  We played checkers there.  Shelley defeated me soundly.
-It took a little while to find the tunnel back to Christchurch, but we did
-eventually.  We stopped at a grocery for some more items for dinner.  We
-cooked dinner in the Stonehurst kitchen &amp; met another couple from Seattle
-who were about to head home.
-</p>
-<h2>18 April 2005</h2>
-<p>
-I had to get up early to catch the Tranzalpine express train.  Fortunately,
-there is a free shuttle service that picked me up from the front of the
-Stonehurst &amp; took me &amp; several others to the train station.  The
-station was quite small, since there isn't all that much passenger train
-travel anymore.  There were about a dozen cars on the train, with an open-air
-observation car in the middle.  The observation car had lots of equipment
-in the middle, so it effectively divided the train in half.  We climbed
-slowly up the Canterbury plains, but within about an hour, we were well within
-the Southern Alps.  I took a great number of pictures of all the mountains.
-There were many tunnels along the route &amp; a few spectacular bridges.
-The highest point of the route is in a tiny village called Arthur's Pass.
-The train stopped there for a few minutes.  After Arthur's Pass, the train
-passes through a long tunnel.  On the other side is the even tinier village
-of Otira.  Apparently a couple from Auckland own the whole town.  Past the
-tunnel, the train is now in the West Coast region of the South Island.  This
-region gets a great deal of rain &amp; so there is a dramatic change in
-the vegetation.  It is a true rainforest.  Greymouth is the end of the line.
-Shelley met me at the station.  We had lunch on the banks of the Grey river.
-The bank is actually a levee, so we were well above the level of the town.
-After lunch, we did a little bit of shopping in town.  We went out to the
-Monteith's Brewery for a tour there.  It was a fairly small facility, but
-very fascinating.  The West Coast has an abundance of coal, so the heat
-to boil the wort is supplied by two coal-fired steam boilers.  After the
-tour we got some samples.  I was very fond of the Black beer.  Shelley liked
-the Radler, very similar to a shandy.  We then drove up to Punakaiki to
-see the Pancake rocks.  These are very strange rocks consisting of thin
-layers of limestone.  The ocean is slowly eroding them, giving them all
-sorts of strange shapes.  Finally, we drove back down through Greymouth to
-Hokitika to stay the night in a holiday park there.  After we had dinner &amp;
-were all settled in, we drove to a nearby glowworm grotto.  This was a tiny
-canyon just off the main road.  Once our eyes became used to the darkness,
-we could see dozens of tiny points of light.  It was beautiful &amp; a little
-other-worldly.
-</p>
-<h2>19 April 2005</h2>
-<p>
-We got underway reasonably early in the morning.  I had written some postcards
-so I posted them from downtown Hokitika.  We stopped to get a picture of me in
-the sheep-shaped entrance to a wool clothing store.  We continued down the
-coast into ever more-sparsely populated areas until we reached Franz Josef
-Glacier.  This glacier is right in the middle of a rainforest &amp; seems
-somewhat out of place.  It is no less spectacular though.  We took a short walk
-right up to the face of the glacier.  It was a little too risky to actually go
-up to touch the glacier, but we did get within 10&nbsp;m or so.  After walking
-back to the car, we drove on past Fox Glacier, which we saw but did not stop at.
-Somewhat further south of Fox Glacier the main road turns inland through Haast
-Pass.  Beyond this point the coast is almost entirely uninhabited.  In Haast
-Pass we saw beautiful rapids &amp; waterfalls.  On the other side of the pass
-we could tell we were in much drier country, central Otago.  The road went
-through Wanaka, but we did not stop there.  We took a back road to Queenstown
-that passed through the town of Cardrona.  Cardrona has skiing in the winter,
-but there is very little else there, except the famous Cardrona Hotel.  This
-charming old place has featured in a number of advertisements in New Zealand.
-We stopped for a drink there then pressed on to Queenstown.  It was quite
-dark at this point, &amp; this was a mountainous road, but we got to
-Queenstown safely.  After we checked in to our room (it was obviously once a
-private house that had been taken over by the holiday park) we went out for
-some dinner.  We stopped at the Loaded Hog near the waterfront which was expensive
-&amp; not very memorable.  After dinner we wandered around downtown
-Queenstown for a bit.  We found a Speight's Alehouse &amp; had a drink there,
-then went back to our room.
-</p>
-<h2>20 April 2005</h2>
-<p>
-The weather was lovely this morning in Queenstown.  After breakfast &amp;
-clean-up, I took a ride on the Kawarau jetboat.  The Kawarau river drains
-Lake Wakatipu.  The ride was very bumpy on the lake, but improved once we
-were on the river proper.  The performance of a jetboat has to be experienced
-to be believed.  A fully-loaded jetboat can easily achieve 60&nbsp;km/h in
-as little as 10&nbsp;cm of water.  The jetboat company has a small underwater
-observatory at their dock, so after the ride Shelley &amp; I went down there.
-We saw enormous eels &amp; some large trout as well.  Next we took the
-gondola to the top of a nearby hill.  The view of the lake was spectacular.
-We hiked around for a little bit on top of the hill.  We took the gondola
-back down &amp; had lunch at The Cow, a little pizza restaurant on a back
-alley in downtown Queenstown.  Apparently dairy cows used to be driven through
-this alley, hence the name.  After lunch we booked a ride on the steamship
-<em>Earnslaw</em>.  This is a real, working, coal-powered steamship.  It was
-noisy &amp; a little bit smelly, but great fun.  The <em>Earnslaw</em> sails
-back &amp; forth between Queenstown &amp; a large sheep station on the
-other side of the lake.  After picking up passengers at the sheep station,
-there was a sing-along on the way back, led by the Chief Engineer who
-played piano.  Back in Queenstown, we went to the -5&deg;C bar.  This is
-built into a giant walk-in freezer.  Everything is made of ice, including
-the glasses.  They provide heavy coats, &amp; the stay is limited to about
-&frac12; hour.  We actually stayed a little longer than that since no one
-was scheduled to come in right after us.  The drinks were mostly vodka
-with lots of tasty fruit.  As we left we smashed our ice glasses in a
-bin.  We went next door briefly to The Boiler Room.  They had a nice
-fire going there, &amp; we quickly warmed up.  We went back to our room.
-</p>
-<h2>21 April 2005</h2>
-<p>
-At breakfast we discovered we had left some ginger ale in the freezer.
-This had exploded during the night &amp; made a big mess.  After cleaning
-that up we had breakfast.  We packed up &amp; drove to nearby Coronet Peak,
-a ski area.  We could see quite a bit from there, including the Remarkables.
-We then went to Arrowtown, famous for its autumn foliage.  The leaves were
-just starting to turn.  We stopped in the centre of town &amp; bought some
-very nice fudge.  Then we drove to Gibbston Valley winery.  They grow
-pinot noir among other things, a speciality of the region.  They also have
-a large, artificial wine cave which we toured.  From there we drove to
-Cromwell, a town which had been sunk by the Clyde Dam &amp; subsequently
-rebuilt on higher ground.  We drove straight through to Gore, a small
-agricultural town.  We stopped at the visitors centre &amp; historical
-museum.  They had an exhibit on moonshine which was unfortunately closed,
-but the other exhibits were interesting.  We went to the motor camp, then
-took a driving tour of the town.  That night we cooked our dinner &amp;
-did some laundry.
-</p>
-<h2>22 April 2005</h2>
-<p>
-We got up fairly early &amp; continued to drive south into the Catlins. This
-is the extreme southeast corner of the South Island.  Even by New Zealand
-standards it is remote &amp; almost uninhabited.  We first went to Curio Bay
-where the low tide exposes a petrified forest.  We saw several nice petrified
-trees, but the tide was already starting to come in.  We then back-tracked a
-few kilometres to go to Slope Point, the southernmost point of the South Island
-(46&deg;40'40"S 169&deg;00'11"E).
-With the exception of southern Patagonia &amp; certain very small islands, this
-is about as far south as one can go without being in Antarctica.  There was
-definitely an Antarctic Ocean feel to the place.  After Slope Point we drove
-to nearby Niagra Falls, which sounded interesting on the map, but turned
-out to have been named that as a joke.  We drove along the coast all the
-way to Dunedin.  Once there we toured the Cadbury chocolate factory where
-most of New Zealand's chocolate is made.  The tour included an old storage
-silo which had been converted into a chocolate waterfall.  After the tour
-we went to Baldwin street, which holds the record as the steepest street
-in the world.  The gradient of 1 in 1.26 (38&deg;!) is impressive, but
-the street itself is very short, so someone used to San Francisco hills
-has no trouble at all climbing it.  We went to the holiday park then.  Here
-we stayed in a camper van.  It was quite comfortable actually.  After
-cooking dinner, we went to a play at the Fortune Theatre, a converted church.
-</p>
-<h2>23 April 2005</h2>
-<p>
-After we had our breakfast, Shelley dropped me off at the Speight's Brewery.
-She went to take care of some shopping &amp; drop off some film for
-developing.  The Speight's tour was very nice.  The highlight was the
-kauri-wood fermentation tanks which are still used occasionally.  Speight's
-is one of two breweries in the world that has such tanks.  Shelley picked
-me up after the tour.  We went briefly to the visitors' centre in the
-very centre of Dunedin.  We drove out to the end of the Otago peninsula to a
-place called Taiaroa Head.  There is an old fort here that is now an
-albatross colony, the only one on mainland anywhere in the world.  Shelley
-had seen the albatross nesting site earlier, so I went up to the observation
-hut &amp; saw three large albatross chicks.  Then we took a tour of the old
-fort together.  It had originally been built to defend Dunedin from the Russians,
-who were developing a naval base at Vladivostok at the time the fort was
-built.  The highlight of the fort is the Armstrong disappearing gun.  When
-it fires, the recoil pushes the gun underground, so it cannot be seen.
-We then drove to the nearby yellow-eyed penguin colony.  These relatively rare
-penguins are found only in New Zealand &amp; a few nearby islands.  This
-colony is on private land, &amp; an elaborate system of trenches &amp; blinds
-permits visitors to get quite close to the penguins.  We got to see some of them
-returning from spending the day at sea.  Evening was approaching, so we drove
-back to Dunedin.  We went to a downtown sports bar &amp; watched a rugby game.
-</p>
-<h2>24 April 2005</h2>
-<p>
-We woke very early in the morning because of a hailstorm.  The hail was very heavy
-&amp; in places looked like snow.  We went to pick up our pictures then drove
-up into the hills over Dunedin to see the views.  The hail was still coming down
-in places.  We started driving north &amp; stopped at one point to play in the 'snow'.
-From there we drove up the coast to the Moeraki Boulders.  These are giant spherical
-that have been eroded out of a nearby cliff &amp; now are scattered over a beach.
-From there we went inland again.  We stopped briefly to see Maori petroglyphs near
-Takiroa.  We drove past two artificial lakes, Lake Aviemore &amp; Lake Benmore.
-These are fed by rivers coming out of Lake Pukaki &amp; Lake Tekapo.
-We stopped at a pub in Omarama &amp; had fish &amp; chips.  Lake Pukaki
-was our next stop.  We could not see Mount Cook due to the weather.  We then drove
-on to Lake Tekapo.  We considered touring a small observatory there, but it was not
-due to open for several hours.  We did stop to take pictures around the Church of
-the Good Shepherd.  This charming stone chapel is popular for weddings.  All of these
-Lakes are a very light blue colour due to very fine suspended particles of rock.
-We then drove back to the coast &amp; spent the night in Timaru.
-</p>
-<h2>25 April 2005</h2>
-<p>
-We got up very early to go to the Anzac Day ceremony at the Timaru war memorial.
-A few hundred people of all ages went to the ceremony.  After the ceremony we
-went back to the caravan we had stayed in &amp; finished getting ready to go.
-We drove inland again to the isolated Erehwon Valley.  In this valley is a large
-hill called Mount Sunday.  This was the location for 'Edoras' in <em>The Lord of the
-Rings</em>.  We had a short picnic snack by the side of the road.  Mount Sunday is
-on private land, so we could not climb it.  We drove back to Christchurch; I drove
-some of the way. After we got to the holiday park near the airport, Shelley dropped
-me off at the International Antarctic Centre.  The highlight there was a cold room
-where they have simulated Antarctic conditions including a storm.  They also had
-an aquarium containing sea life from beneath an ice shelf.  That evening we
-visited the Christchurch hash.  The trail was a little difficult to follow, &amp; I
-got lost for a while.  After the trail we had some pizza &amp; watched part of the
-movie <em>Ice Age</em>.
-</p>
-<h2>26 April 2005</h2>
-<p>
-After breakfast our route again went inland.  We went first to Hanmer Springs, a
-popular hot pool area.  The weather was not very nice &amp; the area was crowded
-so we did not stay there.  Instead we drove on to Maruia Springs.  We had a
-snack there then soaked in a private pool for about an hour.  Maruia Springs is
-in a pretty, heavily-forested valley.  From there we drove on to Buller Gorge.
-This is considered part of the West Coast, &amp; we were back in rainforest.
-We went through Hawks Crag, where the road has been blasted out of solid rock.
-We turned around there &amp; drove back up Buller Gorge to the east.  We passed
-by the Buller Gorge swingbridge, the largest in New Zealand, but did not
-cross it.  We had wanted to try to see some of Tasman Bay around Nelson, but
-it was already starting to get dark.  We drove instead back to Blenheim, &amp;
-from there straight on to Picton.  We found the hostel there, then went for
-dinner at the Toot 'n' Whistle, a pub near the ferry terminal.
-</p>
-<h2>27 April 2005</h2>
-<p>
-We had to get up very early to catch the ferry, which we did with no problem.
-Shelley dozed on the ferry, &amp; I took a few pictures.  Once in Wellington
-we first got some breakfast at Fidel's.  Next we went to the New Zealand
-Parliament &amp; took the tour.  We were able to go right out on to the floor
-of the Parliament chamber.  We also went in to the adjacent Parliamentary
-library.  I peeked in to the Backbencher Pub across the street.  After finding
-a place to park, we took the cable car up to the Botanical Gardens.  We took
-a walk through the garden.  We stopped at the Carter Observatory &amp; watched
-the planetarium show.  We took the cable car back down &amp; had a little
-snack.  We then went to old Saint Paul's cathedral, a beautiful old wood
-building.  We drove to Mount Victoria which has a great view of the city.
-We then went back down into the city to visit Te Papa museum.  This was a
-huge place.  We saw natural history exhibits as well as an exhibit on New
-Zealand in the 1970s.  By the time we got out of Te Papa it was getting dark.
-We drove up the coast to the little town of Paekakariki &amp; stayed in
-a holiday park there.
-</p>
-<h2>28 April 2005</h2>
-<p>
-After breakfast we drove to the nearby beach.  We had a good view of Kapiti Island,
-which is a nature reserve.  Unfortunately, it started to rain, so our walk on
-the beach was cut short.  From there we drove straight through to Lake Taupo.
-We stopped at the Tongariro National Trout Center, which is on the banks of
-the Tongariro River.  We took a self-guided tour which was very interesting.  We
-also got some fish food, so we fed the fish in a few places.  It was quite
-something to see so many trout in one place.  We went to the town of Taupo
-&amp; had a quick lunch.  Then I took a ride on the <em>Barbary</em>, an old
-yacht that was once the property of Errol Flynn.  Shelley had been on the boat
-just a few months before, so she did not join me. There weren't many passengers,
-just me, a family from Northern Ireland &amp; a couple from Canada.  We used
-the sails most of the way &amp; went out to see a contemporary Maori rock
-carving that can only be seen from the water.  On the way back we had tea &amp;
-biscuits, &amp; I got to steer most of the way.  We picked up some more
-photographs, then drove back to the other side of Lake Taupo.  We stopped for
-a moment to take in the view of the lake as the Sun was setting, then drove
-on to Whakapapa Village.
-</p>
-<h2>29 April 2005</h2>
-<p>
-We got up very early to do the Tongariro Crossing, one of New Zealand's most
-famous trails.  We decided to not go with the buses.  Since the second half of
-the trail is somewhat boring, we decided to drive to the start, go to the top,
-then come back down the way we came up.  We were heavily laden with warm
-clothes, &amp; we needed all of them at points in the trail.  The trail has
-four distinct portions.  The first few kilometres are relatively flat.  Then
-there is about a 500&nbsp;m climb up the Devil's Staircase, a steep section
-of very irregular volcanic rock.  Then there is a short, flat section through
-Mount Tongariro's South Crater.  Finally, there is the climb up to the top
-of Mount Tongariro &amp; Red Crater.  The views were spectacular, &amp; at times
-we could even see Mount Taranaki when the cloud cover was favourable. It
-was very windy at the top, but we were able to eat our lunch in the lee of a
-tall cairn without too much difficulty.  After we got back down we drove to
-Tokaanu &amp; soaked for a while in the thermal pools.  This felt <i>very</i>
-good after climbing a mountain!  We went back to Whakapapa &amp; got dressed
-for dinner at the Grand Chateau Hotel.  Dinner there was very good.  I had
-a nice venison.  It was also very quiet since there were only about five
-groups of people there.  After dinner, we were truly exhausted, so it was
-off to bed.
-</p>
-<h2>30 April 2005</h2>
-<p>
-As we were leaving Whakapapa we stopped at the Visitor Centre which was very
-interesting.  We drove back to Taupo.  We went to the Aratiatia rapids on the
-Waikato River.  Three times a day they release water from a dam &amp; the
-rapids flow with full force.  We barely missed one of the releases, but the
-rapids were still spectacular.  We went back upriver a little way to Huka
-Falls, then briefly went to an overlook of the Craters of the Moon thermal
-area near Wairakei.  From there we drove on to Rotorua.  We drove around the
-city a bit, took care of some errands &amp; visited Ohinemutu, a small
-Maori village in Rotorua.  We then checked into our cabin &amp; rested for
-a bit.  We were very close to Kuirau thermal park, so we walked through that.
-It features bubbling mud &amp; a fair sized boiling lake.  We stopped at a
-Pig &amp; Whistle for a drink.  Shelley dropped me off at the Rotorua office
-of Tamaki Maori Village.  From there I took a bus with the many other
-tourists to the village proper, a recreation of a traditional Maori village.
-We had a formal welcome ceremony, then demonstrations of village life, a
-concert, &amp; dinner.  Dinner was very nice &amp; included New Zealand mussels
-(some of the best in the world!) &amp; kumara, a not-very-sweet variety of
-sweet potato.  After dinner I wandered through the shops &amp; found a very
-nice Maori patterned shirt for myself.  Shelley picked me up from there
-&amp; we went a few miles down the road to Kerosene Creek, a hot stream.
-We were the only ones there.  We soaked in the stream for a little while
-then went back to our cabin.
-</p>
-<h2>1 May 2005</h2>
-<p>
-After breakfast we cleaned out the car &amp; I repacked my suitcase.  I was
-able to eliminate on of the bags I brought, which was Shelley's bag anyway.
-Shelley then dropped me off at the Agrodome while she took care of some
-chores.  The Agrodome is a New Zealand livestock show &amp; 19 different
-varieties of sheep were on display.  They also demonstrated the two
-main varieties of New Zealand sheep dog (both varieties of border collie).
-Shelley picked me up, &amp; we drove to Tauranga to see Mount Maunganui,
-which is simply known as the Mount to locals &amp; everyone else in New Zealand.
-We took a walk on the beach &amp; found some pretty shells.  We had lunch
-on the beach.  There were paragliders jumping of the Mount.  One of them
-landed on the beach right in front of us as we were eating.  On the way
-out of Tauranga we stopped at Mills Reef winery.  They had some very nice
-wines &amp; ports, but I already had a full load to take home.  We drove
-across the bottom of the Coromandel peninsula &amp; up the west coast of
-the Firth of Thames.  This was very unpopulated country despite being
-very close to Auckland.  We stopped for ice cream at Kawakawa Bay, then
-drove the rest of the way in to Auckland airport.  I arrived in good time
-&amp; check-in was no problem.  I was slightly annoyed by the departure
-tax, however.  It was very hard to say good-bye, but I knew we'd be
-together again.
-</p>
-                </div><!-- end class="col-md-12" -->
+                <div class="col">
+                    <h2>Introduction</h2>
+                    <p class="lead">This is a write-up of my visit to Aotearoa/New Zealand in April of 2005.
+                        <em>Aotearoa</em> is the Maori name for New Zealand.</p>
+                </div><!-- end class="col" -->
             </div><!-- end class="row" -->
-            <footer class="footer hidden-sm hidden-xs">
-                <p><img src="colorsep.gif" alt="Separator" class="separator" /></p>
-                <ul class="list-unstyled">
-                    <li class="text-muted">Created: 2016-08-08 14:33:13 -0700 (Mon, 08 Aug 2016)</li>
-                    <li class="text-muted">Last modified: 2019-11-06 10:03:56 -0700 (Wed, 06 Nov 2019)</li>
-                </ul>
-            </footer>
-        </div><!-- end class="container" -->
+            <div class="row">
+                <div class="col">
+                    <h2>15 April 2005</h2>
+                    <p>
+                    I arrived in Auckland at about 06:00 local time after a 12-hour flight that
+                    was uneventful, at least until the end.  My large suitcase, one of two I had
+                    packed, failed to arrive, even though it was a direct flight.  It took a
+                    while to get out of baggage claim as a result of having to inform the airline
+                    of the loss.  Shelley was waiting for me at the baggage claim exit.  We
+                    quickly got her car loaded up &amp; drove to her house in Matamata to finish
+                    some of the packing for the trip &amp; have breakfast.  The town of Matamata
+                    is better known these days as 'Hobbiton', since the Hobbiton scenes of
+                    <em>The Lord of the Rings</em> were filmed there.  Once we were ready we stopped
+                    briefly in central Matamata for a few errands.  We drove to Wellington on SH1.
+                    This is mostly a two-lane road, though very well cared-for.  This is one of
+                    the pleasures of visiting a very small country.  Excepting brief stops for
+                    petrol, we drove straight through to Wellington.  We got there in plenty of
+                    time to catch the ferry to the South Island.  The ferry carries cars, trucks,
+                    railroad cars &amp; lots of people.  Basically we were rushing to get to the
+                    ferry &amp; the South Island ahead of the school holiday rush, which began the
+                    next day.  It was already starting to get dark when we boarded the ferry, so
+                    there wasn't much to see beyond Wellington harbour.  The ferry is quite
+                    comfortable, although one can feel the rolling from the swells in the Cook
+                    Strait. This was no bother for me, but Shelley was uncomfortable at times.
+                    After our arrival in Picton about 2.5 hours later, we drove to the nearby
+                    town of Koromiko, where we had booked a room in a Best Western motel.
+                    </p>
+                </div><!-- end class="col" -->
+                <div class="col">
+                    <h2>Pictures</h2>
+                    <p>Placeholder</p>
+                </div><!-- end class="col" -->
+            </div><!-- end class="row" -->
+            <div class="row">
+                <div class="col">
+                    <h2>16 April 2005</h2>
+                    <p>
+                    We got up early &amp; on to Blenheim. I called the airline, &amp; they
+                    reported that my suitcase was in the country &amp; would be delivered to
+                    Blenheim airport. We had a quick breakfast at a bakery
+                    &amp; also reserved our camping spot for the night.
+                    Then it was off to the wineries
+                    around Renwick.  We started at Celier Le Brun, known for their sparkling wines.
+                    We visited Grove Mill, Framingham &amp; Seresin Estate, all very close to each
+                    other.  Although the region is famed for Sauvingon Blanc, they also produce
+                    some very nice Riesling.  Shelley also got me started on learning to drive a
+                    manual transmission car (on the left side too!).  We practised on a side road
+                    near Seresin Estate.  Although I found getting into first gear tricky, once
+                    moving, shifting was very easy.  After that practise session we drove to
+                    Havelock, a small town on Charlotte Sound.  We had lunch at a well-known
+                    restaurant named Mussel Boys.  Indeed, their green-lipped mussels were
+                    fabulous.  I had a batch steamed in Guinness.  At this point I discovered I had
+                    lost my camera.  I realised I had most likely left it at Seresin Estate.
+                    We drove back there &amp; retrieved it.  We went to one more winery.
+                    Over the course of the day we purchased roughly 18 bottles.  It was
+                    getting to be late afternoon at that point.  We stopped at the airport &amp;
+                    retrieved my suitcase.  We went back to the campground to pitch our tent.
+                    We finished that just as it was getting dark.  We made a light dinner in the
+                    campground kitchen.
+                    </p>
+                </div>
+                <div class="col">
+                    <h2>Pictures</h2>
+                    <p>Placeholder</p>
+                </div><!-- end class="col" -->
+            </div><!-- end class="row" -->
+            <div class="row">
+                <div class="col">
+                    <h2>17 April 2005</h2>
+                    <p>
+                    It was a bright, sunny morning.  We took down our tent &amp; had to hang the
+                    outer shell off the car so it could dry out a bit.  Before we got on the
+                    road to Christchurch, we stopped at the Blenheim farmers' market.  We picked
+                    up a number of nice lunch items, including some very nice homemade mustard.
+                    There is not very much along the road from Blenheim to Christchurch
+                    except for the town of Kaikoura.  We stopped just north of Kaikoura to take
+                    pictures of a small pod of seals.  Two of the pups were playing on the rocks.
+                    We had lunch in a little park on the beach in Kaikoura.  The Southern Alps
+                    come right down to the ocean at that point, so the views are spectacular.
+                    We drove on to Christchurch.  We first stopped at our hotel, the Stonehurst.
+                    Then we drove up into the hills south of the city.  We saw nice views of
+                    Christchurch, as well as of Lyttleton harbour.  Even here there were
+                    numerous sheep.  We went down into Lyttleton &amp; stopped at a pub called the
+                    Rat &amp; Roach.  We played checkers there.  Shelley defeated me soundly.
+                    It took a little while to find the tunnel back to Christchurch, but we did
+                    eventually.  We stopped at a grocery for some more items for dinner.  We
+                    cooked dinner in the Stonehurst kitchen &amp; met another couple from Seattle
+                    who were about to head home.
+                    </p>
+                </div>
+                <div class="col">
+                    <h2>Pictures</h2>
+                    <p>Placeholder</p>
+                </div><!-- end class="col" -->
+            </div><!-- end class="row" -->
+            <div class="row">
+                <div class="col">
+                    <h2>18 April 2005</h2>
+                    <p>
+                    I had to get up early to catch the Tranzalpine express train.  Fortunately,
+                    there is a free shuttle service that picked me up from the front of the
+                    Stonehurst &amp; took me &amp; several others to the train station.  The
+                    station was quite small, since there isn't all that much passenger train
+                    travel anymore.  There were about a dozen cars on the train, with an open-air
+                    observation car in the middle.  The observation car had lots of equipment
+                    in the middle, so it effectively divided the train in half.  We climbed
+                    slowly up the Canterbury plains, but within about an hour, we were well within
+                    the Southern Alps.  I took a great number of pictures of all the mountains.
+                    There were many tunnels along the route &amp; a few spectacular bridges.
+                    The highest point of the route is in a tiny village called Arthur's Pass.
+                    The train stopped there for a few minutes.  After Arthur's Pass, the train
+                    passes through a long tunnel.  On the other side is the even tinier village
+                    of Otira.  Apparently a couple from Auckland own the whole town.  Past the
+                    tunnel, the train is now in the West Coast region of the South Island.  This
+                    region gets a great deal of rain &amp; so there is a dramatic change in
+                    the vegetation.  It is a true rainforest.  Greymouth is the end of the line.
+                    Shelley met me at the station.  We had lunch on the banks of the Grey river.
+                    The bank is actually a levee, so we were well above the level of the town.
+                    After lunch, we did a little bit of shopping in town.  We went out to the
+                    Monteith's Brewery for a tour there.  It was a fairly small facility, but
+                    very fascinating.  The West Coast has an abundance of coal, so the heat
+                    to boil the wort is supplied by two coal-fired steam boilers.  After the
+                    tour we got some samples.  I was very fond of the Black beer.  Shelley liked
+                    the Radler, very similar to a shandy.  We then drove up to Punakaiki to
+                    see the Pancake rocks.  These are very strange rocks consisting of thin
+                    layers of limestone.  The ocean is slowly eroding them, giving them all
+                    sorts of strange shapes.  Finally, we drove back down through Greymouth to
+                    Hokitika to stay the night in a holiday park there.  After we had dinner &amp;
+                    were all settled in, we drove to a nearby glowworm grotto.  This was a tiny
+                    canyon just off the main road.  Once our eyes became used to the darkness,
+                    we could see dozens of tiny points of light.  It was beautiful &amp; a little
+                    other-worldly.
+                    </p>
+                </div>
+                <div class="col">
+                    <h2>Pictures</h2>
+                    <p>Placeholder</p>
+                </div><!-- end class="col" -->
+            </div><!-- end class="row" -->
+            <div class="row">
+                <div class="col">
+                    <h2>19 April 2005</h2>
+                    <p>
+                    We got underway reasonably early in the morning.  I had written some postcards
+                    so I posted them from downtown Hokitika.  We stopped to get a picture of me in
+                    the sheep-shaped entrance to a wool clothing store.  We continued down the
+                    coast into ever more-sparsely populated areas until we reached Franz Josef
+                    Glacier.  This glacier is right in the middle of a rainforest &amp; seems
+                    somewhat out of place.  It is no less spectacular though.  We took a short walk
+                    right up to the face of the glacier.  It was a little too risky to actually go
+                    up to touch the glacier, but we did get within 10&nbsp;m or so.  After walking
+                    back to the car, we drove on past Fox Glacier, which we saw but did not stop at.
+                    Somewhat further south of Fox Glacier the main road turns inland through Haast
+                    Pass.  Beyond this point the coast is almost entirely uninhabited.  In Haast
+                    Pass we saw beautiful rapids &amp; waterfalls.  On the other side of the pass
+                    we could tell we were in much drier country, central Otago.  The road went
+                    through Wanaka, but we did not stop there.  We took a back road to Queenstown
+                    that passed through the town of Cardrona.  Cardrona has skiing in the winter,
+                    but there is very little else there, except the famous Cardrona Hotel.  This
+                    charming old place has featured in a number of advertisements in New Zealand.
+                    We stopped for a drink there then pressed on to Queenstown.  It was quite
+                    dark at this point, &amp; this was a mountainous road, but we got to
+                    Queenstown safely.  After we checked in to our room (it was obviously once a
+                    private house that had been taken over by the holiday park) we went out for
+                    some dinner.  We stopped at the Loaded Hog near the waterfront which was expensive
+                    &amp; not very memorable.  After dinner we wandered around downtown
+                    Queenstown for a bit.  We found a Speight's Alehouse &amp; had a drink there,
+                    then went back to our room.
+                    </p>
+                </div>
+                <div class="col">
+                    <h2>Pictures</h2>
+                    <p>Placeholder</p>
+                </div><!-- end class="col" -->
+            </div><!-- end class="row" -->
+            <div class="row">
+                <div class="col">
+                    <h2>20 April 2005</h2>
+                    <p>
+                    The weather was lovely this morning in Queenstown.  After breakfast &amp;
+                    clean-up, I took a ride on the Kawarau jetboat.  The Kawarau river drains
+                    Lake Wakatipu.  The ride was very bumpy on the lake, but improved once we
+                    were on the river proper.  The performance of a jetboat has to be experienced
+                    to be believed.  A fully-loaded jetboat can easily achieve 60&nbsp;km/h in
+                    as little as 10&nbsp;cm of water.  The jetboat company has a small underwater
+                    observatory at their dock, so after the ride Shelley &amp; I went down there.
+                    We saw enormous eels &amp; some large trout as well.  Next we took the
+                    gondola to the top of a nearby hill.  The view of the lake was spectacular.
+                    We hiked around for a little bit on top of the hill.  We took the gondola
+                    back down &amp; had lunch at The Cow, a little pizza restaurant on a back
+                    alley in downtown Queenstown.  Apparently dairy cows used to be driven through
+                    this alley, hence the name.  After lunch we booked a ride on the steamship
+                    <em>Earnslaw</em>.  This is a real, working, coal-powered steamship.  It was
+                    noisy &amp; a little bit smelly, but great fun.  The <em>Earnslaw</em> sails
+                    back &amp; forth between Queenstown &amp; a large sheep station on the
+                    other side of the lake.  After picking up passengers at the sheep station,
+                    there was a sing-along on the way back, led by the Chief Engineer who
+                    played piano.  Back in Queenstown, we went to the -5&deg;C bar.  This is
+                    built into a giant walk-in freezer.  Everything is made of ice, including
+                    the glasses.  They provide heavy coats, &amp; the stay is limited to about
+                    &frac12; hour.  We actually stayed a little longer than that since no one
+                    was scheduled to come in right after us.  The drinks were mostly vodka
+                    with lots of tasty fruit.  As we left we smashed our ice glasses in a
+                    bin.  We went next door briefly to The Boiler Room.  They had a nice
+                    fire going there, &amp; we quickly warmed up.  We went back to our room.
+                    </p>
+                </div>
+                <div class="col">
+                    <h2>Pictures</h2>
+                    <p>Placeholder</p>
+                </div><!-- end class="col" -->
+            </div><!-- end class="row" -->
+            <div class="row">
+                <div class="col">
+                    <h2>21 April 2005</h2>
+                    <p>
+                    At breakfast we discovered we had left some ginger ale in the freezer.
+                    This had exploded during the night &amp; made a big mess.  After cleaning
+                    that up we had breakfast.  We packed up &amp; drove to nearby Coronet Peak,
+                    a ski area.  We could see quite a bit from there, including the Remarkables.
+                    We then went to Arrowtown, famous for its autumn foliage.  The leaves were
+                    just starting to turn.  We stopped in the centre of town &amp; bought some
+                    very nice fudge.  Then we drove to Gibbston Valley winery.  They grow
+                    pinot noir among other things, a speciality of the region.  They also have
+                    a large, artificial wine cave which we toured.  From there we drove to
+                    Cromwell, a town which had been sunk by the Clyde Dam &amp; subsequently
+                    rebuilt on higher ground.  We drove straight through to Gore, a small
+                    agricultural town.  We stopped at the visitors centre &amp; historical
+                    museum.  They had an exhibit on moonshine which was unfortunately closed,
+                    but the other exhibits were interesting.  We went to the motor camp, then
+                    took a driving tour of the town.  That night we cooked our dinner &amp;
+                    did some laundry.
+                    </p>
+                </div>
+                <div class="col">
+                    <h2>Pictures</h2>
+                    <p>Placeholder</p>
+                </div><!-- end class="col" -->
+            </div><!-- end class="row" -->
+            <div class="row">
+                <div class="col">
+                    <h2>22 April 2005</h2>
+                    <p>
+                    We got up fairly early &amp; continued to drive south into the Catlins. This
+                    is the extreme southeast corner of the South Island.  Even by New Zealand
+                    standards it is remote &amp; almost uninhabited.  We first went to Curio Bay
+                    where the low tide exposes a petrified forest.  We saw several nice petrified
+                    trees, but the tide was already starting to come in.  We then back-tracked a
+                    few kilometres to go to Slope Point, the southernmost point of the South Island
+                    (46&deg;40'40"S 169&deg;00'11"E).
+                    With the exception of southern Patagonia &amp; certain very small islands, this
+                    is about as far south as one can go without being in Antarctica.  There was
+                    definitely an Antarctic Ocean feel to the place.  After Slope Point we drove
+                    to nearby Niagra Falls, which sounded interesting on the map, but turned
+                    out to have been named that as a joke.  We drove along the coast all the
+                    way to Dunedin.  Once there we toured the Cadbury chocolate factory where
+                    most of New Zealand's chocolate is made.  The tour included an old storage
+                    silo which had been converted into a chocolate waterfall.  After the tour
+                    we went to Baldwin street, which holds the record as the steepest street
+                    in the world.  The gradient of 1 in 1.26 (38&deg;!) is impressive, but
+                    the street itself is very short, so someone used to San Francisco hills
+                    has no trouble at all climbing it.  We went to the holiday park then.  Here
+                    we stayed in a camper van.  It was quite comfortable actually.  After
+                    cooking dinner, we went to a play at the Fortune Theatre, a converted church.
+                    </p>
+                </div>
+                <div class="col">
+                    <h2>Pictures</h2>
+                    <p>Placeholder</p>
+                </div><!-- end class="col" -->
+            </div><!-- end class="row" -->
+            <div class="row">
+                <div class="col">
+                    <h2>23 April 2005</h2>
+                    <p>
+                    After we had our breakfast, Shelley dropped me off at the Speight's Brewery.
+                    She went to take care of some shopping &amp; drop off some film for
+                    developing.  The Speight's tour was very nice.  The highlight was the
+                    kauri-wood fermentation tanks which are still used occasionally.  Speight's
+                    is one of two breweries in the world that has such tanks.  Shelley picked
+                    me up after the tour.  We went briefly to the visitors' centre in the
+                    very centre of Dunedin.  We drove out to the end of the Otago peninsula to a
+                    place called Taiaroa Head.  There is an old fort here that is now an
+                    albatross colony, the only one on mainland anywhere in the world.  Shelley
+                    had seen the albatross nesting site earlier, so I went up to the observation
+                    hut &amp; saw three large albatross chicks.  Then we took a tour of the old
+                    fort together.  It had originally been built to defend Dunedin from the Russians,
+                    who were developing a naval base at Vladivostok at the time the fort was
+                    built.  The highlight of the fort is the Armstrong disappearing gun.  When
+                    it fires, the recoil pushes the gun underground, so it cannot be seen.
+                    We then drove to the nearby yellow-eyed penguin colony.  These relatively rare
+                    penguins are found only in New Zealand &amp; a few nearby islands.  This
+                    colony is on private land, &amp; an elaborate system of trenches &amp; blinds
+                    permits visitors to get quite close to the penguins.  We got to see some of them
+                    returning from spending the day at sea.  Evening was approaching, so we drove
+                    back to Dunedin.  We went to a downtown sports bar &amp; watched a rugby game.
+                    </p>
+                </div>
+                <div class="col">
+                    <h2>Pictures</h2>
+                    <p>Placeholder</p>
+                </div><!-- end class="col" -->
+            </div><!-- end class="row" -->
+            <div class="row">
+                <div class="col">
+                    <h2>24 April 2005</h2>
+                    <p>
+                    We woke very early in the morning because of a hailstorm.  The hail was very heavy
+                    &amp; in places looked like snow.  We went to pick up our pictures then drove
+                    up into the hills over Dunedin to see the views.  The hail was still coming down
+                    in places.  We started driving north &amp; stopped at one point to play in the 'snow'.
+                    From there we drove up the coast to the Moeraki Boulders.  These are giant spherical
+                    that have been eroded out of a nearby cliff &amp; now are scattered over a beach.
+                    From there we went inland again.  We stopped briefly to see Maori petroglyphs near
+                    Takiroa.  We drove past two artificial lakes, Lake Aviemore &amp; Lake Benmore.
+                    These are fed by rivers coming out of Lake Pukaki &amp; Lake Tekapo.
+                    We stopped at a pub in Omarama &amp; had fish &amp; chips.  Lake Pukaki
+                    was our next stop.  We could not see Mount Cook due to the weather.  We then drove
+                    on to Lake Tekapo.  We considered touring a small observatory there, but it was not
+                    due to open for several hours.  We did stop to take pictures around the Church of
+                    the Good Shepherd.  This charming stone chapel is popular for weddings.  All of these
+                    Lakes are a very light blue colour due to very fine suspended particles of rock.
+                    We then drove back to the coast &amp; spent the night in Timaru.
+                    </p>
+                </div>
+                <div class="col">
+                    <h2>Pictures</h2>
+                    <p>Placeholder</p>
+                </div><!-- end class="col" -->
+            </div><!-- end class="row" -->
+            <div class="row">
+                <div class="col">
+                    <h2>25 April 2005</h2>
+                    <p>
+                    We got up very early to go to the Anzac Day ceremony at the Timaru war memorial.
+                    A few hundred people of all ages went to the ceremony.  After the ceremony we
+                    went back to the caravan we had stayed in &amp; finished getting ready to go.
+                    We drove inland again to the isolated Erehwon Valley.  In this valley is a large
+                    hill called Mount Sunday.  This was the location for 'Edoras' in <em>The Lord of the
+                    Rings</em>.  We had a short picnic snack by the side of the road.  Mount Sunday is
+                    on private land, so we could not climb it.  We drove back to Christchurch; I drove
+                    some of the way. After we got to the holiday park near the airport, Shelley dropped
+                    me off at the International Antarctic Centre.  The highlight there was a cold room
+                    where they have simulated Antarctic conditions including a storm.  They also had
+                    an aquarium containing sea life from beneath an ice shelf.  That evening we
+                    visited the Christchurch hash.  The trail was a little difficult to follow, &amp; I
+                    got lost for a while.  After the trail we had some pizza &amp; watched part of the
+                    movie <em>Ice Age</em>.
+                    </p>
+                </div>
+                <div class="col">
+                    <h2>Pictures</h2>
+                    <p>Placeholder</p>
+                </div><!-- end class="col" -->
+            </div><!-- end class="row" -->
+            <div class="row">
+                <div class="col">
+                    <h2>26 April 2005</h2>
+                    <p>
+                    After breakfast our route again went inland.  We went first to Hanmer Springs, a
+                    popular hot pool area.  The weather was not very nice &amp; the area was crowded
+                    so we did not stay there.  Instead we drove on to Maruia Springs.  We had a
+                    snack there then soaked in a private pool for about an hour.  Maruia Springs is
+                    in a pretty, heavily-forested valley.  From there we drove on to Buller Gorge.
+                    This is considered part of the West Coast, &amp; we were back in rainforest.
+                    We went through Hawks Crag, where the road has been blasted out of solid rock.
+                    We turned around there &amp; drove back up Buller Gorge to the east.  We passed
+                    by the Buller Gorge swingbridge, the largest in New Zealand, but did not
+                    cross it.  We had wanted to try to see some of Tasman Bay around Nelson, but
+                    it was already starting to get dark.  We drove instead back to Blenheim, &amp;
+                    from there straight on to Picton.  We found the hostel there, then went for
+                    dinner at the Toot 'n' Whistle, a pub near the ferry terminal.
+                    </p>
+                </div>
+                <div class="col">
+                    <h2>Pictures</h2>
+                    <p>Placeholder</p>
+                </div><!-- end class="col" -->
+            </div><!-- end class="row" -->
+            <div class="row">
+                <div class="col">
+                    <h2>27 April 2005</h2>
+                    <p>
+                    We had to get up very early to catch the ferry, which we did with no problem.
+                    Shelley dozed on the ferry, &amp; I took a few pictures.  Once in Wellington
+                    we first got some breakfast at Fidel's.  Next we went to the New Zealand
+                    Parliament &amp; took the tour.  We were able to go right out on to the floor
+                    of the Parliament chamber.  We also went in to the adjacent Parliamentary
+                    library.  I peeked in to the Backbencher Pub across the street.  After finding
+                    a place to park, we took the cable car up to the Botanical Gardens.  We took
+                    a walk through the garden.  We stopped at the Carter Observatory &amp; watched
+                    the planetarium show.  We took the cable car back down &amp; had a little
+                    snack.  We then went to old Saint Paul's cathedral, a beautiful old wood
+                    building.  We drove to Mount Victoria which has a great view of the city.
+                    We then went back down into the city to visit Te Papa museum.  This was a
+                    huge place.  We saw natural history exhibits as well as an exhibit on New
+                    Zealand in the 1970s.  By the time we got out of Te Papa it was getting dark.
+                    We drove up the coast to the little town of Paekakariki &amp; stayed in
+                    a holiday park there.
+                    </p>
+                </div>
+                <div class="col">
+                    <h2>Pictures</h2>
+                    <p>Placeholder</p>
+                </div><!-- end class="col" -->
+            </div><!-- end class="row" -->
+            <div class="row">
+                <div class="col">
+                    <h2>28 April 2005</h2>
+                    <p>
+                    After breakfast we drove to the nearby beach.  We had a good view of Kapiti Island,
+                    which is a nature reserve.  Unfortunately, it started to rain, so our walk on
+                    the beach was cut short.  From there we drove straight through to Lake Taupo.
+                    We stopped at the Tongariro National Trout Center, which is on the banks of
+                    the Tongariro River.  We took a self-guided tour which was very interesting.  We
+                    also got some fish food, so we fed the fish in a few places.  It was quite
+                    something to see so many trout in one place.  We went to the town of Taupo
+                    &amp; had a quick lunch.  Then I took a ride on the <em>Barbary</em>, an old
+                    yacht that was once the property of Errol Flynn.  Shelley had been on the boat
+                    just a few months before, so she did not join me. There weren't many passengers,
+                    just me, a family from Northern Ireland &amp; a couple from Canada.  We used
+                    the sails most of the way &amp; went out to see a contemporary Maori rock
+                    carving that can only be seen from the water.  On the way back we had tea &amp;
+                    biscuits, &amp; I got to steer most of the way.  We picked up some more
+                    photographs, then drove back to the other side of Lake Taupo.  We stopped for
+                    a moment to take in the view of the lake as the Sun was setting, then drove
+                    on to Whakapapa Village.
+                    </p>
+                </div>
+                <div class="col">
+                    <h2>Pictures</h2>
+                    <p>Placeholder</p>
+                </div><!-- end class="col" -->
+            </div><!-- end class="row" -->
+            <div class="row">
+                <div class="col">
+                    <h2>29 April 2005</h2>
+                    <p>
+                    We got up very early to do the Tongariro Crossing, one of New Zealand's most
+                    famous trails.  We decided to not go with the buses.  Since the second half of
+                    the trail is somewhat boring, we decided to drive to the start, go to the top,
+                    then come back down the way we came up.  We were heavily laden with warm
+                    clothes, &amp; we needed all of them at points in the trail.  The trail has
+                    four distinct portions.  The first few kilometres are relatively flat.  Then
+                    there is about a 500&nbsp;m climb up the Devil's Staircase, a steep section
+                    of very irregular volcanic rock.  Then there is a short, flat section through
+                    Mount Tongariro's South Crater.  Finally, there is the climb up to the top
+                    of Mount Tongariro &amp; Red Crater.  The views were spectacular, &amp; at times
+                    we could even see Mount Taranaki when the cloud cover was favourable. It
+                    was very windy at the top, but we were able to eat our lunch in the lee of a
+                    tall cairn without too much difficulty.  After we got back down we drove to
+                    Tokaanu &amp; soaked for a while in the thermal pools.  This felt <em>very</em>
+                    good after climbing a mountain!  We went back to Whakapapa &amp; got dressed
+                    for dinner at the Grand Chateau Hotel.  Dinner there was very good.  I had
+                    a nice venison.  It was also very quiet since there were only about five
+                    groups of people there.  After dinner, we were truly exhausted, so it was
+                    off to bed.
+                    </p>
+                </div>
+                <div class="col">
+                    <h2>Pictures</h2>
+                    <p>Placeholder</p>
+                </div><!-- end class="col" -->
+            </div><!-- end class="row" -->
+            <div class="row">
+                <div class="col">
+                    <h2>30 April 2005</h2>
+                    <p>
+                    As we were leaving Whakapapa we stopped at the Visitor Centre which was very
+                    interesting.  We drove back to Taupo.  We went to the Aratiatia rapids on the
+                    Waikato River.  Three times a day they release water from a dam &amp; the
+                    rapids flow with full force.  We barely missed one of the releases, but the
+                    rapids were still spectacular.  We went back upriver a little way to Huka
+                    Falls, then briefly went to an overlook of the Craters of the Moon thermal
+                    area near Wairakei.  From there we drove on to Rotorua.  We drove around the
+                    city a bit, took care of some errands &amp; visited Ohinemutu, a small
+                    Maori village in Rotorua.  We then checked into our cabin &amp; rested for
+                    a bit.  We were very close to Kuirau thermal park, so we walked through that.
+                    It features bubbling mud &amp; a fair sized boiling lake.  We stopped at a
+                    Pig &amp; Whistle for a drink.  Shelley dropped me off at the Rotorua office
+                    of Tamaki Maori Village.  From there I took a bus with the many other
+                    tourists to the village proper, a recreation of a traditional Maori village.
+                    We had a formal welcome ceremony, then demonstrations of village life, a
+                    concert, &amp; dinner.  Dinner was very nice &amp; included New Zealand mussels
+                    (some of the best in the world!) &amp; kumara, a not-very-sweet variety of
+                    sweet potato.  After dinner I wandered through the shops &amp; found a very
+                    nice Maori patterned shirt for myself.  Shelley picked me up from there
+                    &amp; we went a few miles down the road to Kerosene Creek, a hot stream.
+                    We were the only ones there.  We soaked in the stream for a little while
+                    then went back to our cabin.
+                    </p>
+                </div>
+                <div class="col">
+                    <h2>Pictures</h2>
+                    <p>Placeholder</p>
+                </div><!-- end class="col" -->
+            </div><!-- end class="row" -->
+            <div class="row">
+                <div class="col">
+                    <h2>1 May 2005</h2>
+                    <p>
+                    After breakfast we cleaned out the car &amp; I repacked my suitcase.  I was
+                    able to eliminate on of the bags I brought, which was Shelley's bag anyway.
+                    Shelley then dropped me off at the Agrodome while she took care of some
+                    chores.  The Agrodome is a New Zealand livestock show &amp; 19 different
+                    varieties of sheep were on display.  They also demonstrated the two
+                    main varieties of New Zealand sheep dog (both varieties of border collie).
+                    Shelley picked me up, &amp; we drove to Tauranga to see Mount Maunganui,
+                    which is simply known as the Mount to locals &amp; everyone else in New Zealand.
+                    We took a walk on the beach &amp; found some pretty shells.  We had lunch
+                    on the beach.  There were paragliders jumping of the Mount.  One of them
+                    landed on the beach right in front of us as we were eating.  On the way
+                    out of Tauranga we stopped at Mills Reef winery.  They had some very nice
+                    wines &amp; ports, but I already had a full load to take home.  We drove
+                    across the bottom of the Coromandel peninsula &amp; up the west coast of
+                    the Firth of Thames.  This was very unpopulated country despite being
+                    very close to Auckland.  We stopped for ice cream at Kawakawa Bay, then
+                    drove the rest of the way in to Auckland airport.  I arrived in good time
+                    &amp; check-in was no problem.  I was slightly annoyed by the departure
+                    tax, however.  It was very hard to say good-bye, but I knew we'd be
+                    together again.
+                    </p>
+                </div>
+                <div class="col">
+                    <h2>Pictures</h2>
+                    <p>Placeholder</p>
+                </div><!-- end class="col" -->
+            </div><!-- end class="row" -->
+        </main><!-- end class="container" -->
+        <footer class="container hidden-sm hidden-xs">
+            <p><img src="colorsep.gif" alt="Separator" class="separator" /></p>
+            <ul class="list-unstyled">
+                <li class="text-muted">Created: 2016-08-08 14:33:13 -0700 (Mon, 08 Aug 2016)</li>
+                <li class="text-muted">Last modified: 2020-07-14 10:38:18 -0600 (Tue, 14 Jul 2020)</li>
+            </ul>
+        </footer><!-- end class="container" -->
     </body>
 </html>
