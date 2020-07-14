@@ -91,19 +91,19 @@ $( () ->
             star = @stars[@current_star]
             $("#h3info").html("Information on #{@getName @current_star}")
             $("#dlinfo").empty()
-            $('<dt/>').html("Coordinates").appendTo($("#dlinfo"))
-            $('<dd/>').html(@formatPosition(star.position)).appendTo($("#dlinfo"))
-            $('<dt/>').html("Type").appendTo($("#dlinfo"))
-            $('<dd/>').html("#{star.colour} #{star.type}").appendTo($("#dlinfo"))
-            $('<dt/>').html("QuasiSpace Portal").appendTo($("#dlinfo"))
-            $('<dd/>').html(@formatPosition(star.quasi)).appendTo($("#dlinfo"))
-            $('<dt/>').html("Total Mineral RU").appendTo($("#dlinfo"))
-            $('<dd/>').html(star.total_minerals).appendTo($("#dlinfo"))
-            $('<dt/>').html("Total Bio Units").appendTo($("#dlinfo"))
-            $('<dd/>').html(star.total_bio).appendTo($("#dlinfo"))
+            $('<dt/>').addClass("col-md-3").html("Coordinates").appendTo($("#dlinfo"))
+            $('<dd/>').addClass("col-md-9").html(@formatPosition(star.position)).appendTo($("#dlinfo"))
+            $('<dt/>').addClass("col-md-3").html("Type").appendTo($("#dlinfo"))
+            $('<dd/>').addClass("col-md-9").html("#{star.colour} #{star.type}").appendTo($("#dlinfo"))
+            $('<dt/>').addClass("col-md-3").html("QuasiSpace Portal").appendTo($("#dlinfo"))
+            $('<dd/>').addClass("col-md-9").html(@formatPosition(star.quasi)).appendTo($("#dlinfo"))
+            $('<dt/>').addClass("col-md-3").html("Total Mineral RU").appendTo($("#dlinfo"))
+            $('<dd/>').addClass("col-md-9").html(star.total_minerals).appendTo($("#dlinfo"))
+            $('<dt/>').addClass("col-md-3").html("Total Bio Units").appendTo($("#dlinfo"))
+            $('<dd/>').addClass("col-md-9").html(star.total_bio).appendTo($("#dlinfo"))
             if @spoilers and star.special?
-                $('<dt/>').html("Special Feature").appendTo($("#dlinfo"))
-                $('<dd/>').html(star.special).appendTo($("#dlinfo"))
+                $('<dt/>').addClass("col-md-3").html("Special Feature").appendTo($("#dlinfo"))
+                $('<dd/>').addClass("col-md-9").html(star.special).appendTo($("#dlinfo"))
             star
         #
         # Create a table of planet data.
