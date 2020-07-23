@@ -1179,6 +1179,18 @@
                     "author": ["R. Ahumada", "et al."],
                     "title": "The Sixteenth Data Release of the Sloan Digital Sky Surveys: First Release from the APOGEE-2 Southern Survey and Full Release of eBOSS Spectra",
                     "id": "1912.02905"
+                },
+                {
+                    "meta": "SDSS-IV Paper 494",
+                    "author": ["eBOSS Collaboration", "Shadab Alam", "et al."],
+                    "title": "The Completed SDSS-IV extended Baryon Oscillation Spectroscopic Survey: Cosmological Implications from two Decades of Spectroscopic Surveys at the Apache Point observatory",
+                    "id": "2007.08991"
+                },
+                {
+                    "meta": "SDSS-IV Paper 309",
+                    "author": ["Brad W. Lyke", "et al."],
+                    "title": "The Sloan Digital Sky Survey Quasar Catalog: Sixteenth Data Release",
+                    "id": "2007.09001"
                 }
             ]
         },
