@@ -17,6 +17,7 @@ $( () ->
             {time: (new Date(2010,10,13)).getTime(), label: 'Met K.G.', offset: 900}
             {time: (new Date(2012,6,31)).getTime(), label: 'To W.H.', offset: 1050}
             {time: (new Date(2016,7,1)).getTime(), label: 'To Tucson', offset: 1200}
+            {time: (new Date(2020,2,17)).getTime(), label: 'Pandemic', offset: 1400}
         ]
         markings = []
         for d in special_dates

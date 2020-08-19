@@ -33,6 +33,10 @@ $(function() {
         time: (new Date(2016, 7, 1)).getTime(),
         label: 'To Tucson',
         offset: 1200
+      }, {
+        time: (new Date(2020, 2, 17)).getTime(),
+        label: 'Pandemic',
+        offset: 1400
       }
     ];
     markings = [];
