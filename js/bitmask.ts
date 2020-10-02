@@ -3,11 +3,10 @@ function updateBitmask(name: string): void {
     let bitmask: number = 0;
     let big_two: bigint = 2n;
     let big_bitmask: bigint = 0n;
-    $("input[name=" + name + "]").each(function(i: any): void {
-        let p: number;
+    $("input[name=" + name + "]").each(function(i: number): void {
         if ($(this).prop('checked')) {
-            p = parseInt(""+$(this).val());
-            bitmask += Math.pow(2, p);
+            let p: string = ""+$(this).val();
+            bitmask += Math.pow(2, parseInt(p));
             big_bitmask += big_two**BigInt(p);
         }
     });
