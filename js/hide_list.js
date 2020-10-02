@@ -1,6 +1,6 @@
 function toggle(link) {
-    var i = $(link).prev();
-    var ul = $(link).next();
+    let i = $(link).prev();
+    let ul = $(link).next();
     while (ul.prop('nodeName') !== 'UL') {
         ul = ul.next();
     }

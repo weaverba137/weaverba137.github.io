@@ -1,11 +1,11 @@
 $(function () {
-    var ip = { ip: "::1",
+    let ip = { ip: "::1",
         hostname: "localhost.localdomain",
         city: "Tucson",
         region: "Arizona",
         country: "US" };
-    var onDataReceived = function (data) { ip = data; };
-    var displayIP = function () {
+    let onDataReceived = function (data) { ip = data; };
+    let displayIP = function () {
         $('#IPAddress').html(ip.ip);
         $('#HostName').html(ip.hostname);
         $('#userAgent').html(navigator.userAgent);
