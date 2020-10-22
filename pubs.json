@@ -1177,20 +1177,28 @@
                 {
                     "meta": "SDSS-IV Paper 365",
                     "author": ["R. Ahumada", "et al."],
-                    "title": "The Sixteenth Data Release of the Sloan Digital Sky Surveys: First Release from the APOGEE-2 Southern Survey and Full Release of eBOSS Spectra",
-                    "id": "1912.02905"
+                    "title": "The 16th Data Release of the Sloan Digital Sky Surveys: First Release from the APOGEE-2 Southern Survey and Full Release of eBOSS Spectra",
+                    "journal": "Astrophys. J. Supp.",
+                    "volume": 249,
+                    "pages": "3",
+                    "year": 2020,
+                    "id": "2020ApJS..249....3A"
+                },
+                {
+                    "meta": "SDSS-IV Paper 309",
+                    "author": ["Brad W. Lyke", "et al."],
+                    "title": "The Sloan Digital Sky Survey Quasar Catalog: Sixteenth Data Release",
+                    "journal": "Astrophys. J. Supp.",
+                    "volume": 250,
+                    "pages": "8",
+                    "year": 2020,
+                    "id": "2020ApJS..250....8L"
                 },
                 {
                     "meta": "SDSS-IV Paper 494",
                     "author": ["eBOSS Collaboration", "Shadab Alam", "et al."],
                     "title": "The Completed SDSS-IV extended Baryon Oscillation Spectroscopic Survey: Cosmological Implications from two Decades of Spectroscopic Surveys at the Apache Point observatory",
                     "id": "2007.08991"
-                },
-                {
-                    "meta": "SDSS-IV Paper 309",
-                    "author": ["Brad W. Lyke", "et al."],
-                    "title": "The Sloan Digital Sky Survey Quasar Catalog: Sixteenth Data Release",
-                    "id": "2007.09001"
                 }
             ]
         },
@@ -1312,6 +1320,15 @@
                     "author": ["Knut Olsen", "et al."],
                     "title": "The Data Lab: A Science Platform for the analysis of ground-based astronomical survey data",
                     "id": "1908.00664"
+                },
+                {
+                    "author": ["R. Nikutta", "M. Fitzpatrick", "A. Scott", "B. A. Weaver"],
+                    "title": "Data Lab&mdash;A community science platform",
+                    "journal": "Astronomy &amp; Computing",
+                    "volume": 33,
+                    "pages": "100411",
+                    "year": 2020,
+                    "id": "2020AC.....33..411N"
                 }
             ]
         }
