@@ -85,13 +85,11 @@ $(
             // var a, au, authors, h, j, number, p, title, u;
             if (article.author[article.author.length - 1] === "et al.")
                 article.author[article.author.length - 1] = "<em>et al.</em>";
-            let authors: string = ((function() {
+            let authors: string = ((function(a: string[]): string {
                 let results: string[] = [];
-                for (let i: number = 0; i < article.author.length; i++) {
-                    results.push(article.author[i].replace(/ +/g, "&nbsp;"));
-                }
-                return results;
-            })()).join(", ");
+                for (let i: number = 0; i < a.length; i++) results.push(a[i].replace(/ +/g, "&nbsp;"));
+                return results.join(", ");
+            })(article.author));
             let title: string = "&ldquo;" + article.title + "&rdquo;";
             let h: string[] = [authors, title];
             let a = article as JournalURLArticle;
