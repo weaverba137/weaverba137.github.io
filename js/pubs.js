@@ -3,15 +3,13 @@ $(function () {
     let renderArticle = function (article) {
         if (article.author[article.author.length - 1] === "et al.")
             article.author[article.author.length - 1] = "<em>et al.</em>";
-        let authors = ((function () {
+        let authors = ((function (a) {
             let results = [];
-            for (let i = 0; i < article.author.length; i++) {
-                results.push(article.author[i].replace(/ +/g, "&nbsp;"));
-            }
-            return results;
-        })()).join(", ");
-        let title = "&ldquo;" + article.title + "&rdquo;";
-        let h = [authors, title];
+            for (let i = 0; i < a.length; i++)
+                results.push(a[i].replace(/ +/g, "&nbsp;"));
+            return results.join(", ");
+        })(article.author));
+        let h = [authors, "&ldquo;" + article.title + "&rdquo;"];
         let a = article;
         let number = a.hasOwnProperty("number") ? "(" + a.number + ")" : "";
         let u = "";

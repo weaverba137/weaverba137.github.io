@@ -82,7 +82,6 @@ $(
     function(): void {
         let P: Publications;
         let renderArticle = function(article: AnyArticle): JQuery<HTMLElement> {
-            // var a, au, authors, h, j, number, p, title, u;
             if (article.author[article.author.length - 1] === "et al.")
                 article.author[article.author.length - 1] = "<em>et al.</em>";
             let authors: string = ((function(a: string[]): string {
@@ -90,8 +89,7 @@ $(
                 for (let i: number = 0; i < a.length; i++) results.push(a[i].replace(/ +/g, "&nbsp;"));
                 return results.join(", ");
             })(article.author));
-            let title: string = "&ldquo;" + article.title + "&rdquo;";
-            let h: string[] = [authors, title];
+            let h: string[] = [authors, "&ldquo;" + article.title + "&rdquo;"];
             let a = article as JournalURLArticle;
             let number: string = a.hasOwnProperty("number") ? "(" + a.number + ")" : "";
             let u: string = "";
