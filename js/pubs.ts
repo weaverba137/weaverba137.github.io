@@ -85,17 +85,13 @@ $(
             // var a, au, authors, h, j, number, p, title, u;
             if (article.author[article.author.length - 1] === "et al.")
                 article.author[article.author.length - 1] = "<em>et al.</em>";
-            let authors: string;
-            // authors = ((function() {
-            //   var i, len, ref, results;
-            //   ref = article.author;
-            //   results = [];
-            //   for (i = 0, len = ref.length; i < len; i++) {
-            //     au = ref[i];
-            //     results.push(au.replace(/ +/g, "&nbsp;"));
-            //   }
-            //   return results;
-            // })()).join(", ");
+            let authors: string = ((function() {
+                let results: string[] = [];
+                for (let i: number = 0; i < article.author.length; i++) {
+                    results.push(article.author[i].replace(/ +/g, "&nbsp;"));
+                }
+                return results;
+            })()).join(", ");
             let title: string = "&ldquo;" + article.title + "&rdquo;";
             let h: string[] = [authors, title];
             let a = article as JournalURLArticle;
@@ -149,7 +145,7 @@ $(
                 let div: JQuery<HTMLElement> = $("#" + k);
                 div.empty();
                 $("<h3/>").html(notices[k].title).appendTo(div);
-                let a: string[];
+                let a: string[] = [];
                 for (let i: number = 0; i < notices[k].data.length; i++) {
                     let d: number = notices[k].data[i];
                     let u: string;
