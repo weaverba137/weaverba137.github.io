@@ -1,108 +1,97 @@
-var hasProp = {}.hasOwnProperty;
-
-$(function() {
-  var P, display, renderArticle, renderArticles, renderNotices;
-  P = {};
-  renderArticle = function(article) {
-    var a, au, authors, h, j, number, p, title, u;
-    if (article.author[article.author.length - 1] === "et al.") {
-      article.author[article.author.length - 1] = "<em>et al.</em>";
-    }
-    authors = ((function() {
-      var i, len, ref, results;
-      ref = article.author;
-      results = [];
-      for (i = 0, len = ref.length; i < len; i++) {
-        au = ref[i];
-        results.push(au.replace(/ +/g, "&nbsp;"));
-      }
-      return results;
-    })()).join(", ");
-    title = "&ldquo;" + article.title + "&rdquo;";
-    h = [authors, title];
-    number = article.number != null ? "(" + article.number + ")" : "";
-    if (article.journal != null) {
-      if (article.url != null) {
-        u = article.url;
-      } else {
-        if (article.id != null) {
-          u = "https://ui.adsabs.harvard.edu/abs/" + article.id + "/abstract";
-        } else {
-          u = null;
+$(function () {
+    let P;
+    let renderArticle = function (article) {
+        if (article.author[article.author.length - 1] === "et al.")
+            article.author[article.author.length - 1] = "<em>et al.</em>";
+        let authors = ((function () {
+            let results = [];
+            for (let i = 0; i < article.author.length; i++) {
+                results.push(article.author[i].replace(/ +/g, "&nbsp;"));
+            }
+            return results;
+        })()).join(", ");
+        let title = "&ldquo;" + article.title + "&rdquo;";
+        let h = [authors, title];
+        let a = article;
+        let number = a.hasOwnProperty("number") ? "(" + a.number + ")" : "";
+        let u = "";
+        if (article.hasOwnProperty("journal")) {
+            if (article.hasOwnProperty("url")) {
+                u = a.url;
+            }
+            else {
+                if (article.hasOwnProperty("id")) {
+                    let b = article;
+                    u = "https://ui.adsabs.harvard.edu/abs/" + b.id + "/abstract";
+                }
+            }
+            let aa = article;
+            let j = aa.journal.replace(/ +/g, "&nbsp;");
+            let aaa = article;
+            if (aaa.hasOwnProperty("conference")) {
+                h.push("&ldquo;" + aaa.conference + "&rdquo;");
+            }
+            h.push("<em>" + j + "</em> <strong>" + aa.volume + "</strong>" + number + " (" + aa.year + ") " + aa.pages);
         }
-      }
-      j = article.journal.replace(/ +/g, "&nbsp;");
-      if (article.conference != null) {
-        h.push("&ldquo;" + article.conference + "&rdquo;");
-      }
-      h.push("<em>" + j + "</em> <strong>" + article.volume + "</strong>" + number + " (" + article.year + ") " + article.pages);
-    } else {
-      u = "https://arxiv.org/abs/" + article.id;
-      h.push("arXiv:" + article.id);
-    }
-    p = $("<p/>").addClass("pub");
-    if (u != null) {
-      a = $("<a/>").attr("href", u).html(h.join(", ") + ".");
-      a.appendTo(p);
-    } else {
-      p = p.html(h.join(", ") + ".");
-    }
-    return p;
-  };
-  renderArticles = function(articles) {
-    var div, h3, i, k, len, p, r, ref, v;
-    for (k in articles) {
-      if (!hasProp.call(articles, k)) continue;
-      v = articles[k];
-      div = $("#" + k);
-      div.empty();
-      h3 = $("<h3/>").html(v.title).appendTo(div);
-      ref = v.data;
-      for (i = 0, len = ref.length; i < len; i++) {
-        r = ref[i];
-        p = renderArticle(r);
-        p.appendTo(div);
-      }
-    }
-    return true;
-  };
-  renderNotices = function(notices) {
-    var a, d, d1, d6, div, h3, i, k, len, p, ref, u, v, z;
-    for (k in notices) {
-      if (!hasProp.call(notices, k)) continue;
-      v = notices[k];
-      div = $("#" + k);
-      div.empty();
-      h3 = $("<h3/>").html(v.title).appendTo(div);
-      a = [];
-      ref = v.data;
-      for (i = 0, len = ref.length; i < len; i++) {
-        d = ref[i];
-        if (k === "cbet") {
-          d6 = d < 1000 ? "000" + d : "00" + d;
-          d1 = d < 1000 ? Math.floor(d / 100) * 100 : Math.floor(d / 1000) * 1000;
-          z = d < 1000 ? "000" + d1 : "00" + d1;
-          u = v.url.replace(/%06d/, d6).replace(/%s/, z);
-        } else {
-          u = v.url.replace(/%d/, d);
+        else {
+            let aaaa = article;
+            u = "https://arxiv.org/abs/" + aaaa.id;
+            h.push("arXiv:" + aaaa.id);
         }
-        a.push("<a href=\"" + u + "\">" + d + "</a>");
-      }
-      p = $("<p/>").html(a.join(", ")).appendTo(div);
-    }
-    return true;
-  };
-  display = function() {
-    renderArticles(P.articles);
-    renderNotices(P.notices);
-    renderArticles(P.links);
-    return true;
-  };
-  if ($.isEmptyObject(P)) {
-    return $.getJSON('pubs.json', {}, function(data) {
-      return P = data;
-    }).fail(function() {
-      return alert("Data retrieval error!");
-    }).done(display);
-  }
+        let p = $("<p/>").addClass("pub");
+        if (u != "") {
+            $("<a/>").attr("href", u).html(h.join(", ") + ".").appendTo(p);
+        }
+        else {
+            p = p.html(h.join(", ") + ".");
+        }
+        return p;
+    };
+    let renderArticles = function (articles) {
+        let k;
+        for (k in articles) {
+            if (!articles.hasOwnProperty(k))
+                continue;
+            let div = $("#" + k);
+            div.empty();
+            $("<h3/>").html(articles[k].title).appendTo(div);
+            for (let i = 0; i < articles[k].data.length; i++) {
+                renderArticle(articles[k].data[i]).appendTo(div);
+            }
+        }
+    };
+    let renderNotices = function (notices) {
+        let k;
+        for (k in notices) {
+            if (!notices.hasOwnProperty(k))
+                continue;
+            let div = $("#" + k);
+            div.empty();
+            $("<h3/>").html(notices[k].title).appendTo(div);
+            let a = [];
+            for (let i = 0; i < notices[k].data.length; i++) {
+                let d = notices[k].data[i];
+                let u;
+                if (k === "cbet") {
+                    let d6 = d < 1000 ? "000" + d : "00" + d;
+                    let d1 = d < 1000 ? Math.floor(d / 100) * 100 : Math.floor(d / 1000) * 1000;
+                    let z = d < 1000 ? "000" + d1 : "00" + d1;
+                    u = notices[k].url.replace(/%06d/, d6).replace(/%s/, z);
+                }
+                else {
+                    u = notices[k].url.replace(/%d/, "" + d);
+                }
+                a.push("<a href=\"" + u + "\">" + d + "</a>");
+            }
+            $("<p/>").html(a.join(", ")).appendTo(div);
+        }
+    };
+    let display = function () {
+        renderArticles(P.articles);
+        renderNotices(P.notices);
+        renderArticles(P.links);
+    };
+    let onDataReceived = function (data) { P = data; };
+    if ($.isEmptyObject(P))
+        $.getJSON('pubs.json', {}, onDataReceived).fail(function () { alert("Data retrieval error!"); }).done(display);
 });
