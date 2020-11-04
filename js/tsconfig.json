@@ -6,6 +6,7 @@
     "files": [
         "bitmask.ts",
         "factorial.ts",
+        "hhh.ts",
         "hide_list.ts",
         "index.ts",
         "pubs.ts"
