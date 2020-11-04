@@ -65,7 +65,7 @@ $(
             label: 'Pandemic',
             offset: 1400
         }];
-        let hhh: PlotData[];
+        let hhh: PlotData[] = [];
         let previousPoint: number = null;
         let replot = function(): void {
             // var arrowhead, ctx, d, handle_plot_hover, i, j, label_css, len, len1, markings, next_year, o, plot1, plot1_area, plot1_options, plot2, plot2_area, plot2_options, showTooltip, special_dates, start_year;

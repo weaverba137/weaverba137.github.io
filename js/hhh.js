@@ -28,7 +28,7 @@ $(function () {
             label: 'Pandemic',
             offset: 1400
         }];
-    let hhh;
+    let hhh = [];
     let previousPoint = null;
     let replot = function () {
         let plot1_area = $("#plot1_area");
