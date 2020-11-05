@@ -9,6 +9,7 @@
         "hhh.ts",
         "hide_list.ts",
         "index.ts",
-        "pubs.ts"
+        "pubs.ts",
+        "qso.ts"
     ]
 }

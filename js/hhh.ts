@@ -29,8 +29,23 @@ interface SelectionRange {
 }
 
 declare namespace jquery.flot {
-    interface plot {
-        setSelection(ranges: SelectionRange, preventEvent?: boolean): void;
+    // interface plot {
+    //     setSelection(ranges: SelectionRange, preventEvent?: boolean): void;
+    // }
+    interface axisOptions {
+        axisLabel?: string;
+    }
+    interface plotOptions {
+        axisLabels?: {show: boolean;};
+        zoom?: {interactive: boolean;};
+        pan?: {interactive: boolean;};
+        selection?: {mode: string;};
+    }
+    interface dataSeries {
+        id?: string;
+        opacity?: number;
+        fillBetween?: string;
+        meta?: MetaString[];
     }
 }
 
@@ -65,7 +80,7 @@ $(
             label: 'Pandemic',
             offset: 1400
         }];
-        let hhh: PlotData[] = [];
+        let hhh: jquery.flot.dataSeries[] = [];
         let previousPoint: number = null;
         let replot = function(): void {
             // var arrowhead, ctx, d, handle_plot_hover, i, j, label_css, len, len1, markings, next_year, o, plot1, plot1_area, plot1_options, plot2, plot2_area, plot2_options, showTooltip, special_dates, start_year;
@@ -77,7 +92,7 @@ $(
             for (let i: number = 0; i < special_dates.length; i++) {
                 markings.push({color: 'black', lineWidth: 1, xaxis: {from: special_dates[i].time, to: special_dates[i].time}});
             }
-            const plot1_options = {
+            const plot1_options: jquery.flot.plotOptions = {
                 legend: {show: false},
                 grid: {hoverable: true},
                 series: {
@@ -91,7 +106,7 @@ $(
                 },
                 selection: {mode: 'xy'}
             };
-            const plot2_options = {
+            const plot2_options: jquery.flot.plotOptions = {
                 legend: {show: false},
                 series: {
                     lines: {show: true, lineWidth: 1},
