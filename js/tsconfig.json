@@ -10,6 +10,7 @@
         "hide_list.ts",
         "index.ts",
         "pubs.ts",
-        "qso.ts"
+        "qso.ts",
+        "uqm.ts"
     ]
 }

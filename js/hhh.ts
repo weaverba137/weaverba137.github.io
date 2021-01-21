@@ -36,10 +36,13 @@ declare namespace jquery.flot {
         axisLabel?: string;
     }
     interface plotOptions {
+        points?: {show: boolean};
         axisLabels?: {show: boolean;};
         zoom?: {interactive: boolean;};
         pan?: {interactive: boolean;};
         selection?: {mode: string;};
+        // xaxis?: {min: number; max: number;};
+        // yaxis?: {min: number; max: number;};
     }
     interface dataSeries {
         id?: string;
