@@ -2124,6 +2124,15 @@
                     "pages": "044501",
                     "year": 2018,
                     "id": "2018PASP..130d4501K"
+                },
+                {
+                    "author": ["Brian Cherinka", "et al."],
+                    "title": "Marvin: A Tool Kit for Streamlined Access and Visualization of the SDSS-IV MaNGA Data Set",
+                    "journal": "Astron. J.",
+                    "volume": 158,
+                    "pages": "78",
+                    "year": 2019,
+                    "id": "2019AJ....158...74C"
                 }
             ]
         },
