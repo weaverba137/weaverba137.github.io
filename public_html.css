@@ -13,6 +13,12 @@ img.separator {
     height: 2px;
 }
 /*
+ * Logos
+ */
+img.logo {
+    height: 100px;
+}
+/*
  * Always show a scroll bar.
  */
 html {
