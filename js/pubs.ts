@@ -53,6 +53,7 @@ interface MyArticles {
     snfactory: ArticleSet;
     sdss3: ArticleSet;
     sdss4: ArticleSet;
+    des: ArticleSet;
     desi: ArticleSet;
     decals: ArticleSet;
     other: ArticleSet;
