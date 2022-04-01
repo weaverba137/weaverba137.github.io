@@ -1208,7 +1208,11 @@
                     "meta": "SDSS-IV Paper 594",
                     "author": ["Abdurro'uf", "et al."],
                     "title": "The Seventeenth Data Release of the Sloan Digital Sky Surveys: Complete Release of MaNGA, MaStar and APOGEE-2 Data",
-                    "id": "2112.02026"
+                    "journal": "Astrophys. J. Supp.",
+                    "volume": 259,
+                    "pages": "35",
+                    "year": 2022,
+                    "id": "2022ApJS..259...35A"
                 }
             ]
         },
@@ -1359,6 +1363,11 @@
                     "pages": "100411",
                     "year": 2020,
                     "id": "2020A%26C....3300411N"
+                },
+                {
+                    "author": ["Marcelo Alvarez", "et al."],
+                    "title": "Data Preservation for Cosmology",
+                    "id": "2203.08113"
                 }
             ]
         }
