@@ -1244,7 +1244,7 @@
                     "id": "1611.00037"
                 },
                 {
-                    "meta": "DESI Paper 1",
+                    "meta": "DESI-2018-0001",
                     "author": ["Parker Fagrelius", "et al."],
                     "title": "ProtoDESI: First On-Sky Technology Demonstration for the Dark Energy Spectroscopic Instrument",
                     "journal": "Pub. Ast. Soc. Pacific",
@@ -1252,6 +1252,12 @@
                     "pages": "025005",
                     "year": 2018,
                     "id": "2018PASP..130b5005F"
+                },
+                {
+                    "meta": "DESI-2021-0094",
+                    "author": ["B. Abareshi", "et al."],
+                    "title": "Overview of the Instrumentation for the Dark Energy Spectroscopic Instrument",
+                    "id": "2205.10939"
                 }
             ]
         },
