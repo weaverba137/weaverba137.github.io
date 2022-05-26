@@ -2178,6 +2178,15 @@
                     "pages": "78",
                     "year": 2019,
                     "id": "2019AJ....158...74C"
+                },
+                {
+                    "author": ["Tracy X. Chen", "et al."],
+                    "title": "Best Practices for Data Publication in the Astronomical Literature",
+                    "journal": "Astrophys. J. Supp.",
+                    "volume": 260,
+                    "pages": "5",
+                    "year": 2022,
+                    "id": "2022ApJS..260....5C"
                 }
             ]
         },
