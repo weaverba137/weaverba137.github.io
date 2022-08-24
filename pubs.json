@@ -1254,10 +1254,46 @@
                     "id": "2018PASP..130b5005F"
                 },
                 {
+                    "meta": "DESI-2021-0115",
+                    "author": ["Joseph Harry Silber", "et al."],
+                    "title": "The Robotic Multi-Object Focal Plane System of the Dark Energy Spectroscopic Instrument (DESI)",
+                    "id": "2205.09014"
+                },
+                {
                     "meta": "DESI-2021-0094",
                     "author": ["B. Abareshi", "et al."],
                     "title": "Overview of the Instrumentation for the Dark Energy Spectroscopic Instrument",
                     "id": "2205.10939"
+                },
+                {
+                    "meta": "DESI-2021-0101",
+                    "author": ["ChangHoon Han", "et al."],
+                    "title": "DESI Bright Galaxy Survey: Final Target Selection, Design, and Validation",
+                    "id": "2208.08512"
+                },
+                {
+                    "meta": "DESI-2021-0104",
+                    "author": ["A. Raichoor", "et al."],
+                    "title": "Target Selection and Validation of DESI Emission Line Galaxies",
+                    "id": "2208.08513"
+                },
+                {
+                    "meta": "DESI-2021-0106",
+                    "author": ["Rongpu Zhou", "et al."],
+                    "title": "Target Selection and Validation of DESI Luminous Red Galaxies",
+                    "id": "2208.08515"
+                },
+                {
+                    "meta": "DESI-2021-0116",
+                    "author": ["Ting-Wen Lan", "et al."],
+                    "title": "The DESI Survey Validation: Results from Visual Inspection of Bright Galaxies, Luminous Red Galaxies, and Emission Line Galaxies",
+                    "id": "2208.08516"
+                },
+                {
+                    "meta": "DESI-2021-0112",
+                    "author": ["Adam D. Myers", "et al."],
+                    "title": "The Target Selection Pipeline for the Dark Energy Spectroscopic Instrument",
+                    "id": "2208.08518"
                 }
             ]
         },
@@ -1374,6 +1410,15 @@
                     "author": ["Marcelo Alvarez", "et al."],
                     "title": "Data Preservation for Cosmology",
                     "id": "2203.08113"
+                },
+                {
+                    "author": ["The Astropy Collaboration", "A. M. Price-Whelan", "et al."],
+                    "title": "The Astropy Project: Sustaining and Growing a Community-oriented Open-source Project and the Latest Major Release (v5.0) of the Core Package",
+                    "journal": "Astrophys. J.",
+                    "volume": 935,
+                    "pages": "167",
+                    "year": 2022,
+                    "id": "202ApJ...935..167T"
                 }
             ]
         }
