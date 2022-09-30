@@ -1294,6 +1294,12 @@
                     "author": ["Adam D. Myers", "et al."],
                     "title": "The Target Selection Pipeline for the Dark Energy Spectroscopic Instrument",
                     "id": "2208.08518"
+                },
+                {
+                    "meta": "DESI-2022-0140",
+                    "author": ["J. Guy", "et al."],
+                    "title": "The Spectroscopic Data Processing Pipeline for the Dark Energy Spectroscopic Instrument",
+                    "id": "2209.14482"
                 }
             ]
         },
@@ -1419,6 +1425,11 @@
                     "pages": "167",
                     "year": 2022,
                     "id": "2022ApJ...935..167A"
+                },
+                {
+                    "author": ["W. Bhimji", "et al."],
+                    "title": "Snowmass 2021 Computational Frontier CompF4 Topical Group Report: Storage and Processing Resource Access",
+                    "id": "2209.08868"
                 }
             ]
         }
