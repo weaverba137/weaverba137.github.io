@@ -1257,7 +1257,11 @@
                     "meta": "DESI-2021-0115",
                     "author": ["Joseph Harry Silber", "et al."],
                     "title": "The Robotic Multi-Object Focal Plane System of the Dark Energy Spectroscopic Instrument (DESI)",
-                    "id": "2205.09014"
+                    "journal": "Astron. J.",
+                    "volume": 165,
+                    "pages": "9",
+                    "year": 2022,
+                    "id": "2022AJ....165....9S"
                 },
                 {
                     "meta": "DESI-2021-0094",
