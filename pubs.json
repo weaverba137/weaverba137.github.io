@@ -1260,14 +1260,18 @@
                     "journal": "Astron. J.",
                     "volume": 165,
                     "pages": "9",
-                    "year": 2022,
-                    "id": "2022AJ....165....9S"
+                    "year": 2023,
+                    "id": "2023AJ....165....9S"
                 },
                 {
                     "meta": "DESI-2021-0094",
                     "author": ["B. Abareshi", "et al."],
                     "title": "Overview of the Instrumentation for the Dark Energy Spectroscopic Instrument",
-                    "id": "2205.10939"
+                    "journal": "Astron. J.",
+                    "volume": 164,
+                    "pages": "207",
+                    "year": 2022,
+                    "id": "2022AJ....164..207A"
                 },
                 {
                     "meta": "DESI-2021-0101",
@@ -1304,6 +1308,12 @@
                     "author": ["J. Guy", "et al."],
                     "title": "The Spectroscopic Data Processing Pipeline for the Dark Energy Spectroscopic Instrument",
                     "id": "2209.14482"
+                },
+                {
+                    "meta": "DESI-2022-0160",
+                    "author": ["David J. Setton", "et al."],
+                    "title": "DESI Survey Validation Spectra Reveal an Increasing Fraction of Recently Quenched Galaxies at z ∼ 1",
+                    "id": "2212.05070"
                 }
             ]
         },
