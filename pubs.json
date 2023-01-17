@@ -1254,6 +1254,16 @@
                     "id": "2018PASP..130b5005F"
                 },
                 {
+                    "meta": "DESI-2021-0094",
+                    "author": ["B. Abareshi", "et al."],
+                    "title": "Overview of the Instrumentation for the Dark Energy Spectroscopic Instrument",
+                    "journal": "Astron. J.",
+                    "volume": 164,
+                    "pages": "207",
+                    "year": 2022,
+                    "id": "2022AJ....164..207A"
+                },
+                {
                     "meta": "DESI-2021-0115",
                     "author": ["Joseph Harry Silber", "et al."],
                     "title": "The Robotic Multi-Object Focal Plane System of the Dark Energy Spectroscopic Instrument (DESI)",
@@ -1264,14 +1274,14 @@
                     "id": "2023AJ....165....9S"
                 },
                 {
-                    "meta": "DESI-2021-0094",
-                    "author": ["B. Abareshi", "et al."],
-                    "title": "Overview of the Instrumentation for the Dark Energy Spectroscopic Instrument",
+                    "meta": "DESI-2021-0112",
+                    "author": ["Adam D. Myers", "et al."],
+                    "title": "The Target Selection Pipeline for the Dark Energy Spectroscopic Instrument",
                     "journal": "Astron. J.",
-                    "volume": 164,
-                    "pages": "207",
-                    "year": 2022,
-                    "id": "2022AJ....164..207A"
+                    "volume": 165,
+                    "pages": "50",
+                    "year": 2023,
+                    "id": "2023AJ....165...50M"
                 },
                 {
                     "meta": "DESI-2021-0101",
@@ -1296,12 +1306,6 @@
                     "author": ["Ting-Wen Lan", "et al."],
                     "title": "The DESI Survey Validation: Results from Visual Inspection of Bright Galaxies, Luminous Red Galaxies, and Emission Line Galaxies",
                     "id": "2208.08516"
-                },
-                {
-                    "meta": "DESI-2021-0112",
-                    "author": ["Adam D. Myers", "et al."],
-                    "title": "The Target Selection Pipeline for the Dark Energy Spectroscopic Instrument",
-                    "id": "2208.08518"
                 },
                 {
                     "meta": "DESI-2022-0140",
