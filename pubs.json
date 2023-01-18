@@ -1284,6 +1284,16 @@
                     "id": "2023AJ....165...50M"
                 },
                 {
+                    "meta": "DESI-2021-0106",
+                    "author": ["Rongpu Zhou", "et al."],
+                    "title": "Target Selection and Validation of DESI Luminous Red Galaxies",
+                    "journal": "Astron. J.",
+                    "volume": 165,
+                    "pages": "58",
+                    "year": 2023,
+                    "id": "2023AJ....165...58Z"
+                },
+                {
                     "meta": "DESI-2021-0101",
                     "author": ["ChangHoon Han", "et al."],
                     "title": "DESI Bright Galaxy Survey: Final Target Selection, Design, and Validation",
@@ -1294,12 +1304,6 @@
                     "author": ["A. Raichoor", "et al."],
                     "title": "Target Selection and Validation of DESI Emission Line Galaxies",
                     "id": "2208.08513"
-                },
-                {
-                    "meta": "DESI-2021-0106",
-                    "author": ["Rongpu Zhou", "et al."],
-                    "title": "Target Selection and Validation of DESI Luminous Red Galaxies",
-                    "id": "2208.08515"
                 },
                 {
                     "meta": "DESI-2021-0116",
