@@ -1294,6 +1294,16 @@
                     "id": "2023AJ....165...58Z"
                 },
                 {
+                    "meta": "DESI-2021-0116",
+                    "author": ["Ting-Wen Lan", "et al."],
+                    "title": "The DESI Survey Validation: Results from Visual Inspection of Bright Galaxies, Luminous Red Galaxies, and Emission-line Galaxies",
+                    "journal": "Astrophys. J.",
+                    "volume": 943,
+                    "pages": "68",
+                    "year": 2023,
+                    "id": "2023ApJ...943...68L"
+                },
+                {
                     "meta": "DESI-2021-0101",
                     "author": ["ChangHoon Han", "et al."],
                     "title": "DESI Bright Galaxy Survey: Final Target Selection, Design, and Validation",
@@ -1304,12 +1314,6 @@
                     "author": ["A. Raichoor", "et al."],
                     "title": "Target Selection and Validation of DESI Emission Line Galaxies",
                     "id": "2208.08513"
-                },
-                {
-                    "meta": "DESI-2021-0116",
-                    "author": ["Ting-Wen Lan", "et al."],
-                    "title": "The DESI Survey Validation: Results from Visual Inspection of Bright Galaxies, Luminous Red Galaxies, and Emission Line Galaxies",
-                    "id": "2208.08516"
                 },
                 {
                     "meta": "DESI-2022-0140",
