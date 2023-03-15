@@ -1304,6 +1304,16 @@
                     "id": "2023AJ....165...126R"
                 },
                 {
+                    "meta": "DESI-2022-0140",
+                    "author": ["J. Guy", "et al."],
+                    "title": "The Spectroscopic Data Processing Pipeline for the Dark Energy Spectroscopic Instrument",
+                    "journal": "Astron. J.",
+                    "volume": 165,
+                    "pages": "144",
+                    "year": 2023,
+                    "id": "2023AJ....165..144G"
+                },
+                {
                     "meta": "DESI-2021-0116",
                     "author": ["Ting-Wen Lan", "et al."],
                     "title": "The DESI Survey Validation: Results from Visual Inspection of Bright Galaxies, Luminous Red Galaxies, and Emission-line Galaxies",
@@ -1318,12 +1328,6 @@
                     "author": ["ChangHoon Han", "et al."],
                     "title": "DESI Bright Galaxy Survey: Final Target Selection, Design, and Validation",
                     "id": "2208.08512"
-                },
-                {
-                    "meta": "DESI-2022-0140",
-                    "author": ["J. Guy", "et al."],
-                    "title": "The Spectroscopic Data Processing Pipeline for the Dark Energy Spectroscopic Instrument",
-                    "id": "2209.14482"
                 },
                 {
                     "meta": "DESI-2022-0160",
