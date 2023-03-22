@@ -1334,6 +1334,24 @@
                     "author": ["David J. Setton", "et al."],
                     "title": "DESI Survey Validation Spectra Reveal an Increasing Fraction of Recently Quenched Galaxies at z ∼ 1",
                     "id": "2212.05070"
+                },
+                {
+                    "meta": "DESI-2022-0148",
+                    "author": ["Jinyi Yang", "et al."],
+                    "title": "DESI z >~ 5 Quasar Survey. I. A First Sample of 400 New Quasars at z ~ 4.7-6.6",
+                    "id": "2302.01777"
+                },
+                {
+                    "meta": "DESI-2022-0172",
+                    "author": ["Niam Göksel Karaçaylı", "et al."],
+                    "title": "A framework to measure the properties of intergalactic metal systems with two-point flux statistics",
+                    "id": "2302.06936"
+                },
+                {
+                    "meta": "DESI-2021-0107",
+                    "author": ["Christoph Saulder", "et al."],
+                    "title": "Target Selection for the DESI Peculiar Velocity Survey",
+                    "id": "2302.13760"
                 }
             ]
         },
@@ -1468,6 +1486,11 @@
                     "author": ["W. Bhimji", "et al."],
                     "title": "Snowmass 2021 Computational Frontier CompF4 Topical Group Report: Storage and Processing Resource Access",
                     "id": "2209.08868"
+                },
+                {
+                    "author": ["Leah M. Fulmer", "et al."],
+                    "title": "Astro Data Lab Spectral Viewer Requirements for Wide-Area Spectroscopic Surveys",
+                    "id": "2302.08906"
                 }
             ]
         }
