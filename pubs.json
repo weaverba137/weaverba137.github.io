@@ -1377,9 +1377,13 @@
                     "id": "2020AJ....160...61B"
                 },
                 {
-                    "author": ["David Martinez-Delgado", "et al."],
-                    "title": "Hidden Depths in the Local Universe: the Stellar Stream Legacy Survey",
-                    "id": "2104.06071"
+                    "author": ["David Martínez-Delgado", "et al."],
+                    "title": "Hidden depths in the local Universe: The Stellar Stream Legacy Survey",
+                    "journal": "Astron. &amp; Astrophys.",
+                    "volume": 671,
+                    "pages": "A141",
+                    "year": 2023,
+                    "id": "2023A%26A...671A.141M"
                 }
             ]
         },
