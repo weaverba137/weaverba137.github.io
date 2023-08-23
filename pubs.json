@@ -1321,7 +1321,7 @@
                     "volume": 165,
                     "pages": "253",
                     "year": 2023,
-                    "id": "2023AJ....165..253H/"
+                    "id": "2023AJ....165..253H"
                 },
                 {
                     "meta": "DESI-2023-0193",
@@ -1332,6 +1332,16 @@
                     "pages": "66",
                     "year": 2023,
                     "id": "2023AJ....166...66B"
+                },
+                {
+                    "meta": "DESI-2022-0173",
+                    "author": ["Lucas Napolitano", "et al."],
+                    "title": "Detecting and Characterizing Mg II Absorption in DESI Survey Validation Quasar Spectra",
+                    "journal": "Astron. J.",
+                    "volume": 166,
+                    "pages": "99",
+                    "year": 2023,
+                    "id": "2023AJ....166...99N"
                 },
                 {
                     "meta": "DESI-2021-0116",
@@ -1374,16 +1384,20 @@
                     "id": "2023MNRAS.524.3894R"
                 },
                 {
+                    "meta": "DESI-2021-0107",
+                    "author": ["Christoph Saulder", "et al."],
+                    "title": "Target selection for the DESI peculiar velocity survey",
+                    "journal": "Mon. Not. Roy. Ast. Soc.",
+                    "volume": 525,
+                    "pages": "1106&ndash;1125",
+                    "year": 2023,
+                    "id": "2023MNRAS.525.1106S"
+                },
+                {
                     "meta": "DESI-2022-0148",
                     "author": ["Jinyi Yang", "et al."],
                     "title": "DESI z >~ 5 Quasar Survey. I. A First Sample of 400 New Quasars at z ~ 4.7-6.6",
                     "id": "2302.01777"
-                },
-                {
-                    "meta": "DESI-2021-0107",
-                    "author": ["Christoph Saulder", "et al."],
-                    "title": "Target selection for the DESI peculiar velocity survey",
-                    "id": "2302.13760"
                 },
                 {
                     "meta": "DESI-2022-0174",
@@ -1402,12 +1416,6 @@
                     "author": ["Boryana Hadzhiyska", "et al."],
                     "title": "Synthetic light cone catalogues of modern redshift and weak lensing surveys with AbacusSummit",
                     "id": "2305.11935"
-                },
-                {
-                    "meta": "DESI-2022-0173",
-                    "author": ["Lucas Napolitano", "et al."],
-                    "title": "Detecting and Characterizing Mg II absorption in DESI Survey Validation Quasar Spectra",
-                    "id": "2305.20016"
                 },
                 {
                     "meta": "DESI-2021-0123",
