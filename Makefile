@@ -41,7 +41,7 @@ endif
 #
 # This should compile all code prior to it being installed
 #
-all :
+all : last_modified.txt
 	@ for f in $(SUBDIRS); do $(MAKE) -C $$f all ; done
 #
 # This line helps prevent make from getting confused in the case where you
