@@ -1344,6 +1344,16 @@
                     "id": "2023AJ....166...99N"
                 },
                 {
+                    "meta": "DESI-2023-0219",
+                    "author": ["S. Kent", "et al."],
+                    "title": "Astrometric Calibration and Performance of the Dark Energy Spectroscopic Instrument Focal Plane",
+                    "journal": "Astron. J.",
+                    "volume": 166,
+                    "pages": "177",
+                    "year": 2023,
+                    "id": "2023AJ....166..177K"
+                },
+                {
                     "meta": "DESI-2021-0116",
                     "author": ["Ting-Wen Lan", "et al."],
                     "title": "The DESI Survey Validation: Results from Visual Inspection of Bright Galaxies, Luminous Red Galaxies, and Emission-line Galaxies",
@@ -1354,6 +1364,26 @@
                     "id": "2023ApJ...943...68L"
                 },
                 {
+                    "meta": "DESI-2023-0213",
+                    "author": ["Hongyu Gao", "et al."],
+                    "title": "The DESI One-Percent Survey: Constructing Galaxy-Halo Connections for ELGs and LRGs Using Auto and Cross Correlations",
+                    "journal": "Astrophys. J.",
+                    "volume": 954,
+                    "pages": "207",
+                    "year": 2023,
+                    "id": "2023ApJ...954..207G"
+                },
+                {
+                    "meta": "DESI-2023-0189",
+                    "author": ["Carlos Allende Prieto", "et al."],
+                    "title": "GTC Follow-up Observations of Very Metal-Poor Star Candidates from DESI",
+                    "journal": "Astrophys. J.",
+                    "volume": 957,
+                    "pages": "76",
+                    "year": 2023,
+                    "id": "2023ApJ...957...76A"
+                },
+                {
                     "meta": "DESI-2022-0160",
                     "author": ["David J. Setton", "et al."],
                     "title": "DESI Survey Validation Spectra Reveal an Increasing Fraction of Recently Quenched Galaxies at z ∼ 1",
@@ -1362,6 +1392,16 @@
                     "pages": "L31",
                     "year": 2023,
                     "id": "2023ApJ...947L..31S"
+                },
+                {
+                    "meta": "DESI-2023-0226",
+                    "author": ["Antoine Rocher", "et al."],
+                    "title": "The DESI One-Percent survey: exploring the Halo Occupation Distribution of Emission Line Galaxies with ABACUSSUMMIT simulations",
+                    "journal": "J. Cosmo. Astro-Part. Phys.",
+                    "volume": "10",
+                    "pages": "016",
+                    "year": 2023,
+                    "id": "2023JCAP...10..016R"
                 },
                 {
                     "meta": "DESI-2022-0172",
@@ -1394,28 +1434,46 @@
                     "id": "2023MNRAS.525.1106S"
                 },
                 {
+                    "meta": "DESI-2023-0185",
+                    "author": ["Boryana Hadzhiyska", "et al."],
+                    "title": "Synthetic light-cone catalogues of modern redshift and weak lensing surveys with ABACUSSUMMIT",
+                    "journal": "Mon. Not. Roy. Ast. Soc.",
+                    "volume": 525,
+                    "pages": "4367&ndash;4387",
+                    "year": 2023,
+                    "id": "2023MNRAS.525.4367H"
+                },
+                {
+                    "meta": "DESI-2022-0174",
+                    "author": ["Jeongin Moon", "et al."],
+                    "title": "First Detection of the BAO Signal from Early DESI Data",
+                    "journal": "Mon. Not. Roy. Ast. Soc.",
+                    "volume": 525,
+                    "pages": "5406&ndash;5422",
+                    "year": 2023,
+                    "id": "2023MNRAS.525.5406M"
+                },
+                {
+                    "meta": "DESI-2023-0166",
+                    "author": ["Corentin Ravoux", "et al."],
+                    "title": "The Dark Energy Spectroscopic Instrument: One-dimensional power spectrum from first Lyman-α forest samples with Fast Fourier Transform",
+                    "journal": "Mon. Not. Roy. Ast. Soc.",
+                    "volume": 526,
+                    "pages": "5118&ndash;5140",
+                    "year": 2023,
+                    "id": "2023MNRAS.526.5118R"
+                },
+                {
                     "meta": "DESI-2022-0148",
                     "author": ["Jinyi Yang", "et al."],
                     "title": "DESI z >~ 5 Quasar Survey. I. A First Sample of 400 New Quasars at z ~ 4.7-6.6",
                     "id": "2302.01777"
                 },
                 {
-                    "meta": "DESI-2022-0174",
-                    "author": ["Jeongin Moon", "et al."],
-                    "title": "First Detection of the BAO Signal from Early DESI Data",
-                    "id": "2304.08427"
-                },
-                {
                     "meta": "DESI-2022-0181",
                     "author": ["Alex Krolewski", "et al."],
                     "title": "Constraining primordial non-Gaussianity from DESI quasar targets and Planck CMB lensing",
                     "id": "2305.07650"
-                },
-                {
-                    "meta": "DESI-2023-0185",
-                    "author": ["Boryana Hadzhiyska", "et al."],
-                    "title": "Synthetic light cone catalogues of modern redshift and weak lensing surveys with AbacusSummit",
-                    "id": "2305.11935"
                 },
                 {
                     "meta": "DESI-2021-0123",
@@ -1434,12 +1492,6 @@
                     "author": ["E. F. Schlafly", "et al."],
                     "title": "Survey Operations for the Dark Energy Spectroscopic Instrument",
                     "id": "2306.06309"
-                },
-                {
-                    "meta": "DESI-2023-0166",
-                    "author": ["Corentin Ravoux", "et al."],
-                    "title": "The Dark Energy Spectroscopic Instrument: One-dimensional power spectrum from first Lyman-α forest samples with Fast Fourier Transform",
-                    "id": "2306.06311"
                 },
                 {
                     "meta": "DESI-2023-0210",
@@ -1466,28 +1518,10 @@
                     "id": "2306.06316"
                 },
                 {
-                    "meta": "DESI-2023-0213",
-                    "author": ["Hongyu Gao", "et al."],
-                    "title": "The DESI One-Percent survey: constructing galaxy-halo connections for ELGs and LRGs using auto and cross correlations",
-                    "id": "2306.06317"
-                },
-                {
                     "meta": "DESI-2023-0224",
                     "author": ["ChangHoon Hahn", "et al."],
                     "title": "PROVABGS: The Probabilistic Stellar Mass Function of the BGS One-Percent Survey",
                     "id": "2306.06318"
-                },
-                {
-                    "meta": "DESI-2023-0226",
-                    "author": ["Antoine Rocher", "et al."],
-                    "title": "The DESI One-Percent survey: exploring the Halo Occupation Distribution of Emission Line Galaxies with AbacusSummit simulations",
-                    "id": "2306.06319"
-                },
-                {
-                    "meta": "DESI-2023-0189",
-                    "author": ["Carlos Allende Prieto", "et al."],
-                    "title": "GTC Follow-up Observations of Very Metal-Poor Star Candidates from DESI",
-                    "id": "2306.06321"
                 },
                 {
                     "meta": "DESI-2023-0221",
@@ -1500,12 +1534,6 @@
                     "author": ["Peter Clark", "et al."],
                     "title": "Long-term follow-up observations of extreme coronal line emitting galaxies",
                     "id": "2307.03182"
-                },
-                {
-                    "meta": "DESI-2023-0219",
-                    "author": ["S. Kent", "et al."],
-                    "title": "Astrometric Calibration and Performance of the Dark Energy Spectroscopic Instrument Focal Plane",
-                    "id": "2307.06238"
                 }
             ]
         },
@@ -1560,7 +1588,11 @@
                 {
                     "author": ["John Moustakas", "et al."],
                     "title": "Siena Galaxy Atlas 2020",
-                    "id": "2307.04888"
+                    "journal": "Astrophys. J. Supp.",
+                    "volume": 269,
+                    "pages": "3",
+                    "year": 2023,
+                    "id": "2023ApJS..269....3M"
                 }
             ]
         },
