@@ -1454,6 +1454,16 @@
                     "id": "2023MNRAS.525.5406M"
                 },
                 {
+                    "meta": "DESI-2023-0209",
+                    "author": ["V. A. Fawcett", "et al."],
+                    "title": "A striking relationship between dust extinction and radio detection in DESI QSOs: evidence for a dusty blow-out phase in red QSOs",
+                    "journal": "Mon. Not. Roy. Ast. Soc.",
+                    "volume": 525,
+                    "pages": "5575&ndash;5596",
+                    "year": 2023,
+                    "id": "2023MNRAS.525.5575R"
+                },
+                {
                     "meta": "DESI-2023-0166",
                     "author": ["Corentin Ravoux", "et al."],
                     "title": "The Dark Energy Spectroscopic Instrument: One-dimensional power spectrum from first Lyman-α forest samples with Fast Fourier Transform",
