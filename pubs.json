@@ -1354,6 +1354,16 @@
                     "id": "2023AJ....166..177K"
                 },
                 {
+                    "meta": "DESI-2022-0153",
+                    "author": ["E. F. Schlafly", "et al."],
+                    "title": "Survey Operations for the Dark Energy Spectroscopic Instrument",
+                    "journal": "Astron. J.",
+                    "volume": 166,
+                    "pages": "259",
+                    "year": 2023,
+                    "id": "2023AJ....166..259S"
+                },
+                {
                     "meta": "DESI-2021-0116",
                     "author": ["Ting-Wen Lan", "et al."],
                     "title": "The DESI Survey Validation: Results from Visual Inspection of Bright Galaxies, Luminous Red Galaxies, and Emission-line Galaxies",
@@ -1394,14 +1404,34 @@
                     "id": "2023ApJ...947L..31S"
                 },
                 {
+                    "meta": "DESI-2022-0148",
+                    "author": ["Jinyi Yang", "et al."],
+                    "title": "DESI z >~ 5 Quasar Survey. I. A First Sample of 400 New Quasars at z ~ 4.7-6.6",
+                    "journal": "Astrophys. J. Supp.",
+                    "volume": 269,
+                    "pages": "27",
+                    "year": 2023,
+                    "id": "2023ApJS..269...27Y"
+                },
+                {
                     "meta": "DESI-2023-0226",
                     "author": ["Antoine Rocher", "et al."],
                     "title": "The DESI One-Percent survey: exploring the Halo Occupation Distribution of Emission Line Galaxies with ABACUSSUMMIT simulations",
                     "journal": "J. Cosmo. Astro-Part. Phys.",
-                    "volume": "10",
+                    "volume": 10,
                     "pages": "016",
                     "year": 2023,
                     "id": "2023JCAP...10..016R"
+                },
+                {
+                    "meta": "DESI-2023-0240",
+                    "author": ["C. Gordon", "et al."],
+                    "title": "3D correlations in the Lyman-α forest from early DESI data",
+                    "journal": "J. Cosmo. Astro-Part. Phys.",
+                    "volume": 11,
+                    "pages": "045",
+                    "year": 2023,
+                    "id": "2023JCAP...11..045G"
                 },
                 {
                     "meta": "DESI-2022-0172",
@@ -1461,7 +1491,7 @@
                     "volume": 525,
                     "pages": "5575&ndash;5596",
                     "year": 2023,
-                    "id": "2023MNRAS.525.5575R"
+                    "id": "2023MNRAS.525.5575F"
                 },
                 {
                     "meta": "DESI-2023-0166",
@@ -1472,12 +1502,6 @@
                     "pages": "5118&ndash;5140",
                     "year": 2023,
                     "id": "2023MNRAS.526.5118R"
-                },
-                {
-                    "meta": "DESI-2022-0148",
-                    "author": ["Jinyi Yang", "et al."],
-                    "title": "DESI z >~ 5 Quasar Survey. I. A First Sample of 400 New Quasars at z ~ 4.7-6.6",
-                    "id": "2302.01777"
                 },
                 {
                     "meta": "DESI-2022-0181",
@@ -1496,12 +1520,6 @@
                     "author": ["DESI Collaboration", "A. G. Adame", "et al."],
                     "title": "The Early Data Release of the Dark Energy Spectroscopic Instrument",
                     "id": "2306.06308"
-                },
-                {
-                    "meta": "DESI-2022-0153",
-                    "author": ["E. F. Schlafly", "et al."],
-                    "title": "Survey Operations for the Dark Energy Spectroscopic Instrument",
-                    "id": "2306.06309"
                 },
                 {
                     "meta": "DESI-2023-0210",
@@ -1544,6 +1562,60 @@
                     "author": ["Peter Clark", "et al."],
                     "title": "Long-term follow-up observations of extreme coronal line emitting galaxies",
                     "id": "2307.03182"
+                },
+                {
+                    "meta": "DESI-2023-0182",
+                    "author": ["S. Filbert", "et al."],
+                    "title": "Broad Absorption Line Quasars in the Dark Energy Spectroscopic Instrument Early Data Release",
+                    "id": "2309.03434"
+                },
+                {
+                    "meta": "DESI-2023-0251",
+                    "author": ["Hongyu Gao", "et al."],
+                    "title": "The DESI One-Percent Survey: A concise model for galactic conformity of ELGs",
+                    "id": "2309.03802"
+                },
+                {
+                    "meta": "DESI-2023-0222",
+                    "author": ["Alan N. Pearl", "et al."],
+                    "title": "The DESI One-Percent Survey: Evidence for Assembly Bias from Low-Redshift Counts-in-Cylinders Measurements",
+                    "id": "2309.08675"
+                },
+                {
+                    "meta": "DESI-2023-0232",
+                    "author": ["J. McCullough", "et al."],
+                    "title": "DESI Complete Calibration of the Color-Redshift Relation (DC3R2): Results from early DESI data",
+                    "id": "2309.13109"
+                },
+                {
+                    "meta": "DESI-2023-0200",
+                    "author": ["Sihan Yuan", "et al."],
+                    "title": "Unraveling emission line galaxy conformity at z~1 with DESI early data",
+                    "id": "2310.09329"
+                },
+                {
+                    "meta": "DESI-2023-0218",
+                    "author": ["Hanyue Wang", "et al."],
+                    "title": "A Spectroscopic Search for Optical Emission Lines from Dark Matter Decay",
+                    "id": "2311.05476"
+                },
+                {
+                    "meta": "DESI-2023-0260",
+                    "author": ["Claire Lamman", "et al."],
+                    "title": "Redshift-dependent RSD bias from Intrinsic Alignment with DESI Year 1 Spectra",
+                    "id": "2312.04518"
+                },
+                {
+                    "meta": "DESI-2023-0252",
+                    "author": ["Yirong Wang", "et al."],
+                    "title": "Measuring the conditional luminosity and stellar mass functions of galaxies by combining the DESI LS DR9, SV3 and Y1 data",
+                    "id": "2312.17459"
+                },
+                {
+                    "meta": "DESI-2023-0231",
+                    "author": ["Hiram K. Herrera-Alcantar", "et al."],
+                    "title": "Synthetic spectra for Lyman-α forest analysis in the Dark Energy Spectroscopic Instrument",
+                    "id": "2401.00303"
                 }
             ]
         },
@@ -1696,6 +1768,11 @@
                     "author": ["Leah M. Fulmer", "et al."],
                     "title": "Astro Data Lab Spectral Viewer Requirements for Wide-Area Spectroscopic Surveys",
                     "id": "2302.08906"
+                },
+                {
+                    "author": ["Michael R. Blanton", "et al."],
+                    "title": "The Future of Astronomical Data Infrastructure: Meeting Report",
+                    "id": "2311.04272"
                 }
             ]
         }
