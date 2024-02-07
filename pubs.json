@@ -1504,16 +1504,30 @@
                     "id": "2023MNRAS.526.5118R"
                 },
                 {
+                    "meta": "DESI-2021-0123",
+                    "author": ["DESI Collaboration", "A. G. Adame", "et al."],
+                    "title": "Validation of the Scientific Program for the Dark Energy Spectroscopic Instrument",
+                    "journal": "Astron. J.",
+                    "volume": 167,
+                    "pages": "62",
+                    "year": 2024,
+                    "id": "2024AJ....167...62A"
+                },
+                {
+                    "meta": "DESI-2023-0251",
+                    "author": ["Hongyu Gao", "et al."],
+                    "title": "The DESI One-Percent Survey: A Concise Model for the Galactic Conformity of Emission-line Galaxies",
+                    "journal": "Astrophys. J.",
+                    "volume": 961,
+                    "pages": "74",
+                    "year": 2024,
+                    "id": "2024ApJ...961...74G"
+                },
+                {
                     "meta": "DESI-2022-0181",
                     "author": ["Alex Krolewski", "et al."],
                     "title": "Constraining primordial non-Gaussianity from DESI quasar targets and Planck CMB lensing",
                     "id": "2305.07650"
-                },
-                {
-                    "meta": "DESI-2021-0123",
-                    "author": ["DESI Collaboration", "A. G. Adame", "et al."],
-                    "title": "Validation of the Scientific Program for the Dark Energy Spectroscopic Instrument",
-                    "id": "2306.06307"
                 },
                 {
                     "meta": "DESI-2023-0215",
@@ -1568,12 +1582,6 @@
                     "author": ["S. Filbert", "et al."],
                     "title": "Broad Absorption Line Quasars in the Dark Energy Spectroscopic Instrument Early Data Release",
                     "id": "2309.03434"
-                },
-                {
-                    "meta": "DESI-2023-0251",
-                    "author": ["Hongyu Gao", "et al."],
-                    "title": "The DESI One-Percent Survey: A concise model for galactic conformity of ELGs",
-                    "id": "2309.03802"
                 },
                 {
                     "meta": "DESI-2023-0222",
@@ -1773,6 +1781,11 @@
                     "author": ["Michael R. Blanton", "et al."],
                     "title": "The Future of Astronomical Data Infrastructure: Meeting Report",
                     "id": "2311.04272"
+                },
+                {
+                    "author": ["Stéphanie Juneau", "et al."],
+                    "title": "SPARCL: SPectra Analysis and Retrievable Catalog Lab",
+                    "id": "2401.05576"
                 }
             ]
         }
