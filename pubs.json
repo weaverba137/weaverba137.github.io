@@ -1634,16 +1634,20 @@
                     "id": "2024MNRAS.532.1902R"
                 },
                 {
+                    "meta": "DESI-2023-0182",
+                    "author": ["S. Filbert", "et al."],
+                    "title": "Broad Absorption Line Quasars in the Dark Energy Spectroscopic Instrument Early Data Release",
+                    "journal": "Mon. Not. Roy. Ast. Soc.",
+                    "volume": 532,
+                    "pages": "3669&ndash;3681",
+                    "year": 2024,
+                    "id": "2024MNRAS.532.3669F"
+                },
+                {
                     "meta": "DESI-2023-0203",
                     "author": ["F. Prada", "et al."],
                     "title": "The DESI One-Percent Survey: Modelling the clustering and halo occupation of all four DESI tracers with Uchuu",
                     "id": "2306.06315"
-                },
-                {
-                    "meta": "DESI-2023-0182",
-                    "author": ["S. Filbert", "et al."],
-                    "title": "Broad Absorption Line Quasars in the Dark Energy Spectroscopic Instrument Early Data Release",
-                    "id": "2309.03434"
                 },
                 {
                     "meta": "DESI-2023-0200",
@@ -1926,6 +1930,18 @@
                     "author": ["X. Wu", "et al."],
                     "title": "Tracing the evolution of the cool gas in CGM and IGM environments through Mg II absorption from redshift z=0.75 to z=1.65 using DESI-Y1 data",
                     "id": "2407.17809"
+                },
+                {
+                    "meta": "DESI-2024-0442",
+                    "author": ["Wei-Jian Guo", "et al."],
+                    "title": "Changing-look Active Galactic Nuclei from the Dark Energy Spectroscopic Instrument. II. Statistical Properties from the First Data Release",
+                    "id": "2408.00402"
+                },
+                {
+                    "meta": "DESI-2024-0297",
+                    "author": ["D. Scholte", "et al."],
+                    "title": "The atomic gas sequence and mass-metallicity relation from dwarfs to massive galaxies",
+                    "id": "2408.03996"
                 }
             ]
         },
