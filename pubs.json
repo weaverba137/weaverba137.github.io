@@ -1524,6 +1524,16 @@
                     "id": "2024AJ....168...58D"
                 },
                 {
+                    "meta": "DESI-2024-0422",
+                    "author": ["Abhijeet Anand", "et al."],
+                    "title": "Archetype-based Redshift Estimation for the Dark Energy Spectroscopic Instrument Survey",
+                    "journal": "Astron. J.",
+                    "volume": 168,
+                    "pages": "124",
+                    "year": 2024,
+                    "id": "2024AJ....168..124A"
+                },
+                {
                     "meta": "DESI-2023-0251",
                     "author": ["Hongyu Gao", "et al."],
                     "title": "The DESI One-Percent Survey: A Concise Model for the Galactic Conformity of Emission-line Galaxies",
@@ -1554,6 +1564,16 @@
                     "id": "2024ApJ...963..116P"
                 },
                 {
+                    "meta": "DESI-2024-0392",
+                    "author": ["Yu-Ling Chang", "et al."],
+                    "title": "Probing the Impact of Radio-mode Feedback on the Properties of the Cool Circumgalactic Medium",
+                    "journal": "Astrophys. J.",
+                    "volume": 974,
+                    "pages": "191",
+                    "year": 2024,
+                    "id": "2024ApJ...974..191C"
+                },
+                {
                     "meta": "DESI-2022-0181",
                     "author": ["Alex Krolewski", "et al."],
                     "title": "Constraining primordial non-Gaussianity from DESI quasar targets and Planck CMB lensing",
@@ -1562,6 +1582,16 @@
                     "pages": "021",
                     "year": 2024,
                     "id": "2024JCAP...03..021K"
+                },
+                {
+                    "meta": "DESI-2024-0406",
+                    "author": ["R. Calderon", "et al."],
+                    "title": "DESI 2024: reconstructing dark energy using crossing statistics with DESI DR1 BAO data",
+                    "journal": "J. Cosmo. Astro-Part. Phys.",
+                    "volume": 10,
+                    "pages": "048",
+                    "year": 2024,
+                    "id": "2024JCAP...10..048C"
                 },
                 {
                     "meta": "DESI-2023-0211",
@@ -1644,6 +1674,46 @@
                     "id": "2024MNRAS.532.3669F"
                 },
                 {
+                    "meta": "DESI-2023-0277",
+                    "author": ["Sihan Yuan", "et al."],
+                    "title": "Redshift evolution and covariances for joint lensing and clustering studies with DESI Y1",
+                    "journal": "Mon. Not. Roy. Ast. Soc.",
+                    "volume": 533,
+                    "pages": "589&ndash;607",
+                    "year": 2024,
+                    "id": "2024MNRAS.533..589Y"
+                },
+                {
+                    "meta": "DESI-2023-0248",
+                    "author": ["Sergey E. Koposov", "et al."],
+                    "title": "DESI Early Data Release Milky Way Survey value-added catalogue",
+                    "journal": "Mon. Not. Roy. Ast. Soc.",
+                    "volume": 533,
+                    "pages": "1012&ndash;1031",
+                    "year": 2024,
+                    "id": "2024MNRAS.533.1012K"
+                },
+                {
+                    "meta": "DESI-2024-0298",
+                    "author": ["S.-F. Chen", "et al."],
+                    "title": "Baryon acoustic oscillation theory and modelling systematics for the DESI 2024 results",
+                    "journal": "Mon. Not. Roy. Ast. Soc.",
+                    "volume": 534,
+                    "pages": "544&ndash;574",
+                    "year": 2024,
+                    "id": "2024MNRAS.534..544C"
+                },
+                {
+                    "meta": "DESI-2024-0397",
+                    "author": ["Niam Göksel Karaçaylı", "et al."],
+                    "title": "CMB lensing and Lyα forest cross bispectrum from DESI's first-year quasar sample",
+                    "journal": "Phys. Rev. D",
+                    "volume": 110,
+                    "pages": "063505",
+                    "year": 2024,
+                    "id": "2024PhRvD.110f3505K"
+                },
+                {
                     "meta": "DESI-2023-0203",
                     "author": ["F. Prada", "et al."],
                     "title": "The DESI One-Percent Survey: Modelling the clustering and halo occupation of all four DESI tracers with Uchuu",
@@ -1672,12 +1742,6 @@
                     "author": ["Hiram K. Herrera-Alcantar", "et al."],
                     "title": "Synthetic spectra for Lyman-α forest analysis in the Dark Energy Spectroscopic Instrument",
                     "id": "2401.00303"
-                },
-                {
-                    "meta": "DESI-2024-0298",
-                    "author": ["Shi-Fan Chen", "et al."],
-                    "title": "Baryon Acoustic Oscillation Theory and Modelling Systematics for the DESI 2024 results",
-                    "id": "2402.14070"
                 },
                 {
                     "meta": "DESI-2023-0269",
@@ -1782,22 +1846,10 @@
                     "id": "2405.03857"
                 },
                 {
-                    "meta": "DESI-2024-0406",
-                    "author": ["R. Calderon", "et al."],
-                    "title": "DESI 2024: Reconstructing Dark Energy using Crossing Statistics with DESI DR1 BAO data",
-                    "id": "2405.04216"
-                },
-                {
                     "meta": "DESI-2024-0383",
                     "author": ["Wynne Turner", "et al."],
                     "title": "New measurements of the Lyman-α forest continuum and effective optical depth with LyCAN and DESI Y1 data",
                     "id": "2405.06743"
-                },
-                {
-                    "meta": "DESI-2024-0392",
-                    "author": ["Yu-Ling Chang", "et al."],
-                    "title": "Probing the impact of radio-mode feedback on the properties of the cool circumgalactic medium",
-                    "id": "2405.08314"
                 },
                 {
                     "meta": "DESI-2024-0408",
@@ -1810,12 +1862,6 @@
                     "author": ["K. Lodha", "et al."],
                     "title": "DESI 2024: Constraints on Physics-Focused Aspects of Dark Energy using DESI DR1 BAO Data",
                     "id": "2405.13588"
-                },
-                {
-                    "meta": "DESI-2024-0397",
-                    "author": ["N. G. Karaçaylı", "et al."],
-                    "title": "CMB lensing and Lyα forest cross bispectrum from DESI's first-year quasar sample",
-                    "id": "2405.14988"
                 },
                 {
                     "meta": "DESI-2024-0384",
@@ -1840,12 +1886,6 @@
                     "author": ["A. Krolewski", "et al."],
                     "title": "Impact and mitigation of spectroscopic systematics on DESI DR1 clustering measurements",
                     "id": "2405.17208"
-                },
-                {
-                    "meta": "DESI-2024-0422",
-                    "author": ["Abhijeet Anand", "et al."],
-                    "title": "Archetype-Based Redshift Estimation for the Dark Energy Spectroscopic Instrument Survey",
-                    "id": "2405.19288"
                 },
                 {
                     "meta": "DESI-2023-0216",
@@ -1896,12 +1936,6 @@
                     "id": "2407.04795"
                 },
                 {
-                    "meta": "DESI-2023-0248",
-                    "author": ["Sergey E. Koposov", "et al."],
-                    "title": "DESI Early Data Release Milky Way Survey Value-Added Catalogue",
-                    "id": "2407.06280"
-                },
-                {
                     "meta": "DESI-2023-0264",
                     "author": ["Monica Valluri", "et al."],
                     "title": "GD-1 Stellar Stream and Cocoon in the DESI Early Data Release",
@@ -1942,6 +1976,60 @@
                     "author": ["D. Scholte", "et al."],
                     "title": "The atomic gas sequence and mass-metallicity relation from dwarfs to massive galaxies",
                     "id": "2408.03996"
+                },
+                {
+                    "meta": "DESI-2022-0154",
+                    "author": ["Khaled Said", "et al."],
+                    "title": "DESI Peculiar Velocity Survey -- Fundamental Plane",
+                    "id": "2408.13842"
+                },
+                {
+                    "meta": "DESI-2024-0457",
+                    "author": ["Tanveer Karim", "et al."],
+                    "title": "Measuring σ<sub>8</sub> using DESI Legacy Imaging Surveys Emission-Line Galaxies and Planck CMB Lensing and the Impact of Dust on Parameter Inference",
+                    "id": "2408.15909"
+                },
+                {
+                    "meta": "DESI-2024-0371",
+                    "author": ["Rongpu Zhou", "et al."],
+                    "title": "Stellar reddening map from DESI imaging and spectroscopy",
+                    "id": "2409.05140"
+                },
+                {
+                    "meta": "DESI-2024-0450",
+                    "author": ["J. Chaves-Montero", "et al."],
+                    "title": "ForestFlow: cosmological emulation of Lyman-α forest clustering from linear to nonlinear scales",
+                    "id": "2409.05682"
+                },
+                {
+                    "meta": "DESI-2024-0419",
+                    "author": ["M. Siudek", "et al."],
+                    "title": "Value Added Catalog of physical properties of more than 1.3 million galaxies from the DESI Survey",
+                    "id": "2409.19066"
+                },
+                {
+                    "meta": "DESI-2024-0439",
+                    "author": ["Ting-Wen Lan", "et al."],
+                    "title": "DESI Emission Line Galaxies: Unveiling the Diversity of [OII] Profiles and its Links to Star Formation and Morphology",
+                    "id": "2410.07601"
+                },
+                {
+                    "meta": "DESI-2024-0463",
+                    "author": ["C. Payerne", "et al."],
+                    "title": "High-redshift LBG selection from broadband and wide photometric surveys using a Random Forest algorithm",
+                    "id": "2410.08062"
+                },
+                {
+                    "meta": "DESI-2024-0445",
+                    "author": ["Amanda Byström", "et al."],
+                    "title": "Exploring the interaction between the MW and LMC with a large sample of blue horizontal branch stars from the DESI survey",
+                    "id": "2410.09149"
+                },
+                {
+                    "meta": "DESI-2024-0428",
+                    "author": ["Frank J. Qu", "et al."],
+                    "title": "The Atacama Cosmology Telescope DR6 and DESI: Structure growth measurements from the cross-correlation of DESI Legacy Imaging galaxies and CMB lensing from ACT DR6 and <em>Planck</em> PR4",
+                    "id": "2410.10808"
                 }
             ]
         },
