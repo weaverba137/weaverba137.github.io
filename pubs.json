@@ -1564,6 +1564,16 @@
                     "id": "2024ApJ...963..116P"
                 },
                 {
+                    "meta": "DESI-2023-0252",
+                    "author": ["Yirong Wang", "et al."],
+                    "title": "Measuring the Conditional Luminosity and Stellar Mass Functions of Galaxies by Combining the Dark Energy Spectroscopic Instrument Legacy Imaging Surveys Data Release 9, Survey Validation 3, and Year 1 Data",
+                    "journal": "Astrophys. J.",
+                    "volume": 971,
+                    "pages": "119",
+                    "year": 2024,
+                    "id": "2024ApJ...971..119W"
+                },
+                {
                     "meta": "DESI-2024-0392",
                     "author": ["Yu-Ling Chang", "et al."],
                     "title": "Probing the Impact of Radio-mode Feedback on the Properties of the Cool Circumgalactic Medium",
@@ -1582,6 +1592,26 @@
                     "pages": "021",
                     "year": 2024,
                     "id": "2024JCAP...03..021K"
+                },
+                {
+                    "meta": "DESI-2024-0434",
+                    "author": ["Martin White", "et al."],
+                    "title": "The clustering of Lyman Alpha Emitting galaxies at z=2-3",
+                    "journal": "J. Cosmo. Astro-Part. Phys.",
+                    "volume": 8,
+                    "pages": "020",
+                    "year": 2024,
+                    "id": "2024JCAP...08..020W"
+                },
+                {
+                    "meta": "DESI-2023-0284",
+                    "author": ["Vanina Ruhlmann-Kleider", "et al."],
+                    "title": "High redshift LBGs from deep broadband imaging for future spectroscopic surveys",
+                    "journal": "J. Cosmo. Astro-Part. Phys.",
+                    "volume": 8,
+                    "pages": "059",
+                    "year": 2024,
+                    "id": "2024JCAP...08..059R"
                 },
                 {
                     "meta": "DESI-2024-0406",
@@ -1732,12 +1762,6 @@
                     "id": "2311.05476"
                 },
                 {
-                    "meta": "DESI-2023-0252",
-                    "author": ["Yirong Wang", "et al."],
-                    "title": "Measuring the conditional luminosity and stellar mass functions of galaxies by combining the DESI LS DR9, SV3 and Y1 data",
-                    "id": "2312.17459"
-                },
-                {
                     "meta": "DESI-2023-0231",
                     "author": ["Hiram K. Herrera-Alcantar", "et al."],
                     "title": "Synthetic spectra for Lyman-α forest analysis in the Dark Energy Spectroscopic Instrument",
@@ -1816,12 +1840,6 @@
                     "id": "2404.03009"
                 },
                 {
-                    "meta": "DESI-2023-0284",
-                    "author": ["Vanina Ruhlmann-Kleider", "et al."],
-                    "title": "High redshift LBGs from deep broadband imaging for future spectroscopic surveys",
-                    "id": "2404.03569"
-                },
-                {
                     "meta": "DESI-2024-0326",
                     "author": ["S. Ramirez-Solano", "et al."],
                     "title": "Full Modeling and Parameter Compression Methods in configuration space for DESI 2024 and beyond",
@@ -1892,12 +1910,6 @@
                     "author": ["E. Chaussidon", "et al."],
                     "title": "Blinding scheme for the scale-dependence bias signature of local primordial non-Gaussianity for DESI 2024",
                     "id": "2406.00191"
-                },
-                {
-                    "meta": "DESI-2024-0434",
-                    "author": ["M. White", "et al."],
-                    "title": "The clustering of Lyman Alpha Emitting galaxies at z=2-3",
-                    "id": "2406.01803"
                 },
                 {
                     "meta": "DESI-2024-0353",
