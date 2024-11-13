@@ -1734,6 +1734,36 @@
                     "id": "2024MNRAS.534..544C"
                 },
                 {
+                    "meta": "DESI-2024-0444",
+                    "author": ["Claire Lamman", "et al."],
+                    "title": "Detection of the large-scale tidal field with galaxy multiplet alignment in the DESI Y1 spectroscopic survey",
+                    "journal": "Mon. Not. Roy. Ast. Soc.",
+                    "volume": 534,
+                    "pages": "3540&ndash;3551",
+                    "year": 2024,
+                    "id": "2024MNRAS.534.3540L"
+                },
+                {
+                    "meta": "DESI-2023-0259",
+                    "author": ["Christopher J. Manser", "et al."],
+                    "title": "The DESI Early Data Release white dwarf catalogue",
+                    "journal": "Mon. Not. Roy. Ast. Soc.",
+                    "volume": 535,
+                    "pages": "254&ndash;289",
+                    "year": 2024,
+                    "id": "2024MNRAS.535..254M"
+                },
+                {
+                    "meta": "DESI-2023-0269",
+                    "author": ["J. Callow", "et al."],
+                    "title": "The rate of extreme coronal line emitting galaxies in the Sloan Digital Sky Survey and their relation to tidal disruption events",
+                    "journal": "Mon. Not. Roy. Ast. Soc.",
+                    "volume": 535,
+                    "pages": "1095&ndash;1122",
+                    "year": 2024,
+                    "id": "2024MNRAS.535.1095C"
+                },
+                {
                     "meta": "DESI-2024-0397",
                     "author": ["Niam Göksel Karaçaylı", "et al."],
                     "title": "CMB lensing and Lyα forest cross bispectrum from DESI's first-year quasar sample",
@@ -1768,22 +1798,10 @@
                     "id": "2401.00303"
                 },
                 {
-                    "meta": "DESI-2023-0269",
-                    "author": ["Joseph Callow", "et al."],
-                    "title": "The rate of extreme coronal line emitting galaxies in the Sloan Digital Sky Survey and their relation to tidal disruption events",
-                    "id": "2402.16951"
-                },
-                {
                     "meta": "DESI-2023-0250",
                     "author": ["Abby Bault", "et al."],
                     "title": "Impact of Systematic Redshift Errors on the Cross-correlation of the Lyman-α Forest with Quasars at Small Scales Using DESI Early Data",
                     "id": "2402.18009"
-                },
-                {
-                    "meta": "DESI-2023-0259",
-                    "author": ["Christopher J. Manser", "et al."],
-                    "title": "The DESI Early Data Release White Dwarf Catalogue",
-                    "id": "2402.18641"
                 },
                 {
                     "meta": "DESI-2023-0267",
@@ -2042,6 +2060,24 @@
                     "author": ["Frank J. Qu", "et al."],
                     "title": "The Atacama Cosmology Telescope DR6 and DESI: Structure growth measurements from the cross-correlation of DESI Legacy Imaging galaxies and CMB lensing from ACT DR6 and <em>Planck</em> PR4",
                     "id": "2410.10808"
+                },
+                {
+                    "meta": "DESI-2024-0461",
+                    "author": ["Ragadeepika Pucha", "et al."],
+                    "title": "Tripling the Census of Dwarf AGN Candidates Using DESI Early Data",
+                    "id": "2411.00091"
+                },
+                {
+                    "meta": "DESI-2024-0466",
+                    "author": ["Hernan Rincon", "et al."],
+                    "title": "DESIVAST: A Catalog of Low-Redshift Voids using Data from the DESI DR1 Bright Galaxy Survey",
+                    "id": "2411.00148"
+                },
+                {
+                    "meta": "DESI-2023-0256",
+                    "author": ["Wei-Jian Guo", "et al."],
+                    "title": "The first identification of Lyman α Changing-look Quasars at high-redshift in DESI",
+                    "id": "2411.01949"
                 }
             ]
         },
