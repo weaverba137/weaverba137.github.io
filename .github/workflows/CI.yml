@@ -17,7 +17,7 @@ jobs:
             matrix:
                 os: ['ubuntu-latest']
                 python-version: ['3.11', '3.12']
-                json-file: ['hhh.json']
+                json-file: ['hhh.json', 'pubs.json', 'qso.json', 'uqm.json']
         steps:
             - name: Checkout code.
               uses: actions/checkout@v4
