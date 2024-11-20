@@ -1534,6 +1534,26 @@
                     "id": "2024AJ....168..124A"
                 },
                 {
+                    "meta": "DESI-2024-0390",
+                    "author": ["Claire Poppett", "et al."],
+                    "title": "Overview of the Fiber System for the Dark Energy Spectroscopic Instrument",
+                    "journal": "Astron. J.",
+                    "volume": 168,
+                    "pages": "245",
+                    "year": 2024,
+                    "id": "2024AJ....168..245P"
+                },
+                {
+                    "meta": "DESI-2024-0395",
+                    "author": ["E. F. Schlafly", "et al."],
+                    "title": "Correcting Turbulence-induced Errors in Fiber Positioning for the Dark Energy Spectroscopic Instrument",
+                    "journal": "Astron. J.",
+                    "volume": 168,
+                    "pages": "263",
+                    "year": 2024,
+                    "id": "2024AJ....168..263S"
+                },
+                {
                     "meta": "DESI-2023-0251",
                     "author": ["Hongyu Gao", "et al."],
                     "title": "The DESI One-Percent Survey: A Concise Model for the Galactic Conformity of Emission-line Galaxies",
@@ -1582,6 +1602,16 @@
                     "pages": "191",
                     "year": 2024,
                     "id": "2024ApJ...974..191C"
+                },
+                {
+                    "meta": "DESI-2023-0268",
+                    "author": ["Maayane T. Soumagnac", "et al."],
+                    "title": "The MOST Hosts Survey: Spectroscopic Observation of the Host Galaxies of ∼40,000 Transients Using DESI",
+                    "journal": "Astrophys. J. Supp.",
+                    "volume": 275,
+                    "pages": "22",
+                    "year": 2024,
+                    "id": "2024ApJS..275...22S"
                 },
                 {
                     "meta": "DESI-2022-0181",
@@ -1876,12 +1906,6 @@
                     "id": "2404.07312"
                 },
                 {
-                    "meta": "DESI-2023-0268",
-                    "author": ["Maayane T. Soumagnac", "et al."],
-                    "title": "The MOST Hosts Survey: spectroscopic observation of the host galaxies of ~40,000 transients using DESI",
-                    "id": "2405.03857"
-                },
-                {
                     "meta": "DESI-2024-0383",
                     "author": ["Wynne Turner", "et al."],
                     "title": "New measurements of the Lyman-α forest continuum and effective optical depth with LyCAN and DESI Y1 data",
@@ -1978,12 +2002,6 @@
                     "id": "2407.07152"
                 },
                 {
-                    "meta": "DESI-2024-0395",
-                    "author": ["E. F. Schlafly", "et al."],
-                    "title": "Correcting Turbulence-induced Errors in Fiber Positioning for the Dark Energy Spectroscopic Instrument",
-                    "id": "2407.08026"
-                },
-                {
                     "meta": "DESI-2024-0399",
                     "author": ["S. Novel-Masot", "et al."],
                     "title": "Catalog-level blinding on the bispectrum for DESI-like galaxy surveys",
@@ -2078,6 +2096,54 @@
                     "author": ["Wei-Jian Guo", "et al."],
                     "title": "The first identification of Lyman α Changing-look Quasars at high-redshift in DESI",
                     "id": "2411.01949"
+                },
+                {
+                    "meta": "DESI-2023-0288",
+                    "author": ["DESI Collaboration", "A. G. Adame", "et al."],
+                    "title": "DESI 2024 II: Sample Definitions, Characteristics, and Two-point Clustering Statistics",
+                    "id": "2411.12020"
+                },
+                {
+                    "meta": "DESI-2024-0291",
+                    "author": ["DESI Collaboration", "A. G. Adame", "et al."],
+                    "title": "DESI 2024 V: Full-Shape Galaxy Clustering from Galaxies and Quasars",
+                    "id": "2411.12021"
+                },
+                {
+                    "meta": "DESI-2024-0305",
+                    "author": ["DESI Collaboration", "A. G. Adame", "et al."],
+                    "title": "DESI 2024 VII: Cosmological Constraints from the Full-Shape Modeling of Clustering Measurements",
+                    "id": "2411.12022"
+                },
+                {
+                    "meta": "DESI-2024-0346",
+                    "author": ["N. Findlay", "et al."],
+                    "title": "Exploring HOD-dependent systematics for the DESI 2024 Full-Shape galaxy clustering analysis",
+                    "id": "2411.12023"
+                },
+                {
+                    "meta": "DESI-2024-0320",
+                    "author": ["A. J. Rosado-Marín", "et al."],
+                    "title": "Mitigating Imaging Systematics for DESI 2024 Emission Line Galaxies and Beyond",
+                    "id": "2411.12024"
+                },
+                {
+                    "meta": "DESI-2024-0365",
+                    "author": ["D. Bianchi", "et al."],
+                    "title": "Characterization of DESI fiber assignment incompleteness effect on 2-point clustering and mitigation methods for DR1 analysis",
+                    "id": "2411.12025"
+                },
+                {
+                    "meta": "DESI-2024-0493",
+                    "author": ["M. Ishak", "et al."],
+                    "title": "Modified Gravity Constraints from the Full Shape Modeling of Clustering Measurements from DESI 2024",
+                    "id": "2411.12026"
+                },
+                {
+                    "meta": "DESI-2024-0366",
+                    "author": ["Daniel Forero-Sánchez", "et al."],
+                    "title": "Analytical and EZmock covariance validation for the DESI 2024 results",
+                    "id": "2411.12027"
                 }
             ]
         },
