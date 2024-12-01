@@ -1794,6 +1794,16 @@
                     "id": "2024MNRAS.535.1095C"
                 },
                 {
+                    "meta": "DESI-2024-0297",
+                    "author": ["D. Scholte", "et al."],
+                    "title": "The atomic gas sequence and mass-metallicity relation from dwarfs to massive galaxies",
+                    "journal": "Mon. Not. Roy. Ast. Soc.",
+                    "volume": 535,
+                    "pages": "2341&ndash;2356",
+                    "year": 2024,
+                    "id": "2024MNRAS.535.2341S"
+                },
+                {
                     "meta": "DESI-2024-0397",
                     "author": ["Niam Göksel Karaçaylı", "et al."],
                     "title": "CMB lensing and Lyα forest cross bispectrum from DESI's first-year quasar sample",
@@ -2020,12 +2030,6 @@
                     "id": "2408.00402"
                 },
                 {
-                    "meta": "DESI-2024-0297",
-                    "author": ["D. Scholte", "et al."],
-                    "title": "The atomic gas sequence and mass-metallicity relation from dwarfs to massive galaxies",
-                    "id": "2408.03996"
-                },
-                {
                     "meta": "DESI-2022-0154",
                     "author": ["Khaled Said", "et al."],
                     "title": "DESI Peculiar Velocity Survey -- Fundamental Plane",
@@ -2144,6 +2148,30 @@
                     "author": ["Daniel Forero-Sánchez", "et al."],
                     "title": "Analytical and EZmock covariance validation for the DESI 2024 results",
                     "id": "2411.12027"
+                },
+                {
+                    "meta": "DESI-2024-0477",
+                    "author": ["Mike Shengbo Wang", "et al."],
+                    "title": "Window convolution of the galaxy clustering bispectrum",
+                    "id": "2411.14947"
+                },
+                {
+                    "meta": "DESI-2024-0437",
+                    "author": ["Anning Gao", "et al."],
+                    "title": "Measuring the Mean Free Path of HI Ionizing Photons at 3.2 ≤ z ≤ 4.6  with DESI Y1 Quasars",
+                    "id": "2411.15838"
+                },
+                {
+                    "meta": "DESI-2024-0480",
+                    "author": ["E. A. Zaborowski", "et al."],
+                    "title": "A Sound Horizon-Free Measurement of <em>H</em><sub>0</sub> in DESI 2024",
+                    "id": "2411.16677"
+                },
+                {
+                    "meta": "DESI-2024-0443",
+                    "author": ["E. Chaussidon", "et al."],
+                    "title": "Constraining primordial non-Gaussianity with DESI 2024 LRG and QSO samples",
+                    "id": "2411.17623"
                 }
             ]
         },
