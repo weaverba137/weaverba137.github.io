@@ -7,7 +7,8 @@ function factorial(n: bigint): bigint {
 
 
 function updateFactorial(): boolean {
-    let n: bigint = BigInt($("#integer").val());
+    // Coerce the return of .val() to string.
+    let n: bigint = BigInt($("#integer").val() + "");
     let f: string;
     try {
         f = factorial(n).toString();

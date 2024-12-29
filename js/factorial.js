@@ -6,7 +6,7 @@ function factorial(n) {
     return n * factorial(n - 1n);
 }
 function updateFactorial() {
-    let n = BigInt($("#integer").val());
+    let n = BigInt($("#integer").val() + "");
     let f;
     try {
         f = factorial(n).toString();

@@ -29,9 +29,9 @@ interface SelectionRange {
 }
 
 declare namespace jquery.flot {
-    // interface plot {
-    //     setSelection(ranges: SelectionRange, preventEvent?: boolean): void;
-    // }
+    interface plot {
+        setSelection(ranges: SelectionRange, preventEvent?: boolean): void;
+    }
     interface axisOptions {
         axisLabel?: string;
     }
