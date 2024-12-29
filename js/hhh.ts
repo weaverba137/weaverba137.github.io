@@ -86,11 +86,11 @@ $(
         let hhh: jquery.flot.dataSeries[] = [];
         let previousPoint: number = null;
         let replot = function(): void {
-            // var arrowhead, ctx, d, handle_plot_hover, i, j, label_css, len, len1, markings, next_year, o, plot1, plot1_area, plot1_options, plot2, plot2_area, plot2_options, showTooltip, special_dates, start_year;
             let plot1_area: JQuery<HTMLElement> = $("#plot1_area");
             let plot2_area: JQuery<HTMLElement> = $("#plot2_area");
             let start_year: number = (new Date(2002, 0, 1)).getTime();
-            let next_year: number = (new Date((new Date()).getFullYear() + 1, 0, 1)).getTime();
+            let next_year: number = (new Date()).getFullYear() + 1;
+            let end_year: number = (new Date((next_year % 2 ? next_year + 1 : next_year), 0, 1)).getTime();
             let markings: Marking[] = [];
             for (let i: number = 0; i < special_dates.length; i++) {
                 markings.push({color: 'black', lineWidth: 1, xaxis: {from: special_dates[i].time, to: special_dates[i].time}});
@@ -105,7 +105,7 @@ $(
                 xaxis: {
                     mode: 'time',
                     timeformat: '%Y',
-                    minTickSize: [1, 'year']
+                    minTickSize: [2, 'year']
                 },
                 selection: {mode: 'xy'}
             };
@@ -119,9 +119,9 @@ $(
                 xaxis: {
                     mode: 'time',
                     timeformat: '%Y',
-                    minTickSize: [1, 'year'],
+                    minTickSize: [2, 'year'],
                     min: start_year,
-                    max: next_year
+                    max: end_year
                 },
                 grid: {markings: markings},
                 selection: {mode: 'xy'}

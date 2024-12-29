@@ -34,7 +34,8 @@ $(function () {
         let plot1_area = $("#plot1_area");
         let plot2_area = $("#plot2_area");
         let start_year = (new Date(2002, 0, 1)).getTime();
-        let next_year = (new Date((new Date()).getFullYear() + 1, 0, 1)).getTime();
+        let next_year = (new Date()).getFullYear() + 1;
+        let end_year = (new Date((next_year % 2 ? next_year + 1 : next_year), 0, 1)).getTime();
         let markings = [];
         for (let i = 0; i < special_dates.length; i++) {
             markings.push({ color: 'black', lineWidth: 1, xaxis: { from: special_dates[i].time, to: special_dates[i].time } });
@@ -49,7 +50,7 @@ $(function () {
             xaxis: {
                 mode: 'time',
                 timeformat: '%Y',
-                minTickSize: [1, 'year']
+                minTickSize: [2, 'year']
             },
             selection: { mode: 'xy' }
         };
@@ -63,9 +64,9 @@ $(function () {
             xaxis: {
                 mode: 'time',
                 timeformat: '%Y',
-                minTickSize: [1, 'year'],
+                minTickSize: [2, 'year'],
                 min: start_year,
-                max: next_year
+                max: end_year
             },
             grid: { markings: markings },
             selection: { mode: 'xy' }
