@@ -2,49 +2,48 @@
 <html lang="en">
     <head>
         <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Tests &mdash; B. A. Weaver</title>
         <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
         <link rel="icon" type="image/x-icon" href="favicon.ico" />
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous" />
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
         <link rel="stylesheet" type="text/css" media="screen" href="public_html.css" />
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
         <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js" integrity="sha384-ZvpUoO/+PpLXR1lu4jmpXWu80pZlYUAfxl5NsBMWOEPSjUn/6Z/hRTt8+pR6L4N2" crossorigin="anonymous"></script>
-        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
         <script type="text/javascript" src="js/bitmask.js"></script>
         <script type="text/javascript" src="js/hide_list.js"></script>
         <script type="text/javascript" src="js/factorial.js"></script>
     </head>
     <body>
-        <nav class="navbar navbar-light navbar-expand-lg bg-light">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container">
                 <a class="navbar-brand" href="https://github.com/weaverba137/">GitHub</a>
-                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item"><a class="nav-link" href="index.html">&#127968; Home <span class="sr-only">(current)</span></a></li>
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html">&#127968; Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="pubs.html">&#128214; Publications</a></li>
                         <li class="nav-item"><a class="nav-link" href="job.html">&#128301; Work</a></li>
-                        <!-- <li class="nav-item"><a class="nav-link" href="nz.html">&#128747; Travel</a></li> -->
                         <li class="nav-item"><a class="nav-link" href="links.html">&#128279; Links</a></li>
-                        <li class="nav-item active"><a class="nav-link" href="tests.html">&#9889; Tests</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="tests.html" aria-current="page">&#9889; Tests</a></li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="crange/" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >&#128293; dE/dx</a>
-                            <div class="dropdown-menu" aria-labelledby="dropdown01">
-                                <a class="dropdown-item" href="crange/index.html">Introduction</a>
-                                <a class="dropdown-item" href="crange/absorb.html">Absorber Library</a>
-                                <a class="dropdown-item" href="crange/recalc.html">Calculator</a>
-                            </div>
+                            <a class="nav-link dropdown-toggle" href="crange/" role="button" data-bs-toggle="dropdown" aria-expanded="false">&#128293; dE/dx</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="crange/index.html">Introduction</a></li>
+                                <li><a class="dropdown-item" href="crange/absorb.html">Absorber Library</a></li>
+                                <li><a class="dropdown-item" href="crange/recalc.html">Calculator</a></li>
+                            </ul>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="fun/" id="dropdown02" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >&#127864; Amusements</a>
-                            <div class="dropdown-menu" aria-labelledby="dropdown02">
-                                <a class="dropdown-item" href="hhh.html">HHH</a>
-                                <a class="dropdown-item" href="qso.html">QSO</a>
-                                <a class="dropdown-item" href="uqm.html">UQM</a>
-                            </div>
+                            <a class="nav-link dropdown-toggle" href="fun/" role="button" data-bs-toggle="dropdown" aria-expanded="false">&#127864; Amusements</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="hhh.html">HHH</a></li>
+                                <li><a class="dropdown-item" href="nz.html">NZ</a></li>
+                                <li><a class="dropdown-item" href="qso.html">QSO</a></li>
+                                <li><a class="dropdown-item" href="uqm.html">UQM</a></li>
+                            </ul>
                         </li>
                     </ul>
                 </div><!-- end class="collapse navbar-collapse" -->
@@ -62,84 +61,84 @@
                     <form method="post" name="advSearch" id="advSearch" onsubmit="return false;">
                         <fieldset><legend>Target Flags</legend>
                             <dl class="row">
-                                <dt class="col-md-2">JavaScript Bitmask</dt><dd class="col-md-10 text-monospace" id="the_mask">0 (0x0)</dd>
-                                <dt class="col-md-2">BigInt Bitmask</dt><dd class="col-md-10 text-monospace" id="the_bmask">0 (0x0)</dd>
+                                <dt class="col-md-2">JavaScript Bitmask</dt><dd class="col-md-10 font-monospace" id="the_mask">0 (0x0)</dd>
+                                <dt class="col-md-2">BigInt Bitmask</dt><dd class="col-md-10 font-monospace" id="the_bmask">0 (0x0)</dd>
                             </dl>
                             <p>
                                 <button type="button" class="btn btn-success" onclick="checkAll('the',true);">Check All</button>
                                 <button type="button" class="btn btn-danger" onclick="checkAll('the',false);">Clear All</button>
                             </p>
                             <p>
-                                <label class="form-check-label text-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="0" id="the_0" value="0" />&nbsp;00&nbsp;</label>
-                                <label class="form-check-label text-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="1" id="the_1" value="1" />&nbsp;01&nbsp;</label>
-                                <label class="form-check-label text-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="2" id="the_2" value="2" />&nbsp;02&nbsp;</label>
-                                <label class="form-check-label text-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="3" id="the_3" value="3" />&nbsp;03&nbsp;</label>
-                                <label class="form-check-label text-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="4" id="the_4" value="4" />&nbsp;04&nbsp;</label>
-                                <label class="form-check-label text-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="5" id="the_5" value="5" />&nbsp;05&nbsp;</label>
-                                <label class="form-check-label text-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="6" id="the_6" value="6" />&nbsp;06&nbsp;</label>
-                                <label class="form-check-label text-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="7" id="the_7" value="7" />&nbsp;07&nbsp;</label>
-                                <label class="form-check-label text-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="8" id="the_8" value="8" />&nbsp;08&nbsp;</label>
-                                <label class="form-check-label text-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="9" id="the_9" value="9" />&nbsp;09&nbsp;</label>
-                                <label class="form-check-label text-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="10" id="the_10" value="10" />&nbsp;10&nbsp;</label>
-                                <label class="form-check-label text-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="11" id="the_11" value="11" />&nbsp;11&nbsp;</label>
-                                <label class="form-check-label text-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="12" id="the_12" value="12" />&nbsp;12&nbsp;</label>
-                                <label class="form-check-label text-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="13" id="the_13" value="13" />&nbsp;13&nbsp;</label>
-                                <label class="form-check-label text-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="14" id="the_14" value="14" />&nbsp;14&nbsp;</label>
-                                <label class="form-check-label text-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="15" id="the_15" value="15" />&nbsp;15&nbsp;</label>
+                                <label class="form-check-label font-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="0" id="the_0" value="0" />&nbsp;00&nbsp;</label>
+                                <label class="form-check-label font-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="1" id="the_1" value="1" />&nbsp;01&nbsp;</label>
+                                <label class="form-check-label font-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="2" id="the_2" value="2" />&nbsp;02&nbsp;</label>
+                                <label class="form-check-label font-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="3" id="the_3" value="3" />&nbsp;03&nbsp;</label>
+                                <label class="form-check-label font-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="4" id="the_4" value="4" />&nbsp;04&nbsp;</label>
+                                <label class="form-check-label font-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="5" id="the_5" value="5" />&nbsp;05&nbsp;</label>
+                                <label class="form-check-label font-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="6" id="the_6" value="6" />&nbsp;06&nbsp;</label>
+                                <label class="form-check-label font-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="7" id="the_7" value="7" />&nbsp;07&nbsp;</label>
+                                <label class="form-check-label font-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="8" id="the_8" value="8" />&nbsp;08&nbsp;</label>
+                                <label class="form-check-label font-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="9" id="the_9" value="9" />&nbsp;09&nbsp;</label>
+                                <label class="form-check-label font-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="10" id="the_10" value="10" />&nbsp;10&nbsp;</label>
+                                <label class="form-check-label font-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="11" id="the_11" value="11" />&nbsp;11&nbsp;</label>
+                                <label class="form-check-label font-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="12" id="the_12" value="12" />&nbsp;12&nbsp;</label>
+                                <label class="form-check-label font-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="13" id="the_13" value="13" />&nbsp;13&nbsp;</label>
+                                <label class="form-check-label font-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="14" id="the_14" value="14" />&nbsp;14&nbsp;</label>
+                                <label class="form-check-label font-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="15" id="the_15" value="15" />&nbsp;15&nbsp;</label>
                             </p>
                             <p>
-                                <label class="form-check-label text-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="16" id="the_16" value="16" />&nbsp;16&nbsp;</label>
-                                <label class="form-check-label text-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="17" id="the_17" value="17" />&nbsp;17&nbsp;</label>
-                                <label class="form-check-label text-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="18" id="the_18" value="18" />&nbsp;18&nbsp;</label>
-                                <label class="form-check-label text-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="19" id="the_19" value="19" />&nbsp;19&nbsp;</label>
-                                <label class="form-check-label text-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="20" id="the_20" value="20" />&nbsp;20&nbsp;</label>
-                                <label class="form-check-label text-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="21" id="the_21" value="21" />&nbsp;21&nbsp;</label>
-                                <label class="form-check-label text-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="22" id="the_22" value="22" />&nbsp;22&nbsp;</label>
-                                <label class="form-check-label text-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="23" id="the_23" value="23" />&nbsp;23&nbsp;</label>
-                                <label class="form-check-label text-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="24" id="the_24" value="24" />&nbsp;24&nbsp;</label>
-                                <label class="form-check-label text-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="25" id="the_25" value="25" />&nbsp;25&nbsp;</label>
-                                <label class="form-check-label text-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="26" id="the_26" value="26" />&nbsp;26&nbsp;</label>
-                                <label class="form-check-label text-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="27" id="the_27" value="27" />&nbsp;27&nbsp;</label>
-                                <label class="form-check-label text-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="28" id="the_28" value="28" />&nbsp;28&nbsp;</label>
-                                <label class="form-check-label text-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="29" id="the_29" value="29" />&nbsp;29&nbsp;</label>
-                                <label class="form-check-label text-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="30" id="the_30" value="30" />&nbsp;30&nbsp;</label>
-                                <label class="form-check-label text-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="31" id="the_31" value="31" />&nbsp;31&nbsp;</label>
+                                <label class="form-check-label font-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="16" id="the_16" value="16" />&nbsp;16&nbsp;</label>
+                                <label class="form-check-label font-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="17" id="the_17" value="17" />&nbsp;17&nbsp;</label>
+                                <label class="form-check-label font-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="18" id="the_18" value="18" />&nbsp;18&nbsp;</label>
+                                <label class="form-check-label font-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="19" id="the_19" value="19" />&nbsp;19&nbsp;</label>
+                                <label class="form-check-label font-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="20" id="the_20" value="20" />&nbsp;20&nbsp;</label>
+                                <label class="form-check-label font-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="21" id="the_21" value="21" />&nbsp;21&nbsp;</label>
+                                <label class="form-check-label font-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="22" id="the_22" value="22" />&nbsp;22&nbsp;</label>
+                                <label class="form-check-label font-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="23" id="the_23" value="23" />&nbsp;23&nbsp;</label>
+                                <label class="form-check-label font-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="24" id="the_24" value="24" />&nbsp;24&nbsp;</label>
+                                <label class="form-check-label font-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="25" id="the_25" value="25" />&nbsp;25&nbsp;</label>
+                                <label class="form-check-label font-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="26" id="the_26" value="26" />&nbsp;26&nbsp;</label>
+                                <label class="form-check-label font-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="27" id="the_27" value="27" />&nbsp;27&nbsp;</label>
+                                <label class="form-check-label font-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="28" id="the_28" value="28" />&nbsp;28&nbsp;</label>
+                                <label class="form-check-label font-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="29" id="the_29" value="29" />&nbsp;29&nbsp;</label>
+                                <label class="form-check-label font-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="30" id="the_30" value="30" />&nbsp;30&nbsp;</label>
+                                <label class="form-check-label font-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="31" id="the_31" value="31" />&nbsp;31&nbsp;</label>
                             </p>
                             <p>
-                                <label class="form-check-label text-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="32" id="the_32" value="32" />&nbsp;32&nbsp;</label>
-                                <label class="form-check-label text-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="33" id="the_33" value="33" />&nbsp;33&nbsp;</label>
-                                <label class="form-check-label text-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="34" id="the_34" value="34" />&nbsp;34&nbsp;</label>
-                                <label class="form-check-label text-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="35" id="the_35" value="35" />&nbsp;35&nbsp;</label>
-                                <label class="form-check-label text-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="36" id="the_36" value="36" />&nbsp;36&nbsp;</label>
-                                <label class="form-check-label text-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="37" id="the_37" value="37" />&nbsp;37&nbsp;</label>
-                                <label class="form-check-label text-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="38" id="the_38" value="38" />&nbsp;38&nbsp;</label>
-                                <label class="form-check-label text-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="39" id="the_39" value="39" />&nbsp;39&nbsp;</label>
-                                <label class="form-check-label text-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="40" id="the_40" value="40" />&nbsp;40&nbsp;</label>
-                                <label class="form-check-label text-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="41" id="the_41" value="41" />&nbsp;41&nbsp;</label>
-                                <label class="form-check-label text-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="42" id="the_42" value="42" />&nbsp;42&nbsp;</label>
-                                <label class="form-check-label text-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="43" id="the_43" value="43" />&nbsp;43&nbsp;</label>
-                                <label class="form-check-label text-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="44" id="the_44" value="44" />&nbsp;44&nbsp;</label>
-                                <label class="form-check-label text-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="45" id="the_45" value="45" />&nbsp;45&nbsp;</label>
-                                <label class="form-check-label text-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="46" id="the_46" value="46" />&nbsp;46&nbsp;</label>
-                                <label class="form-check-label text-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="47" id="the_47" value="47" />&nbsp;47&nbsp;</label>
+                                <label class="form-check-label font-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="32" id="the_32" value="32" />&nbsp;32&nbsp;</label>
+                                <label class="form-check-label font-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="33" id="the_33" value="33" />&nbsp;33&nbsp;</label>
+                                <label class="form-check-label font-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="34" id="the_34" value="34" />&nbsp;34&nbsp;</label>
+                                <label class="form-check-label font-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="35" id="the_35" value="35" />&nbsp;35&nbsp;</label>
+                                <label class="form-check-label font-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="36" id="the_36" value="36" />&nbsp;36&nbsp;</label>
+                                <label class="form-check-label font-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="37" id="the_37" value="37" />&nbsp;37&nbsp;</label>
+                                <label class="form-check-label font-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="38" id="the_38" value="38" />&nbsp;38&nbsp;</label>
+                                <label class="form-check-label font-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="39" id="the_39" value="39" />&nbsp;39&nbsp;</label>
+                                <label class="form-check-label font-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="40" id="the_40" value="40" />&nbsp;40&nbsp;</label>
+                                <label class="form-check-label font-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="41" id="the_41" value="41" />&nbsp;41&nbsp;</label>
+                                <label class="form-check-label font-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="42" id="the_42" value="42" />&nbsp;42&nbsp;</label>
+                                <label class="form-check-label font-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="43" id="the_43" value="43" />&nbsp;43&nbsp;</label>
+                                <label class="form-check-label font-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="44" id="the_44" value="44" />&nbsp;44&nbsp;</label>
+                                <label class="form-check-label font-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="45" id="the_45" value="45" />&nbsp;45&nbsp;</label>
+                                <label class="form-check-label font-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="46" id="the_46" value="46" />&nbsp;46&nbsp;</label>
+                                <label class="form-check-label font-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="47" id="the_47" value="47" />&nbsp;47&nbsp;</label>
                             </p>
                             <p>
-                                <label class="form-check-label text-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="48" id="the_48" value="48" />&nbsp;48&nbsp;</label>
-                                <label class="form-check-label text-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="49" id="the_49" value="49" />&nbsp;49&nbsp;</label>
-                                <label class="form-check-label text-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="50" id="the_50" value="50" />&nbsp;50&nbsp;</label>
-                                <label class="form-check-label text-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="51" id="the_51" value="51" />&nbsp;51&nbsp;</label>
-                                <label class="form-check-label text-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="52" id="the_52" value="52" />&nbsp;52&nbsp;</label>
-                                <label class="form-check-label text-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="53" id="the_53" value="53" />&nbsp;53&nbsp;</label>
-                                <label class="form-check-label text-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="54" id="the_54" value="54" />&nbsp;54&nbsp;</label>
-                                <label class="form-check-label text-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="55" id="the_55" value="55" />&nbsp;55&nbsp;</label>
-                                <label class="form-check-label text-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="56" id="the_56" value="56" />&nbsp;56&nbsp;</label>
-                                <label class="form-check-label text-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="57" id="the_57" value="57" />&nbsp;57&nbsp;</label>
-                                <label class="form-check-label text-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="58" id="the_58" value="58" />&nbsp;58&nbsp;</label>
-                                <label class="form-check-label text-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="59" id="the_59" value="59" />&nbsp;59&nbsp;</label>
-                                <label class="form-check-label text-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="60" id="the_60" value="60" />&nbsp;60&nbsp;</label>
-                                <label class="form-check-label text-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="61" id="the_61" value="61" />&nbsp;61&nbsp;</label>
-                                <label class="form-check-label text-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="62" id="the_62" value="62" />&nbsp;62&nbsp;</label>
-                                <label class="form-check-label text-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="63" id="the_63" value="63" />&nbsp;63&nbsp;</label>
+                                <label class="form-check-label font-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="48" id="the_48" value="48" />&nbsp;48&nbsp;</label>
+                                <label class="form-check-label font-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="49" id="the_49" value="49" />&nbsp;49&nbsp;</label>
+                                <label class="form-check-label font-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="50" id="the_50" value="50" />&nbsp;50&nbsp;</label>
+                                <label class="form-check-label font-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="51" id="the_51" value="51" />&nbsp;51&nbsp;</label>
+                                <label class="form-check-label font-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="52" id="the_52" value="52" />&nbsp;52&nbsp;</label>
+                                <label class="form-check-label font-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="53" id="the_53" value="53" />&nbsp;53&nbsp;</label>
+                                <label class="form-check-label font-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="54" id="the_54" value="54" />&nbsp;54&nbsp;</label>
+                                <label class="form-check-label font-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="55" id="the_55" value="55" />&nbsp;55&nbsp;</label>
+                                <label class="form-check-label font-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="56" id="the_56" value="56" />&nbsp;56&nbsp;</label>
+                                <label class="form-check-label font-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="57" id="the_57" value="57" />&nbsp;57&nbsp;</label>
+                                <label class="form-check-label font-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="58" id="the_58" value="58" />&nbsp;58&nbsp;</label>
+                                <label class="form-check-label font-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="59" id="the_59" value="59" />&nbsp;59&nbsp;</label>
+                                <label class="form-check-label font-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="60" id="the_60" value="60" />&nbsp;60&nbsp;</label>
+                                <label class="form-check-label font-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="61" id="the_61" value="61" />&nbsp;61&nbsp;</label>
+                                <label class="form-check-label font-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="62" id="the_62" value="62" />&nbsp;62&nbsp;</label>
+                                <label class="form-check-label font-monospace"><input type="checkbox" onclick="updateBitmask('the');" name="the" class="63" id="the_63" value="63" />&nbsp;63&nbsp;</label>
                             </p>
                         </fieldset>
                     </form>
@@ -220,10 +219,10 @@
 -->
         </main><!-- end class="container" -->
         <footer class="container d-none d-md-block">
-            <p><img src="colorsep.gif" alt="Separator" class="separator" /></p>
             <ul class="list-unstyled">
-                <li class="text-muted">Created: 2016-08-08 14:42:09 -0700 (Mon, 08 Aug 2016)</li>
-                <li class="text-muted">Last modified: 2024-08-14 11:56:43 -0700 (Wed, 14 Aug 2024)</li>
+                <li><img src="colorsep.gif" alt="Separator" class="separator" /></li>
+                <li class="text-body-secondary"><small>Created: 2016-08-08 14:42:09 -0700 (Mon, 08 Aug 2016)</small></li>
+                <li class="text-body-secondary"><small>Last modified: 2025-01-02 12:00:33 -0500 (Thu, 02 Jan 2025)</small></li>
             </ul>
         </footer><!-- end class="container" -->
     </body>
