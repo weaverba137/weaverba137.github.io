@@ -2,46 +2,44 @@
 <html lang="en">
     <head>
         <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Links &mdash; B. A. Weaver</title>
         <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
         <link rel="icon" type="image/x-icon" href="favicon.ico" />
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous" />
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
         <link rel="stylesheet" type="text/css" media="screen" href="public_html.css" />
-        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js" integrity="sha384-ZvpUoO/+PpLXR1lu4jmpXWu80pZlYUAfxl5NsBMWOEPSjUn/6Z/hRTt8+pR6L4N2" crossorigin="anonymous"></script>
-        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     </head>
     <body>
-        <nav class="navbar navbar-light navbar-expand-lg bg-light">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container">
                 <a class="navbar-brand" href="https://github.com/weaverba137/">GitHub</a>
-                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item"><a class="nav-link" href="index.html">&#127968; Home <span class="sr-only">(current)</span></a></li>
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html">&#127968; Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="pubs.html">&#128214; Publications</a></li>
                         <li class="nav-item"><a class="nav-link" href="job.html">&#128301; Work</a></li>
-                        <!-- <li class="nav-item"><a class="nav-link" href="nz.html">&#128747; Travel</a></li> -->
-                        <li class="nav-item active"><a class="nav-link" href="links.html">&#128279; Links</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="links.html" aria-current="page">&#128279; Links</a></li>
                         <li class="nav-item"><a class="nav-link" href="tests.html">&#9889; Tests</a></li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="crange/" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >&#128293; dE/dx</a>
-                            <div class="dropdown-menu" aria-labelledby="dropdown01">
-                                <a class="dropdown-item" href="crange/index.html">Introduction</a>
-                                <a class="dropdown-item" href="crange/absorb.html">Absorber Library</a>
-                                <a class="dropdown-item" href="crange/recalc.html">Calculator</a>
-                            </div>
+                            <a class="nav-link dropdown-toggle" href="crange/" role="button" data-bs-toggle="dropdown" aria-expanded="false">&#128293; dE/dx</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="crange/index.html">Introduction</a></li>
+                                <li><a class="dropdown-item" href="crange/absorb.html">Absorber Library</a></li>
+                                <li><a class="dropdown-item" href="crange/recalc.html">Calculator</a></li>
+                            </ul>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="fun/" id="dropdown02" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >&#127864; Amusements</a>
-                            <div class="dropdown-menu" aria-labelledby="dropdown02">
-                                <a class="dropdown-item" href="hhh.html">HHH</a>
-                                <a class="dropdown-item" href="qso.html">QSO</a>
-                                <a class="dropdown-item" href="uqm.html">UQM</a>
-                            </div>
+                            <a class="nav-link dropdown-toggle" href="fun/" role="button" data-bs-toggle="dropdown" aria-expanded="false">&#127864; Amusements</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="hhh.html">HHH</a></li>
+                                <li><a class="dropdown-item" href="nz.html">NZ</a></li>
+                                <li><a class="dropdown-item" href="qso.html">QSO</a></li>
+                                <li><a class="dropdown-item" href="uqm.html">UQM</a></li>
+                            </ul>
                         </li>
                     </ul>
                 </div><!-- end class="collapse navbar-collapse" -->
@@ -51,10 +49,10 @@
             <div class="row">
                 <div class="col">
                     <h1>Links &mdash; B. A. Weaver</h1>
-                </div><!-- end class="col-md-12" -->
+                </div><!-- end class="col" -->
             </div><!-- end class="row" -->
             <div class="row">
-                <div class="col-md-4">
+                <div class="col">
                     <h2>NSF NOIRLab</h2>
                     <ul>
                         <li><a href="https://noirlab.edu/">NSF NOIRLab</a></li>
@@ -66,8 +64,8 @@
                         <li><a href="https://hr.aura-astronomy.org/">HR Mission | AURA Human Resources</a></li>
                         <li><a href="https://www.concursolutions.com/">Concur Travel System</a></li>
                    </ul>
-                </div><!-- end class="col-md-4" -->
-                <div class="col-md-4">
+                </div><!-- end class="col" -->
+                <div class="col">
                     <h2>DESI</h2>
                     <ul>
                         <li><a href="https://www.desi.lbl.gov/">DESI</a></li>
@@ -76,8 +74,8 @@
                         <li><a href="https://desi.lbl.gov/trac/login">DESI Trac</a></li>
                         <li><a href="https://www.legacysurvey.org/">DECaLS</a></li>
                     </ul>
-                </div><!-- end class="col-md-4" -->
-                <div class="col-md-4">
+                </div><!-- end class="col" -->
+                <div class="col">
                     <h2>SDSS</h2>
                     <ul>
                         <li><a href="https://www.sdss.org/">SDSS</a></li>
@@ -88,10 +86,10 @@
                         <li><a href="http://nsatlas.org">NASA-Sloan Atlas</a></li>
                         <li><a href="http://faculty.washington.edu/ivezic/sdss/catalogs/stripe82.html">Stripe 82 Standard Star Catalog</a></li>
                     </ul>
-                </div><!-- end class="col-md-4" -->
+                </div><!-- end class="col" -->
             </div><!-- end class="row" -->
             <div class="row">
-                <div class="col-md-4">
+                <div class="col">
                     <h2>LBNL</h2>
                     <ul>
                         <li><a href="https://www.lbl.gov/">Lawrence Berkeley National Laboratory</a></li>
@@ -99,8 +97,8 @@
                         <li><a href="https://onestop.lbl.gov/onestop/">LBLnet: Onestop</a></li>
                         <li><a href="https://status.lbl.gov">LBNL Status</a></li>
                     </ul>
-                </div><!-- end class="col-md-4" -->
-                <div class="col-md-4">
+                </div><!-- end class="col" -->
+                <div class="col">
                     <h2>NERSC</h2>
                     <ul>
                         <li><a href="https://www.nersc.gov/">NERSC web pages</a></li>
@@ -110,8 +108,8 @@
                         <li><a href="https://rancher2.spin.nersc.gov">NERSC Rancher 2</a></li>
                         <li><a href="https://nersc-status.lbl.gov">NERSC Status</a></li>
                     </ul>
-                </div><!-- end class="col-md-4" -->
-                <div class="col-md-4">
+                </div><!-- end class="col" -->
+                <div class="col">
                     <h2>Astronomy</h2>
                     <ul>
                         <li><a href="https://apod.nasa.gov/apod/astropix.html">Astronomy Picture of the Day</a></li>
@@ -124,10 +122,10 @@
                         <li><a href="https://ui.adsabs.harvard.edu/">The SAO/NASA Astrophysics Data System</a></li>
                         <li><a href="https://ned.ipac.caltech.edu/">NASA/IPAC Extragalactic Database - NED</a></li>
                     </ul>
-                </div><!-- end class="col-md-4" -->
+                </div><!-- end class="col" -->
             </div><!-- end class="row" -->
             <div class="row">
-                <div class="col-md-4">
+                <div class="col">
                     <h2>Computers</h2>
                     <ul>
                         <li><a href="https://www.continuum.io/">Anaconda</a></li>
@@ -148,8 +146,8 @@
                         <li><a href="https://puppet.com/">Puppet System Administration</a></li>
                         <li><a href="https://www.sqlservercentral.com/articles/the-semantics-of-null-in-sql-server-2008">SQL Server NULL</a></li>
                     </ul>
-                </div><!-- end class="col-md-4" -->
-                <div class="col-md-4">
+                </div><!-- end class="col" -->
+                <div class="col">
                     <h2>Programming</h2>
                     <ul>
                         <li><a href="https://dask.pydata.org/en/latest/">Dask</a></li>
@@ -164,8 +162,8 @@
                         <li><a href="https://www.typescriptlang.org">TypeScript</a></li>
                         <li><a href="https://code.visualstudio.com">Visual Studio Code</a></li>
                     </ul>
-                </div><!-- end class="col-md-4" -->
-                <div class="col-md-4">
+                </div><!-- end class="col" -->
+                <div class="col">
                     <h2>Frameworks</h2>
                     <ul>
                         <li><a href="https://airflow.apache.org">Apache Airflow</a></li>
@@ -174,10 +172,10 @@
                         <li><a href="https://flask.palletsprojects.com/">Flask</a></li>
                         <li><a href="https://www.sqlalchemy.org/">SQLAlchemy</a></li>
                     </ul>
-                </div><!-- end class="col-md-4" -->
+                </div><!-- end class="col" -->
             </div><!-- end class="row" -->
             <div class="row">
-                <div class="col-md-4">
+                <div class="col">
                     <h2>News</h2>
                     <ul>
                         <li><a href="https://gizmodo.com/io9/">io9</a></li>
@@ -186,8 +184,8 @@
                         <li><a href="https://forecast.weather.gov/MapClick.php?lat=32.26384000000013&amp;lon=-110.92162000000002#.WiF92rQ-fBI">Tucson Weather</a></li>
                         <li><a href="https://web3isgoinggreat.com">Web3 is Going Just Great</a></li>
                     </ul>
-                </div><!-- end class="col-md-4" -->
-                <div class="col-md-4">
+                </div><!-- end class="col" -->
+                <div class="col">
                     <h2>Reference</h2>
                     <ul>
                         <li><a href="https://www.feynmanlectures.caltech.edu/">The Feynman Lectures on Physics</a></li>
@@ -197,8 +195,8 @@
                         <li><a href="https://www.howderfamily.com/blog/">Twelve Mile Circle</a></li>
                         <li><a href="https://www.wikipedia.org/">Wikipedia</a></li>
                     </ul>
-                </div><!-- end class="col-md-4" -->
-                <div class="col-md-4">
+                </div><!-- end class="col" -->
+                <div class="col">
                     <h2>Transportation</h2>
                     <ul>
                         <li><a href="https://www.amtrak.com/home.html">Amtrak</a></li>
@@ -213,10 +211,10 @@
                         <li><a href="https://www.suntran.com/">Sun Tran</a></li>
                         <li><a href="https://www.united.com/">United</a></li>
                     </ul>
-                </div><!-- end class="col-md-4" -->
+                </div><!-- end class="col" -->
             </div><!-- end class="row" -->
             <div class="row">
-                <div class="col-md-4">
+                <div class="col">
                     <h2>Local</h2>
                     <ul>
                         <li><a href="https://gutucson.org/">Gastronomic Union of Tucson</a></li>
@@ -238,8 +236,8 @@
                         <li><a href="https://tusconscificon.com">TusCon</a></li>
                         <li><a href="https://www.tucsonvalleyofthemoon.com">Valley of the Moon</a></li>
                     </ul>
-                </div><!-- end class="col-md-4" -->
-                <div class="col-md-4">
+                </div><!-- end class="col" -->
+                <div class="col">
                     <h2>Food</h2>
                     <ul>
                         <li><a href="https://www.beyondbread.com/backdough/">Back Dough</a></li>
@@ -249,8 +247,8 @@
                         <li><a href="https://santacruzchili.com">Santa Cruz Chili &amp; Spice Company</a></li>
                         <li><a href="https://www.seamless.com/">Seamless</a></li>
                     </ul>
-                </div><!-- end class="col-md-4" -->
-                <div class="col-md-4">
+                </div><!-- end class="col" -->
+                <div class="col">
                     <h2>Entertainment</h2>
                     <ul>
                         <li><a href="https://acorn.tv">Acorn</a></li>
@@ -265,10 +263,10 @@
                         <li><a href="https://netflix.com/">Netflix</a></li>
                         <li>Seplatonic</li>
                     </ul>
-                </div><!-- end class="col-md-4" -->
+                </div><!-- end class="col" -->
             </div><!-- end class="row" -->
             <div class="row">
-                <div class="col-md-4">
+                <div class="col">
                     <h2>Comics</h2>
                     <ul>
                         <li><a href="http://www.drivecomic.com">Drive</a></li>
@@ -279,14 +277,14 @@
                         <li><a href="http://www.legostargalactica.net/">Legostar Galactica (inactive)</a></li>
                         <li><a href="https://www.nukees.com/">Nukees, The Atomic Comic Strip (inactive)</a></li>
                     </ul>
-                </div><!-- end class="col-md-4" -->
-                <div class="col-md-4">
+                </div><!-- end class="col" -->
+                <div class="col">
                     <h2>Humor</h2>
                     <ul>
                         <li><a href="https://cultofthepartyparrot.com">Party Parrot</a></li>
                     </ul>
-                </div><!-- end class="col-md-4" -->
-                <div class="col-md-4">
+                </div><!-- end class="col" -->
+                <div class="col">
                     <h2>HHH</h2>
                     <ul>
                         <li><a href="http://www.bah3.org/">Baltimore-Annapolis</a></li>
@@ -302,10 +300,10 @@
                         <li><a href="https://www.sfh3.com/">San Francisco</a></li>
                         <li><a href="https://www.tucsonhash.com/">Tucson</a></li>
                     </ul>
-                </div><!-- end class="col-md-4" -->
+                </div><!-- end class="col" -->
             </div><!-- end class="row" -->
             <div class="row">
-                <div class="col-md-4">
+                <div class="col">
                     <h2>Shopping</h2>
                     <ul>
                         <li><a href="https://bio.site/bettyknockersart">Betty Krockers</a></li>
@@ -314,15 +312,15 @@
                         <li><a href="https://distillerielamanufacture.com">La Manufacture</a></li>
                         <li><a href="https://www.nydistilling.com">New York Distilling</a></li>
                     </ul>
-                </div><!-- end class="col-md-4" -->
-                <div class="col-md-4">
+                </div><!-- end class="col" -->
+                <div class="col">
                     <h2>Sport</h2>
                     <ul>
                         <li><a href="https://musclewiki.com">MuscleWiki</a></li>
                         <li><a href="https://milermeter.com/">Pedometer</a></li>
                     </ul>
-                </div><!-- end class="col-md-4" -->
-                <div class="col-md-4">
+                </div><!-- end class="col" -->
+                <div class="col">
                     <h2>Privacy</h2>
                     <ul>
                         <li><a href="https://www.delete-account.com/">Delete Account</a></li>
@@ -331,14 +329,14 @@
                         <li><a href="https://chrome.google.com/webstore/detail/social-book-post-manager/ljfidlkcmdmmibngdfikhffffdmphjae?hl=en-US">Post Manager</a></li>
                         <li><a href="https://socialfixer.com/">Social Fixer</a></li>
                     </ul>
-                </div><!-- end class="col-md-4" -->
+                </div><!-- end class="col" -->
             </div><!-- end class="row" -->
         </main><!-- end class="container" -->
         <footer class="container d-none d-md-block">
-            <p><img src="colorsep.gif" alt="Separator" class="separator" /></p>
             <ul class="list-unstyled">
-                <li class="text-muted">Created: 2016-10-28 11:18:04 -0700 (Fri, 28 Oct 2016)</li>
-                <li class="text-muted">Last modified: 2025-01-01 13:06:32 -0500 (Wed, 01 Jan 2025)</li>
+                <li><img src="colorsep.gif" alt="Separator" class="separator" /></li>
+                <li class="text-body-secondary"><small>Created: 2016-10-28 11:18:04 -0700 (Fri, 28 Oct 2016)</small></li>
+                <li class="text-body-secondary"><small>Last modified: 2025-01-02 10:03:48 -0500 (Thu, 02 Jan 2025)</small></li>
             </ul>
         </footer><!-- end class="container" -->
     </body>
