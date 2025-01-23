@@ -1604,6 +1604,16 @@
                     "id": "2024ApJ...974..191C"
                 },
                 {
+                    "meta": "DESI-2024-0439",
+                    "author": ["Ting-Wen Lan", "et al."],
+                    "title": "DESI Emission Line Galaxies: Unveiling the Diversity of [O II] Profiles and Its Links to Star Formation and Morphology",
+                    "journal": "Astrophys. J.",
+                    "volume": 977,
+                    "pages": "225",
+                    "year": 2024,
+                    "id": "2024ApJ...977..225L"
+                },
+                {
                     "meta": "DESI-2023-0268",
                     "author": ["Maayane T. Soumagnac", "et al."],
                     "title": "The MOST Hosts Survey: Spectroscopic Observation of the Host Galaxies of ∼40,000 Transients Using DESI",
@@ -1652,6 +1662,16 @@
                     "pages": "048",
                     "year": 2024,
                     "id": "2024JCAP...10..048C"
+                },
+                {
+                    "meta": "DESI-2024-0428",
+                    "author": ["Joshua Kim", "et al."],
+                    "title": "The Atacama Cosmology Telescope DR6 and DESI: structure formation over cosmic time with a measurement of the cross-correlation of CMB lensing and luminous red galaxies",
+                    "journal": "J. Cosmo. Astro-Part. Phys.",
+                    "volume": 12,
+                    "pages": "022",
+                    "year": 2024,
+                    "id": "2024JCAP...12..022K"
                 },
                 {
                     "meta": "DESI-2023-0211",
@@ -1982,12 +2002,6 @@
                     "id": "2406.17204"
                 },
                 {
-                    "meta": "DESI-2024-0428",
-                    "author": ["Joshua Kim", "et al."],
-                    "title": "The Atacama Cosmology Telescope DR6 and DESI: Structure formation over cosmic time with a measurement of the cross-correlation of CMB Lensing and Luminous Red Galaxies",
-                    "id": "2407.04606"
-                },
-                {
                     "meta": "DESI-2024-0427",
                     "author": ["Noah Sailer", "et al."],
                     "title": "Cosmological constraints from the cross-correlation of DESI Luminous Red Galaxies with CMB lensing from Planck PR4 and ACT DR6",
@@ -2058,12 +2072,6 @@
                     "author": ["M. Siudek", "et al."],
                     "title": "Value Added Catalog of physical properties of more than 1.3 million galaxies from the DESI Survey",
                     "id": "2409.19066"
-                },
-                {
-                    "meta": "DESI-2024-0439",
-                    "author": ["Ting-Wen Lan", "et al."],
-                    "title": "DESI Emission Line Galaxies: Unveiling the Diversity of [OII] Profiles and its Links to Star Formation and Morphology",
-                    "id": "2410.07601"
                 },
                 {
                     "meta": "DESI-2024-0463",
@@ -2172,6 +2180,48 @@
                     "author": ["E. Chaussidon", "et al."],
                     "title": "Constraining primordial non-Gaussianity with DESI 2024 LRG and QSO samples",
                     "id": "2411.17623"
+                },
+                {
+                    "meta": "DESI-2024-0363",
+                    "author": ["X. Chen", "et al."],
+                    "title": "Extensive analysis of reconstruction algorithms for DESI 2024 baryon acoustic oscillations",
+                    "id": "2411.19738"
+                },
+                {
+                    "meta": "DESI-2021-0127",
+                    "author": ["S. Sartori", "et al."],
+                    "title": "The imprint of cosmic voids from the DESI Legacy Survey DR9 LRGs in the Planck 2018 lensing map through spectroscopically calibrated mocks",
+                    "id": "2412.02761"
+                },
+                {
+                    "meta": "DESI-2024-0478",
+                    "author": ["Abbé M. Whitford", "et al."],
+                    "title": "Constraining the phase shift of relativistic species in DESI BAOs",
+                    "id": "2412.05990"
+                },
+                {
+                    "meta": "DESI-2024-0376",
+                    "author": ["J. R. Bermejo-Climent", "et al."],
+                    "title": "Constraints on primordial non-Gaussianity from the cross-correlation of DESI Luminous Red Galaxies and <em>Planck</em> CMB lensing",
+                    "id": "2412.10279"
+                },
+                {
+                    "meta": "DESI-2024-0496",
+                    "author": ["C. Blake", "et al."],
+                    "title": "The DESI-Lensing Mock Challenge: large-scale cosmological analysis of 3x2-pt statistics",
+                    "id": "2412.12548"
+                },
+                {
+                    "meta": "DESI-2024-0424",
+                    "author": ["Lucas Napolitano", "et al."],
+                    "title": "DESI Mg II Absorbers: Extinction Characteristics &amp; Quasar Redshift Accuracy",
+                    "id": "2412.15383"
+                },
+                {
+                    "meta": "DESI-2020-0076",
+                    "author": ["Christoph Saulder", "et al."],
+                    "title": "Studying the Baryon Acoustic Oscillations using photometric redshifts from the DESI Legacy Imaging survey DR9",
+                    "id": "2501.10759"
                 }
             ]
         },
