@@ -2450,6 +2450,12 @@
                     "author": ["DESI Collaboration", "M. Abdul Karim", "et al."],
                     "title": "Data Release 1 of the Dark Energy Spectroscopic Instrument",
                     "id": "2503.14745"
+                },
+                {
+                    "meta": "DESI-2024-0489",
+                    "author": ["Bernardita Ried Guachalla", "et al."],
+                    "title": "Backlighting extended gas halos around luminous red galaxies: kinematic Sunyaev-Zel'dovich effect from DESI Y1 x ACT",
+                    "id": "2503.19870"
                 }
             ]
         },
