@@ -2456,6 +2456,12 @@
                     "author": ["Bernardita Ried Guachalla", "et al."],
                     "title": "Backlighting extended gas halos around luminous red galaxies: kinematic Sunyaev-Zel'dovich effect from DESI Y1 x ACT",
                     "id": "2503.19870"
+                },
+                {
+                    "meta": "DESI-2024-0487",
+                    "author": ["L. A. Ureña-López", "et al."],
+                    "title": "Updated cosmological constraints on axion dark energy with DESI",
+                    "id": "2503.20178"
                 }
             ]
         },
@@ -2515,7 +2521,13 @@
                     "pages": "3",
                     "year": 2023,
                     "id": "2023ApJS..269....3M"
+                },
+                {
+                    "author": ["A. Zenteno", "et al."],
+                    "title": "eROSITA clusters dynamical state and their impact on the BCG luminosity",
+                    "id": "2503.21066"
                 }
+
             ]
         },
         "other": {
