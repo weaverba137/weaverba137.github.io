@@ -1504,6 +1504,16 @@
                     "id": "2023MNRAS.526.5118R"
                 },
                 {
+                    "meta": "DESI-2024-0419",
+                    "author": ["M. Siudek", "et al."],
+                    "title": "Value-added catalog of physical properties for more than 1.3 million galaxies from the DESI survey",
+                    "journal": "Astron. &amp; Astrophys.",
+                    "volume": 691,
+                    "pages": "A308",
+                    "year": 2024,
+                    "id": "2024A%26A...691A.308S"
+                },
+                {
                     "meta": "DESI-2021-0123",
                     "author": ["DESI Collaboration", "A. G. Adame", "et al."],
                     "title": "Validation of the Scientific Program for the Dark Energy Spectroscopic Instrument",
@@ -1604,6 +1614,16 @@
                     "id": "2024ApJ...974..191C"
                 },
                 {
+                    "meta": "DESI-2024-0383",
+                    "author": ["Wynne Turner", "et al."],
+                    "title": "New Measurements of the  Lyα Forest Continuum and Effective Optical Depth with LyCAN and DESI Y1 Data",
+                    "journal": "Astrophys. J.",
+                    "volume": 976,
+                    "pages": "143",
+                    "year": 2024,
+                    "id": "2024ApJ...976..143T"
+                },
+                {
                     "meta": "DESI-2024-0439",
                     "author": ["Ting-Wen Lan", "et al."],
                     "title": "DESI Emission Line Galaxies: Unveiling the Diversity of [O II] Profiles and Its Links to Star Formation and Morphology",
@@ -1662,6 +1682,16 @@
                     "pages": "048",
                     "year": 2024,
                     "id": "2024JCAP...10..048C"
+                },
+                {
+                    "meta": "DESI-2024-0399",
+                    "author": ["Sergi Novel-Masot", "et al."],
+                    "title": "Catalog-level blinding on the bispectrum for DESI-like galaxy surveys",
+                    "journal": "J. Cosmo. Astro-Part. Phys.",
+                    "volume": 10,
+                    "pages": "089",
+                    "year": 2024,
+                    "id": "2024JCAP...10..089N"
                 },
                 {
                     "meta": "DESI-2024-0428",
@@ -1832,6 +1862,16 @@
                     "pages": "063505",
                     "year": 2024,
                     "id": "2024PhRvD.110f3505K"
+                },
+                {
+                    "meta": "DESI-2023-0218",
+                    "author": ["Hanyue Wang", "et al."],
+                    "title": "Spectroscopic search for optical emission lines from dark matter decay",
+                    "journal": "Phys. Rev. D",
+                    "volume": 110,
+                    "pages": "103007",
+                    "year": 2024,
+                    "id": "2024PhRvD.110j3007W"
                 },
                 {
                     "meta": "DESI-2024-0450",
@@ -2104,6 +2144,16 @@
                     "id": "2025JCAP...02..045K"
                 },
                 {
+                    "meta": "DESI-2024-0296",
+                    "author": ["DESI Collaboration", "A. G. Adame", "et al."],
+                    "title": "DESI 2024 III: baryon acoustic oscillations from galaxies and quasars",
+                    "journal": "J. Cosmo. Astro-Part. Phys.",
+                    "volume": 4,
+                    "pages": "012",
+                    "year": 2025,
+                    "id": "2025JCAP...04..012A"
+                },
+                {
                     "meta": "DESI-2023-0200",
                     "author": ["Sihan Yuan", "et al."],
                     "title": "Unraveling emission line galaxy conformity at z~1 with DESI early data",
@@ -2140,28 +2190,10 @@
                     "id": "2306.06315"
                 },
                 {
-                    "meta": "DESI-2023-0218",
-                    "author": ["Hanyue Wang", "et al."],
-                    "title": "A Spectroscopic Search for Optical Emission Lines from Dark Matter Decay",
-                    "id": "2311.05476"
-                },
-                {
                     "meta": "DESI-2023-0267",
                     "author": ["Z. Brown", "et al."],
                     "title": "Constraining primordial non-Gaussianity from the large scale structure two-point and three-point correlation functions",
                     "id": "2403.18789"
-                },
-                {
-                    "meta": "DESI-2024-0296",
-                    "author": ["DESI Collaboration", "A. G. Adame", "et al."],
-                    "title": "DESI 2024 III: Baryon Acoustic Oscillations from Galaxies and Quasars",
-                    "id": "2404.03000"
-                },
-                {
-                    "meta": "DESI-2024-0383",
-                    "author": ["Wynne Turner", "et al."],
-                    "title": "New measurements of the Lyman-α forest continuum and effective optical depth with LyCAN and DESI Y1 data",
-                    "id": "2405.06743"
                 },
                 {
                     "meta": "DESI-2024-0409",
@@ -2188,12 +2220,6 @@
                     "id": "2407.07152"
                 },
                 {
-                    "meta": "DESI-2024-0399",
-                    "author": ["S. Novel-Masot", "et al."],
-                    "title": "Catalog-level blinding on the bispectrum for DESI-like galaxy surveys",
-                    "id": "2407.12931"
-                },
-                {
                     "meta": "DESI-2024-0413",
                     "author": ["X. Wu", "et al."],
                     "title": "Tracing the evolution of the cool gas in CGM and IGM environments through Mg II absorption from redshift z=0.75 to z=1.65 using DESI-Y1 data",
@@ -2216,12 +2242,6 @@
                     "author": ["Rongpu Zhou", "et al."],
                     "title": "Stellar reddening map from DESI imaging and spectroscopy",
                     "id": "2409.05140"
-                },
-                {
-                    "meta": "DESI-2024-0419",
-                    "author": ["M. Siudek", "et al."],
-                    "title": "Value Added Catalog of physical properties of more than 1.3 million galaxies from the DESI Survey",
-                    "id": "2409.19066"
                 },
                 {
                     "meta": "DESI-2024-0463",
