@@ -1685,7 +1685,7 @@
                 },
                 {
                     "meta": "DESI-2024-0399",
-                    "author": ["Sergi Novel-Masot", "et al."],
+                    "author": ["Sergi Novell-Masot", "et al."],
                     "title": "Catalog-level blinding on the bispectrum for DESI-like galaxy surveys",
                     "journal": "J. Cosmo. Astro-Part. Phys.",
                     "volume": 10,
@@ -1897,11 +1897,31 @@
                     "meta": "DESI-2023-0264",
                     "author": ["M. Valluri", "et al."],
                     "title": "GD-1 Stellar Stream and Cocoon in the DESI Early Data Release",
-                    "journal": "Astrophys. J. Lett.",
+                    "journal": "Astrophys. J.",
                     "volume": 980,
                     "pages": "71",
                     "year": 2025,
                     "id": "2025ApJ...980...71V"
+                },
+                {
+                    "meta": "DESI-2024-0461",
+                    "author": ["Ragadeepika Pucha", "et al."],
+                    "title": "Tripling the Census of Dwarf AGN Candidates Using DESI Early Data",
+                    "journal": "Astrophys. J.",
+                    "volume": 982,
+                    "pages": "10",
+                    "year": 2025,
+                    "id": "2025ApJ...982...10P"
+                },
+                {
+                    "meta": "DESI-2024-0413",
+                    "author": ["Xuanyi Wu", "et al."],
+                    "title": "Tracing the Evolution of the Cool Gas in CGM and IGM Environments through Mg II Absorption from Redshift z = 0.75 to z = 1.65 Using DESI-Y1 Data",
+                    "journal": "Astrophys. J.",
+                    "volume": 983,
+                    "pages": "186",
+                    "year": 2025,
+                    "id": "2025ApJ...983..186W"
                 },
                 {
                     "meta": "DESI-2023-0256",
@@ -1924,16 +1944,6 @@
                     "id": "2025ApJ...981L..27G"
                 },
                 {
-                    "meta": "DESI-2024-0461",
-                    "author": ["Ragadeepika Pucha", "et al."],
-                    "title": "Tripling the Census of Dwarf AGN Candidates Using DESI Early Data",
-                    "journal": "Astrophys. J.",
-                    "volume": 982,
-                    "pages": "10",
-                    "year": 2025,
-                    "id": "2025ApJ...982...10P"
-                },
-                {
                     "meta": "DESI-2024-0292",
                     "author": ["DESI Collaboration", "A. G. Adame", "et al."],
                     "title": "DESI 2024 IV: Baryon Acoustic Oscillations from the Lyman Alpha Forest",
@@ -1941,7 +1951,7 @@
                     "volume": 1,
                     "pages": "124",
                     "year": 2025,
-                    "id": "2025JCAP...01..1251"
+                    "id": "2025JCAP...01..124A"
                 },
                 {
                     "meta": "DESI-2024-0402",
@@ -2154,6 +2164,16 @@
                     "id": "2025JCAP...04..012A"
                 },
                 {
+                    "meta": "DESI-2024-0366",
+                    "author": ["D. Forero-Sánchez", "et al."],
+                    "title": "Analytical and EZmock covariance validation for the DESI 2024 results",
+                    "journal": "J. Cosmo. Astro-Part. Phys.",
+                    "volume": 4,
+                    "pages": "055",
+                    "year": 2025,
+                    "id": "2025JCAP...04..055F"
+                },
+                {
                     "meta": "DESI-2023-0200",
                     "author": ["Sihan Yuan", "et al."],
                     "title": "Unraveling emission line galaxy conformity at z~1 with DESI early data",
@@ -2162,6 +2182,26 @@
                     "pages": "1216&ndash;1240",
                     "year": 2025,
                     "id": "2025MNRAS.538.1216Y"
+                },
+                {
+                    "meta": "DESI-2024-0478",
+                    "author": ["Abbé M. Whitford", "et al."],
+                    "title": "Constraining the phase shift of relativistic species in DESI BAOs",
+                    "journal": "Mon. Not. Roy. Ast. Soc.",
+                    "volume": 538,
+                    "pages": "1980&ndash;2000",
+                    "year": 2025,
+                    "id": "2025MNRAS.538.1980W"
+                },
+                {
+                    "meta": "DESI-2024-0471",
+                    "author": ["J. Callow", "et al."],
+                    "title": "The rate of extreme coronal line emitters in the Baryon Oscillation Spectroscopic Survey LOWZ sample",
+                    "journal": "Mon. Not. Roy. Ast. Soc.",
+                    "volume": 539,
+                    "pages": "231&ndash;245",
+                    "year": 2025,
+                    "id": "2025MNRAS.539..231C"
                 },
                 {
                     "meta": "DESI-2024-0496",
@@ -2218,12 +2258,6 @@
                     "author": ["B. Hadzhiyska", "et al."],
                     "title": "Evidence for large baryonic feedback at low and intermediate redshifts from kinematic Sunyaev-Zel'dovich observations with ACT and DESI photometric galaxies",
                     "id": "2407.07152"
-                },
-                {
-                    "meta": "DESI-2024-0413",
-                    "author": ["X. Wu", "et al."],
-                    "title": "Tracing the evolution of the cool gas in CGM and IGM environments through Mg II absorption from redshift z=0.75 to z=1.65 using DESI-Y1 data",
-                    "id": "2407.17809"
                 },
                 {
                     "meta": "DESI-2024-0442",
@@ -2310,12 +2344,6 @@
                     "id": "2411.12026"
                 },
                 {
-                    "meta": "DESI-2024-0366",
-                    "author": ["Daniel Forero-Sánchez", "et al."],
-                    "title": "Analytical and EZmock covariance validation for the DESI 2024 results",
-                    "id": "2411.12027"
-                },
-                {
                     "meta": "DESI-2024-0477",
                     "author": ["Mike Shengbo Wang", "et al."],
                     "title": "Window convolution of the galaxy clustering bispectrum",
@@ -2344,12 +2372,6 @@
                     "author": ["S. Sartori", "et al."],
                     "title": "The imprint of cosmic voids from the DESI Legacy Survey DR9 LRGs in the Planck 2018 lensing map through spectroscopically calibrated mocks",
                     "id": "2412.02761"
-                },
-                {
-                    "meta": "DESI-2024-0478",
-                    "author": ["Abbé M. Whitford", "et al."],
-                    "title": "Constraining the phase shift of relativistic species in DESI BAOs",
-                    "id": "2412.05990"
                 },
                 {
                     "meta": "DESI-2024-0376",
@@ -2482,6 +2504,12 @@
                     "author": ["L. A. Ureña-López", "et al."],
                     "title": "Updated cosmological constraints on axion dark energy with DESI",
                     "id": "2503.20178"
+                },
+                {
+                    "meta": "DESI-2024-0503",
+                    "author": ["Christian Aganze", "et al."],
+                    "title": "The Cocytos Stream: A Disrupted Globular Cluster from our Last Major Merger?",
+                    "id": "2504.11687"
                 }
             ]
         },
