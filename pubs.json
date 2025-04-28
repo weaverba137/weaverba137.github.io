@@ -2506,10 +2506,52 @@
                     "id": "2503.20178"
                 },
                 {
+                    "meta": "DESI-2024-0460",
+                    "author": ["E. Fernández-García", "et al."],
+                    "title": "Missing Components in ΛCDM from DESI Y1 BAO Measurements: Insights from Redshift Remapping",
+                    "id": "2503.22469"
+                },
+                {
+                    "meta": "DESI-2025-0564",
+                    "author": ["E. Chaussidon", "et al."],
+                    "title": "Early time solution as an alternative to the late time evolving dark energy with DESI DR2 BAO",
+                    "id": "2503.24343"
+                },
+                {
+                    "meta": "DESI-2024-0499",
+                    "author": ["Gustavo E. Medina", "et al."],
+                    "title": "The DESI Y1 RR Lyrae catalog I: Empirical modeling of the cyclic variation of spectroscopic properties and a chemodynamical analysis of the outer halo",
+                    "id": "2504.02924"
+                },
+                {
+                    "meta": "DESI-2024-0519",
+                    "author": ["Gan Gu", "et al."],
+                    "title": "Dynamical Dark Energy in light of the DESI DR2 Baryonic Acoustic Oscillations Measurements",
+                    "id": "2504.06118"
+                },
+                {
+                    "meta": "DESI-2025-0535",
+                    "author": ["Ana Sofía M. Uzsoy", "et al."],
+                    "title": "Bayesian Component Separation for DESI LAE Automated Spectroscopic Redshifts and Photometric Targeting",
+                    "id": "2504.06870"
+                },
+                {
+                    "meta": "DESI-2025-0562",
+                    "author": ["Hanyu Zhang", "et al."],
+                    "title": "Enhancing DESI DR1 Full-Shape analyses using HOD-informed priors",
+                    "id": "2504.10407"
+                },
+                {
                     "meta": "DESI-2024-0503",
                     "author": ["Christian Aganze", "et al."],
                     "title": "The Cocytos Stream: A Disrupted Globular Cluster from our Last Major Merger?",
                     "id": "2504.11687"
+                },
+                {
+                    "meta": "DESI-2025-0589",
+                    "author": ["C. Garcia-Quintero", "et al."],
+                    "title": "Cosmological implications of DESI DR2 BAO measurements in light of the latest ACT DR6 CMB data",
+                    "id": "2504.18464"
                 }
             ]
         },
