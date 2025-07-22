@@ -1255,13 +1255,13 @@
                 },
                 {
                     "meta": "DESI-2021-0094",
-                    "author": ["B. Abareshi", "et al."],
+                    "author": ["DESI Collaboration", "B. Abareshi", "et al."],
                     "title": "Overview of the Instrumentation for the Dark Energy Spectroscopic Instrument",
                     "journal": "Astron. J.",
                     "volume": 164,
                     "pages": "207",
                     "year": 2022,
-                    "id": "2022AJ....164..207A"
+                    "id": "2022AJ....164..207D"
                 },
                 {
                     "meta": "DESI-2021-0115",
@@ -1301,7 +1301,7 @@
                     "volume": 165,
                     "pages": "126",
                     "year": 2023,
-                    "id": "2023AJ....165...126R"
+                    "id": "2023AJ....165..126R"
                 },
                 {
                     "meta": "DESI-2022-0140",
@@ -1521,7 +1521,7 @@
                     "volume": 167,
                     "pages": "62",
                     "year": 2024,
-                    "id": "2024AJ....167...62A"
+                    "id": "2024AJ....167...62D"
                 },
                 {
                     "meta": "DESI-2023-0215",
@@ -1874,6 +1874,16 @@
                     "id": "2024PhRvD.110j3007W"
                 },
                 {
+                    "meta": "DESI-2024-0455",
+                    "author": ["S. Chen", "et al."],
+                    "title": "Analysis of DESI×DES using the Lagrangian effective theory of LSS",
+                    "journal": "Phys. Rev. D",
+                    "volume": 110,
+                    "pages": "103518",
+                    "year": 2024,
+                    "id": "2024PhRvD.110j3518C"
+                },
+                {
                     "meta": "DESI-2024-0450",
                     "author": ["J. Chaves-Montero", "et al."],
                     "title": "ForestFlow: cosmological emulation of Lyman-α forest clustering from linear to nonlinear scales",
@@ -1892,6 +1902,16 @@
                     "pages": "A54",
                     "year": 2025,
                     "id": "2025A%26A...695A..54S"
+                },
+                {
+                    "meta": "DESI-2023-0203",
+                    "author": ["F. Prada", "et al."],
+                    "title": "The DESI One-Percent Survey: Modelling the clustering and halo occupation of all four DESI tracers with UCHUU",
+                    "journal": "Astron. &amp; Astrophys.",
+                    "volume": 698,
+                    "pages": "A170",
+                    "year": 2025,
+                    "id": "2025A%26A...698A.170P"
                 },
                 {
                     "meta": "DESI-2023-0264",
@@ -1942,6 +1962,16 @@
                     "pages": "L27",
                     "year": 2025,
                     "id": "2025ApJ...981L..27G"
+                },
+                {
+                    "meta": "DESI-2024-0442",
+                    "author": ["Wei-Jian Guo", "et al."],
+                    "title": "Changing-look Active Galactic Nuclei from the Dark Energy Spectroscopic Instrument. II. Statistical Properties from the First Data Release",
+                    "journal": "Astrophys. J. Supp.",
+                    "volume": 278,
+                    "pages": "28",
+                    "year": 2025,
+                    "id": "2025ApJS..278...28G"
                 },
                 {
                     "meta": "DESI-2024-0292",
@@ -2174,6 +2204,26 @@
                     "id": "2025JCAP...04..055F"
                 },
                 {
+                    "meta": "DESI-2024-0463",
+                    "author": ["Constantin Payerne", "et al."],
+                    "title": "Selection of high-redshift Lyman-Break Galaxies from broadband and wide photometric surveys",
+                    "journal": "J. Cosmo. Astro-Part. Phys.",
+                    "volume": 5,
+                    "pages": "031",
+                    "year": 2025,
+                    "id": "2025JCAP...05..031P"
+                },
+                {
+                    "meta": "DESI-2024-0427",
+                    "author": ["Noah Sailer", "et al."],
+                    "title": "Cosmological constraints from the cross-correlation of DESI Luminous Red Galaxies with CMB lensing from Planck PR4 and ACT DR6",
+                    "journal": "J. Cosmo. Astro-Part. Phys.",
+                    "volume": 6,
+                    "pages": "008",
+                    "year": 2025,
+                    "id": "2025JCAP...06..008S"
+                },
+                {
                     "meta": "DESI-2023-0200",
                     "author": ["Sihan Yuan", "et al."],
                     "title": "Unraveling emission line galaxy conformity at z~1 with DESI early data",
@@ -2204,6 +2254,16 @@
                     "id": "2025MNRAS.539..231C"
                 },
                 {
+                    "meta": "DESI-2022-0154",
+                    "author": ["Khaled Said", "et al."],
+                    "title": "DESI peculiar velocity survey – Fundamental Plane",
+                    "journal": "Mon. Not. Roy. Ast. Soc.",
+                    "volume": 539,
+                    "pages": "3627&ndash;3644",
+                    "year": 2025,
+                    "id": "2025MNRAS.539.3627S"
+                },
+                {
                     "meta": "DESI-2024-0496",
                     "author": ["Chris Blake", "et al."],
                     "title": "The DESI-Lensing Mock Challenge: large-scale cosmological analysis of 3x2-pt statistics",
@@ -2212,6 +2272,16 @@
                     "pages": "24",
                     "year": 2025,
                     "id": "2025OJAp....8E..24B"
+                },
+                {
+                    "meta": "DESI-2024-0371",
+                    "author": ["Rongpu Zhou", "et al."],
+                    "title": "Stellar reddening map from DESI imaging and spectroscopy",
+                    "journal": "Open J. Astrophys.",
+                    "volume": 8,
+                    "pages": "83",
+                    "year": 2025,
+                    "id": "2025OJAp....8E..83Z"
                 },
                 {
                     "meta": "DESI-2024-0420",
@@ -2224,10 +2294,14 @@
                     "id": "2025PhRvD.111b3532L"
                 },
                 {
-                    "meta": "DESI-2023-0203",
-                    "author": ["F. Prada", "et al."],
-                    "title": "The DESI One-Percent Survey: Modelling the clustering and halo occupation of all four DESI tracers with Uchuu",
-                    "id": "2306.06315"
+                    "meta": "DESI-2024-0428",
+                    "author": ["Frank J. Qu", "et al."],
+                    "title": "Atacama Cosmology Telescope DR6 and DESI: Structure growth measurements from the cross-correlation of DESI legacy imaging galaxies and CMB lensing from ACT DR6 and Planck PR4",
+                    "journal": "Phys. Rev. D",
+                    "volume": 111,
+                    "pages": "103503",
+                    "year": 2025,
+                    "id": "2025PhRvD.111j3503Q"
                 },
                 {
                     "meta": "DESI-2023-0267",
@@ -2242,58 +2316,16 @@
                     "id": "2406.17204"
                 },
                 {
-                    "meta": "DESI-2024-0427",
-                    "author": ["Noah Sailer", "et al."],
-                    "title": "Cosmological constraints from the cross-correlation of DESI Luminous Red Galaxies with CMB lensing from Planck PR4 and ACT DR6",
-                    "id": "2407.04607"
-                },
-                {
-                    "meta": "DESI-2024-0455",
-                    "author": ["S. Chen", "et al."],
-                    "title": "Not all lensing is low: An analysis of DESI × DES using the Lagrangian Effective Theory of LSS",
-                    "id": "2407.04795"
-                },
-                {
                     "meta": "DESI-2024-0436",
                     "author": ["B. Hadzhiyska", "et al."],
                     "title": "Evidence for large baryonic feedback at low and intermediate redshifts from kinematic Sunyaev-Zel'dovich observations with ACT and DESI photometric galaxies",
                     "id": "2407.07152"
                 },
                 {
-                    "meta": "DESI-2024-0442",
-                    "author": ["Wei-Jian Guo", "et al."],
-                    "title": "Changing-look Active Galactic Nuclei from the Dark Energy Spectroscopic Instrument. II. Statistical Properties from the First Data Release",
-                    "id": "2408.00402"
-                },
-                {
-                    "meta": "DESI-2022-0154",
-                    "author": ["Khaled Said", "et al."],
-                    "title": "DESI Peculiar Velocity Survey -- Fundamental Plane",
-                    "id": "2408.13842"
-                },
-                {
-                    "meta": "DESI-2024-0371",
-                    "author": ["Rongpu Zhou", "et al."],
-                    "title": "Stellar reddening map from DESI imaging and spectroscopy",
-                    "id": "2409.05140"
-                },
-                {
-                    "meta": "DESI-2024-0463",
-                    "author": ["C. Payerne", "et al."],
-                    "title": "High-redshift LBG selection from broadband and wide photometric surveys using a Random Forest algorithm",
-                    "id": "2410.08062"
-                },
-                {
                     "meta": "DESI-2024-0445",
                     "author": ["Amanda Byström", "et al."],
                     "title": "Exploring the interaction between the MW and LMC with a large sample of blue horizontal branch stars from the DESI survey",
                     "id": "2410.09149"
-                },
-                {
-                    "meta": "DESI-2024-0428",
-                    "author": ["Frank J. Qu", "et al."],
-                    "title": "The Atacama Cosmology Telescope DR6 and DESI: Structure growth measurements from the cross-correlation of DESI Legacy Imaging galaxies and CMB lensing from ACT DR6 and <em>Planck</em> PR4",
-                    "id": "2410.10808"
                 },
                 {
                     "meta": "DESI-2024-0466",
@@ -2614,8 +2646,12 @@
                 },
                 {
                     "author": ["A. Zenteno", "et al."],
-                    "title": "eROSITA clusters dynamical state and their impact on the BCG luminosity",
-                    "id": "2503.21066"
+                    "title": "The dynamical state of eROSITA clusters and its impact on the brightest cluster galaxy luminosity",
+                    "journal": "Astron. &amp; Astrophys.",
+                    "volume": 698,
+                    "pages": "A171",
+                    "year": 2025,
+                    "id": "2025A%26A...698A.171Z"
                 }
 
             ]
@@ -2661,13 +2697,13 @@
                     "id": "2013A%26A...558A..33A"
                 },
                 {
-                    "author": ["The Astropy Collaboration", "A. M. Price-Whelan", "et al."],
+                    "author": ["Astropy Collaboration", "A. M. Price-Whelan", "et al."],
                     "title": "The Astropy Project: Building an Inclusive, Open-science Project and Status of the v2.0 Core Package",
                     "journal": "Astron. J.",
                     "volume": 156,
                     "pages": "123",
                     "year": 2018,
-                    "id": "2018AJ....156..123T"
+                    "id": "2018AJ....156..123A"
                 },
                 {
                     "author": ["Knut Olsen", "et al."],
@@ -2689,7 +2725,7 @@
                     "id": "2203.08113"
                 },
                 {
-                    "author": ["The Astropy Collaboration", "A. M. Price-Whelan", "et al."],
+                    "author": ["Astropy Collaboration", "A. M. Price-Whelan", "et al."],
                     "title": "The Astropy Project: Sustaining and Growing a Community-oriented Open-source Project and the Latest Major Release (v5.0) of the Core Package",
                     "journal": "Astrophys. J.",
                     "volume": 935,
