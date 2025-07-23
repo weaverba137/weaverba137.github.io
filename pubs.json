@@ -1234,6 +1234,11 @@
             "title": "Dark Energy Spectroscopic Instrument (DESI)",
             "data": [
                 {
+                    "author": ["D. Schlegel", "et al."],
+                    "title": "The BigBOSS Experiment",
+                    "id": "1106.1706"
+                },
+                {
                     "author": ["DESI Collaboration", "A. Aghamousa", "et al."],
                     "title": "The DESI Experiment Part I: Science,Targeting, and Survey Design",
                     "id": "1611.00036"
@@ -1554,6 +1559,16 @@
                     "id": "2024AJ....168..245P"
                 },
                 {
+                    "meta": "DESI-2023-0279",
+                    "author": ["E. F. Schlafly", "et al."],
+                    "title": "Measuring Fiber Positioning Accuracy and Throughput with Fiber Dithering for the Dark Energy Spectroscopic Instrument",
+                    "journal": "Astron. J.",
+                    "volume": 168,
+                    "pages": "35",
+                    "year": 2024,
+                    "id": "2024AJ....168...35S"
+                },
+                {
                     "meta": "DESI-2024-0395",
                     "author": ["E. F. Schlafly", "et al."],
                     "title": "Correcting Turbulence-induced Errors in Fiber Positioning for the Dark Energy Spectroscopic Instrument",
@@ -1592,6 +1607,16 @@
                     "pages": "116",
                     "year": 2024,
                     "id": "2024ApJ...963..116P"
+                },
+                {
+                    "meta": "DESI-2024-0382",
+                    "author": ["Linhua Jiang", "et al."],
+                    "title": "Constraints on the Spacetime Variation of the Fine-structure Constant Using DESI Emission-line Galaxies",
+                    "journal": "Astrophys. J.",
+                    "volume": 968,
+                    "pages": "120",
+                    "year": 2024,
+                    "id": "2024ApJ...968..120J"
                 },
                 {
                     "meta": "DESI-2023-0252",
@@ -1754,6 +1779,16 @@
                     "id": "2024MNRAS.530..947Y"
                 },
                 {
+                    "meta": "DESI-2023-0280",
+                    "author": ["Ashod Khederlarian", "et al."],
+                    "title": "Emission line predictions for mock galaxy catalogues: a new differentiable and empirical mapping from DESI",
+                    "journal": "Mon. Not. Roy. Ast. Soc.",
+                    "volume": 531,
+                    "pages": "1454&ndash;1470",
+                    "year": 2024,
+                    "id": "2024MNRAS.531.1454K"
+                },
+                {
                     "meta": "DESI-2023-0232",
                     "author": ["J. McCullough", "et al."],
                     "title": "DESI complete calibration of the colour-redshift relation (DC3R2): results from early DESI data",
@@ -1762,6 +1797,16 @@
                     "pages": "2582&ndash;2602",
                     "year": 2024,
                     "id": "2024MNRAS.531.2582M"
+                },
+                {
+                    "meta": "DESI-2023-0259",
+                    "author": ["Christopher J. Manser", "et al."],
+                    "title": "The frequency of metal enrichment of cool helium-atmosphere white dwarfs using the DESI early data release",
+                    "journal": "Mon. Not. Roy. Ast. Soc.: Lett.",
+                    "volume": 531,
+                    "pages": "L27&ndash;L32",
+                    "year": 2024,
+                    "id": "2024MNRAS.531L..27M"
                 },
                 {
                     "meta": "DESI-2023-0221",
@@ -1914,6 +1959,26 @@
                     "id": "2025A%26A...698A.170P"
                 },
                 {
+                    "meta": "DESI-2024-0376",
+                    "author": ["J. R. Bermejo-Climent", "et al."],
+                    "title": "Constraints on primordial non-Gaussianity from the cross-correlation of DESI luminous red galaxies and Planck CMB lensing",
+                    "journal": "Astron. &amp; Astrophys.",
+                    "volume": 698,
+                    "pages": "A177",
+                    "year": 2025,
+                    "id": "2025A%26A...698A.177B"
+                },
+                {
+                    "meta": "DESI-2024-0424",
+                    "author": ["Lucas Napolitano", "et al."],
+                    "title": "DESI Mg II Absorbers: Extinction Characteristics and Quasar Redshift Accuracy",
+                    "journal": "Astron. J.",
+                    "volume": 170,
+                    "pages": "16",
+                    "year": 2025,
+                    "id": "2025AJ....170...16N"
+                },
+                {
                     "meta": "DESI-2023-0264",
                     "author": ["M. Valluri", "et al."],
                     "title": "GD-1 Stellar Stream and Cocoon in the DESI Early Data Release",
@@ -1934,6 +1999,16 @@
                     "id": "2025ApJ...982...10P"
                 },
                 {
+                    "meta": "DESI-2024-0466",
+                    "author": ["Hernan Rincon", "et al."],
+                    "title": "DESIVAST: Catalogs of Low-redshift Voids Using Data from the DESI Data Release 1 Bright Galaxy Survey",
+                    "journal": "Astrophys. J.",
+                    "volume": 982,
+                    "pages": "38",
+                    "year": 2025,
+                    "id": "2025ApJ...982...38R"
+                },
+                {
                     "meta": "DESI-2024-0413",
                     "author": ["Xuanyi Wu", "et al."],
                     "title": "Tracing the Evolution of the Cool Gas in CGM and IGM Environments through Mg II Absorption from Redshift z = 0.75 to z = 1.65 Using DESI-Y1 Data",
@@ -1942,6 +2017,26 @@
                     "pages": "186",
                     "year": 2025,
                     "id": "2025ApJ...983..186W"
+                },
+                {
+                    "meta": "DESI-2025-0524",
+                    "author": ["Wenting Wang", "et al."],
+                    "title": "Luminosity and Stellar Mass Functions of Faint Photometric Satellites around Spectroscopic Central Galaxies from DESI Year-1 Bright Galaxy Survey",
+                    "journal": "Astrophys. J.",
+                    "volume": 986,
+                    "pages": "218",
+                    "year": 2025,
+                    "id": "2025ApJ...986..218W"
+                },
+                {
+                    "meta": "DESI-2024-0380",
+                    "author": ["Zhiwei Pan", "et al."],
+                    "title": "Iron-corrected Single-epoch Black Hole Masses of DESI Quasars at Low Redshift",
+                    "journal": "Astrophys. J.",
+                    "volume": 987,
+                    "pages": "48",
+                    "year": 2025,
+                    "id": "2025ApJ...987...48P"
                 },
                 {
                     "meta": "DESI-2023-0256",
@@ -2204,6 +2299,16 @@
                     "id": "2025JCAP...04..055F"
                 },
                 {
+                    "meta": "DESI-2024-0365",
+                    "author": ["D. Bianchi", "et al."],
+                    "title": "Characterization of DESI fiber assignment incompleteness effect on 2-point clustering and mitigation methods for DR1 analysis",
+                    "journal": "J. Cosmo. Astro-Part. Phys.",
+                    "volume": 4,
+                    "pages": "074",
+                    "year": 2025,
+                    "id": "2025JCAP...04..074B"
+                },
+                {
                     "meta": "DESI-2024-0463",
                     "author": ["Constantin Payerne", "et al."],
                     "title": "Selection of high-redshift Lyman-Break Galaxies from broadband and wide photometric surveys",
@@ -2214,6 +2319,16 @@
                     "id": "2025JCAP...05..031P"
                 },
                 {
+                    "meta": "DESI-2025-0531",
+                    "author": ["S. Novell-Masot", "et al."],
+                    "title": "Full-Shape analysis of the power spectrum and bispectrum of DESI DR1 LRG and QSO samples",
+                    "journal": "J. Cosmo. Astro-Part. Phys.",
+                    "volume": 6,
+                    "pages": "005",
+                    "year": 2025,
+                    "id": "2025JCAP...06..005N"
+                },
+                {
                     "meta": "DESI-2024-0427",
                     "author": ["Noah Sailer", "et al."],
                     "title": "Cosmological constraints from the cross-correlation of DESI Luminous Red Galaxies with CMB lensing from Planck PR4 and ACT DR6",
@@ -2222,6 +2337,66 @@
                     "pages": "008",
                     "year": 2025,
                     "id": "2025JCAP...06..008S"
+                },
+                {
+                    "meta": "DESI-2024-0480",
+                    "author": ["E. A. Zaborowski", "et al."],
+                    "title": "A sound horizon-free measurement of <em>H</em><sub>0</sub> in DESI 2024",
+                    "journal": "J. Cosmo. Astro-Part. Phys.",
+                    "volume": 6,
+                    "pages": "020",
+                    "year": 2025,
+                    "id": "2025JCAP...06..020Z"
+                },
+                {
+                    "meta": "DESI-2024-0443",
+                    "author": ["E. Chaussidon", "et al."],
+                    "title": "Constraining primordial non-Gaussianity with DESI 2024 LRG and QSO samples",
+                    "journal": "J. Cosmo. Astro-Part. Phys.",
+                    "volume": 6,
+                    "pages": "029",
+                    "year": 2025,
+                    "id": "2025JCAP...06..029C"
+                },
+                {
+                    "meta": "DESI-2024-0477",
+                    "author": ["M. S. Wang", "et al."],
+                    "title": "Window convolution of the galaxy clustering bispectrum",
+                    "journal": "J. Cosmo. Astro-Part. Phys.",
+                    "volume": 6,
+                    "pages": "031",
+                    "year": 2025,
+                    "id": "2025JCAP...06..031W"
+                },
+                {
+                    "meta": "DESI-2023-0288",
+                    "author": ["DESI Collaboration", "A. G. Adame", "et al."],
+                    "title": "DESI 2024 II: sample definitions, characteristics, and two-point clustering statistics",
+                    "journal": "J. Cosmo. Astro-Part. Phys.",
+                    "volume": 7,
+                    "pages": "017",
+                    "year": 2025,
+                    "id": "2025JCAP...07..017A"
+                },
+                {
+                    "meta": "DESI-2024-0320",
+                    "author": ["A. J. Rosado-Marín", "et al."],
+                    "title": "Mitigating imaging systematics for DESI 2024 emission Line Galaxies and beyond",
+                    "journal": "J. Cosmo. Astro-Part. Phys.",
+                    "volume": 7,
+                    "pages": "018",
+                    "year": 2025,
+                    "id": "2025JCAP...07..018R"
+                },
+                {
+                    "meta": "DESI-2024-0305",
+                    "author": ["DESI Collaboration", "A. G. Adame", "et al."],
+                    "title": "DESI 2024 VII: cosmological constraints from the full-shape modeling of clustering measurements",
+                    "journal": "J. Cosmo. Astro-Part. Phys.",
+                    "volume": 7,
+                    "pages": "028",
+                    "year": 2025,
+                    "id": "2025JCAP...07..028A"
                 },
                 {
                     "meta": "DESI-2023-0200",
@@ -2262,6 +2437,36 @@
                     "pages": "3627&ndash;3644",
                     "year": 2025,
                     "id": "2025MNRAS.539.3627S"
+                },
+                {
+                    "meta": "DESI-2024-0372",
+                    "author": ["Bokyoung Kim", "et al."],
+                    "title": "Nearby stellar substructures in the Galactic halo from DESI Milky Way Survey Year 1 Data Release",
+                    "journal": "Mon. Not. Roy. Ast. Soc.",
+                    "volume": 540,
+                    "pages": "264&ndash;288",
+                    "year": 2025,
+                    "id": "2025MNRAS.540..264K"
+                },
+                {
+                    "meta": "DESI-2023-0206",
+                    "author": ["Peter Clark", "et al."],
+                    "title": "AT 2018dyk: tidal disruption event or active galactic nucleus? Follow-up observations of an extreme coronal line emitter with the Dark Energy Spectroscopic Instrument",
+                    "journal": "Mon. Not. Roy. Ast. Soc.",
+                    "volume": 540,
+                    "pages": "871&ndash;906",
+                    "year": 2025,
+                    "id": "2025MNRAS.540..871C"
+                },
+                {
+                    "meta": "DESI-2023-0275",
+                    "author": ["Kun Xu", "et al."],
+                    "title": "PAC in DESI. I. Galaxy stellar mass function into the 10<sup>6</sup> M<sub>⊙</sub> frontier",
+                    "journal": "Mon. Not. Roy. Ast. Soc.",
+                    "volume": 540,
+                    "pages": "1635&ndash;1667",
+                    "year": 2025,
+                    "id": "2025MNRAS.540.1635X"
                 },
                 {
                     "meta": "DESI-2024-0496",
@@ -2328,28 +2533,10 @@
                     "id": "2410.09149"
                 },
                 {
-                    "meta": "DESI-2024-0466",
-                    "author": ["Hernan Rincon", "et al."],
-                    "title": "DESIVAST: A Catalog of Low-Redshift Voids using Data from the DESI DR1 Bright Galaxy Survey",
-                    "id": "2411.00148"
-                },
-                {
-                    "meta": "DESI-2023-0288",
-                    "author": ["DESI Collaboration", "A. G. Adame", "et al."],
-                    "title": "DESI 2024 II: Sample Definitions, Characteristics, and Two-point Clustering Statistics",
-                    "id": "2411.12020"
-                },
-                {
                     "meta": "DESI-2024-0291",
                     "author": ["DESI Collaboration", "A. G. Adame", "et al."],
                     "title": "DESI 2024 V: Full-Shape Galaxy Clustering from Galaxies and Quasars",
                     "id": "2411.12021"
-                },
-                {
-                    "meta": "DESI-2024-0305",
-                    "author": ["DESI Collaboration", "A. G. Adame", "et al."],
-                    "title": "DESI 2024 VII: Cosmological Constraints from the Full-Shape Modeling of Clustering Measurements",
-                    "id": "2411.12022"
                 },
                 {
                     "meta": "DESI-2024-0346",
@@ -2358,40 +2545,10 @@
                     "id": "2411.12023"
                 },
                 {
-                    "meta": "DESI-2024-0320",
-                    "author": ["A. J. Rosado-Marín", "et al."],
-                    "title": "Mitigating Imaging Systematics for DESI 2024 Emission Line Galaxies and Beyond",
-                    "id": "2411.12024"
-                },
-                {
-                    "meta": "DESI-2024-0365",
-                    "author": ["D. Bianchi", "et al."],
-                    "title": "Characterization of DESI fiber assignment incompleteness effect on 2-point clustering and mitigation methods for DR1 analysis",
-                    "id": "2411.12025"
-                },
-                {
                     "meta": "DESI-2024-0493",
                     "author": ["M. Ishak", "et al."],
                     "title": "Modified Gravity Constraints from the Full Shape Modeling of Clustering Measurements from DESI 2024",
                     "id": "2411.12026"
-                },
-                {
-                    "meta": "DESI-2024-0477",
-                    "author": ["Mike Shengbo Wang", "et al."],
-                    "title": "Window convolution of the galaxy clustering bispectrum",
-                    "id": "2411.14947"
-                },
-                {
-                    "meta": "DESI-2024-0480",
-                    "author": ["E. A. Zaborowski", "et al."],
-                    "title": "A Sound Horizon-Free Measurement of <em>H</em><sub>0</sub> in DESI 2024",
-                    "id": "2411.16677"
-                },
-                {
-                    "meta": "DESI-2024-0443",
-                    "author": ["E. Chaussidon", "et al."],
-                    "title": "Constraining primordial non-Gaussianity with DESI 2024 LRG and QSO samples",
-                    "id": "2411.17623"
                 },
                 {
                     "meta": "DESI-2024-0363",
@@ -2406,46 +2563,16 @@
                     "id": "2412.02761"
                 },
                 {
-                    "meta": "DESI-2024-0376",
-                    "author": ["J. R. Bermejo-Climent", "et al."],
-                    "title": "Constraints on primordial non-Gaussianity from the cross-correlation of DESI Luminous Red Galaxies and <em>Planck</em> CMB lensing",
-                    "id": "2412.10279"
-                },
-                {
-                    "meta": "DESI-2024-0424",
-                    "author": ["Lucas Napolitano", "et al."],
-                    "title": "DESI Mg II Absorbers: Extinction Characteristics &amp; Quasar Redshift Accuracy",
-                    "id": "2412.15383"
-                },
-                {
                     "meta": "DESI-2024-0451",
                     "author": ["X. Huang", "et al."],
                     "title": "DESI Strong Lens Foundry I: HST Observations and Modeling with GIGA-Lens",
                     "id": "2502.03455"
                 },
                 {
-                    "meta": "DESI-2024-0380",
-                    "author": ["Zhiwei Pan", "et al."],
-                    "title": "Iron-corrected Single-epoch Black Hole Masses of DESI Quasars at low redshift",
-                    "id": "2502.03684"
-                },
-                {
-                    "meta": "DESI-2023-0206",
-                    "author": ["Peter Clark", "et al."],
-                    "title": "AT 2018dyk: tidal disruption event or active galactic nucleus? Follow-up observations of an extreme coronal line emitter with the Dark Energy Spectroscopic Instrument",
-                    "id": "2502.04080"
-                },
-                {
                     "meta": "DESI-2024-0479",
                     "author": ["R. Henry Liu", "et al."],
                     "title": "Measurements of the Thermal Sunyaev-Zel'dovich Effect with ACT and DESI Luminous Red Galaxies",
                     "id": "2502.08850"
-                },
-                {
-                    "meta": "DESI-2023-0275",
-                    "author": ["Kun Xu", "et al."],
-                    "title": "PAC in DESI. I. Galaxy Stellar Mass Function into the 10<sup>6</sup> M⊙ Frontier",
-                    "id": "2503.01948"
                 },
                 {
                     "meta": "DESI-2023-0245",
@@ -2458,18 +2585,6 @@
                     "author": ["Songting Li", "et al."],
                     "title": "SpecDis: Value added distance catalogue for 4 million stars from DESI Year-1 data",
                     "id": "2503.02291"
-                },
-                {
-                    "meta": "DESI-2025-0524",
-                    "author": ["Wenting Wang", "et al."],
-                    "title": "Luminosity and stellar mass functions of faint photometric satellites around spectroscopic central galaxies from DESI Year-1 Bright Galaxy Survey",
-                    "id": "2503.03317"
-                },
-                {
-                    "meta": "DESI-2025-0531",
-                    "author": ["S. Novell Masot", "et al."],
-                    "title": "Full-Shape analysis of the power spectrum and bispectrum of DESI DR1 LRG and QSO samples",
-                    "id": "2503.09714"
                 },
                 {
                     "meta": "DESI-2024-0506",
