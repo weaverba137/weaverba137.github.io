@@ -2699,6 +2699,162 @@
                     "author": ["C. Garcia-Quintero", "et al."],
                     "title": "Cosmological implications of DESI DR2 BAO measurements in light of the latest ACT DR6 CMB data",
                     "id": "2504.18464"
+                },
+                {
+                    "meta": "DESI-2024-0508",
+                    "author": ["Abhijeet Anand", "et al."],
+                    "title": "The Cosmic Evolution of CIV Absorbers at 1.4 &lt; z &lt; 4.5: Insights from 100,000 Systems in DESI Quasars",
+                    "id": "2504.20299"
+                },
+                {
+                    "meta": "DESI-2025-0560",
+                    "author": ["S. Ahlen", "et al."],
+                    "title": "Positive neutrino masses with DESI DR2 via matter conversion to dark energy",
+                    "id": "2504.20338"
+                },
+                {
+                    "meta": "DESI-2024-0476",
+                    "author": ["Dylan Green", "et al."],
+                    "title": "Using Active Learning to Improve Quasar Identification for the DESI Spectra Processing Pipeline",
+                    "id": "2505.01596"
+                },
+                {
+                    "meta": "DESI-2025-0545",
+                    "author": ["N. G. Karaçaylı", "et al."],
+                    "title": "DESI DR1 Lyα 1D power spectrum: The optimal estimator measurement",
+                    "id": "2505.07974"
+                },
+                {
+                    "meta": "DESI-2024-0517",
+                    "author": ["Calum Gordon", "et al."],
+                    "title": "Modelling the impact of quasar redshift errors on the full-shape analysis of correlations in the Lyman-α forest",
+                    "id": "2505.08789"
+                },
+                {
+                    "meta": "DESI-2025-0548",
+                    "author": ["Corentin Ravoux", "et al."],
+                    "title": "DESI DR1 Lyα 1D power spectrum: The Fast Fourier Transform estimator measurement",
+                    "id": "2505.09493"
+                },
+                {
+                    "meta": "DESI-2025-0522",
+                    "author": ["Gustavo E. Medina", "et al."],
+                    "title": "The DESI Y1 RR Lyrae catalog II: The metallicity dependency of pulsational properties, the shape of the RR Lyrae instability strip, and metal rich RR Lyrae",
+                    "id": "2505.10614"
+                },
+                {
+                    "meta": "DESI-2025-0590",
+                    "author": ["Sergey E. Koposov", "et al."],
+                    "title": "DESI Data Release 1: Stellar Catalogue",
+                    "id": "2505.14787"
+                },
+                {
+                    "meta": "DESI-2024-0423",
+                    "author": ["B. Bahr-Kalus", "et al."],
+                    "title": "Model-Independent Measurement of the Matter-Radiation Equality Scale in DESI 2024",
+                    "id": "2505.16153"
+                },
+                {
+                    "meta": "DESI-2022-0130",
+                    "author": ["Arjun Dey", "et al."],
+                    "title": "The Backup Program of the Dark Energy Spectroscopic Instrument's Milky Way Survey",
+                    "id": "2505.17230"
+                },
+                {
+                    "meta": "DESI-2025-0570",
+                    "author": ["T. Hagen", "et al."],
+                    "title": "DESI Emission Line Galaxies: Clustering Dependence on Stellar Mass and [OII] Luminosity",
+                    "id": "2505.20430"
+                },
+                {
+                    "meta": "DESI-2025-0577",
+                    "author": ["M. Maus", "et al."],
+                    "title": "A joint analysis of 3D clustering and galaxy x CMB-lensing cross-correlations with DESI DR1 galaxies",
+                    "id": "2505.20656"
+                },
+                {
+                    "meta": "DESI-2025-0579",
+                    "author": ["J. Myles", "et al."],
+                    "title": "Spectroscopic Characterization of redMaPPer Galaxy Clusters with DESI",
+                    "id": "2506.06249"
+                },
+                {
+                    "meta": "DESI-2024-0483",
+                    "author": ["M. Siudek", "et al."],
+                    "title": "Beyond Traditional Diagnostics: Identifying Active Galactic Nuclei with Spectral Energy Distribution Fitting in DESI Data",
+                    "id": "2506.09143"
+                },
+                {
+                    "meta": "DESI-2025-0533",
+                    "author": ["T. Tan", "et al."],
+                    "title": "Modeling of the High Column Density systems in The Lyman-Alpha Forest",
+                    "id": "2506.13005"
+                },
+                {
+                    "meta": "DESI-2025-0567",
+                    "author": ["Gautam Nagaraj", "et al."],
+                    "title": "ODIN: The LAE Lyα Luminosity Function over Cosmic Time and Environmental Density",
+                    "id": "2506.14510"
+                },
+                {
+                    "meta": "DESI-2025-0598",
+                    "author": ["Nicolas Busca", "et al."],
+                    "title": "The effects of continuum fitting on Lyman-α forest correlations",
+                    "id": "2506.15262"
+                },
+                {
+                    "meta": "DESI-2024-0441",
+                    "author": ["C. Nicolaou", "et al."],
+                    "title": "Identifying Anomalous DESI Galaxy Spectra with a Variational Autoencoder",
+                    "id": "2506.17376"
+                },
+                {
+                    "meta": "DESI-2024-0498",
+                    "author": ["ChangHoon Hahn", "et al."],
+                    "title": "Reconstructing Quasar Spectra and Measuring the Lyα Forest with SpenderQ",
+                    "id": "2506.18986"
+                },
+                {
+                    "meta": "DESI-2025-0542",
+                    "author": ["S. Heydenreich", "et al."],
+                    "title": "Lensing Without Borders: Measurements of galaxy-galaxy lensing and projected galaxy clustering in DESI DR1",
+                    "id": "2506.21677"
+                },
+                {
+                    "meta": "DESI-2025-0576",
+                    "author": ["R. de Belsunce", "et al."],
+                    "title": "Cosmology from Planck CMB Lensing and DESI DR1 Quasar Tomography",
+                    "id": "2506.22416"
+                },
+                {
+                    "meta": "DESI-2025-0538",
+                    "author": ["R. Fernández-García", "et al."],
+                    "title": "DESI DR2 reference mocks: clustering results from Uchuu-BGS and LRG",
+                    "id": "2507.01593"
+                },
+                {
+                    "meta": "DESI-2025-0569",
+                    "author": ["Hao Yang", "et al."],
+                    "title": "The dark matter content of Milky Way dwarf spheroidal galaxies: Draco, Sextans and Ursa Minor",
+                    "id": "2507.02284"
+                },
+                {
+                    "meta": "DESI-2025-0558",
+                    "author": ["J. Siegel", "et al."],
+                    "title": "Intrinsic alignment demographics for next-generation lensing: Revealing galaxy property trends with DESI Y1 direct measurements",
+                    "id": "2507.11530"
+                },
+                {
+                    "meta": "DESI-2022-0162",
+                    "author": ["K. Douglass", "et al."],
+                    "title": "DESI EDR: Calibrating the Tully-Fisher Relationship with the DESI Peculiar Velocity Survey",
+                    "id": "2507.11765"
+                },
+                {
+                    "meta": "DESI-2025-0610",
+                    "author": ["D. Chebat", "et al."],
+                    "title": "Cosmological neutrino mass: a frequentist overview in light of DESI",
+                    "id": "2507.12401"
                 }
             ]
         },
