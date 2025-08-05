@@ -1969,6 +1969,16 @@
                     "id": "2025A%26A...698A.177B"
                 },
                 {
+                    "meta": "DESI-2021-0127",
+                    "author": ["S. Sartori", "et al."],
+                    "title": "The imprint of cosmic voids from the DESI Legacy Survey DR9 Luminous Red Galaxies in the Planck 2018 lensing map through spectroscopically calibrated mocks",
+                    "journal": "Astron. &amp; Astrophys.",
+                    "volume": 700,
+                    "pages": "A17",
+                    "year": 2025,
+                    "id": "2025A%26A...700A..17S"
+                },
+                {
                     "meta": "DESI-2024-0424",
                     "author": ["Lucas Napolitano", "et al."],
                     "title": "DESI Mg II Absorbers: Extinction Characteristics and Quasar Redshift Accuracy",
@@ -2557,12 +2567,6 @@
                     "id": "2411.19738"
                 },
                 {
-                    "meta": "DESI-2021-0127",
-                    "author": ["S. Sartori", "et al."],
-                    "title": "The imprint of cosmic voids from the DESI Legacy Survey DR9 LRGs in the Planck 2018 lensing map through spectroscopically calibrated mocks",
-                    "id": "2412.02761"
-                },
-                {
                     "meta": "DESI-2024-0451",
                     "author": ["X. Huang", "et al."],
                     "title": "DESI Strong Lens Foundry I: HST Observations and Modeling with GIGA-Lens",
@@ -2855,6 +2859,24 @@
                     "author": ["D. Chebat", "et al."],
                     "title": "Cosmological neutrino mass: a frequentist overview in light of DESI",
                     "id": "2507.12401"
+                },
+                {
+                    "meta": "DESI-2025-0605",
+                    "author": ["S. J. Rauhut", "et al."],
+                    "title": "Testing gravitational physics by combining DESI DR1 and weak lensing datasets using the E_G estimator",
+                    "id": "2507.16098"
+                },
+                {
+                    "meta": "DESI-2025-0595",
+                    "author": ["R. Cereskaite", "et al."],
+                    "title": "Inference of matter power spectrum at z=0 using DESI DR1 Full-Shape data",
+                    "id": "2507.16590"
+                },
+                {
+                    "meta": "DESI-2025-0609",
+                    "author": ["Hiram K. Herrera-Alcantar", "et al."],
+                    "title": "The Lyman-α Forest from LBGs: First 3D Correlation Measurement with DESI and Prospects for Cosmology",
+                    "id": "2507.21852"
                 }
             ]
         },
