@@ -2877,6 +2877,30 @@
                     "author": ["Hiram K. Herrera-Alcantar", "et al."],
                     "title": "The Lyman-α Forest from LBGs: First 3D Correlation Measurement with DESI and Prospects for Cosmology",
                     "id": "2507.21852"
+                },
+                {
+                    "meta": "DESI-2024-0311",
+                    "author": ["D. Valcin", "et al."],
+                    "title": "Combined tracer analysis for DESI 2024 BAO",
+                    "id": "2508.05467"
+                },
+                {
+                    "meta": "DESI-2025-0636",
+                    "author": ["J. Hou", "et al."],
+                    "title": "Study of the Connected Four-Point Correlation Function of Galaxies from DESI Data Release 1 Luminous Red Galaxy Sample",
+                    "id": "2508.09070"
+                },
+                {
+                    "meta": "DESI-2025-0571",
+                    "author": ["J. Ratajczak", "et al."],
+                    "title": "The Compilation and Validation of the Spectroscopic Redshift Catalogs for the DESI-COSMOS and DESI-XMMLSS Fields",
+                    "id": "2508.09286"
+                },
+                {
+                    "meta": "DESI-2025-0616",
+                    "author": ["James Morawetz", "et al."],
+                    "title": "Frequentist Cosmological Constraints from Full-Shape Clustering Measurements in DESI DR1",
+                    "id": "2508.11811"
                 }
             ]
         },
@@ -3772,6 +3796,16 @@
                     "id": "2016IAUS..308..452B"
                 },
                 {
+                    "author": ["Tim Jenness", "et al."],
+                    "title": "Investigating interoperability of the LSST data management software stack with Astropy",
+                    "conference": "Software and Cyberinfrastructure for Astronomy IV",
+                    "journal": "Proc. SPIE",
+                    "volume": 9913,
+                    "pages": "99130G",
+                    "year": 2016,
+                    "id": "2016SPIE.9913E..0GJ"
+                },
+                {
                     "author": ["Beth Reid", "et al."],
                     "title": "SDSS-III Baryon Oscillation Spectroscopic Survey Data Release 12: galaxy target selection and large-scale structure catalogues",
                     "journal": "Mon. Not. Roy. Ast. Soc.",
@@ -3940,6 +3974,16 @@
                     "author": ["Runjing Liu", "Jon D. McAuliffe", "Jeffrey Regier"],
                     "title": "Variational Inference for Deblending Crowded Starfields",
                     "id": "2102.02409"
+                },
+                {
+                    "author": ["Stephen Bailey", "et al."],
+                    "title": "Data and Analysis Preservation, Recasting, and Reinterpretation",
+                    "id": "2203.10057"
+                },
+                {
+                    "author": ["Stephen Bailey", "et al."],
+                    "title": "Reinterpretation and Long-Term Preservation of Data and Code",
+                    "id": "2209.08054"
                 }
             ]
         }
