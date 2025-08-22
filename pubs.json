@@ -3855,6 +3855,24 @@
                     "id": "2019AJ....158...74C"
                 },
                 {
+                    "author": ["Stephen K. N. Portillo", "John K. Parejko", "Jorge R. Vergara", "Andrew J. Connolly"],
+                    "title": "Dimensionality Reduction of SDSS Spectra with Variational Autoencoders",
+                    "journal": "Astron. J.",
+                    "volume": 160,
+                    "pages": "45",
+                    "year": 2020,
+                    "id": "2020AJ....160...45P"
+                },
+                {
+                    "author": ["Masafumi Niwano", "et al."],
+                    "title": "A GPU-accelerated image reduction pipeline",
+                    "journal": "Pub. Ast. Soc. Japan",
+                    "volume": 73,
+                    "pages": "14&ndash;24",
+                    "year": 2021,
+                    "id": "2021PASJ...73...14N"
+                },
+                {
                     "author": ["Tracy X. Chen", "et al."],
                     "title": "Best Practices for Data Publication in the Astronomical Literature",
                     "journal": "Astrophys. J. Supp.",
@@ -3896,19 +3914,32 @@
                 {
                     "author": ["Dustin Lang", "David W. Hogg", "Bernhard Schölkopf"],
                     "title": "Towards building a Crowd-Sourced Sky Map",
-                    "id": "1406.1528"},
+                    "id": "1406.1528"
+                },
                 {
                     "author": ["Jake VanderPlas"],
                     "title": "Frequentism and Bayesianism: A Python-driven Primer",
-                    "id": "1411.5018"},
+                    "id": "1411.5018"
+                },
                 {
                     "author": ["Bernhard Schölkopf", "et al."],
                     "title": "Removing systematic errors for exoplanet search via latent causes",
-                    "id": "1505.03036"},
+                    "id": "1505.03036"
+                },
                 {
                     "author": ["S. G. Djorgovski"],
                     "title": "Real-Time Data Mining of Massive Data Streams from Synoptic Sky Surveys",
                     "id": "1601.04385"
+                },
+                {
+                    "author": ["Amanda E. Bauer", "et al."],
+                    "title": "Petabytes to Science",
+                    "id": "1905.05116"
+                },
+                {
+                    "author": ["Runjing Liu", "Jon D. McAuliffe", "Jeffrey Regier"],
+                    "title": "Variational Inference for Deblending Crowded Starfields",
+                    "id": "2102.02409"
                 }
             ]
         }
