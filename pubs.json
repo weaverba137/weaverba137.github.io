@@ -1979,6 +1979,16 @@
                     "id": "2025A%26A...700A..17S"
                 },
                 {
+                    "meta": "DESI-2024-0460",
+                    "author": ["E. Fernández-García", "et al."],
+                    "title": "Missing components in ΛCDM from DESI Y1 baryonic acoustic oscillation measurements: Insights from redshift remapping",
+                    "journal": "Astron. &amp; Astrophys.",
+                    "volume": 701,
+                    "pages": "A237",
+                    "year": 2025,
+                    "id": "2025A%26A...701A.237F"
+                },
+                {
                     "meta": "DESI-2024-0424",
                     "author": ["Lucas Napolitano", "et al."],
                     "title": "DESI Mg II Absorbers: Extinction Characteristics and Quasar Redshift Accuracy",
@@ -1987,6 +1997,16 @@
                     "pages": "16",
                     "year": 2025,
                     "id": "2025AJ....170...16N"
+                },
+                {
+                    "meta": "DESI-2024-0491",
+                    "author": ["Songting Li", "et al."],
+                    "title": "SpecDis: Value Added Distance Catalog for 4 Million Stars from DESI Year-1 Data",
+                    "journal": "Astron. J.",
+                    "volume": 170,
+                    "pages": "171",
+                    "year": 2025,
+                    "id": "2025AJ....170..171L"
                 },
                 {
                     "meta": "DESI-2023-0264",
@@ -2047,6 +2067,16 @@
                     "pages": "48",
                     "year": 2025,
                     "id": "2025ApJ...987...48P"
+                },
+                {
+                    "meta": "DESI-2024-0506",
+                    "author": ["Yu Voon Ng", "et al."],
+                    "title": "A Comprehensive Characterization of Galaxy-cool CGM Connections at z < 0.4 with DESI Year 1 Data",
+                    "journal": "Astrophys. J.",
+                    "volume": 993,
+                    "pages": "92",
+                    "year": 2025,
+                    "id": "2025ApJ...993...92N"
                 },
                 {
                     "meta": "DESI-2023-0256",
@@ -2409,6 +2439,36 @@
                     "id": "2025JCAP...07..028A"
                 },
                 {
+                    "meta": "DESI-2024-0346",
+                    "author": ["N. Findlay", "et al."],
+                    "title": "Exploring HOD-dependent systematics for the DESI 2024 Full-Shape galaxy clustering analysis",
+                    "journal": "J. Cosmo. Astro-Part. Phys.",
+                    "volume": 9,
+                    "pages": "007",
+                    "year": 2025,
+                    "id": "2025JCAP...09..007F"
+                },
+                {
+                    "meta": "DESI-2024-0291",
+                    "author": ["DESI Collaboration", "A. G. Adame", "et al."],
+                    "title": "DESI 2024 V: Full-Shape galaxy clustering from galaxies and quasars",
+                    "journal": "J. Cosmo. Astro-Part. Phys.",
+                    "volume": 9,
+                    "pages": "008",
+                    "year": 2025,
+                    "id": "2025JCAP...09..008A"
+                },
+                {
+                    "meta": "DESI-2024-0493",
+                    "author": ["M. Ishak", "et al."],
+                    "title": "Modified gravity constraints from the full shape modeling of clustering measurements from DESI 2024",
+                    "journal": "J. Cosmo. Astro-Part. Phys.",
+                    "volume": 9,
+                    "pages": "053",
+                    "year": 2025,
+                    "id": "2025JCAP...09..053I"
+                },
+                {
                     "meta": "DESI-2023-0200",
                     "author": ["Sihan Yuan", "et al."],
                     "title": "Unraveling emission line galaxy conformity at z~1 with DESI early data",
@@ -2479,6 +2539,26 @@
                     "id": "2025MNRAS.540.1635X"
                 },
                 {
+                    "meta": "DESI-2024-0445",
+                    "author": ["Amanda Byström", "et al."],
+                    "title": "Exploring the interaction between the MW and LMC with a large sample of blue horizontal branch stars from the DESI survey",
+                    "journal": "Mon. Not. Roy. Ast. Soc.",
+                    "volume": 542,
+                    "pages": "560&ndash;582",
+                    "year": 2025,
+                    "id": "2025MNRAS.542..560B"
+                },
+                {
+                    "meta": "DESI-2023-0267",
+                    "author": ["Z. Brown", "et al."],
+                    "title": "Constraining primordial non-Gaussianity from the large scale structure two-point and three-point correlation functions",
+                    "journal": "Mon. Not. Roy. Ast. Soc.",
+                    "volume": 543,
+                    "pages": "2078&ndash;2092",
+                    "year": 2025,
+                    "id": "2025MNRAS.543.2078B"
+                },
+                {
                     "meta": "DESI-2024-0496",
                     "author": ["Chris Blake", "et al."],
                     "title": "The DESI-Lensing Mock Challenge: large-scale cosmological analysis of 3x2-pt statistics",
@@ -2519,46 +2599,124 @@
                     "id": "2025PhRvD.111j3503Q"
                 },
                 {
-                    "meta": "DESI-2023-0267",
-                    "author": ["Z. Brown", "et al."],
-                    "title": "Constraining primordial non-Gaussianity from the large scale structure two-point and three-point correlation functions",
-                    "id": "2403.18789"
-                },
-                {
-                    "meta": "DESI-2024-0409",
-                    "author": ["W. Davison", "et al."],
-                    "title": "STag II: Classification of Serendipitous Supernovae Observed by Galaxy Redshift Surveys",
-                    "id": "2406.17204"
+                    "meta": "DESI-2025-0564",
+                    "author": ["E. Chaussidon", "et al."],
+                    "title": "Early time solution as an alternative to the late time evolving dark energy with DESI DR2 BAO",
+                    "journal": "Phys. Rev. D",
+                    "volume": 112,
+                    "pages": "063548",
+                    "year": 2025,
+                    "id": "2025PhRvD.112f3548C"
                 },
                 {
                     "meta": "DESI-2024-0436",
                     "author": ["B. Hadzhiyska", "et al."],
                     "title": "Evidence for large baryonic feedback at low and intermediate redshifts from kinematic Sunyaev-Zel'dovich observations with ACT and DESI photometric galaxies",
-                    "id": "2407.07152"
+                    "journal": "Phys. Rev. D",
+                    "volume": 112,
+                    "pages": "083509",
+                    "year": 2025,
+                    "id": "2025PhRvD.112h3509H"
                 },
                 {
-                    "meta": "DESI-2024-0445",
-                    "author": ["Amanda Byström", "et al."],
-                    "title": "Exploring the interaction between the MW and LMC with a large sample of blue horizontal branch stars from the DESI survey",
-                    "id": "2410.09149"
+                    "meta": "DESI-2024-0518",
+                    "author": ["A. Brodzeller", "et al."],
+                    "title": "Construction of the damped Lyα absorber catalog for DESI DR2 Lyα BAO",
+                    "journal": "Phys. Rev. D",
+                    "volume": 112,
+                    "pages": "083510",
+                    "year": 2025,
+                    "id": "2025PhRvD.112h3510B"
                 },
                 {
-                    "meta": "DESI-2024-0291",
-                    "author": ["DESI Collaboration", "A. G. Adame", "et al."],
-                    "title": "DESI 2024 V: Full-Shape Galaxy Clustering from Galaxies and Quasars",
-                    "id": "2411.12021"
+                    "meta": "DESI-2025-0528",
+                    "author": ["DESI Collaboration", "K. Lodha", "et al."],
+                    "title": "Extended Dark Energy analysis using DESI DR2 BAO measurements",
+                    "journal": "Phys. Rev. D",
+                    "volume": 112,
+                    "pages": "083511",
+                    "year": 2025,
+                    "id": "2025PhRvD.112h3511L"
                 },
                 {
-                    "meta": "DESI-2024-0346",
-                    "author": ["N. Findlay", "et al."],
-                    "title": "Exploring HOD-dependent systematics for the DESI 2024 Full-Shape galaxy clustering analysis",
-                    "id": "2411.12023"
+                    "meta": "DESI-2024-0515",
+                    "author": ["DESI Collaboration", "U. Andrade", "et al."],
+                    "title": "Validation of the DESI DR2 measurements of baryon acoustic oscillations from galaxies and quasars",
+                    "journal": "Phys. Rev. D",
+                    "volume": 112,
+                    "pages": "083512",
+                    "year": 2025,
+                    "id": "2025PhRvD.112h3512A"
                 },
                 {
-                    "meta": "DESI-2024-0493",
-                    "author": ["M. Ishak", "et al."],
-                    "title": "Modified Gravity Constraints from the Full Shape Modeling of Clustering Measurements from DESI 2024",
-                    "id": "2411.12026"
+                    "meta": "DESI-2025-0530",
+                    "author": ["W. Elbers", "et al."],
+                    "title": "Constraints on neutrino physics from DESI DR2 BAO and DR1 full shape",
+                    "journal": "Phys. Rev. D",
+                    "volume": 112,
+                    "pages": "083513",
+                    "year": 2025,
+                    "id": "2025PhRvD.112h3513E"
+                },
+                {
+                    "meta": "DESI-2024-0511",
+                    "author": ["DESI Collaboration", "M. Abdul Karim", "et al."],
+                    "title": "DESI DR2 results. I. Baryon acoustic oscillations from the Lyman alpha forest",
+                    "journal": "Phys. Rev. D",
+                    "volume": 112,
+                    "pages": "083514",
+                    "year": 2025,
+                    "id": "2025PhRvD.112h3514A"
+                },
+                {
+                    "meta": "DESI-2024-0514",
+                    "author": ["DESI Collaboration", "M. Abdul Karim", "et al."],
+                    "title": "DESI DR2 results. II. Measurements of baryon acoustic oscillations and cosmological constraints",
+                    "journal": "Phys. Rev. D",
+                    "volume": 112,
+                    "pages": "083515",
+                    "year": 2025,
+                    "id": "2025PhRvD.112h3515A"
+                },
+                {
+                    "meta": "DESI-2024-0479",
+                    "author": ["R. Henry Liu", "et al."],
+                    "title": "Measurements of the thermal Sunyaev-Zel'dovich effect with ACT and DESI luminous red galaxies",
+                    "journal": "Phys. Rev. D",
+                    "volume": 112,
+                    "pages": "083561",
+                    "year": 2025,
+                    "id": "2025PhRvD.112h3561L"
+                },
+                {
+                    "meta": "DESI-2024-0487",
+                    "author": ["L. A. Ureña-López", "et al."],
+                    "title": "Updated cosmological constraints on axion dark energy with DESI",
+                    "journal": "Phys. Rev. D",
+                    "volume": 112,
+                    "pages": "103505",
+                    "year": 2025,
+                    "id": "2025PhRvD.112j3505U"
+                },
+                {
+                    "meta": "DESI-2024-0489",
+                    "author": ["Bernardita Ried Guachalla", "et al."],
+                    "title": "Backlighting extended gas halos around luminous red galaxies: Kinematic Sunyaev-Zel'dovich effect from DESI Y1 and ACT data",
+                    "journal": "Phys. Rev. D",
+                    "volume": 112,
+                    "pages": "103512",
+                    "year": 2025,
+                    "id": "2025PhRvD.112j3512G"
+                },
+                {
+                    "meta": "DESI-2024-0409",
+                    "author": ["W. Davison", "et al."],
+                    "title": "STag. II. Classification of Serendipitous Supernovae Observed by Galaxy Redshift Surveys",
+                    "journal": "Pub. Ast. Soc. Pacific",
+                    "volume": 137,
+                    "pages": "094001",
+                    "year": 2025,
+                    "id": "2025PASP..137i4001D"
                 },
                 {
                     "meta": "DESI-2024-0363",
@@ -2573,46 +2731,10 @@
                     "id": "2502.03455"
                 },
                 {
-                    "meta": "DESI-2024-0479",
-                    "author": ["R. Henry Liu", "et al."],
-                    "title": "Measurements of the Thermal Sunyaev-Zel'dovich Effect with ACT and DESI Luminous Red Galaxies",
-                    "id": "2502.08850"
-                },
-                {
                     "meta": "DESI-2023-0245",
                     "author": ["Marting Landriau", "et al."],
                     "title": "DESI Spectroscopy of HETDEX Emission-line Candidates I: Line Discrimination Validation",
                     "id": "2503.02229"
-                },
-                {
-                    "meta": "DESI-2024-0491",
-                    "author": ["Songting Li", "et al."],
-                    "title": "SpecDis: Value added distance catalogue for 4 million stars from DESI Year-1 data",
-                    "id": "2503.02291"
-                },
-                {
-                    "meta": "DESI-2024-0506",
-                    "author": ["Yu Voon Ng", "et al."],
-                    "title": "A Comprehensive Characterization of Galaxy-Cool CGM Connections at z<0.4 with DESI Year 1 Data",
-                    "id": "2503.11139"
-                },
-                {
-                    "meta": "DESI-2024-0514",
-                    "author": ["DESI Collaboration", "M. Abdul Karim", "et al."],
-                    "title": "DESI DR2 Results II: Measurements of Baryon Acoustic Oscillations and Cosmological Constraints",
-                    "id": "2503.14738"
-                },
-                {
-                    "meta": "DESI-2024-0511",
-                    "author": ["DESI Collaboration", "M. Abdul Karim", "et al."],
-                    "title": "DESI DR2 Results I: Baryon Acoustic Oscillations from the Lyman Alpha Forest",
-                    "id": "2503.14739"
-                },
-                {
-                    "meta": "DESI-2024-0518",
-                    "author": ["A. Brodzeller", "et al."],
-                    "title": "Construction of the Damped Lyα Absorber Catalog for DESI DR2 Lyα BAO",
-                    "id": "2503.14740"
                 },
                 {
                     "meta": "DESI-2024-0520",
@@ -2621,52 +2743,10 @@
                     "id": "2503.14741"
                 },
                 {
-                    "meta": "DESI-2024-0515",
-                    "author": ["DESI Collaboration", "U. Andrade", "et al."],
-                    "title": "Validation of the DESI DR2 Measurements of Baryon Acoustic Oscillations from Galaxies and Quasars",
-                    "id": "2503.14742"
-                },
-                {
-                    "meta": "DESI-2025-0528",
-                    "author": ["DESI Collaboration", "K. Lodha", "et al."],
-                    "title": "Extended Dark Energy analysis using DESI DR2 BAO measurements",
-                    "id": "2503.14743"
-                },
-                {
-                    "meta": "DESI-2025-0530",
-                    "author": ["W. Elbers", "et al."],
-                    "title": "Constraints on Neutrino Physics from DESI DR2 BAO and DR1 Full Shape",
-                    "id": "2503.14744"
-                },
-                {
                     "meta": "DESI-2023-0290",
                     "author": ["DESI Collaboration", "M. Abdul Karim", "et al."],
                     "title": "Data Release 1 of the Dark Energy Spectroscopic Instrument",
                     "id": "2503.14745"
-                },
-                {
-                    "meta": "DESI-2024-0489",
-                    "author": ["Bernardita Ried Guachalla", "et al."],
-                    "title": "Backlighting extended gas halos around luminous red galaxies: kinematic Sunyaev-Zel'dovich effect from DESI Y1 x ACT",
-                    "id": "2503.19870"
-                },
-                {
-                    "meta": "DESI-2024-0487",
-                    "author": ["L. A. Ureña-López", "et al."],
-                    "title": "Updated cosmological constraints on axion dark energy with DESI",
-                    "id": "2503.20178"
-                },
-                {
-                    "meta": "DESI-2024-0460",
-                    "author": ["E. Fernández-García", "et al."],
-                    "title": "Missing Components in ΛCDM from DESI Y1 BAO Measurements: Insights from Redshift Remapping",
-                    "id": "2503.22469"
-                },
-                {
-                    "meta": "DESI-2025-0564",
-                    "author": ["E. Chaussidon", "et al."],
-                    "title": "Early time solution as an alternative to the late time evolving dark energy with DESI DR2 BAO",
-                    "id": "2503.24343"
                 },
                 {
                     "meta": "DESI-2024-0499",
