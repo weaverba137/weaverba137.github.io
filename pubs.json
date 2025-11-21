@@ -1979,6 +1979,16 @@
                     "id": "2025A%26A...700A..17S"
                 },
                 {
+                    "meta": "DESI-2024-0483",
+                    "author": ["M. Siudek", "et al."],
+                    "title": "Beyond traditional diagnostics: Identifying active galactic nuclei using spectral energy distribution fitting in DESI data",
+                    "journal": "Astron. &amp; Astrophys.",
+                    "volume": 700,
+                    "pages": "A209",
+                    "year": 2025,
+                    "id": "2025A%26A...700A.209S"
+                },
+                {
                     "meta": "DESI-2024-0460",
                     "author": ["E. Fernández-García", "et al."],
                     "title": "Missing components in ΛCDM from DESI Y1 baryonic acoustic oscillation measurements: Insights from redshift remapping",
@@ -2069,6 +2079,26 @@
                     "id": "2025ApJ...987...48P"
                 },
                 {
+                    "meta": "DESI-2024-0508",
+                    "author": ["Abhijeet Anand", "et al."],
+                    "title": "The Cosmic Evolution of CIV Absorbers at 1.4 &lt; z &lt; 4.5: Insights from 100,000 Systems in DESI Quasars",
+                    "journal": "Astrophys. J.",
+                    "volume": 990,
+                    "pages": "151",
+                    "year": 2025,
+                    "id": "2025ApJ...990..151A"
+                },
+                {
+                    "meta": "DESI-2025-0570",
+                    "author": ["T. Hagen", "et al."],
+                    "title": "DESI Emission-line Galaxies: Clustering Dependence on Stellar Mass and [O II] Luminosity",
+                    "journal": "Astrophys. J.",
+                    "volume": 992,
+                    "pages": "121",
+                    "year": 2025,
+                    "id": "2025ApJ...992..121H"
+                },
+                {
                     "meta": "DESI-2024-0506",
                     "author": ["Yu Voon Ng", "et al."],
                     "title": "A Comprehensive Characterization of Galaxy-cool CGM Connections at z < 0.4 with DESI Year 1 Data",
@@ -2077,6 +2107,16 @@
                     "pages": "92",
                     "year": 2025,
                     "id": "2025ApJ...993...92N"
+                },
+                {
+                    "meta": "DESI-2025-0569",
+                    "author": ["Hao Yang", "et al."],
+                    "title": "The Dark Matter Content of Milky Way Dwarf Spheroidal Galaxies: Draco, Sextans, and Ursa Minor",
+                    "journal": "Astrophys. J.",
+                    "volume": 993,
+                    "pages": "249",
+                    "year": 2025,
+                    "id": "2025ApJ...993..249Y"
                 },
                 {
                     "meta": "DESI-2023-0256",
@@ -2459,6 +2499,16 @@
                     "id": "2025JCAP...09..008A"
                 },
                 {
+                    "meta": "DESI-2025-0598",
+                    "author": ["Nicolas Busca", "et al."],
+                    "title": "The effects of continuum fitting on Lyman-α forest correlations",
+                    "journal": "J. Cosmo. Astro-Part. Phys.",
+                    "volume": 9,
+                    "pages": "020",
+                    "year": 2025,
+                    "id": "2025JCAP...09..020B"
+                },
+                {
                     "meta": "DESI-2024-0493",
                     "author": ["M. Ishak", "et al."],
                     "title": "Modified gravity constraints from the full shape modeling of clustering measurements from DESI 2024",
@@ -2467,6 +2517,36 @@
                     "pages": "053",
                     "year": 2025,
                     "id": "2025JCAP...09..053I"
+                },
+                {
+                    "meta": "DESI-2025-0545",
+                    "author": ["Niam Göksel Karaçaylı", "et al."],
+                    "title": "DESI DR1 Lyα 1D power spectrum: the optimal estimator measurement",
+                    "journal": "J. Cosmo. Astro-Part. Phys.",
+                    "volume": 10,
+                    "pages": "004",
+                    "year": 2025,
+                    "id": "2025JCAP...10..004K"
+                },
+                {
+                    "meta": "DESI-2025-0576",
+                    "author": ["R. de Belsunce", "et al."],
+                    "title": "Cosmology from Planck CMB lensing and DESI DR1 quasar tomography",
+                    "journal": "J. Cosmo. Astro-Part. Phys.",
+                    "volume": 10,
+                    "pages": "077",
+                    "year": 2025,
+                    "id": "2025JCAP...10..077D"
+                },
+                {
+                    "meta": "DESI-2024-0476",
+                    "author": ["Dylan Green", "et al."],
+                    "title": "Using active learning to improve quasar identification for the DESI spectra processing pipeline",
+                    "journal": "J. Cosmo. Astro-Part. Phys.",
+                    "volume": 10,
+                    "pages": "087",
+                    "year": 2025,
+                    "id": "2025JCAP...10..087G"
                 },
                 {
                     "meta": "DESI-2023-0200",
@@ -2579,6 +2659,16 @@
                     "id": "2025OJAp....8E..83Z"
                 },
                 {
+                    "meta": "DESI-2025-0605",
+                    "author": ["S. J. Rauhut", "et al."],
+                    "title": "Testing gravitational physics by combining DESI DR1 and weak lensing datasets using the E_G estimator",
+                    "journal": "Open J. Astrophys.",
+                    "volume": 8,
+                    "pages": "149",
+                    "year": 2025,
+                    "id": "2025OJAp....8E.149R"
+                },
+                {
                     "meta": "DESI-2024-0420",
                     "author": ["K. Lodha", "et al."],
                     "title": "DESI 2024: Constraints on physics-focused aspects of dark energy using DESI DR1 BAO data",
@@ -2607,6 +2697,16 @@
                     "pages": "063548",
                     "year": 2025,
                     "id": "2025PhRvD.112f3548C"
+                },
+                {
+                    "meta": "DESI-2024-0423",
+                    "author": ["B. Bahr-Kalus", "et al."],
+                    "title": "Model-independent measurement of the matter-radiation equality scale in DESI 2024",
+                    "journal": "Phys. Rev. D",
+                    "volume": 112,
+                    "pages": "063553",
+                    "year": 2025,
+                    "id": "2025PhRvD.112f3553B"
                 },
                 {
                     "meta": "DESI-2024-0436",
@@ -2679,6 +2779,16 @@
                     "id": "2025PhRvD.112h3515A"
                 },
                 {
+                    "meta": "DESI-2025-0589",
+                    "author": ["C. Garcia-Quintero", "et al."],
+                    "title": "Cosmological implications of DESI DR2 BAO measurements in light of the latest ACT DR6 CMB data",
+                    "journal": "Phys. Rev. D",
+                    "volume": 112,
+                    "pages": "083529",
+                    "year": 2025,
+                    "id": "2025PhRvD.112h3529G"
+                },
+                {
                     "meta": "DESI-2024-0479",
                     "author": ["R. Henry Liu", "et al."],
                     "title": "Measurements of the thermal Sunyaev-Zel'dovich effect with ACT and DESI luminous red galaxies",
@@ -2707,6 +2817,16 @@
                     "pages": "103512",
                     "year": 2025,
                     "id": "2025PhRvD.112j3512G"
+                },
+                {
+                    "meta": "DESI-2025-0560",
+                    "author": ["S. P. Ahlen", "et al."],
+                    "title": "Positive Neutrino Masses with DESI DR2 via Matter Conversion to Dark Energy",
+                    "journal": "Phys. Rev. Lett.",
+                    "volume": 135,
+                    "pages": "081003",
+                    "year": 2025,
+                    "id": "2025PhRvL.135h1003A"
                 },
                 {
                     "meta": "DESI-2024-0409",
@@ -2779,36 +2899,6 @@
                     "id": "2504.11687"
                 },
                 {
-                    "meta": "DESI-2025-0589",
-                    "author": ["C. Garcia-Quintero", "et al."],
-                    "title": "Cosmological implications of DESI DR2 BAO measurements in light of the latest ACT DR6 CMB data",
-                    "id": "2504.18464"
-                },
-                {
-                    "meta": "DESI-2024-0508",
-                    "author": ["Abhijeet Anand", "et al."],
-                    "title": "The Cosmic Evolution of CIV Absorbers at 1.4 &lt; z &lt; 4.5: Insights from 100,000 Systems in DESI Quasars",
-                    "id": "2504.20299"
-                },
-                {
-                    "meta": "DESI-2025-0560",
-                    "author": ["S. Ahlen", "et al."],
-                    "title": "Positive neutrino masses with DESI DR2 via matter conversion to dark energy",
-                    "id": "2504.20338"
-                },
-                {
-                    "meta": "DESI-2024-0476",
-                    "author": ["Dylan Green", "et al."],
-                    "title": "Using Active Learning to Improve Quasar Identification for the DESI Spectra Processing Pipeline",
-                    "id": "2505.01596"
-                },
-                {
-                    "meta": "DESI-2025-0545",
-                    "author": ["N. G. Karaçaylı", "et al."],
-                    "title": "DESI DR1 Lyα 1D power spectrum: The optimal estimator measurement",
-                    "id": "2505.07974"
-                },
-                {
                     "meta": "DESI-2024-0517",
                     "author": ["Calum Gordon", "et al."],
                     "title": "Modelling the impact of quasar redshift errors on the full-shape analysis of correlations in the Lyman-α forest",
@@ -2833,22 +2923,10 @@
                     "id": "2505.14787"
                 },
                 {
-                    "meta": "DESI-2024-0423",
-                    "author": ["B. Bahr-Kalus", "et al."],
-                    "title": "Model-Independent Measurement of the Matter-Radiation Equality Scale in DESI 2024",
-                    "id": "2505.16153"
-                },
-                {
                     "meta": "DESI-2022-0130",
                     "author": ["Arjun Dey", "et al."],
                     "title": "The Backup Program of the Dark Energy Spectroscopic Instrument's Milky Way Survey",
                     "id": "2505.17230"
-                },
-                {
-                    "meta": "DESI-2025-0570",
-                    "author": ["T. Hagen", "et al."],
-                    "title": "DESI Emission Line Galaxies: Clustering Dependence on Stellar Mass and [OII] Luminosity",
-                    "id": "2505.20430"
                 },
                 {
                     "meta": "DESI-2025-0577",
@@ -2863,12 +2941,6 @@
                     "id": "2506.06249"
                 },
                 {
-                    "meta": "DESI-2024-0483",
-                    "author": ["M. Siudek", "et al."],
-                    "title": "Beyond Traditional Diagnostics: Identifying Active Galactic Nuclei with Spectral Energy Distribution Fitting in DESI Data",
-                    "id": "2506.09143"
-                },
-                {
                     "meta": "DESI-2025-0533",
                     "author": ["T. Tan", "et al."],
                     "title": "Modeling of the High Column Density systems in The Lyman-Alpha Forest",
@@ -2879,12 +2951,6 @@
                     "author": ["Gautam Nagaraj", "et al."],
                     "title": "ODIN: The LAE Lyα Luminosity Function over Cosmic Time and Environmental Density",
                     "id": "2506.14510"
-                },
-                {
-                    "meta": "DESI-2025-0598",
-                    "author": ["Nicolas Busca", "et al."],
-                    "title": "The effects of continuum fitting on Lyman-α forest correlations",
-                    "id": "2506.15262"
                 },
                 {
                     "meta": "DESI-2024-0441",
@@ -2905,22 +2971,10 @@
                     "id": "2506.21677"
                 },
                 {
-                    "meta": "DESI-2025-0576",
-                    "author": ["R. de Belsunce", "et al."],
-                    "title": "Cosmology from Planck CMB Lensing and DESI DR1 Quasar Tomography",
-                    "id": "2506.22416"
-                },
-                {
                     "meta": "DESI-2025-0538",
                     "author": ["R. Fernández-García", "et al."],
                     "title": "DESI DR2 reference mocks: clustering results from Uchuu-BGS and LRG",
                     "id": "2507.01593"
-                },
-                {
-                    "meta": "DESI-2025-0569",
-                    "author": ["Hao Yang", "et al."],
-                    "title": "The dark matter content of Milky Way dwarf spheroidal galaxies: Draco, Sextans and Ursa Minor",
-                    "id": "2507.02284"
                 },
                 {
                     "meta": "DESI-2025-0558",
@@ -2939,12 +2993,6 @@
                     "author": ["D. Chebat", "et al."],
                     "title": "Cosmological neutrino mass: a frequentist overview in light of DESI",
                     "id": "2507.12401"
-                },
-                {
-                    "meta": "DESI-2025-0605",
-                    "author": ["S. J. Rauhut", "et al."],
-                    "title": "Testing gravitational physics by combining DESI DR1 and weak lensing datasets using the E_G estimator",
-                    "id": "2507.16098"
                 },
                 {
                     "meta": "DESI-2025-0595",
