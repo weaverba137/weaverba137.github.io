@@ -728,7 +728,7 @@
                     "id": "2012MNRAS.424..136T"
                 },
                 {
-                    "meta": "SDSS-III Paper 66",
+                    "meta": "SDSS-III Paper 66a",
                     "author": ["Martin White", "et al."],
                     "title": "The clustering of intermediate-redshift quasars as measured by the Baryon Oscillation Spectroscopic Survey",
                     "journal": "Mon. Not. Roy. Ast. Soc.",
@@ -1234,16 +1234,19 @@
             "title": "Dark Energy Spectroscopic Instrument (DESI)",
             "data": [
                 {
+                    "meta": "DESI-2011-0001",
                     "author": ["D. Schlegel", "et al."],
                     "title": "The BigBOSS Experiment",
                     "id": "1106.1706"
                 },
                 {
+                    "meta": "DESI-2016-0001",
                     "author": ["DESI Collaboration", "A. Aghamousa", "et al."],
                     "title": "The DESI Experiment Part I: Science,Targeting, and Survey Design",
                     "id": "1611.00036"
                 },
                 {
+                    "meta": "DESI-2016-0002",
                     "author": ["DESI Collaboration", "A. Aghamousa", "et al."],
                     "title": "The DESI Experiment Part II: Instrument Design",
                     "id": "1611.00037"
@@ -1869,7 +1872,7 @@
                     "id": "2024MNRAS.534.3540L"
                 },
                 {
-                    "meta": "DESI-2023-0259",
+                    "meta": "DESI-2023-0254",
                     "author": ["Christopher J. Manser", "et al."],
                     "title": "The DESI Early Data Release white dwarf catalogue",
                     "journal": "Mon. Not. Roy. Ast. Soc.",
@@ -2679,7 +2682,7 @@
                     "id": "2025PhRvD.111b3532L"
                 },
                 {
-                    "meta": "DESI-2024-0428",
+                    "meta": "DESI-2024-0458",
                     "author": ["Frank J. Qu", "et al."],
                     "title": "Atacama Cosmology Telescope DR6 and DESI: Structure growth measurements from the cross-correlation of DESI legacy imaging galaxies and CMB lensing from ACT DR6 and Planck PR4",
                     "journal": "Phys. Rev. D",
@@ -3029,6 +3032,150 @@
                     "author": ["James Morawetz", "et al."],
                     "title": "Frequentist Cosmological Constraints from Full-Shape Clustering Measurements in DESI DR1",
                     "id": "2508.11811"
+                },
+                {
+                    "meta": "DESI-2025-0619",
+                    "author": ["Gustavo E. Medina", "et al."],
+                    "title": "The mass of the Milky Way from outer halo stars measured by DESI DR1",
+                    "id": "2508.19351"
+                },
+                {
+                    "meta": "DESI-2024-0484",
+                    "author": ["M. Rashkovetskyi", "et al."],
+                    "title": "Clustering of DESI galaxies split by thermal Sunyaev-Zeldovich effect",
+                    "id": "2508.20904"
+                },
+                {
+                    "meta": "DESI-2024-0349",
+                    "author": ["R. Gsponer", "et al."],
+                    "title": "Fiducial-Cosmology-dependent systematics for the DESI 2024 Full-Shape Analysis",
+                    "id": "2509.08057"
+                },
+                {
+                    "meta": "DESI-2025-0546",
+                    "author": ["N. G. Karaçaylı", "et al."],
+                    "title": "DESI DR1 Lyα 1D power spectrum: Validation of estimators",
+                    "id": "2509.13593"
+                },
+                {
+                    "meta": "DESI-2025-0650",
+                    "author": ["Wynne Turner", "et al."],
+                    "title": "Probing the limits of cosmological information from the Lyman-α forest 2-point correlation functions",
+                    "id": "2509.14322"
+                },
+                {
+                    "meta": "DESI-2025-0612",
+                    "author": ["Andrei Cuceu", "et al."],
+                    "title": "DESI DR1 Lyα forest: 3D full-shape analysis and cosmological constraints",
+                    "id": "2509.15308"
+                },
+                {
+                    "meta": "DESI-2025-0630",
+                    "author": ["Yuan-Ming Hsu", "et al."],
+                    "title": "A New Way to Discover Strong Gravitational Lenses: Pair-wise Spectroscopic Search from DESI DR1",
+                    "id": "2509.16033"
+                },
+                {
+                    "meta": "DESI-2024-0453",
+                    "author": ["Shrihan Agarwal", "et al."],
+                    "title": "DESI Strong Lens Foundry III: Keck Spectroscopy for Strong Lenses Discovered Using Residual Neural Networks",
+                    "id": "2509.18086"
+                },
+                {
+                    "meta": "DESI-2024-0452",
+                    "author": ["Xiaosheng Huang", "et al."],
+                    "title": "DESI Strong Lens Foundry II: DESI Spectroscopy for Strong Lens Candidates",
+                    "id": "2509.18089"
+                },
+                {
+                    "meta": "DESI-2025-0666",
+                    "author": ["Helena Treiber", "et al."],
+                    "title": "Dwarf galaxy halo masses from spectroscopic and photometric lensing in DESI and DES",
+                    "id": "2509.20434"
+                },
+                {
+                    "meta": "DESI-2024-0464",
+                    "author": ["R. Calderon", "et al."],
+                    "title": "Constraining GREA, an alternative theory accounting for the present cosmic acceleration",
+                    "id": "2509.21491"
+                },
+                {
+                    "meta": "DESI-2025-0527",
+                    "author": ["J. Ding", "et al."],
+                    "title": "The Draco Dwarf Spheroidal Galaxy in the First Year of DESI Data",
+                    "id": "2509.21822"
+                },
+                {
+                    "meta": "DESI-2025-0597",
+                    "author": ["H. Ebina", "et al."],
+                    "title": "Clustering analysis of medium-band selected high-redshift galaxies",
+                    "id": "2509.26467"
+                },
+                {
+                    "meta": "DESI-2025-0639",
+                    "author": ["N. Emas", "et al."],
+                    "title": "Validation of the DESI-DR1 3x2-pt analysis: scale cut and shear ratio tests",
+                    "id": "2510.05539"
+                },
+                {
+                    "meta": "DESI-2025-0649",
+                    "author": ["A. Nguyen", "et al."],
+                    "title": "Detection of supernova magnitude fluctuations induced by large-scale structure",
+                    "id": "2510.07673"
+                },
+                {
+                    "meta": "DESI-2025-0679",
+                    "author": ["B. Hadzhiyska", "et al."],
+                    "title": "Probing cosmic velocities with the pairwise kinematic Sunyaev-Zel'dovich signal in DESI Bright Galaxy Sample DR1 and ACT DR6",
+                    "id": "2510.14135"
+                },
+                {
+                    "meta": "DESI-2025-0540",
+                    "author": ["E. A. Zaborowski", "et al."],
+                    "title": "<em>H</em><sub>0</sub> Without the Sound Horizon (or Supernovae): A 2% Measurement in DESI DR1",
+                    "id": "2510.19149"
+                },
+                {
+                    "meta": "DESI-2025-0647",
+                    "author": ["Zhiwei Shao", "et al."],
+                    "title": "Direct Measurement of Galaxy Assembly Bias using DESI DR1 Data",
+                    "id": "2510.20896"
+                },
+                {
+                    "meta": "DESI-2025-0708",
+                    "author": ["Xander J. Hall", "et al."],
+                    "title": "AT2025ulz and S250818k: Leveraging DESI spectroscopy in the hunt for a kilonova associated with a sub-solar mass gravitational wave candidate",
+                    "id": "2510.23723"
+                },
+                {
+                    "meta": "DESI-2025-0544",
+                    "author": ["Johannes U. Lange", "et al."],
+                    "title": "A Unified Photometric Redshift Calibration for Weak Lensing Surveys using the Dark Energy Spectroscopic Instrument",
+                    "id": "2510.25419"
+                },
+                {
+                    "meta": "DESI-2025-0585",
+                    "author": ["Samuel G. Moore", "et al."],
+                    "title": "DESI DR2 Galaxy Luminosity Functions",
+                    "id": "2511.01803"
+                },
+                {
+                    "meta": "DESI-2025-0608",
+                    "author": ["Everett McArthur", "et al."],
+                    "title": "Quasars acting as Strong Lenses Found in DESI DR1",
+                    "id": "2511.02009"
+                },
+                {
+                    "meta": "DESI-2025-0674",
+                    "author": ["Ting-Wen Lan", "et al."],
+                    "title": "The Multi-Phase Circumgalactic Medium of DESI Emission-Line Galaxies at z~1.5",
+                    "id": "2511.03195"
+                },
+                {
+                    "meta": "DESI-2025-0625",
+                    "author": ["Hanyue Wang", "et al."],
+                    "title": "Galaxy-Multiplet Clustering from DESI DR2",
+                    "id": "2511.15354"
                 }
             ]
         },
@@ -3097,8 +3244,12 @@
                     "pages": "A171",
                     "year": 2025,
                     "id": "2025A%26A...698A.171Z"
+                },
+                {
+                    "author": ["M. Salvato", "et al."],
+                    "title": "Counterpart identification and classification for eRASS1 and characterisation of the AGN content",
+                    "id": "2509.02842"
                 }
-
             ]
         },
         "other": {
@@ -3188,6 +3339,16 @@
                     "id": "2023CSBS....7....5B"
                 },
                 {
+                    "author": ["Stéphanie Juneau", "et al."],
+                    "title": "SPARCL: SPectra Analysis and Retrievable Catalog Lab",
+                    "conference": "Astronomical Data Analysis Software and Systems XXXIII (Tucson, 2023)",
+                    "journal": "ASP Conf. Series",
+                    "volume": 541,
+                    "pages": "77",
+                    "year": 2025,
+                    "id": "2025ASPC..541...77J"
+                },
+                {
                     "author": ["Leah M. Fulmer", "et al."],
                     "title": "Astro Data Lab Spectral Viewer Requirements for Wide-Area Spectroscopic Surveys",
                     "id": "2302.08906"
@@ -3196,11 +3357,6 @@
                     "author": ["Michael R. Blanton", "et al."],
                     "title": "The Future of Astronomical Data Infrastructure: Meeting Report",
                     "id": "2311.04272"
-                },
-                {
-                    "author": ["Stéphanie Juneau", "et al."],
-                    "title": "SPARCL: SPectra Analysis and Retrievable Catalog Lab",
-                    "id": "2401.05576"
                 }
             ]
         }
