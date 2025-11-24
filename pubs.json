@@ -619,7 +619,7 @@
                 },
                 {
                     "meta": "SDSS-III Paper 38",
-                    "author": ["Tomer Tal", "David A. Wake", "Pieter G. van Dokkum", "Frank C. van den Bosch", "Donald P. Schneider", "Jon Brinkmann", "Benjamin A. Weaver"],
+                    "author": ["Tomer Tal", "David A. Wake", "Pieter G. van&nbsp;Dokkum", "Frank C. van&nbsp;den&nbsp;Bosch", "Donald P. Schneider", "Jon Brinkmann", "Benjamin A. Weaver"],
                     "title": "Mass Growth and Mergers: Direct Observations of the Luminosity Function of LRG Satellite Galaxies out to <var>z</var> = 0.7 From SDSS and BOSS Images",
                     "journal": "Astrophys. J.",
                     "volume": 746,
@@ -659,7 +659,7 @@
                 },
                 {
                     "meta": "SDSS-III Paper 67",
-                    "author": ["N. Filiz Ak", "et al."],
+                    "author": ["N. Filiz&nbsp;Ak", "et al."],
                     "title": "Broad Absorption Line Disappearance on Multi-year Timescales in a Large Quasar Sample",
                     "journal": "Astrophys. J.",
                     "volume": 757,
@@ -1051,7 +1051,7 @@
                 },
                 {
                     "meta": "SDSS-III Paper 180",
-                    "author": ["Mariana Vargas Magaña", "et al."],
+                    "author": ["Mariana Vargas&nbsp;Magaña", "et al."],
                     "title": "The Clustering of Galaxies in the SDSS-III Baryon Oscillation Spectroscopic Survey: potential systematics in fitting of baryon acoustic feature",
                     "journal": "Mon. Not. Roy. Ast. Soc.",
                     "volume": 445,
@@ -3302,11 +3302,6 @@
                     "id": "2018AJ....156..123A"
                 },
                 {
-                    "author": ["Knut Olsen", "et al."],
-                    "title": "The Data Lab: A Science Platform for the analysis of ground-based astronomical survey data",
-                    "id": "1908.00664"
-                },
-                {
                     "author": ["R. Nikutta", "M. Fitzpatrick", "A. Scott", "B. A. Weaver"],
                     "title": "Data Lab&mdash;A community science platform",
                     "journal": "Astron. &amp; Comput.",
@@ -3314,11 +3309,6 @@
                     "pages": "100411",
                     "year": 2020,
                     "id": "2020A%26C....3300411N"
-                },
-                {
-                    "author": ["Marcelo Alvarez", "et al."],
-                    "title": "Data Preservation for Cosmology",
-                    "id": "2203.08113"
                 },
                 {
                     "author": ["Astropy Collaboration", "A. M. Price-Whelan", "et al."],
@@ -3347,6 +3337,16 @@
                     "pages": "77",
                     "year": 2025,
                     "id": "2025ASPC..541...77J"
+                },
+                {
+                    "author": ["Knut Olsen", "et al."],
+                    "title": "The Data Lab: A Science Platform for the analysis of ground-based astronomical survey data",
+                    "id": "1908.00664"
+                },
+                {
+                    "author": ["Marcelo Alvarez", "et al."],
+                    "title": "Data Preservation for Cosmology",
+                    "id": "2203.08113"
                 },
                 {
                     "author": ["Leah M. Fulmer", "et al."],
