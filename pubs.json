@@ -1404,7 +1404,7 @@
                 {
                     "meta": "DESI-2022-0160",
                     "author": ["David J. Setton", "et al."],
-                    "title": "DESI Survey Validation Spectra Reveal an Increasing Fraction of Recently Quenched Galaxies at z ∼ 1",
+                    "title": "DESI Survey Validation Spectra Reveal an Increasing Fraction of Recently Quenched Galaxies at <var>z</var> ~ 1",
                     "journal": "Astrophys. J. Lett.",
                     "volume": 947,
                     "pages": "L31",
@@ -1414,7 +1414,7 @@
                 {
                     "meta": "DESI-2022-0148",
                     "author": ["Jinyi Yang", "et al."],
-                    "title": "DESI z >~ 5 Quasar Survey. I. A First Sample of 400 New Quasars at z ~ 4.7-6.6",
+                    "title": "DESI <var>z</var> ≳ 5 Quasar Survey. I. A First Sample of 400 New Quasars at <var>z</var> ~ 4.7-6.6",
                     "journal": "Astrophys. J. Supp.",
                     "volume": 269,
                     "pages": "27",
@@ -1644,7 +1644,7 @@
                 {
                     "meta": "DESI-2024-0383",
                     "author": ["Wynne Turner", "et al."],
-                    "title": "New Measurements of the  Lyα Forest Continuum and Effective Optical Depth with LyCAN and DESI Y1 Data",
+                    "title": "New Measurements of the Lyα Forest Continuum and Effective Optical Depth with LyCAN and DESI Y1 Data",
                     "journal": "Astrophys. J.",
                     "volume": 976,
                     "pages": "143",
@@ -2134,7 +2134,7 @@
                 {
                     "meta": "DESI-2024-0437",
                     "author": ["Anning Gao", "et al."],
-                    "title": "Measuring the Mean Free Path of H I Ionizing Photons at 3.2 ≤ z ≤ 4.6  with DESI Y1 Quasars",
+                    "title": "Measuring the Mean Free Path of H I Ionizing Photons at 3.2 ≤ <var>z</var> ≤ 4.6  with DESI Y1 Quasars",
                     "journal": "Astrophys. J. Lett.",
                     "volume": 981,
                     "pages": "L27",
@@ -2424,7 +2424,7 @@
                 {
                     "meta": "DESI-2024-0480",
                     "author": ["E. A. Zaborowski", "et al."],
-                    "title": "A sound horizon-free measurement of <em>H</em><sub>0</sub> in DESI 2024",
+                    "title": "A sound horizon-free measurement of <var>H</var><sub>0</sub> in DESI 2024",
                     "journal": "J. Cosmo. Astro-Part. Phys.",
                     "volume": 6,
                     "pages": "020",
@@ -2554,7 +2554,7 @@
                 {
                     "meta": "DESI-2023-0200",
                     "author": ["Sihan Yuan", "et al."],
-                    "title": "Unraveling emission line galaxy conformity at z~1 with DESI early data",
+                    "title": "Unraveling emission line galaxy conformity at <var>z</var>~1 with DESI early data",
                     "journal": "Mon. Not. Roy. Ast. Soc.",
                     "volume": 538,
                     "pages": "1216&ndash;1240",
@@ -3004,7 +3004,7 @@
                 {
                     "meta": "DESI-2025-0595",
                     "author": ["R. Cereskaite", "et al."],
-                    "title": "Inference of matter power spectrum at z=0 using DESI DR1 Full-Shape data",
+                    "title": "Inference of matter power spectrum at <var>z</var>=0 using DESI DR1 Full-Shape data",
                     "id": "2507.16590"
                 },
                 {
@@ -3136,7 +3136,7 @@
                 {
                     "meta": "DESI-2025-0540",
                     "author": ["E. A. Zaborowski", "et al."],
-                    "title": "<em>H</em><sub>0</sub> Without the Sound Horizon (or Supernovae): A 2% Measurement in DESI DR1",
+                    "title": "<var>H</var><sub>0</sub> Without the Sound Horizon (or Supernovae): A 2% Measurement in DESI DR1",
                     "id": "2510.19149"
                 },
                 {
@@ -3172,7 +3172,7 @@
                 {
                     "meta": "DESI-2025-0674",
                     "author": ["Ting-Wen Lan", "et al."],
-                    "title": "The Multi-Phase Circumgalactic Medium of DESI Emission-Line Galaxies at z~1.5",
+                    "title": "The Multi-Phase Circumgalactic Medium of DESI Emission-Line Galaxies at <var>z</var>~1.5",
                     "id": "2511.03195"
                 },
                 {
@@ -3184,7 +3184,7 @@
                 {
                     "meta": "DESI-2025-0669",
                     "author": ["Ana Sofía M. Uzsoy", "et al."],
-                    "title": "Effect of local environment on Lyα  line profile in DESI/ODIN LAEs",
+                    "title": "Effect of local environment on Lyα line profile in DESI/ODIN LAEs",
                     "id": "2511.17498"
                 },
                 {
@@ -3202,7 +3202,7 @@
                 {
                     "meta": "DESI-2025-0709",
                     "author": ["Alex Krolewski", "et al."],
-                    "title": "A measurement of <em>H</em><sub>0</sub> from DESI DR1 using energy densities",
+                    "title": "A measurement of <var>H</var><sub>0</sub> from DESI DR1 using energy densities",
                     "id": "2511.23432"
                 },
                 {
@@ -3262,7 +3262,7 @@
                 {
                     "meta": "DESI-2025-0682",
                     "author": ["A. Carr", "et al."],
-                    "title": "The DESI DR1 Peculiar Velocity Survey: global zero-point and <em>H</em><sub>0</sub> constraints",
+                    "title": "The DESI DR1 Peculiar Velocity Survey: global zero-point and <var>H</var><sub>0</sub> constraints",
                     "id": "2512.03232"
                 },
                 {
