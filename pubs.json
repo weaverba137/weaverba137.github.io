@@ -2084,7 +2084,7 @@
                 {
                     "meta": "DESI-2024-0508",
                     "author": ["Abhijeet Anand", "et al."],
-                    "title": "The Cosmic Evolution of CIV Absorbers at 1.4 &lt; z &lt; 4.5: Insights from 100,000 Systems in DESI Quasars",
+                    "title": "The Cosmic Evolution of CIV Absorbers at 1.4 &lt; <var>z</var> &lt; 4.5: Insights from 100,000 Systems in DESI Quasars",
                     "journal": "Astrophys. J.",
                     "volume": 990,
                     "pages": "151",
@@ -2104,7 +2104,7 @@
                 {
                     "meta": "DESI-2024-0506",
                     "author": ["Yu Voon Ng", "et al."],
-                    "title": "A Comprehensive Characterization of Galaxy-cool CGM Connections at z < 0.4 with DESI Year 1 Data",
+                    "title": "A Comprehensive Characterization of Galaxy-cool CGM Connections at <var>z</var> &lt; 0.4 with DESI Year 1 Data",
                     "journal": "Astrophys. J.",
                     "volume": 993,
                     "pages": "92",
@@ -2877,7 +2877,7 @@
                 },
                 {
                     "meta": "DESI-2023-0290",
-                    "author": ["DESI Collaboration", "M. Abdul Karim", "et al."],
+                    "author": ["DESI Collaboration", "M. Abdul&nbsp;Karim", "et al."],
                     "title": "Data Release 1 of the Dark Energy Spectroscopic Instrument",
                     "id": "2503.14745"
                 },
