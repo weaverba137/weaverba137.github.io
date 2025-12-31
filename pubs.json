@@ -2122,6 +2122,26 @@
                     "id": "2025ApJ...993..249Y"
                 },
                 {
+                    "meta": "DESI-2025-0567",
+                    "author": ["Gautam Nagaraj", "et al."],
+                    "title": "ODIN: Probing the LAE Lyα Luminosity Function across Cosmic Time and Different Environments",
+                    "journal": "Astrophys. J.",
+                    "volume": 995,
+                    "pages": "126",
+                    "year": 2025,
+                    "id": "2025ApJ...995..126N"
+                },
+                {
+                    "meta": "DESI-2023-0245",
+                    "author": ["Martin Landriau", "et al."],
+                    "title": "DESI Spectroscopy of HETDEX Emission-line Candidates. I. Line Discrimination Validation",
+                    "journal": "Astrophys. J.",
+                    "volume": 995,
+                    "pages": "220",
+                    "year": 2025,
+                    "id": "2025ApJ...995..220L"
+                },
+                {
                     "meta": "DESI-2023-0256",
                     "author": ["Wei-Jian Guo", "et al."],
                     "title": "The First Identification of Lyα Changing-look Quasars at High Redshift in DESI",
@@ -2552,6 +2572,16 @@
                     "id": "2025JCAP...10..087G"
                 },
                 {
+                    "meta": "DESI-2025-0609",
+                    "author": ["Hiram K. Herrera-Alcantar", "et al."],
+                    "title": "The Lyman-α forest from LBGs: First 3D correlation measurement with DESI and prospects for cosmology",
+                    "journal": "J. Cosmo. Astro-Part. Phys.",
+                    "volume": 12,
+                    "pages": "053",
+                    "year": 2025,
+                    "id": "2025JCAP...12..053H"
+                },
+                {
                     "meta": "DESI-2023-0200",
                     "author": ["Sihan Yuan", "et al."],
                     "title": "Unraveling emission line galaxy conformity at <var>z</var>~1 with DESI early data",
@@ -2650,6 +2680,15 @@
                     "pages": "2080&ndash;2097",
                     "year": 2025,
                     "id": "2025MNRAS.544.2080M"
+                },
+                {
+                    "meta": "DESI-2024-0519",
+                    "author": ["Gan Gu", "et al."],
+                    "title": "Dynamical dark energy in light of the DESI DR2 baryonic acoustic oscillations measurements",
+                    "journal": "Nature Ast.",
+                    "volume": 9,
+                    "pages": "1879&ndash;1889",
+                    "id": "2025NatAs...9.1879G"
                 },
                 {
                     "meta": "DESI-2024-0496",
@@ -2823,13 +2862,23 @@
                 },
                 {
                     "meta": "DESI-2024-0489",
-                    "author": ["Bernardita Ried Guachalla", "et al."],
+                    "author": ["Bernardita Ried&nbsp;Guachalla", "et al."],
                     "title": "Backlighting extended gas halos around luminous red galaxies: Kinematic Sunyaev-Zel'dovich effect from DESI Y1 and ACT data",
                     "journal": "Phys. Rev. D",
                     "volume": 112,
                     "pages": "103512",
                     "year": 2025,
                     "id": "2025PhRvD.112j3512G"
+                },
+                {
+                    "meta": "DESI-2025-0636",
+                    "author": ["J. Hou", "et al."],
+                    "title": "Study of the connected four-point correlation function of galaxies from the DESI Data Release 1 luminous red galaxy sample",
+                    "journal": "Phys. Rev. D",
+                    "volume": 112,
+                    "pages": "122005",
+                    "year": 2025,
+                    "id": "2025PhRvD.112l2005H"
                 },
                 {
                     "meta": "DESI-2025-0560",
@@ -2864,12 +2913,6 @@
                     "id": "2502.03455"
                 },
                 {
-                    "meta": "DESI-2023-0245",
-                    "author": ["Marting Landriau", "et al."],
-                    "title": "DESI Spectroscopy of HETDEX Emission-line Candidates I: Line Discrimination Validation",
-                    "id": "2503.02229"
-                },
-                {
                     "meta": "DESI-2024-0520",
                     "author": ["L. Casas", "et al."],
                     "title": "Validation of the DESI DR2 Lyα BAO analysis using synthetic datasets",
@@ -2886,12 +2929,6 @@
                     "author": ["Gustavo E. Medina", "et al."],
                     "title": "The DESI Y1 RR Lyrae catalog I: Empirical modeling of the cyclic variation of spectroscopic properties and a chemodynamical analysis of the outer halo",
                     "id": "2504.02924"
-                },
-                {
-                    "meta": "DESI-2024-0519",
-                    "author": ["Gan Gu", "et al."],
-                    "title": "Dynamical Dark Energy in light of the DESI DR2 Baryonic Acoustic Oscillations Measurements",
-                    "id": "2504.06118"
                 },
                 {
                     "meta": "DESI-2025-0535",
@@ -2954,12 +2991,6 @@
                     "id": "2506.13005"
                 },
                 {
-                    "meta": "DESI-2025-0567",
-                    "author": ["Gautam Nagaraj", "et al."],
-                    "title": "ODIN: The LAE Lyα Luminosity Function over Cosmic Time and Environmental Density",
-                    "id": "2506.14510"
-                },
-                {
                     "meta": "DESI-2024-0441",
                     "author": ["C. Nicolaou", "et al."],
                     "title": "Identifying Anomalous DESI Galaxy Spectra with a Variational Autoencoder",
@@ -3008,22 +3039,10 @@
                     "id": "2507.16590"
                 },
                 {
-                    "meta": "DESI-2025-0609",
-                    "author": ["Hiram K. Herrera-Alcantar", "et al."],
-                    "title": "The Lyman-α Forest from LBGs: First 3D Correlation Measurement with DESI and Prospects for Cosmology",
-                    "id": "2507.21852"
-                },
-                {
                     "meta": "DESI-2024-0311",
                     "author": ["D. Valcin", "et al."],
                     "title": "Combined tracer analysis for DESI 2024 BAO",
                     "id": "2508.05467"
-                },
-                {
-                    "meta": "DESI-2025-0636",
-                    "author": ["J. Hou", "et al."],
-                    "title": "Study of the Connected Four-Point Correlation Function of Galaxies from DESI Data Release 1 Luminous Red Galaxy Sample",
-                    "id": "2508.09070"
                 },
                 {
                     "meta": "DESI-2025-0571",
@@ -3282,6 +3301,54 @@
                     "author": ["Tian Qiu", "et al."],
                     "title": "The Binary Fraction of Stars in the Dwarf Galaxy Ursa Minor via Dark Energy Spectroscopic Instrument",
                     "id": "2512.04477"
+                },
+                {
+                    "meta": "DESI-2025-0720",
+                    "author": ["A. Porredon", "et al."],
+                    "title": "DESI-DR1 3×2-pt analysis: consistent cosmology across weak lensing surveys",
+                    "id": "2512.15960"
+                },
+                {
+                    "meta": "DESI-2025-0734",
+                    "author": ["A. Semenaite", "et al."],
+                    "title": "Joint cosmological fits to DESI-DR1 full-shape clustering and weak gravitational lensing in configuration space",
+                    "id": "2512.15961"
+                },
+                {
+                    "meta": "DESI-2025-0644",
+                    "author": ["Johannes U. Lange", "et al."],
+                    "title": "Cosmological Constraints from Full-Scale Clustering and Galaxy-Galaxy Lensing with DESI DR1",
+                    "id": "2512.15962"
+                },
+                {
+                    "meta": "DESI-2025-0722",
+                    "author": ["R. Ruggeri", "et al."],
+                    "title": "Clustering redshift distribution calibration of weak lensing surveys using the DESI-DR1 spectroscopic dataset",
+                    "id": "2512.15963"
+                },
+                {
+                    "meta": "DESI-2025-0662",
+                    "author": ["Diana Blanco", "et al."],
+                    "title": "The Power of DESI for Photometric Redshift Calibration: A Case Study with KiDS-1000",
+                    "id": "2512.15964"
+                },
+                {
+                    "meta": "DESI-2025-0736",
+                    "author": ["Sofia Chiarenza", "et al."],
+                    "title": "Constraining primordial non-Gaussianity from DESI DR1 quasars and Planck PR4 CMB Lensing",
+                    "id": "2512.17865"
+                },
+                {
+                    "meta": "DESI-2024-0467",
+                    "author": ["Ryuichiro Hada", "et al."],
+                    "title": "Measurements of quasar proximity zones with the Lyman-α forest of DESI Y1 quasars",
+                    "id": "2512.18281"
+                },
+                {
+                    "meta": "DESI-2025-0741",
+                    "author": ["J. Hou", "et al."],
+                    "title": "Parity-odd Four-Point Correlation Function from DESI Data Release 1 Luminous Red Galaxy Sample",
+                    "id": "2512.20132"
                 }
             ]
         },
@@ -3353,8 +3420,12 @@
                 },
                 {
                     "author": ["M. Salvato", "et al."],
-                    "title": "Counterpart identification and classification for eRASS1 and characterisation of the AGN content",
-                    "id": "2509.02842"
+                    "title": "Counterpart identification and classification for eRASS1 and characterisation of the active galactic nuclei content",
+                    "journal": "Astron. &amp; Astrophys.",
+                    "volume": 704,
+                    "pages": "A344",
+                    "year": 2025,
+                    "id": "2025A%26A...704A.344S"
                 }
             ]
         },
