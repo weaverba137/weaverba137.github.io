@@ -2901,6 +2901,36 @@
                     "id": "2025PASP..137i4001D"
                 },
                 {
+                    "meta": "DESI-2025-0571",
+                    "author": ["J. Ratajczak", "et al."],
+                    "title": "The Compilation and Validation of the Spectroscopic Redshift Catalogs for the DESI-COSMOS and DESI-XMM-LSS Fields",
+                    "journal": "Astron. J.",
+                    "volume": 171,
+                    "pages": "71",
+                    "year": 2026,
+                    "id": "2508.09286"
+                },
+                {
+                    "meta": "DESI-2024-0517",
+                    "author": ["Calum Gordon", "et al."],
+                    "title": "Modelling the impact of quasar redshift errors on the full-shape analysis of correlations in the Lyman-α forest",
+                    "journal": "Mon. Not. Roy. Ast. Soc.",
+                    "volume": 545,
+                    "pages": "staf2035",
+                    "year": 2026,
+                    "id": "2026MNRAS.545f2035G"
+                },
+                {
+                    "meta": "DESI-2025-0625",
+                    "author": ["Hanyue Wang", "et al."],
+                    "title": "Galaxy-multiplet clustering from DESI DR2",
+                    "journal": "Mon. Not. Roy. Ast. Soc.",
+                    "volume": 545,
+                    "pages": "staf2069",
+                    "year": 2026,
+                    "id": "2026MNRAS.545S2069W"
+                },
+                {
                     "meta": "DESI-2024-0363",
                     "author": ["X. Chen", "et al."],
                     "title": "Extensive analysis of reconstruction algorithms for DESI 2024 baryon acoustic oscillations",
@@ -2947,12 +2977,6 @@
                     "author": ["Christian Aganze", "et al."],
                     "title": "The Cocytos Stream: A Disrupted Globular Cluster from our Last Major Merger?",
                     "id": "2504.11687"
-                },
-                {
-                    "meta": "DESI-2024-0517",
-                    "author": ["Calum Gordon", "et al."],
-                    "title": "Modelling the impact of quasar redshift errors on the full-shape analysis of correlations in the Lyman-α forest",
-                    "id": "2505.08789"
                 },
                 {
                     "meta": "DESI-2025-0548",
@@ -3043,12 +3067,6 @@
                     "author": ["D. Valcin", "et al."],
                     "title": "Combined tracer analysis for DESI 2024 BAO",
                     "id": "2508.05467"
-                },
-                {
-                    "meta": "DESI-2025-0571",
-                    "author": ["J. Ratajczak", "et al."],
-                    "title": "The Compilation and Validation of the Spectroscopic Redshift Catalogs for the DESI-COSMOS and DESI-XMMLSS Fields",
-                    "id": "2508.09286"
                 },
                 {
                     "meta": "DESI-2025-0616",
@@ -3193,12 +3211,6 @@
                     "author": ["Ting-Wen Lan", "et al."],
                     "title": "The Multi-Phase Circumgalactic Medium of DESI Emission-Line Galaxies at <var>z</var>~1.5",
                     "id": "2511.03195"
-                },
-                {
-                    "meta": "DESI-2025-0625",
-                    "author": ["Hanyue Wang", "et al."],
-                    "title": "Galaxy-Multiplet Clustering from DESI DR2",
-                    "id": "2511.15354"
                 },
                 {
                     "meta": "DESI-2025-0669",
@@ -3349,6 +3361,30 @@
                     "author": ["J. Hou", "et al."],
                     "title": "Parity-odd Four-Point Correlation Function from DESI Data Release 1 Luminous Red Galaxy Sample",
                     "id": "2512.20132"
+                },
+                {
+                    "meta": "",
+                    "author": ["D. Scholte", "et al."],
+                    "title": "Electron temperature relations and the direct N, O, Ne, S and Ar abundances of 49959 star-forming galaxies in DESI Data Release 2",
+                    "id": "2601.02463"
+                },
+                {
+                    "meta": "",
+                    "author": ["N. Uberoi", "et al."],
+                    "title": "The Linear Point Standard Ruler with DESI DR1 and DR2 Data",
+                    "id": "2601.05967"
+                },
+                {
+                    "meta": "",
+                    "author": ["Abby Bault", "et al."],
+                    "title": "Baryon Acoustic Oscillations from the C IV Forest with DESI DR2",
+                    "id": "2601.08103"
+                },
+                {
+                    "meta": "",
+                    "author": ["Xander J. Hall", "et al."],
+                    "title": "Star Clusters, Galaxies, and the Fundamental Manifold",
+                    "id": "2601.12611"
                 }
             ]
         },
