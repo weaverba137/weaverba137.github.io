@@ -3363,27 +3363,27 @@
                     "id": "2512.20132"
                 },
                 {
-                    "meta": "",
+                    "meta": "DESI-2025-0690",
                     "author": ["D. Scholte", "et al."],
                     "title": "Electron temperature relations and the direct N, O, Ne, S and Ar abundances of 49959 star-forming galaxies in DESI Data Release 2",
                     "id": "2601.02463"
                 },
                 {
-                    "meta": "",
+                    "meta": "DESI-2025-0607",
                     "author": ["N. Uberoi", "et al."],
                     "title": "The Linear Point Standard Ruler with DESI DR1 and DR2 Data",
                     "id": "2601.05967"
                 },
                 {
-                    "meta": "",
+                    "meta": "DESI-2025-0716",
                     "author": ["Abby Bault", "et al."],
                     "title": "Baryon Acoustic Oscillations from the C IV Forest with DESI DR2",
                     "id": "2601.08103"
                 },
                 {
-                    "meta": "",
+                    "meta": "DESI-2025-0637",
                     "author": ["Xander J. Hall", "et al."],
-                    "title": "Star Clusters, Galaxies, and the Fundamental Manifold",
+                    "title": "The DESI Transients Survey: Legacy Classifications and Methodology",
                     "id": "2601.12611"
                 }
             ]
