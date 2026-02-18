@@ -2908,7 +2908,27 @@
                     "volume": 171,
                     "pages": "71",
                     "year": 2026,
-                    "id": "2508.09286"
+                    "id": "2026AJ....171...71R"
+                },
+                {
+                    "meta": "DESI-2024-0451",
+                    "author": ["Xiaosheng Huang", "et al."],
+                    "title": "DESI Strong Lens Foundry. I. HST Observations and Modeling with GIGA-Lens",
+                    "journal": "Astrophys. J.",
+                    "volume": 998,
+                    "pages": "69",
+                    "year": 2026,
+                    "id": "2026ApJ...998...69H"
+                },
+                {
+                    "meta": "DESI-2025-0630",
+                    "author": ["Yuan-Ming Hsu", "et al."],
+                    "title": "A New Way to Discover Strong Gravitational Lenses: Pairwise Spectroscopic Search from DESI DR1",
+                    "journal": "Astrophys. J. Supp.",
+                    "volume": 282,
+                    "pages": "41",
+                    "year": 2026,
+                    "id": "2026ApJS..282...41H"
                 },
                 {
                     "meta": "DESI-2024-0517",
@@ -2935,12 +2955,6 @@
                     "author": ["X. Chen", "et al."],
                     "title": "Extensive analysis of reconstruction algorithms for DESI 2024 baryon acoustic oscillations",
                     "id": "2411.19738"
-                },
-                {
-                    "meta": "DESI-2024-0451",
-                    "author": ["X. Huang", "et al."],
-                    "title": "DESI Strong Lens Foundry I: HST Observations and Modeling with GIGA-Lens",
-                    "id": "2502.03455"
                 },
                 {
                     "meta": "DESI-2024-0520",
@@ -3109,12 +3123,6 @@
                     "author": ["Andrei Cuceu", "et al."],
                     "title": "DESI DR1 Lyα forest: 3D full-shape analysis and cosmological constraints",
                     "id": "2509.15308"
-                },
-                {
-                    "meta": "DESI-2025-0630",
-                    "author": ["Yuan-Ming Hsu", "et al."],
-                    "title": "A New Way to Discover Strong Gravitational Lenses: Pair-wise Spectroscopic Search from DESI DR1",
-                    "id": "2509.16033"
                 },
                 {
                     "meta": "DESI-2024-0453",
@@ -3385,6 +3393,36 @@
                     "author": ["Xander J. Hall", "et al."],
                     "title": "The DESI Transients Survey: Legacy Classifications and Methodology",
                     "id": "2601.12611"
+                },
+                {
+                    "meta": "DESI-2025-0711",
+                    "author": ["Mika Lambert", "et al."],
+                    "title": "Signatures of a Tidally Induced Spiral Arm at the Anticenter of the Milky Way and a Kinematically Extended Anticenter Stream Using DESI DR2",
+                    "id": "2601.14562"
+                },
+                {
+                    "meta": "DESI-2024-0502",
+                    "author": ["Peter Clark", "et al."],
+                    "title": "Early results in the search for extreme coronal line emitters with the Dark Energy Spectroscopic Instrument",
+                    "id": "2601.20964"
+                },
+                {
+                    "meta": "DESI-2025-0591",
+                    "author": ["J. Chaves-Montero", "et al."],
+                    "title": "Cosmological analysis of the DESI DR1 Lyman alpha 1D power spectrum",
+                    "id": "2601.21432"
+                },
+                {
+                    "meta": "DESI-2025-0719",
+                    "author": ["T. Dumerchat", "et al."],
+                    "title": "Emulating galaxy and peculiar velocity clustering on non-linear scales",
+                    "id": "2602.03382"
+                },
+                {
+                    "meta": "DESI-2024-0516",
+                    "author": ["E. Fondi", "et al."],
+                    "title": "Assembly bias and local Primordial non-Gaussianity from DESI DR1 Quasars",
+                    "id": "2602.12357"
                 }
             ]
         },
