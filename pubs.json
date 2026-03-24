@@ -2921,6 +2921,46 @@
                     "id": "2026ApJ...998...69H"
                 },
                 {
+                    "meta": "DESI-2025-0703",
+                    "author": ["Songting Li", "et al."],
+                    "title": "The Milky Way Stellar Halo Is Twisted and Doubly Broken: Insights from DESI DR2 Milky Way Survey Observation",
+                    "journal": "Astrophys. J.",
+                    "volume": 999,
+                    "pages": "108",
+                    "year": 2026,
+                    "id": "2026ApJ...999..108L"
+                },
+                {
+                    "meta": "DESI-2025-0654",
+                    "author": ["Juliana S. M. Karp", "et al."],
+                    "title": "The DESI Single Fiber Lens Search. I. Four Thousand Spectroscopically Selected Galaxy─Galaxy Gravitational Lens Candidates",
+                    "journal": "Astrophys. J.",
+                    "volume": 999,
+                    "pages": "198",
+                    "year": 2026,
+                    "id": "2026ApJ...999..198K"
+                },
+                {
+                    "meta": "DESI-2025-0535",
+                    "author": ["Ana Sofía M. Uzsoy", "et al."],
+                    "title": "Bayesian Component Separation for DESI LAE Automated Spectroscopic Redshifts and Photometric Targeting",
+                    "journal": "Astrophys. J.",
+                    "volume": 999,
+                    "pages": "241",
+                    "year": 2026,
+                    "id": "2026ApJ...999..241U"
+                },
+                {
+                    "meta": "DESI-2025-0645",
+                    "author": ["Tian Qiu", "et al."],
+                    "title": "The Binary Fraction of Stars in the Dwarf Galaxy Ursa Minor via Dark Energy Spectroscopic Instrument",
+                    "journal": "Astrophys. J.",
+                    "volume": 1000,
+                    "pages": "33",
+                    "year": 2026,
+                    "id": "2026ApJ..1000...33Q"
+                },
+                {
                     "meta": "DESI-2025-0630",
                     "author": ["Yuan-Ming Hsu", "et al."],
                     "title": "A New Way to Discover Strong Gravitational Lenses: Pairwise Spectroscopic Search from DESI DR1",
@@ -2929,6 +2969,16 @@
                     "pages": "41",
                     "year": 2026,
                     "id": "2026ApJS..282...41H"
+                },
+                {
+                    "meta": "DESI-2025-0597",
+                    "author": ["H. Ebina", "et al."],
+                    "title": "Clustering analysis of medium-band selected high-redshift galaxies",
+                    "journal": "J. Cosmo. Astro-Part. Phys.",
+                    "volume": 3,
+                    "pages": "019",
+                    "year": 2026,
+                    "id": "2026JCAP...03..019E"
                 },
                 {
                     "meta": "DESI-2024-0517",
@@ -2949,6 +2999,26 @@
                     "pages": "staf2069",
                     "year": 2026,
                     "id": "2026MNRAS.545S2069W"
+                },
+                {
+                    "meta": "DESI-2024-0441",
+                    "author": ["C. Nicolaou", "et al."],
+                    "title": "Identifying Anomalous DESI Galaxy Spectra with a Variational Autoencoder",
+                    "journal": "Mon. Not. Roy. Ast. Soc.",
+                    "volume": 547,
+                    "pages": "stag010",
+                    "year": 2026,
+                    "id": "2026MNRAS.547ag010N"
+                },
+                {
+                    "meta": "DESI-2025-0688",
+                    "author": ["Yulin Gong", "et al."],
+                    "title": "Detection of the pairwise kinematic Sunyaev-Zel'dovich effect and pairwise velocity with DESI DR1 galaxies and ACT DR6 and Planck CMB data",
+                    "journal": "Phys. Rev. D",
+                    "volume": 113,
+                    "pages": "063538",
+                    "year": 2026,
+                    "id": "2026PhRvD.113f3538G"
                 },
                 {
                     "meta": "DESI-2024-0363",
@@ -2973,12 +3043,6 @@
                     "author": ["Gustavo E. Medina", "et al."],
                     "title": "The DESI Y1 RR Lyrae catalog I: Empirical modeling of the cyclic variation of spectroscopic properties and a chemodynamical analysis of the outer halo",
                     "id": "2504.02924"
-                },
-                {
-                    "meta": "DESI-2025-0535",
-                    "author": ["Ana Sofía M. Uzsoy", "et al."],
-                    "title": "Bayesian Component Separation for DESI LAE Automated Spectroscopic Redshifts and Photometric Targeting",
-                    "id": "2504.06870"
                 },
                 {
                     "meta": "DESI-2025-0562",
@@ -3027,12 +3091,6 @@
                     "author": ["T. Tan", "et al."],
                     "title": "Modeling of the High Column Density systems in The Lyman-Alpha Forest",
                     "id": "2506.13005"
-                },
-                {
-                    "meta": "DESI-2024-0441",
-                    "author": ["C. Nicolaou", "et al."],
-                    "title": "Identifying Anomalous DESI Galaxy Spectra with a Variational Autoencoder",
-                    "id": "2506.17376"
                 },
                 {
                     "meta": "DESI-2024-0498",
@@ -3155,12 +3213,6 @@
                     "id": "2509.21822"
                 },
                 {
-                    "meta": "DESI-2025-0597",
-                    "author": ["H. Ebina", "et al."],
-                    "title": "Clustering analysis of medium-band selected high-redshift galaxies",
-                    "id": "2509.26467"
-                },
-                {
                     "meta": "DESI-2025-0639",
                     "author": ["N. Emas", "et al."],
                     "title": "Validation of the DESI-DR1 3x2-pt analysis: scale cut and shear ratio tests",
@@ -3233,12 +3285,6 @@
                     "id": "2511.18133"
                 },
                 {
-                    "meta": "DESI-2025-0688",
-                    "author": ["Yulin Gong", "et al."],
-                    "title": "Detection of the Pairwise Kinematic Sunyaev-Zel'dovich Effect and Pairwise Velocity with DESI DR1 Galaxies and ACT DR6 and Planck CMB Data",
-                    "id": "2511.23417"
-                },
-                {
                     "meta": "DESI-2025-0709",
                     "author": ["Alex Krolewski", "et al."],
                     "title": "A measurement of <var>H</var><sub>0</sub> from DESI DR1 using energy densities",
@@ -3249,12 +3295,6 @@
                     "author": ["Andrea Crespi", "et al."],
                     "title": "Baryon fraction from the BAO amplitude: a consistent approach to parameterizing perturbation growth",
                     "id": "2511.23459"
-                },
-                {
-                    "meta": "DESI-2025-0703",
-                    "author": ["Songting Li", "et al."],
-                    "title": "The Milky Way stellar halo is twisted and doubly broken: insights from DESI DR2 Milky Way Survey observation",
-                    "id": "2512.01350"
                 },
                 {
                     "meta": "DESI-2025-0655",
@@ -3309,18 +3349,6 @@
                     "author": ["Yu-Ling Chang", "et al."],
                     "title": "Tracing the Cosmic Evolution of the Cool Circumgalactic Medium of Luminous Red Galaxies with DESI Year 1 Data",
                     "id": "2512.03845"
-                },
-                {
-                    "meta": "DESI-2025-0654",
-                    "author": ["Juliana S. M. Karp", "et al."],
-                    "title": "The DESI Single Fiber Lens Search. I. Four Thousand Spectroscopically Selected Galaxy-Galaxy Gravitational Lens Candidates",
-                    "id": "2512.04275"
-                },
-                {
-                    "meta": "DESI-2025-0645",
-                    "author": ["Tian Qiu", "et al."],
-                    "title": "The Binary Fraction of Stars in the Dwarf Galaxy Ursa Minor via Dark Energy Spectroscopic Instrument",
-                    "id": "2512.04477"
                 },
                 {
                     "meta": "DESI-2025-0720",
@@ -3423,6 +3451,60 @@
                     "author": ["E. Fondi", "et al."],
                     "title": "Assembly bias and local Primordial non-Gaussianity from DESI DR1 Quasars",
                     "id": "2602.12357"
+                },
+                {
+                    "meta": "DESI-2025-0658",
+                    "author": ["Farshad Kamalinejad", "et al."],
+                    "title": "First Detection of the Baryon Acoustic Oscillation (BAO) Feature in the 3-Point Correlation Function of DESI DR1 Luminous Red Galaxies",
+                    "id": "2602.16134"
+                },
+                {
+                    "meta": "DESI-2025-0769",
+                    "author": ["D. Forero-Sánchez", "et al."],
+                    "title": "Cosmological constraints from a joint DESI DR1 Full-Shape and DR2 BAO",
+                    "id": "2602.18761"
+                },
+                {
+                    "meta": "DESI-2025-0728",
+                    "author": ["Yoquelbin Salcedo Hernandez", "et al."],
+                    "title": "Highly Efficient Selection of High-Redshift Emission-Line Galaxies for future DESI-like surveys with Deep Multi-band Imaging",
+                    "id": "2602.20405"
+                },
+                {
+                    "meta": "DESI-2025-0759",
+                    "author": ["N. G. Karaçaylı", "et al."],
+                    "title": "DESI DR2 Baryon Acoustic Oscillations from the Lyman Alpha Forest Multipoles",
+                    "id": "2603.04281"
+                },
+                {
+                    "meta": "DESI-2025-0753",
+                    "author": ["Jipeng Sui", "et al."],
+                    "title": "Extremely Metal-Poor Galaxies in DESI DR1: Connections to Galaxies in the Early Universe",
+                    "id": "2603.05934"
+                },
+                {
+                    "meta": "DESI-2025-0729",
+                    "author": ["Ashley Ortiz", "et al."],
+                    "title": "ODIN: Confirmation and 3D Reconstruction of Six Massive Protoclusters at Cosmic Noon",
+                    "id": "2603.09739"
+                },
+                {
+                    "meta": "DESI-2025-0565",
+                    "author": ["Ethan Pinarski", "et al."],
+                    "title": "ODIN: Spectroscopic Validation of Lyα-Emitting Galaxy Samples with DESI",
+                    "id": "2603.09905"
+                },
+                {
+                    "meta": "DESI-2025-0744",
+                    "author": ["Nasser Mohammed", "et al."],
+                    "title": "The Kinematically Hot, Extremely Metal-Poor C-19 Stellar Stream in DESI DR2",
+                    "id": "2603.11171"
+                },
+                {
+                    "meta": "DESI-2025-0532",
+                    "author": ["S. Novell-Masot", "et al."],
+                    "title": "Cosmological constraints from the DESI DR1 joint power spectrum and bispectrum analysis",
+                    "id": "2603.19356"
                 }
             ]
         },
